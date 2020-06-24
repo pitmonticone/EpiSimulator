@@ -16,12 +16,12 @@
 
 <!-- Title -->
 <h1 align="center">
-  `Insert Project Subtitle`
+  Insert Project Subtitle
 </h1>
 
 <!-- Subtitle -->
 <h3 align="center">
-  `Insert Project Subtitle`
+  Insert Project Subtitle
 </h3>
 
-`Copy the content of the Extended Abstract here`.
+Copy the content of the Extended Abstract here.

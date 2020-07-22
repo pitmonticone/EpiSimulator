@@ -1,12 +1,13 @@
-# SOCIAL NETWORK ANALYSIS PACKAGE 
-# AUTHORS: Monticone Pietro, Moroni Claudio, Orsenigo Davide
-# LAST MODIFIED: 08/07/2020 
+# DIGITAL EPIDEMIOLOGY PACKAGE 
+# AUTHORS: Monticone Pietro, Orsenigo Davide
+# LAST MODIFIED: 21/07/2020
 
 # REQUIRED MODULES 
 import sys, os                          # Utils
 import pandas as pd                     # Data wrangling
 import numpy as np                      # Data wrangling
 import math as math                     # Maths
+from scipy import stats                 # Statistics
 import powerlaw as pwl                  # Statistical analysis of power law distributions
 import networkx as nx                   # Network Analysis
 import EoN                              # Network Epidemiology 
@@ -26,10 +27,9 @@ from collections import defaultdict     # Utils
 import random as rand                   # Utils
 
 # CONTENTS 
-# 0. Basic Utilities 
-# 1. Network Data Science  
-# 2. Network Epidemiology
-
+## 0. Basic Utilities 
+## 1. Network Data Science  
+## 2. Network Epidemiology
 
 # 0. BASIC UTILITIES
 
@@ -40,19 +40,19 @@ def omit_by(dct, predicate=lambda x: x!=0):
 ### Logarithmic Binning 
 def log_bin(dict,n_bins):
     
-    # first we need to define the interval of dict values
+    # Define the interval of dict values
     min_val=sorted(dict.values())[0]
     max_val=sorted(dict.values())[-1]
     delta=(math.log(float(max_val))-math.log(float(min_val)))/n_bins
     
-    # then we create the bins, in this case the log of the bins is equally spaced (bins size increases exponentially)
+    # Create the bins, in this case the log of the bins is equally spaced (bins size increases exponentially)
     bins=np.zeros(n_bins+1,float)
     bins[0]=min_val
     for i in range(1,n_bins+1):
         bins[i]=bins[i-1]*math.exp(delta)
         
     
-    # then we need to assign the dict of each node to a bin
+    # Assign the dict of each node to a bin
     values_in_bin=np.zeros(n_bins+1,float)
     nodes_in_bin=np.zeros(n_bins+1,float)  # this vector is crucial to evalute how many nodes are inside each bin
         
@@ -70,13 +70,13 @@ def log_bin(dict,n_bins):
                     break
     
     
-    # then we need to evalutate the average x value in each bin
+    # Evalutate the average x value in each bin
     
     for i in range(1,n_bins+1):
         if nodes_in_bin[i]>0:
             values_in_bin[i]=values_in_bin[i]/nodes_in_bin[i]
             
-    # finally we get the binned distribution        
+    # Get the binned distribution        
             
     binned=[]
     for i in range(1,n_bins+1):
@@ -131,9 +131,10 @@ def median(files):
 ### Data Wrangling 
 def rtweet_to_networkx(fo, so, all = False, save = None):
     """
-    Pipeline from rtweet edge-lists to networkx graphs.
+    Pipeline from rtweet edge-lists to networkx graph objects.
     """
-    # Read csv datasets 
+    
+    # Read .csv datasets 
     fo_friends_csv = pd.read_csv(fo)
     so_edges_csv = pd.read_csv(so)
     
@@ -274,6 +275,52 @@ def get_centrality(G, type_centrality):
         return centrality
     else:
         return 0
+    
+##### K tau
+def k_tau(list_1,list_2):
+    id1=[]
+    id2=[]
+    map_id={}
+    c=1
+    for i in range(len(list_1)):
+        map_id[list_1[i][1]]=c # we need to order the list of one from 1 to N
+                               # we map the id to the position in this list
+        id1.append(c)
+        c+=1
+    for i in range(len(list_2)):        
+        id2.append(map_id[list_2[i][1]])  # we add the id in the correct order
+
+    
+    tau = stats.kendalltau(id1,id2)
+    return (tau)
+
+##### Correlation Centralities
+
+def correlation_centralities(G):
+    degree_centrality=get_centrality(G,"degree")
+    closeness_centrality=get_centrality(G,"closeness")
+    betweenness_centrality=get_centrality(G,"betweenness")
+    pagerank=get_centrality(G,"pagerank")
+    eigenvector_centrality=get_centrality(G,"eigenvector")
+
+    dict_centralities={}
+    dict_centralities[0]=["degree",degree_centrality]
+    dict_centralities[1]=["closeness",closeness_centrality]
+    dict_centralities[2]=["betweenness",betweenness_centrality]
+    dict_centralities[3]=["pagerank",pagerank]
+    dict_centralities[4]=["eigenvector",eigenvector_centrality]
+
+    list_correlations=[]
+    for i in dict_centralities:
+        for j in dict_centralities:
+            if i<j:
+                pair=dict_centralities[i][0]+"-"+dict_centralities[j][0]
+                value=k_tau(dict_centralities[i][1],dict_centralities[j][1])[0]
+                p_value=k_tau(dict_centralities[i][1],dict_centralities[j][1])[1]
+                list_correlations.append([value,p_value,pair])
+                
+    list_correlations=sorted(list_correlations,reverse=True)
+    return list_correlations
 
 ##### Plot Centrality Distributions
 def plot_centrality_distribution(G, list_centrality, color, n_bins):
@@ -292,7 +339,7 @@ def plot_centrality_distribution(G, list_centrality, color, n_bins):
         x_centrality.append(i[0])
         y_centrality.append(i[1])
 
-    plt.plot(x_centrality,y_centrality, color=color,linewidth=1.1, marker="o",alpha=0.55) 
+    plt.plot(x_centrality,y_centrality, color=color,linewidth=2,marker="o", alpha=0.6) 
     plt.yscale('log')
     plt.xscale('log')
     plt.xlabel('$x$', fontsize = 15)
@@ -300,6 +347,102 @@ def plot_centrality_distribution(G, list_centrality, color, n_bins):
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
     plt.show()
+
+    
+##### Evaluate Efficiency of Centrality Metrics
+
+def evaluate_centrality(G,centrality):
+    """
+    To evaluate the efficiency of centrality measures we can look at what happen 
+    if we remove nodes ranked according to a specific measure
+    """
+    
+    size=np.zeros(len(centrality)+1,float)
+
+    # Get the size of the largest connected component in the undamaged network
+    l=nx.connected_components(G)
+    for i in l:
+        l=sorted(nx.connected_components(G), key = len, reverse=True)
+        size[0]=len(l[0])
+        break
+        
+    # Damage progressively the network & measure the size of the largest connected component at each iteration 
+    c=1    
+    for i in centrality:   
+        G.remove_node(i[1])
+        l=sorted(nx.connected_components(G), key = len, reverse=True)
+        if len(l)>0:
+            size[c]=len(l[0])
+            c+=1    
+    return size
+
+def evaluate_centrality2(G,type_node):
+    
+    list_type=[]
+    for i in G.nodes():
+        if G.nodes[i]["type"]==type_node:
+            list_type.append(i)
+            
+    
+    size=np.zeros(len(list_type)+1,float)
+
+    # let us get the size of the largest connected component in the undamaged network
+    l=nx.connected_components(G)
+    for i in l:
+        l=sorted(nx.connected_components(G), key = len, reverse=True)
+        size[0]=len(l[0])
+        break
+        
+    # let us damage progressively the network and measure at each iteration 
+    # the size of the largest connected component    
+    c=1
+    for i in list_type: 
+        G.remove_node(i)
+        l=sorted(nx.connected_components(G), key = len, reverse=True)
+        if len(l)>0:
+            size[c]=len(l[0])
+            c+=1    
+    return size
+
+##### Plot Efficiency of Centrality Metrics
+
+def plot_centralities_efficiency(G, method=["degree","closeness","betweenness","eigenvector","pagerank","random"]):
+    
+    N = G.number_of_nodes()
+    size_methods=np.zeros((len(method),N+1),float)
+    
+    c=0
+    
+    for i in method:
+        H=nx.Graph()
+        H.add_edges_from(G.edges())
+    
+        centrality=get_centrality(G,i)
+    
+        size_methods[c]=evaluate_centrality(H,centrality)
+        c+=1
+    
+    x=np.array([i/float(N) for i in range(N+1)])  
+
+    colors=["#EE5C3D","Green","Blue","Black","Cyan","Orange"]
+    alpha_list=[0.5,0.4,0.3,0.2,0.1,0.01]
+
+    # Set figure size 
+    plt.figure(figsize=(10,6.6))
+    
+    # Set figure features
+    for i in range(len(method)):
+        plt.plot(x,size_methods[i]/size_methods[i][0],color=colors[i],linewidth=2.5,alpha=1,label=method[i])
+        #  marker="o", alpha_list[i]
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
+    plt.xlabel("Fraction of Removed Nodes", fontsize=14.5)
+    plt.ylabel("$s/s_0$", fontsize=14.5)
+    plt.title("Efficiency of Centrality Metrics", fontsize = 16)
+    plt.legend(fontsize = 13)
+    plt.show()
+
+
 
 ### POWER LAW ANALYSIS 
 def power_law_plot(graph, log = True,linear_binning = False, bins = 90, draw= True,x_min = None):
@@ -358,6 +501,34 @@ def create_partition_map(partition):
 
 
 # 2. EPIDEMIC DYNAMICS 
+
+## 2.1 HOMOGENOEOUS MIXING
+
+#### SI
+
+def SI_hm(beta, N, status):
+    """ 
+    SI time step under the assumption of 
+    homogenous mixing.
+    
+    * status[1] = S
+    * status[2] = I
+    """
+    p = 0.
+    delta = 0.
+    
+    # Force of infection
+    p = beta * float(status[2])/N  ## P(S-->I) 
+
+    if p > 0.:
+        # Binomial extraction to identify the number of infected people going to I given p
+        delta = np.random.binomial(status[1], p)
+
+    # Update the compartments
+    status[1] -= delta
+    status[2] += delta
+    
+    return 0
 
 ## 2.1 EPIDEMIC DYNAMICS ON STATIC NETWORKS 
 

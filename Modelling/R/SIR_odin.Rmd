@@ -1,0 +1,68 @@
+---
+title: "SIR Model using `odin`"
+output: html_document
+---
+
+$$ \frac{dS(t)}{dt} = - \beta S(t) I(t) $$
+$$ \frac{dI(t)}{dt} = \beta S(t) I(t) - \gamma I(t) $$
+$$ \frac{dR(t)}{dt} = \gamma I(y) $$
+
+### Libararies
+
+```{r libraries}
+# Numerical Computation
+library(odin)
+
+# Data Science
+library(reshape2)
+library(tidyverse)
+```
+
+
+### Functions
+
+```{r function}
+sir_ode <- odin::odin({
+  ## Derivatives
+  deriv(S) <- -b*S*I
+  deriv(I) <- b*S*I-g*I
+  deriv(R) <- g*I
+
+  ## Initial conditions
+  initial(S) <- 0.99
+  initial(I) <- 0.01
+  initial(R) <- 0.00
+
+  ## parameters
+  b <- 0.1
+  g <- 0.05
+  config(base) <- "sir"
+}, ".")
+
+```
+
+### Solution
+
+```{r solution}
+sir_mod <- sir_ode()
+times <- seq(0,200,length.out=2001)
+sir_out <- sir_mod$run(times)
+```
+
+### Visualization 
+
+```{r visualization}
+sir_out_long <- melt(as.data.frame(sir_out),"t")
+
+sir_out_long %>% ggplot(aes(x=t,
+                            y=value,
+                            colour=variable,
+                            group=variable)) +
+  # Add line
+  geom_line(lwd=2) +
+  #Add labels
+  xlab("Time") + ylab("Number") +
+  # Remove legend title
+  theme(legend.title= element_text())
+```
+

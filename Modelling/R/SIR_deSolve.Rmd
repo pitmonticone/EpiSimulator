@@ -1,0 +1,66 @@
+---
+title: "SIR Model using `deSolve`"
+output: html_document
+---
+
+$$ \frac{dS(t)}{dt} = - \beta S(t) I(t) $$
+$$ \frac{dI(t)}{dt} = \beta S(t) I(t) - \gamma I(t) $$
+$$ \frac{dR(t)}{dt} = \gamma I(y) $$
+
+### Libararies
+
+```{r libraries}
+# Numerical Computation
+library(deSolve)
+
+# Data Science
+library(reshape2)
+library(tidyverse)
+```
+
+
+### Functions
+
+```{r function}
+sir_ode <- function(times,init,parms){
+  with(as.list(c(parms,init)), {
+  # ODEs
+  dS <- -beta*S*I
+  dI <- beta*S*I-gamma*I
+  dR <- gamma*I
+  list(c(dS,dI,dR))
+  })
+}
+```
+
+### Parameters
+
+```{r parameters}
+parms <- c(beta=0.1,gamma=0.05)
+init <- c(S=0.99,I=0.01,R=0) 
+times <- seq(0,200,length.out=2001)
+```
+
+### Solution
+
+```{r solution}
+sir_out <- lsoda(init,times,sir_ode,parms)
+```
+
+### Visualization 
+
+```{r visualization}
+sir_out_long <- melt(as.data.frame(sir_out),"time")
+
+sir_out_long %>% ggplot(aes(x=time,
+                            y=value,
+                            colour=variable,
+                            group=variable)) +
+  # Add line
+  geom_line(lwd=2) +
+  #Add labels
+  xlab("Time") + ylab("Number") +
+  # Remove legend title
+  theme(legend.title= element_text())
+```
+

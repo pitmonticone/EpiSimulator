@@ -1,0 +1,342 @@
+---
+title: "Infectious Disease Modelling in `R`" 
+subtitle: "Some Implementations"
+author: "**Pietro Monticone** | **Davide Orsenigo**"
+date: "`r format(Sys.time(), '%d %B %Y')`, *University of Turin* <br><br> [![Documentation](https://img.shields.io/badge/Documentation-release-lightgrey.svg?style=flat)](https://www.samabbott.co.uk/idmodelr/) [![Development documentation](https://img.shields.io/badge/Documentation-development-lightblue.svg?style=flat)](https://www.samabbott.co.uk/idmodelr/dev) [![Getting started](https://img.shields.io/badge/Documentation-getting started-yellow.svg?style=flat)](https://www.samabbott.co.uk/idmodelr) [![Functions](https://img.shields.io/badge/Documentation-functions-orange.svg?style=flat)](https://www.samabbott.co.uk/idmodelr/reference/index.html) " 
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: true
+fontsize: 10pt
+#output: pdf_document
+#bibliography: bibliography.bibtex # https://doi2bib.org
+#biblio-style: apalike
+#link-citations: yes
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE)
+# Data Wrangling 
+library(tidyverse) # coherent framework of data science packages
+
+# Modelling
+library(idmodelr) # library of infectious disease models by Sam Abbott 
+
+# Authoring
+library(knitr) # general-purpose tool for dynamic report generation in R
+```
+
+
+## **SI** 
+
+```{r SI, echo=FALSE}
+# INPUT PARAMETERS
+N = 100000
+I_0 = 1
+S_0 = N - I_0
+R_0 = 1.1
+beta = R_0
+
+## Time
+tbegin = 0
+tend = 20
+times <- seq(tbegin, tend, 1)
+
+## Input vectorization
+parameters <- as.matrix(c(beta = beta))
+initial_conditions <- as.matrix(c(S = S_0, 
+                     I = I_0))
+
+# SIMULATION
+simulation <- solve_ode(model = SI_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+            
+# VISUALIZATION
+plot_model(simulation, facet = FALSE)
+# plot_model(simulation, facet = TRUE)
+
+
+###########  COMPARISON  #############
+
+# INPUT PARAMETERS
+R_0 = 1.3
+beta = R_0
+parameters <- as.matrix(c(beta = beta))
+
+new_simulation <- solve_ode(model = SI_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+
+plot_model(new_simulation, simulation, facet = FALSE)
+# plot_model(new_simulation, simulation, facet = TRUE)
+# plot_model(list("Current" = new_sim, "Previous" = sim), facet = TRUE)
+```
+
+## **SEI** 
+
+
+```{r SEI, echo=FALSE}
+# INPUT PARAMETERS
+S_0 <- 989
+E_0 <- 10
+I_0 <- 1
+beta <-  3
+gamma <-  1/2
+
+## Time
+tbegin = 0
+tend = 20
+times <- seq(tbegin, tend, 1)
+
+## Input vectorization
+parameters <- as.matrix(c(beta = beta, gamma = gamma))
+initial_conditions <- as.matrix(c(S = S_0, 
+                                  E = E_0,
+                                  I = I_0))
+
+# SIMULATION
+simulation <- solve_ode(model = SEI_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+            
+# VISUALIZATION
+plot_model(simulation, facet = FALSE)
+# plot_model(simulation, facet = TRUE)
+
+
+###########  COMPARISON  #############
+
+# INPUT PARAMETERS
+beta = 1
+gamma = 0.8
+parameters <- as.matrix(c(beta = beta, gamma = gamma))
+
+new_simulation <- solve_ode(model = SEI_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+
+plot_model(new_simulation, simulation, facet = FALSE)
+# plot_model(new_simulation, simulation, facet = TRUE)
+# plot_model(list("Current" = new_sim, "Previous" = sim), facet = TRUE)
+```
+
+## **SIR** 
+
+```{r SIR, echo=FALSE}
+# INPUT PARAMETERS
+S_0 <- 950
+I_0 <- 4
+R_0 <- 0
+beta <- 5
+tau <- 1.5
+
+## Time
+tbegin <- 0
+tend <- 15
+times <- seq(tbegin, tend, 1)
+
+## Input vectorization
+parameters <- as.matrix(c(beta = beta, tau = tau))
+initial_conditions <- as.matrix(c(S = S_0, 
+                                  I = I_0, 
+                                  R = R_0))
+
+# SIMULATION
+simulation <- solve_ode(model = SIR_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+            
+# VISUALIZATION
+plot_model(simulation, facet = FALSE)
+# plot_model(simulation, facet = TRUE)
+
+
+###########  COMPARISON  #############
+
+# INPUT PARAMETERS
+beta = 2.5
+tau = 1.2
+parameters <- as.matrix(c(beta = beta, tau = tau))
+
+new_simulation <- solve_ode(model = SIR_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+
+plot_model(new_simulation, simulation, facet = FALSE)
+# plot_model(new_simulation, simulation, facet = TRUE)
+# plot_model(list("Current" = new_sim, "Previous" = sim), facet = TRUE)
+```
+
+### **SEIR-Demographics**
+
+```{r SEIR-demo, echo=FALSE}
+# INPUT PARAMETERS
+S_0 <- 989
+E_0 <- 10
+I_0 <- 1
+R_0 <- 0
+beta <- 3       # Transmission rate 
+gamma <- 1/2    # Exposure rate 
+tau <- 2        # Recovery rate 
+mu <- 1/81      # Rate of natural mortality
+
+## Time
+tbegin <- 0
+tend <- 400
+times <- seq(tbegin, tend, 1)
+
+## Input vectorization
+parameters <- as.matrix(c(beta = beta, 
+                          gamma = gamma,
+                          tau = tau,
+                          mu = mu))
+initial_conditions <- as.matrix(c(S = S_0, 
+                                  E = E_0,
+                                  I = I_0, 
+                                  R = R_0))
+
+# SIMULATION
+simulation <- solve_ode(model = SEIR_demographics_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+            
+# VISUALIZATION
+plot_model(simulation, facet = FALSE)
+# plot_model(simulation, facet = TRUE)
+
+
+###########  COMPARISON  #############
+
+# INPUT PARAMETERS
+beta <- 4.5       # Transmission rate 
+gamma <- 0.9    # Exposure rate 
+tau <- 1.4        # Letality rate 
+mu <- 1/100      # Demographic rate
+parameters <- as.matrix(c(beta = beta, 
+                          gamma = gamma,
+                          tau = tau,
+                          mu = mu))
+
+new_simulation <- solve_ode(model = SEIR_demographics_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+
+plot_model(new_simulation, simulation, facet = FALSE)
+# plot_model(new_simulation, simulation, facet = TRUE)
+# plot_model(list("Current" = new_sim, "Previous" = sim), facet = TRUE)
+```
+
+
+### **SHLITR-Risk-Demographics**
+
+```{r SHLITR-risk-demo, echo=FALSE}
+# INPUT PARAMETERS
+
+## Time
+tbegin <- 0
+tend <- 50
+times <- seq(tbegin, tend, 1)
+
+## Input vectorization
+initial_conditions <- as.matrix(c(#General population
+                          S = 800,
+                          H = 0,
+                          L = 0,
+                          I = 0,
+                          Tr = 0,
+                          R = 0,
+                          ## High risk population
+                          S_H = 199,
+                          H_H = 0,
+                          L_H = 0,
+                          I_H = 1,
+                          Tr_H = 0,
+                          R_H = 0))
+                        
+parameters <- as.matrix(c( beta = 3, # Rate of transmission
+                           beta_H = 6, # High risk rate of transmission
+                           gamma_H = 1/5, # Rate of progression to active symptoms from high risk latent
+                           nu = 1/2, #Rate of progression from high to low risk latent
+                           gamma_L = 1/100, # Rate of progression to active symptoms for low risk latent
+                           epsilon = 1/3, # Rate of treatment
+                           tau = 1/2, # Rate of recovery
+                           mu = 1/81, # Rate of natural mortality
+                           p = 0.2, # proportion of new births that are high risk
+                           M = 0.2 # Between group mixing
+                           ))
+
+
+# SIMULATION
+simulation <- solve_ode(model = SHLITR_risk_demographics_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+            
+# VISUALIZATION
+plot_model(simulation, facet = TRUE)
+# plot_model(simulation, facet = TRUE)
+
+
+###########  COMPARISON  #############
+
+# INPUT PARAMETERS
+initial_conditions <- as.matrix(c(#General population
+                          S = 797,
+                          H = 0,
+                          L = 0,
+                          I = 3,
+                          Tr = 0,
+                          R = 0,
+                          ## High risk population
+                          S_H = 199,
+                          H_H = 0,
+                          L_H = 0,
+                          I_H = 1,
+                          Tr_H = 0,
+                          R_H = 0))
+                        
+parameters <- as.matrix(c( beta = 5, # Rate of transmission
+                           beta_H = 6, # High risk rate of transmission
+                           gamma_H = 0.25, # Rate of progression to active symptoms from high risk latent
+                           nu = 0.35, #Rate of progression from high to low risk latent
+                           gamma_L = 1/100, # Rate of progression to active symptoms for low risk latent
+                           epsilon = 1/3, # Rate of treatment
+                           tau = 0.3, # Rate of recovery
+                           mu = 1/90, # Rate of natural mortality
+                           p = 0.1, # proportion of new births that are high risk
+                           M = 0.2 # Between group mixing
+                           ))
+
+new_simulation <- solve_ode(model = SHLITR_risk_demographics_ode, 
+                        initial_conditions, 
+                        parameters, 
+                        times, 
+                        as.data.frame = TRUE)
+
+plot_model(new_simulation, simulation, facet = TRUE)
+# plot_model(new_simulation, simulation, facet = TRUE)
+# plot_model(list("Current" = new_sim, "Previous" = sim), facet = TRUE)
+```

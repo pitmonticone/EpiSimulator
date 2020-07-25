@@ -48,10 +48,10 @@
   Authors
 </h2>
 
-| Name  | Mail | GitHub |
-| ---- | ---- | ---- |
-| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) |
-| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@dadorse](https://github.com/dadorse) |
+| Name  | Mail | GitHub | Contributions |
+| ---- | ---- | ---- | ---- |
+| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | xxxxxxxxxxxxxxxxxxxxx|
+| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@dadorse](https://github.com/dadorse) |yyyyyyyyyyyyyyyyy |
 
 
 <h2 align="center">

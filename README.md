@@ -45,6 +45,16 @@
 
 
 <h2 align="center">
+  Authors
+</h2>
+
+| Name  | Mail | GitHub |
+| ---- | ---- | ---- |
+| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) |
+| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@dadorse](https://github.com/dadorse) |
+
+
+<h2 align="center">
   Contents
 </h2>
 

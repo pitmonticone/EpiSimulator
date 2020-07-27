@@ -26,37 +26,39 @@ from collections import Counter         # Utils
 from collections import defaultdict     # Utils
 import random as rand                   # Utils
 from scipy.integrate import odeint      # ODE
+from scipy.integrate import ode         # ODE
+from scipy.integrate import solve_ivp   # ODE
 
-# CONTENTS 
-## 0. Basic Utilities 
-## 1. Network Data Science  
-## 2. Network Epidemiology
+############# CONTENTS #################### 
 
 # 0. BASIC UTILITIES
+# 1. NETWORK DATA SCIENCE
+# 2. COMPUTATIONAL EPIDEMIOLOGY
 
-### Omit Zeroes 
+############# 0. BASIC UTILITIES ####################
+
 def omit_by(dct, predicate=lambda x: x!=0):
+    """
+    Omit zeros.
+    """
     return {k: v for k, v in dct.items() if predicate(v)}
 
-### Logarithmic Binning 
 def log_bin(dict,n_bins):
-    
+    """
+    Logarithmic binning.
+    """
     # Define the interval of dict values
     min_val=sorted(dict.values())[0]
     max_val=sorted(dict.values())[-1]
     delta=(math.log(float(max_val))-math.log(float(min_val)))/n_bins
-    
     # Create the bins, in this case the log of the bins is equally spaced (bins size increases exponentially)
     bins=np.zeros(n_bins+1,float)
     bins[0]=min_val
     for i in range(1,n_bins+1):
         bins[i]=bins[i-1]*math.exp(delta)
-        
-    
     # Assign the dict of each node to a bin
     values_in_bin=np.zeros(n_bins+1,float)
-    nodes_in_bin=np.zeros(n_bins+1,float)  # this vector is crucial to evalute how many nodes are inside each bin
-        
+    nodes_in_bin=np.zeros(n_bins+1,float)  # this vector is crucial to evalute how many nodes are inside each bin    
     for i in dict:
         for j in range(1,n_bins+1):
             if j<n_bins:
@@ -69,16 +71,11 @@ def log_bin(dict,n_bins):
                     values_in_bin[j]+=dict[i]
                     nodes_in_bin[j]+=1.
                     break
-    
-    
     # Evalutate the average x value in each bin
-    
     for i in range(1,n_bins+1):
         if nodes_in_bin[i]>0:
             values_in_bin[i]=values_in_bin[i]/nodes_in_bin[i]
-            
     # Get the binned distribution        
-            
     binned=[]
     for i in range(1,n_bins+1):
         if nodes_in_bin[i]>0:
@@ -86,55 +83,48 @@ def log_bin(dict,n_bins):
                 y=nodes_in_bin[i]/((bins[i]-bins[i-1])*len(dict))
                 binned.append([x,y])
     return binned
-
-### Median 
+ 
 def median(files):
+    """
+    Convenient median implementation. 
+    """
+    ite=len(files)
+    out=[]
+    
+    if len(files)%2 ==0:
+        median=[]
+		median=files
+        median=sorted(median)
+        median.reverse()
+        ee=int(float(ite)/2.)
+        m_cinq=ee-1-int((ee-1)*0.5)
+        max_cinq=ee +int((ee-1)*0.5)
+        m_novc=ee-1-int((ee-1)*0.95)
+        max_novc=ee +int((ee-1)*0.95)
+        out.append([(median[ee]+median[ee-1])/2.,median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
 
-  ite=len(files)
-  out=[]
-  if len(files)%2 ==0:
+    else:
+        median=[]
+		median=files
+		median=sorted(median)
+        median.reverse()
+        ee=int(float(ite)/2.+0.5)
+        m_cinq=ee-1-int((ee-1)*0.5)
+        max_cinq=ee-1+int((ee-1)*0.5)
+        m_novc=ee-1-int((ee-1)*0.95)
+        max_novc=ee-1+int((ee-1)*0.95)
+        out.append([median[ee-1],median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
+        
+    return out
 
-		  median=[]
-		  median=files
+############# 1. NETWORK DATA SCIENCE  ####################
 
-		  median=sorted(median)
+### 1.1 DATA WRANGLING
 
-		  median.reverse()
-		  ee=int(float(ite)/2.)
-
-		  m_cinq=ee-1-int((ee-1)*0.5)
-		  max_cinq=ee +int((ee-1)*0.5)
-		  m_novc=ee-1-int((ee-1)*0.95)
-		  max_novc=ee +int((ee-1)*0.95)
-
-		  out.append([(median[ee]+median[ee-1])/2.,median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
-
-  else:
-
-		  median=[]
-		  median=files
-
-		  median=sorted(median)
-
-		  median.reverse()
-		  ee=int(float(ite)/2.+0.5)
-		  m_cinq=ee-1-int((ee-1)*0.5)
-		  max_cinq=ee-1+int((ee-1)*0.5)
-		  m_novc=ee-1-int((ee-1)*0.95)
-		  max_novc=ee-1+int((ee-1)*0.95)
-		  
-		  out.append([median[ee-1],median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
-
-  return out
-
-# 1. NETWORK DATA SCIENCE 
-
-### Data Wrangling 
 def rtweet_to_networkx(fo, so, all = False, save = None):
     """
     Pipeline from rtweet edge-lists to networkx graph objects.
     """
-    
     # Read .csv datasets 
     fo_friends_csv = pd.read_csv(fo)
     so_edges_csv = pd.read_csv(so)
@@ -151,7 +141,6 @@ def rtweet_to_networkx(fo, so, all = False, save = None):
     else:    
         edge_list = [ tup for tup in so_edges if tup[1] in fo_friends ]
         #edge_list = [ (row["Source"],row["Target"]) for _,row in so_edges_csv.iterrows() if row["Target"] in fo_friends ] # line to be removed if the function works on new data  
-    
     # Create directed graph
     G = nx.DiGraph()
     G.add_nodes_from(fo_friends) # add nodes
@@ -163,12 +152,13 @@ def rtweet_to_networkx(fo, so, all = False, save = None):
     return G
 
 
-### Degree Distribution
+### 1.2 DEGREE DISTRIBUTIONS
 
-#### Get Distribution
 def get_degree_distribution(G, which):
     """
+    Get a specific in-/out-/undirected degree distribution.
     """
+    
     if which == "degree":
         degree_view = dict(G.degree())
     elif which == "in_degree":
@@ -184,15 +174,13 @@ def get_degree_distribution(G, which):
     else:
         print("Invalid 'which' argument: it must be one of 'degree', 'in_degree' or 'out_degree'")
         return
-
     mean = np.mean(np.array(list(degree_view.values())))
     var  = np.var(np.array(list(degree_view.values())))
-    
     return (degree_view, mean, var)
 
-##### Visualization
 def plot_degree_distribution(degree_distribution, hist = True, kde = True, log_binning = None, color = 'darkblue', hist_kws={'edgecolor':'black'}, kde_kws={'linewidth': 3}, title = "", log = False, dimensions = (15,8), display_stats = None):
     """
+    Degree distribution visualization.
     """
     plt.rcParams['figure.figsize'] = dimensions
     if log_binning is not None:
@@ -215,9 +203,8 @@ def plot_degree_distribution(degree_distribution, hist = True, kde = True, log_b
         #plt.gcf().text(0.9, 0.8, f"mean = {mean} \n var = {var}", fontsize=14) #, xy=(0.005, 700), xytext=(0.005, 700)
     plt.show()
 
-### Centrality Metrics 
+### 1.3 CENTRALITY METRICS
 
-##### Get Centralities
 def get_centrality(G, type_centrality):
     
     if type_centrality=="degree":
@@ -351,11 +338,10 @@ def plot_centrality_distribution(G, list_centrality, color, n_bins):
 
     
 ##### Evaluate Efficiency of Centrality Metrics
-
 def evaluate_centrality(G,centrality):
     """
     To evaluate the efficiency of centrality measures we can look at what happen 
-    if we remove nodes ranked according to a specific measure
+    if we remove nodes ranked according to a specific measure.
     """
     
     size=np.zeros(len(centrality)+1,float)
@@ -378,13 +364,11 @@ def evaluate_centrality(G,centrality):
     return size
 
 def evaluate_centrality2(G,type_node):
-    
     list_type=[]
     for i in G.nodes():
         if G.nodes[i]["type"]==type_node:
             list_type.append(i)
-            
-    
+        
     size=np.zeros(len(list_type)+1,float)
 
     # let us get the size of the largest connected component in the undamaged network
@@ -406,7 +390,6 @@ def evaluate_centrality2(G,type_node):
     return size
 
 ##### Plot Efficiency of Centrality Metrics
-
 def plot_centralities_efficiency(G, method=["degree","closeness","betweenness","eigenvector","pagerank","random"]):
     
     N = G.number_of_nodes()
@@ -443,9 +426,7 @@ def plot_centralities_efficiency(G, method=["degree","closeness","betweenness","
     plt.legend(fontsize = 13)
     plt.show()
 
-
-
-### POWER LAW ANALYSIS 
+### 1.4 POWER LAW STATISTICAL ANALYSIS
 def power_law_plot(graph, log = True,linear_binning = False, bins = 90, draw= True,x_min = None):
     degree = list(dict(graph.degree()).values())
     
@@ -486,7 +467,7 @@ def power_law_plot(graph, log = True,linear_binning = False, bins = 90, draw= Tr
     
     return pwl_distri
 
-### COMMUNITY DETECTION 
+### 1.5 COMMUNITY DETECTION
 
 ##### Modularity Evaluation 
 def modularity(partition):
@@ -501,11 +482,9 @@ def create_partition_map(partition):
     return partition_map
 
 
-# 2. EPIDEMIC DYNAMICS 
+############# 2. COMPUTATIONAL EPIDEMIOLOGY  ####################
 
-## 2.1 HOMOGENOEOUS MIXING
-
-#### SI
+### 2.1 HOMOGENOEOUS MIXING
 
 def SI_hm(beta, N, status):
     """ 
@@ -531,11 +510,41 @@ def SI_hm(beta, N, status):
     
     return 0
 
-## 2.1 EPIDEMIC DYNAMICS ON STATIC NETWORKS 
+def SIR_hm(beta,mu,N,status):
+    """ 
+    SIR time step under the assumption of 
+    homogenous mixing.
+    """
+    p_1=0.
+    delta_1=0.
+    delta_2=0.
+    
+    p_1=beta*float(status[1])/N  ## P(S-->I) 
+    p_2=mu                      ## P(I--->R)       
 
-#### Multi-Run Simulation 
+    if p_1>0.:
+        # binomial extraction to identify the number of infected people going to I given p_1
+        delta_1=np.random.binomial(status[0], p_1)
+        
+    if status[2]!=0:
+        delta_2=np.random.binomial(status[1],p_2)
+
+    # update the compartments
+    status[0]-= delta_1
+
+    status[1]+= delta_1
+    status[1]-= delta_2
+    
+    status[2]+= delta_2 # R is id=2
+    
+    return 0
+
+## 2.2 EPIDEMIC DYNAMICS ON STATIC NETWORKS 
 
 def network_SIR_multirun_simulation(G, nrun, lambd, mu):
+    """
+    Multi-run stochastic SIR simulation. 
+    """
     I_dict = defaultdict(list)   # Define the time series dictionary for I 
     Irun = []                    # Define the multi-run list of lists for I 
     
@@ -603,6 +612,9 @@ def network_SIR_multirun_simulation(G, nrun, lambd, mu):
     return Irun 
 
 def network_SIR_finalsize_lambda_sensitivity(G, mu, rho, lambda_min, lambda_max, nruns):
+    """
+    Lambda-sensitivity assessment. 
+    """
     #average_degree = 2 * G.number_of_edges() / G.number_of_nodes()
     #lc = mu / average_degree
  
@@ -617,20 +629,22 @@ def network_SIR_finalsize_lambda_sensitivity(G, mu, rho, lambda_min, lambda_max,
     
     return pd.DataFrame.from_dict(final_size)
 
-#### Visualization 
-
 def plot_ensemble(runs):
-    # Plot the ensemble of trajectories
+    """
+    Plot the ensemble of epidemic projections / trajectories.
+    """
     #plt.figure(figsize = (10,7))
     plt.xticks(fontsize = 11)
     plt.yticks(fontsize = 11)
     plt.xlabel('Time', fontsize = 16)
     plt.ylabel('Prevalence', fontsize = 16)
-
     for run in runs: 
         plt.plot(range(0,len(run)),run)
 
 def boxplot_finalsize_lambda_sensitivity(G, mu, data, ymin, ymax, xlim):
+    """
+    Box plot of lambda-sensitivity analysis.
+    """
     average_degree = 2 * G.number_of_edges() / G.number_of_nodes()
     lc = mu / average_degree
     
@@ -681,32 +695,6 @@ def random_walk2(G,source,stop,nt,visited):
         source=target
         t+=1
         
-
-def SIR_hm(beta,mu,N,status):
-    p_1=0.
-    delta_1=0.
-    delta_2=0.
-    
-    p_1=beta*float(status[1])/N  ## P(S-->I) 
-    p_2=mu                      ## P(I--->R)       
-
-    if p_1>0.:
-        # binomial extraction to identify the number of infected people going to I given p_1
-        delta_1=np.random.binomial(status[0], p_1)
-        
-    if status[2]!=0:
-        delta_2=np.random.binomial(status[1],p_2)
-
-    # update the compartments
-    status[0]-= delta_1
-
-    status[1]+= delta_1
-    status[1]-= delta_2
-    
-    status[2]+= delta_2 # R is id=2
-    
-    return 0
-
 def ini_subpop(G,average_V,s,x):
     # let assign V people to each subpopulation
     N = G.number_of_nodes()
@@ -849,6 +837,8 @@ def metapop(t_max,N,compartments,status_subpop,G,beta,mu,p,theta,dij):
         
     return diseased, prevalence
 
+### END OF MODIFIED PERRA MODULES ###
+
 ### SEIR ODE (SEI3R or SEIIIR)
 def SEIR_ODE(y,t,b,a,g,p,u,N): 
     """
@@ -866,9 +856,11 @@ def SEIR_ODE(y,t,b,a,g,p,u,N):
     dy[5]=u*y[3]                          # D: Dead
     return dy
 
-### Plot SEIR Evolution (Linear + Log Scales)
 
 def plot_SEIR(time, solution, scale = "both", linear_legend_loc = "center right", log_legend_loc = "lower right"):
+    """
+    Plot SEIR Evolution (Linear + Log Scales)
+    """
     # Linear & Log scale
     if scale == "both":
         plt.figure(figsize=(14,8))  # set figure size
@@ -996,8 +988,8 @@ def plot_scenarios(time, scenario1, scenario2, scale = "both"):
 
     
 def plot_H_ICU(time, tmax, solution, available_hospital_beds, available_ICU_beds):
-    hospital=solution[:,3]+solution[:,4]
-    ICU=solution[:,4]
+    hospital = solution[:,3]+solution[:,4]
+    ICU = solution[:,4]
 
     plt.figure(figsize=(13,4.8))   # set figure size
     

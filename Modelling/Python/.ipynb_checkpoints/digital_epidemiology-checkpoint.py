@@ -85,37 +85,43 @@ def log_bin(dict,n_bins):
     return binned
  
 def median(files):
-    """
-    Convenient median implementation. 
-    """
-    ite=len(files)
-    out=[]
-    
-    if len(files)%2 ==0:
-        median=[]
-		median=files
-        median=sorted(median)
-        median.reverse()
-        ee=int(float(ite)/2.)
-        m_cinq=ee-1-int((ee-1)*0.5)
-        max_cinq=ee +int((ee-1)*0.5)
-        m_novc=ee-1-int((ee-1)*0.95)
-        max_novc=ee +int((ee-1)*0.95)
-        out.append([(median[ee]+median[ee-1])/2.,median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
 
-    else:
-        median=[]
-		median=files
-		median=sorted(median)
-        median.reverse()
-        ee=int(float(ite)/2.+0.5)
-        m_cinq=ee-1-int((ee-1)*0.5)
-        max_cinq=ee-1+int((ee-1)*0.5)
-        m_novc=ee-1-int((ee-1)*0.95)
-        max_novc=ee-1+int((ee-1)*0.95)
-        out.append([median[ee-1],median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
-        
-    return out
+  ite=len(files)
+  out=[]
+  if len(files)%2 ==0:
+
+		  median=[]
+		  median=files
+
+		  median=sorted(median)
+
+		  median.reverse()
+		  ee=int(float(ite)/2.)
+
+		  m_cinq=ee-1-int((ee-1)*0.5)
+		  max_cinq=ee +int((ee-1)*0.5)
+		  m_novc=ee-1-int((ee-1)*0.95)
+		  max_novc=ee +int((ee-1)*0.95)
+
+		  out.append([(median[ee]+median[ee-1])/2.,median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
+
+  else:
+
+		  median=[]
+		  median=files
+
+		  median=sorted(median)
+
+		  median.reverse()
+		  ee=int(float(ite)/2.+0.5)
+		  m_cinq=ee-1-int((ee-1)*0.5)
+		  max_cinq=ee-1+int((ee-1)*0.5)
+		  m_novc=ee-1-int((ee-1)*0.95)
+		  max_novc=ee-1+int((ee-1)*0.95)
+		  
+		  out.append([median[ee-1],median[m_cinq],median[max_cinq],median[m_novc],median[max_novc]])
+
+  return out
 
 ############# 1. NETWORK DATA SCIENCE  ####################
 
@@ -538,6 +544,27 @@ def SIR_hm(beta,mu,N,status):
     status[2]+= delta_2 # R is id=2
     
     return 0
+
+def SIR_ODE(times,initial_condition,parameters):
+    """
+    Deterministic SIR ODE.
+    
+    Example arguments:
+    parameters = [0.1,0.05]
+    initial_condition = [0.99,0.01,0] 
+    times = np.linspace(0,200,2001)
+    
+    Example solution: 
+    solution = solve_ivp(fun=lambda t, y: SIR_ODE(t, y, parameters), t_span=[min(times),max(times)], y0=initial_condition, t_eval=times)
+    data = pd.DataFrame({"t":solution["t"],"S":solution["y"][0],"I":solution["y"][1],"R":solution["y"][2]})
+    """
+    b, g = parameters
+    S,I,R = initial_condition
+
+    dS = -b*S*I
+    dI = b*S*I-g*I
+    dR = g*I
+    return [dS,dI,dR]
 
 ## 2.2 EPIDEMIC DYNAMICS ON STATIC NETWORKS 
 

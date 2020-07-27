@@ -1,6 +1,6 @@
-# DIGITAL EPIDEMIOLOGY PACKAGE 
+# DIGITAL EPIDEMIOLOGY MODULE 
 # AUTHORS: Monticone Pietro, Orsenigo Davide
-# LAST MODIFIED: 21/07/2020
+# LAST MODIFIED: 27/07/2020
 
 # REQUIRED MODULES 
 import sys, os                          # Utils
@@ -934,6 +934,11 @@ def growth_rate(time,solution,t1,t2,i):
     return r, doubling_time
 
 def plot_scenarios(time, scenario1, scenario2, scale = "both"): 
+    """
+    Compare epidemic trajectories / projections under 
+    two different scenarios (e.g. mitigated vs. un-mitigated).
+    """
+    
     # Linear & Log scale
     if scale == "both": 
         plt.figure(figsize=(13,8))  # set figure size
@@ -1024,4 +1029,6 @@ def plot_H_ICU(time, tmax, solution, available_hospital_beds, available_ICU_beds
     #plt.ylim([0,peak_hospital])
     
     return hospital, ICU, peak_hospital, peak_ICU
+
+
 # 4.2 EPIDEMIC DYNAMICS ON TEMPORAL NETWORKS 

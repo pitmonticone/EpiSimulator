@@ -37,6 +37,90 @@ from scipy.integrate import solve_ivp   # ODE
 
 ############# 0. BASIC UTILITIES ####################
 
+def fill_neighbors(data, level):
+    # Add column of neighbors 
+    data["NEIGHBORS"] = None 
+    # Regional level
+    if level == "regional": 
+        for index, region in data.iterrows():   
+            neighbors = data[~data.geometry.disjoint(region.geometry)].DEN_REG.tolist()
+            neighbors = [ name for name in neighbors if region.DEN_REG != name ]
+            data.at[index, "NEIGHBORS"] = ",".join(neighbors)
+        return 
+    # Provincial level
+    elif level == "provincial": 
+        for index, province in data.iterrows():   
+            neighbors = data[~data.geometry.disjoint(province.geometry)].SIGLA.tolist()
+            neighbors = [ name for name in neighbors if province.SIGLA != name ]
+            data.at[index, "NEIGHBORS"] = ",".join(neighbors)
+        return
+    # Municipal level
+    elif level == "municipal": 
+        for index, municipality in data.iterrows():   
+            neighbors = data[~data.geometry.disjoint(municipality.geometry)].PRO_COM.tolist()
+            neighbors = [ name for name in neighbors if municipality.PRO_COM != name ]
+            data.at[index, "NEIGHBORS"] = neighbors
+        return
+    
+def build_graph(data,level,graph): 
+    # Regional level
+    if level == "regional": 
+        i = 0
+        regional_list = list(data.DEN_REG)
+        for region in regional_list:
+            neighbors_list = data.NEIGHBORS[i].split(",")
+            for j in neighbors_list:
+                graph.add_edge(region, j)
+            i += 1   
+        # Remove potential empty nodes 
+        if '' in graph.nodes :
+            graph.remove_node('')
+        # Add metadata
+        graph.pos = dict.fromkeys(regional_list) # position
+        k = 0
+        for region in regional_list:
+            graph.pos[region] = (data.centroid[k].x, data.centroid[k].y)
+            k +=1
+    # Provincial level
+    elif level == "provincial":
+        i = 0
+        provincial_list = list(data.SIGLA)
+        for province in provincial_list:
+            neighbors_list = data.NEIGHBORS[i].split(",")
+            for j in neighbors_list:
+                graph.add_edge(province, j)
+            i += 1
+        # Remove potential empty nodes 
+        if '' in graph.nodes :
+            graph.remove_node('')
+        # Add metadata
+        graph.pos = dict.fromkeys(provincial_list) # position
+        k = 0
+        for province in provincial_list:
+            graph.pos[province] = (data.centroid[k].x, data.centroid[k].y)
+            k +=1
+    # Municipal level
+    elif level == "municipal": 
+        i = 0
+        municipal_list = list(data.PRO_COM)
+        for municipality in municipal_list:
+            neighbors_list = data.NEIGHBORS[i]
+            for j in neighbors_list:
+                graph.add_edge(municipality, j)
+            i += 1
+        # Remove potential empty nodes 
+        if '' in graph.nodes :
+            graph.remove_node('')
+        # Add metadata
+        graph.pos = dict.fromkeys(municipal_list)    # position 
+        graph.name = dict.fromkeys(municipal_list)   # name 
+        k = 0
+        for municipality in municipal_list:
+            graph.pos[municipality] = (data.centroid[k].x, data.centroid[k].y)
+            graph.name[municipality] = data.COMUNE[i]
+            k +=1
+    return graph
+
 def omit_by(dct, predicate=lambda x: x!=0):
     """
     Omit zeros.

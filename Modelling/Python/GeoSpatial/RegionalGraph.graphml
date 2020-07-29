@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="Piemonte"/>
+<node id="Valle d'Aosta"/>
+<node id="Lombardia"/>
+<node id="Liguria"/>
+<node id="Emilia-Romagna"/>
+<node id="Trentino-Alto Adige"/>
+<node id="Veneto"/>
+<node id="Friuli Venezia Giulia"/>
+<node id="Toscana"/>
+<node id="Marche"/>
+<node id="Umbria"/>
+<node id="Lazio"/>
+<node id="Abruzzo"/>
+<node id="Molise"/>
+<node id="Campania"/>
+<node id="Puglia"/>
+<node id="Basilicata"/>
+<node id="Calabria"/>
+<node id="Sicilia"/>
+<node id="Sardegna"/>
+<edge source="Piemonte" target="Valle d'Aosta"/>
+<edge source="Piemonte" target="Lombardia"/>
+<edge source="Piemonte" target="Liguria"/>
+<edge source="Piemonte" target="Emilia-Romagna"/>
+<edge source="Lombardia" target="Trentino-Alto Adige"/>
+<edge source="Lombardia" target="Veneto"/>
+<edge source="Lombardia" target="Emilia-Romagna"/>
+<edge source="Liguria" target="Emilia-Romagna"/>
+<edge source="Liguria" target="Toscana"/>
+<edge source="Emilia-Romagna" target="Veneto"/>
+<edge source="Emilia-Romagna" target="Toscana"/>
+<edge source="Emilia-Romagna" target="Marche"/>
+<edge source="Trentino-Alto Adige" target="Veneto"/>
+<edge source="Veneto" target="Friuli Venezia Giulia"/>
+<edge source="Toscana" target="Umbria"/>
+<edge source="Toscana" target="Marche"/>
+<edge source="Toscana" target="Lazio"/>
+<edge source="Marche" target="Umbria"/>
+<edge source="Marche" target="Lazio"/>
+<edge source="Marche" target="Abruzzo"/>
+<edge source="Umbria" target="Lazio"/>
+<edge source="Lazio" target="Abruzzo"/>
+<edge source="Lazio" target="Molise"/>
+<edge source="Lazio" target="Campania"/>
+<edge source="Abruzzo" target="Molise"/>
+<edge source="Molise" target="Campania"/>
+<edge source="Molise" target="Puglia"/>
+<edge source="Campania" target="Puglia"/>
+<edge source="Campania" target="Basilicata"/>
+<edge source="Puglia" target="Basilicata"/>
+<edge source="Basilicata" target="Calabria"/>
+</graph></graphml>

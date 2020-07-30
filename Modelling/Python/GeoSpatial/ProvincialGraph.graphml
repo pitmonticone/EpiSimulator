@@ -1,113 +1,328 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="node" attr.name="population" attr.type="long"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
 <graph edgedefault="undirected"><data key="d0">Graph of Italian Provinces</data>
-<node id="TO"/>
-<node id="VC"/>
-<node id="CN"/>
-<node id="AT"/>
-<node id="AL"/>
-<node id="AO"/>
-<node id="BI"/>
-<node id="NO"/>
-<node id="PV"/>
-<node id="VB"/>
-<node id="VA"/>
-<node id="MI"/>
-<node id="IM"/>
-<node id="SV"/>
-<node id="GE"/>
-<node id="PC"/>
-<node id="SP"/>
-<node id="PR"/>
-<node id="MS"/>
-<node id="CO"/>
-<node id="MB"/>
-<node id="SO"/>
-<node id="LC"/>
-<node id="BG"/>
-<node id="BS"/>
-<node id="BZ"/>
-<node id="TN"/>
-<node id="CR"/>
-<node id="LO"/>
-<node id="MN"/>
-<node id="VR"/>
-<node id="RO"/>
-<node id="RE"/>
-<node id="MO"/>
-<node id="FE"/>
-<node id="BL"/>
-<node id="VI"/>
-<node id="PD"/>
-<node id="TV"/>
-<node id="UD"/>
-<node id="PN"/>
-<node id="VE"/>
-<node id="GO"/>
-<node id="TS"/>
-<node id="LU"/>
-<node id="BO"/>
-<node id="PT"/>
-<node id="RA"/>
-<node id="FI"/>
-<node id="PO"/>
-<node id="FC"/>
-<node id="AR"/>
-<node id="RN"/>
-<node id="PU"/>
-<node id="AN"/>
-<node id="PG"/>
-<node id="MC"/>
-<node id="AP"/>
-<node id="FM"/>
-<node id="RI"/>
-<node id="TE"/>
-<node id="PI"/>
-<node id="SI"/>
-<node id="LI"/>
-<node id="GR"/>
-<node id="TR"/>
-<node id="VT"/>
-<node id="RM"/>
-<node id="AQ"/>
-<node id="LT"/>
-<node id="FR"/>
-<node id="CE"/>
-<node id="IS"/>
-<node id="BN"/>
-<node id="NA"/>
-<node id="CB"/>
-<node id="AV"/>
-<node id="FG"/>
-<node id="SA"/>
-<node id="PZ"/>
-<node id="PE"/>
-<node id="CH"/>
-<node id="BT"/>
-<node id="BA"/>
-<node id="TA"/>
-<node id="BR"/>
-<node id="MT"/>
-<node id="LE"/>
-<node id="CS"/>
-<node id="CZ"/>
-<node id="KR"/>
-<node id="RC"/>
-<node id="VV"/>
-<node id="TP"/>
-<node id="PA"/>
-<node id="AG"/>
-<node id="ME"/>
-<node id="CL"/>
-<node id="EN"/>
-<node id="CT"/>
-<node id="RG"/>
-<node id="SR"/>
-<node id="SS"/>
-<node id="NU"/>
-<node id="OR"/>
-<node id="SU"/>
-<node id="CA"/>
+<node id="TO">
+  <data key="d1">2252379</data>
+</node>
+<node id="VC">
+  <data key="d1">170296</data>
+</node>
+<node id="CN">
+  <data key="d1">586568</data>
+</node>
+<node id="AT">
+  <data key="d1">213216</data>
+</node>
+<node id="AL">
+  <data key="d1">419037</data>
+</node>
+<node id="AO">
+  <data key="d1">125501</data>
+</node>
+<node id="BI">
+  <data key="d1">174384</data>
+</node>
+<node id="NO">
+  <data key="d1">368040</data>
+</node>
+<node id="PV">
+  <data key="d1">546515</data>
+</node>
+<node id="VB">
+  <data key="d1">157455</data>
+</node>
+<node id="VA">
+  <data key="d1">892532</data>
+</node>
+<node id="MI">
+  <data key="d1">3279944</data>
+</node>
+<node id="IM">
+  <data key="d1">213919</data>
+</node>
+<node id="SV">
+  <data key="d1">274183</data>
+</node>
+<node id="GE">
+  <data key="d1">835829</data>
+</node>
+<node id="PC">
+  <data key="d1">287236</data>
+</node>
+<node id="SP">
+  <data key="d1">219196</data>
+</node>
+<node id="PR">
+  <data key="d1">453930</data>
+</node>
+<node id="MS">
+  <data key="d1">193934</data>
+</node>
+<node id="CO">
+  <data key="d1">603828</data>
+</node>
+<node id="MB">
+  <data key="d1">878267</data>
+</node>
+<node id="SO">
+  <data key="d1">180941</data>
+</node>
+<node id="LC">
+  <data key="d1">337087</data>
+</node>
+<node id="BG">
+  <data key="d1">1116384</data>
+</node>
+<node id="BS">
+  <data key="d1">1268455</data>
+</node>
+<node id="BZ">
+  <data key="d1">532080</data>
+</node>
+<node id="TN">
+  <data key="d1">542739</data>
+</node>
+<node id="CR">
+  <data key="d1">358347</data>
+</node>
+<node id="LO">
+  <data key="d1">230607</data>
+</node>
+<node id="MN">
+  <data key="d1">411062</data>
+</node>
+<node id="VR">
+  <data key="d1">930339</data>
+</node>
+<node id="RO">
+  <data key="d1">233386</data>
+</node>
+<node id="RE">
+  <data key="d1">531751</data>
+</node>
+<node id="MO">
+  <data key="d1">707292</data>
+</node>
+<node id="FE">
+  <data key="d1">344840</data>
+</node>
+<node id="BL">
+  <data key="d1">201972</data>
+</node>
+<node id="VI">
+  <data key="d1">862363</data>
+</node>
+<node id="PD">
+  <data key="d1">939672</data>
+</node>
+<node id="TV">
+  <data key="d1">888309</data>
+</node>
+<node id="UD">
+  <data key="d1">526256</data>
+</node>
+<node id="PN">
+  <data key="d1">312619</data>
+</node>
+<node id="VE">
+  <data key="d1">851663</data>
+</node>
+<node id="GO">
+  <data key="d1">139206</data>
+</node>
+<node id="TS">
+  <data key="d1">233276</data>
+</node>
+<node id="LU">
+  <data key="d1">388678</data>
+</node>
+<node id="BO">
+  <data key="d1">1017806</data>
+</node>
+<node id="PT">
+  <data key="d1">293059</data>
+</node>
+<node id="RA">
+  <data key="d1">389634</data>
+</node>
+<node id="FI">
+  <data key="d1">1004298</data>
+</node>
+<node id="PO">
+  <data key="d1">258152</data>
+</node>
+<node id="FC">
+  <data key="d1">394833</data>
+</node>
+<node id="AR">
+  <data key="d1">341766</data>
+</node>
+<node id="RN">
+  <data key="d1">339796</data>
+</node>
+<node id="PU">
+  <data key="d1">357137</data>
+</node>
+<node id="AN">
+  <data key="d1">469750</data>
+</node>
+<node id="PG">
+  <data key="d1">655403</data>
+</node>
+<node id="MC">
+  <data key="d1">312146</data>
+</node>
+<node id="AP">
+  <data key="d1">206363</data>
+</node>
+<node id="FM">
+  <data key="d1">173004</data>
+</node>
+<node id="RI">
+  <data key="d1">154232</data>
+</node>
+<node id="TE">
+  <data key="d1">307412</data>
+</node>
+<node id="PI">
+  <data key="d1">422310</data>
+</node>
+<node id="SI">
+  <data key="d1">266238</data>
+</node>
+<node id="LI">
+  <data key="d1">333509</data>
+</node>
+<node id="GR">
+  <data key="d1">220785</data>
+</node>
+<node id="TR">
+  <data key="d1">224882</data>
+</node>
+<node id="VT">
+  <data key="d1">316142</data>
+</node>
+<node id="RM">
+  <data key="d1">4333274</data>
+</node>
+<node id="AQ">
+  <data key="d1">296491</data>
+</node>
+<node id="LT">
+  <data key="d1">576655</data>
+</node>
+<node id="FR">
+  <data key="d1">485241</data>
+</node>
+<node id="CE">
+  <data key="d1">922171</data>
+</node>
+<node id="IS">
+  <data key="d1">83586</data>
+</node>
+<node id="BN">
+  <data key="d1">274080</data>
+</node>
+<node id="NA">
+  <data key="d1">3082905</data>
+</node>
+<node id="CB">
+  <data key="d1">218679</data>
+</node>
+<node id="AV">
+  <data key="d1">413926</data>
+</node>
+<node id="FG">
+  <data key="d1">616310</data>
+</node>
+<node id="SA">
+  <data key="d1">1092779</data>
+</node>
+<node id="PZ">
+  <data key="d1">360936</data>
+</node>
+<node id="PE">
+  <data key="d1">318678</data>
+</node>
+<node id="CH">
+  <data key="d1">383189</data>
+</node>
+<node id="BT">
+  <data key="d1">388390</data>
+</node>
+<node id="BA">
+  <data key="d1">1249246</data>
+</node>
+<node id="TA">
+  <data key="d1">572772</data>
+</node>
+<node id="BR">
+  <data key="d1">390456</data>
+</node>
+<node id="MT">
+  <data key="d1">195998</data>
+</node>
+<node id="LE">
+  <data key="d1">791122</data>
+</node>
+<node id="CS">
+  <data key="d1">700385</data>
+</node>
+<node id="CZ">
+  <data key="d1">354851</data>
+</node>
+<node id="KR">
+  <data key="d1">170718</data>
+</node>
+<node id="RC">
+  <data key="d1">541278</data>
+</node>
+<node id="VV">
+  <data key="d1">157469</data>
+</node>
+<node id="TP">
+  <data key="d1">428377</data>
+</node>
+<node id="PA">
+  <data key="d1">1243328</data>
+</node>
+<node id="AG">
+  <data key="d1">429611</data>
+</node>
+<node id="ME">
+  <data key="d1">620721</data>
+</node>
+<node id="CL">
+  <data key="d1">260779</data>
+</node>
+<node id="EN">
+  <data key="d1">162368</data>
+</node>
+<node id="CT">
+  <data key="d1">1104974</data>
+</node>
+<node id="RG">
+  <data key="d1">321215</data>
+</node>
+<node id="SR">
+  <data key="d1">397037</data>
+</node>
+<node id="SS">
+  <data key="d1">489634</data>
+</node>
+<node id="NU">
+  <data key="d1">206843</data>
+</node>
+<node id="OR">
+  <data key="d1">156078</data>
+</node>
+<node id="SU">
+  <data key="d1">347005</data>
+</node>
+<node id="CA">
+  <data key="d1">430914</data>
+</node>
 <edge source="TO" target="VC"/>
 <edge source="TO" target="CN"/>
 <edge source="TO" target="AT"/>

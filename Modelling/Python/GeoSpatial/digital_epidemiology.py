@@ -37,7 +37,7 @@ from scipy.integrate import solve_ivp   # ODE
 
 ############# 0. BASIC UTILITIES ####################
 
-def fill_neighbors(data, level):
+def expand(data, level, demo=None):
     # Add column of neighbors 
     data["NEIGHBORS"] = None 
     # Regional level
@@ -56,10 +56,20 @@ def fill_neighbors(data, level):
         return
     # Municipal level
     elif level == "municipal": 
-        for index, municipality in data.iterrows():   
+        # Add column of population 
+        data["POPULATION"] = None
+        for i, municipality in data.iterrows(): 
+            # Fill neighbors
             neighbors = data[~data.geometry.disjoint(municipality.geometry)].PRO_COM.tolist()
             neighbors = [ name for name in neighbors if municipality.PRO_COM != name ]
-            data.at[index, "NEIGHBORS"] = neighbors
+            data.at[i, "NEIGHBORS"] = neighbors
+            # Fill demographics
+            municipal_code = int(municipality.PRO_COM)
+            for j, demographic in demo.iterrows():
+                demographic_code = int(demographic.Codice_Comune)
+                population = int(demographic.Totale)
+                if demographic_code == municipal_code: 
+                    data.at[i, "POPULATION"] = population
         return
     
 def build_graph(data,level,graph): 
@@ -114,10 +124,12 @@ def build_graph(data,level,graph):
         # Add metadata
         graph.pos = dict.fromkeys(municipal_list)    # position 
         graph.name = dict.fromkeys(municipal_list)   # name 
+        graph.pop = dict.fromkeys(municipal_list)    # total population
         k = 0
         for municipality in municipal_list:
             graph.pos[municipality] = (data.centroid[k].x, data.centroid[k].y)
-            graph.name[municipality] = data.COMUNE[i]
+            graph.name[municipality] = data.COMUNE[k]
+            graph.pop[municipality] = data.POPULATION[k]
             k +=1
     return graph
 

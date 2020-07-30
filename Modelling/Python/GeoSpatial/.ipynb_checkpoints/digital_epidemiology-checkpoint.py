@@ -40,24 +40,40 @@ from scipy.integrate import solve_ivp   # ODE
 def expand(data, level, demo=None):
     # Add column of neighbors 
     data["NEIGHBORS"] = None 
+    # Add column of population 
+    data["POPULATION"] = None
     # Regional level
     if level == "regional": 
-        for index, region in data.iterrows():   
+        for i, region in data.iterrows():  
+            # Fill neighbors
             neighbors = data[~data.geometry.disjoint(region.geometry)].DEN_REG.tolist()
             neighbors = [ name for name in neighbors if region.DEN_REG != name ]
-            data.at[index, "NEIGHBORS"] = ",".join(neighbors)
+            data.at[i, "NEIGHBORS"] = ",".join(neighbors)
+            # Fill demographics
+            regional_code = int(region.COD_REG)
+            for j, demographic in demo.iterrows():
+                demographic_code = int(demographic.Codice_Regione)
+                population = int(demographic.Totale)
+                if demographic_code == regional_code: 
+                    data.at[i, "POPULATION"] = population
         return 
     # Provincial level
     elif level == "provincial": 
-        for index, province in data.iterrows():   
+        for i, province in data.iterrows():  
+            # Fill neighbors
             neighbors = data[~data.geometry.disjoint(province.geometry)].SIGLA.tolist()
             neighbors = [ name for name in neighbors if province.SIGLA != name ]
-            data.at[index, "NEIGHBORS"] = ",".join(neighbors)
+            data.at[i, "NEIGHBORS"] = ",".join(neighbors)
+            # Fill demographics
+            provincial_code = int(province.COD_PROV)
+            for j, demographic in demo.iterrows():
+                demographic_code = int(demographic.Codice_Provincia)
+                population = int(demographic.Totale)
+                if demographic_code == provincial_code: 
+                    data.at[i, "POPULATION"] = population
         return
     # Municipal level
     elif level == "municipal": 
-        # Add column of population 
-        data["POPULATION"] = None
         for i, municipality in data.iterrows(): 
             # Fill neighbors
             neighbors = data[~data.geometry.disjoint(municipality.geometry)].PRO_COM.tolist()
@@ -89,10 +105,13 @@ def build_graph(data,level,graph):
         graph.name = "Graph of Italian Regions"
         # Add metadata
         graph.pos = dict.fromkeys(regional_list) # position
+        graph.pop = dict.fromkeys(regional_list)    # total population
         k = 0
         for region in regional_list:
             graph.pos[region] = (data.centroid[k].x, data.centroid[k].y)
+            graph.pop[region] = data.POPULATION[k]
             k +=1
+        nx.set_node_attributes(graph, graph.pop, 'population') 
     # Provincial level
     elif level == "provincial":
         i = 0
@@ -109,10 +128,13 @@ def build_graph(data,level,graph):
         graph.name = "Graph of Italian Provinces"
         # Add metadata
         graph.pos = dict.fromkeys(provincial_list) # position
+        graph.pop = dict.fromkeys(provincial_list)    # total population
         k = 0
         for province in provincial_list:
             graph.pos[province] = (data.centroid[k].x, data.centroid[k].y)
+            graph.pop[province] = data.POPULATION[k]
             k +=1
+        nx.set_node_attributes(graph, graph.pop, 'population') 
     # Municipal level
     elif level == "municipal": 
         i = 0
@@ -136,7 +158,6 @@ def build_graph(data,level,graph):
             graph.pop[municipality] = data.POPULATION[k]
             k +=1
         nx.set_node_attributes(graph, graph.pop, 'population') 
-    #nx.set_node_attributes(graph, graph.pos, 'position')
     return graph
 
 def omit_by(dct, predicate=lambda x: x!=0):

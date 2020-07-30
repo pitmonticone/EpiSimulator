@@ -40,24 +40,40 @@ from scipy.integrate import solve_ivp   # ODE
 def expand(data, level, demo=None):
     # Add column of neighbors 
     data["NEIGHBORS"] = None 
+    # Add column of population 
+    data["POPULATION"] = None
     # Regional level
     if level == "regional": 
-        for index, region in data.iterrows():   
+        for i, region in data.iterrows():  
+            # Fill neighbors
             neighbors = data[~data.geometry.disjoint(region.geometry)].DEN_REG.tolist()
             neighbors = [ name for name in neighbors if region.DEN_REG != name ]
-            data.at[index, "NEIGHBORS"] = ",".join(neighbors)
+            data.at[i, "NEIGHBORS"] = ",".join(neighbors)
+            # Fill demographics
+            regional_code = int(region.COD_REG)
+            for j, demographic in demo.iterrows():
+                demographic_code = int(demographic.Codice_Regione)
+                population = int(demographic.Totale)
+                if demographic_code == regional_code: 
+                    data.at[i, "POPULATION"] = population
         return 
     # Provincial level
     elif level == "provincial": 
-        for index, province in data.iterrows():   
+        for i, province in data.iterrows():  
+            # Fill neighbors
             neighbors = data[~data.geometry.disjoint(province.geometry)].SIGLA.tolist()
             neighbors = [ name for name in neighbors if province.SIGLA != name ]
-            data.at[index, "NEIGHBORS"] = ",".join(neighbors)
+            data.at[i, "NEIGHBORS"] = ",".join(neighbors)
+            # Fill demographics
+            provincial_code = int(province.COD_PROV)
+            for j, demographic in demo.iterrows():
+                demographic_code = int(demographic.Codice_Provincia)
+                population = int(demographic.Totale)
+                if demographic_code == provincial_code: 
+                    data.at[i, "POPULATION"] = population
         return
     # Municipal level
     elif level == "municipal": 
-        # Add column of population 
-        data["POPULATION"] = None
         for i, municipality in data.iterrows(): 
             # Fill neighbors
             neighbors = data[~data.geometry.disjoint(municipality.geometry)].PRO_COM.tolist()

@@ -135,6 +135,8 @@ def build_graph(data,level,graph):
             graph.pos[municipality] = (data.centroid[k].x, data.centroid[k].y)
             graph.pop[municipality] = data.POPULATION[k]
             k +=1
+        nx.set_node_attributes(graph, graph.pop, 'population') 
+    #nx.set_node_attributes(graph, graph.pos, 'position')
     return graph
 
 def omit_by(dct, predicate=lambda x: x!=0):

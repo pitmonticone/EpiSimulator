@@ -85,6 +85,8 @@ def build_graph(data,level,graph):
         # Remove potential empty nodes 
         if '' in graph.nodes :
             graph.remove_node('')
+        # Add name 
+        graph.name = "Graph of Italian Regions"
         # Add metadata
         graph.pos = dict.fromkeys(regional_list) # position
         k = 0
@@ -103,6 +105,8 @@ def build_graph(data,level,graph):
         # Remove potential empty nodes 
         if '' in graph.nodes :
             graph.remove_node('')
+        # Add name 
+        graph.name = "Graph of Italian Provinces"
         # Add metadata
         graph.pos = dict.fromkeys(provincial_list) # position
         k = 0
@@ -121,14 +125,14 @@ def build_graph(data,level,graph):
         # Remove potential empty nodes 
         if '' in graph.nodes :
             graph.remove_node('')
+        # Add name 
+        graph.name = "Graph of Italian Municipalities"
         # Add metadata
         graph.pos = dict.fromkeys(municipal_list)    # position 
-        graph.name = dict.fromkeys(municipal_list)   # name 
         graph.pop = dict.fromkeys(municipal_list)    # total population
         k = 0
         for municipality in municipal_list:
             graph.pos[municipality] = (data.centroid[k].x, data.centroid[k].y)
-            graph.name[municipality] = data.COMUNE[k]
             graph.pop[municipality] = data.POPULATION[k]
             k +=1
     return graph

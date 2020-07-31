@@ -105,10 +105,13 @@ def build_graph(data,level,graph):
         graph.name = "Graph of Italian Regions"
         # Add metadata
         graph.pos = dict.fromkeys(regional_list) # position
+        graph.pop = dict.fromkeys(regional_list)    # total population
         k = 0
         for region in regional_list:
             graph.pos[region] = (data.centroid[k].x, data.centroid[k].y)
+            graph.pop[region] = data.POPULATION[k]
             k +=1
+        nx.set_node_attributes(graph, graph.pop, 'population') 
     # Provincial level
     elif level == "provincial":
         i = 0
@@ -125,10 +128,13 @@ def build_graph(data,level,graph):
         graph.name = "Graph of Italian Provinces"
         # Add metadata
         graph.pos = dict.fromkeys(provincial_list) # position
+        graph.pop = dict.fromkeys(provincial_list)    # total population
         k = 0
         for province in provincial_list:
             graph.pos[province] = (data.centroid[k].x, data.centroid[k].y)
+            graph.pop[province] = data.POPULATION[k]
             k +=1
+        nx.set_node_attributes(graph, graph.pop, 'population') 
     # Municipal level
     elif level == "municipal": 
         i = 0
@@ -152,7 +158,6 @@ def build_graph(data,level,graph):
             graph.pop[municipality] = data.POPULATION[k]
             k +=1
         nx.set_node_attributes(graph, graph.pop, 'population') 
-    #nx.set_node_attributes(graph, graph.pos, 'position')
     return graph
 
 def omit_by(dct, predicate=lambda x: x!=0):

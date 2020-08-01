@@ -599,7 +599,7 @@ def power_law_plot(graph, log = True,linear_binning = False, bins = 90, draw= Tr
 ### 1.5 COMMUNITY DETECTION
 
 ##### Modularity Evaluation 
-def modularity(partition):
+def modularity(G,partition):
     return nx.community.quality.modularity(G, partition)
 
 ##### Partition Mapping

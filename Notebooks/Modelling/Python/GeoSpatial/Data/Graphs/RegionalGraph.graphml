@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="node" attr.name="population" attr.type="long"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="undirected"><data key="d0">Graph of Italian Regions</data>
+<node id="Piemonte">
+  <data key="d1">4341375</data>
+</node>
+<node id="Valle d'Aosta">
+  <data key="d1">125501</data>
+</node>
+<node id="Lombardia">
+  <data key="d1">10103969</data>
+</node>
+<node id="Liguria">
+  <data key="d1">1543127</data>
+</node>
+<node id="Emilia-Romagna">
+  <data key="d1">4467118</data>
+</node>
+<node id="Trentino-Alto Adige">
+  <data key="d1">1074819</data>
+</node>
+<node id="Veneto">
+  <data key="d1">4907704</data>
+</node>
+<node id="Friuli Venezia Giulia">
+  <data key="d1">1211357</data>
+</node>
+<node id="Toscana">
+  <data key="d1">3722729</data>
+</node>
+<node id="Marche">
+  <data key="d1">1518400</data>
+</node>
+<node id="Umbria">
+  <data key="d1">880285</data>
+</node>
+<node id="Lazio">
+  <data key="d1">5865544</data>
+</node>
+<node id="Abruzzo">
+  <data key="d1">1305770</data>
+</node>
+<node id="Molise">
+  <data key="d1">302265</data>
+</node>
+<node id="Campania">
+  <data key="d1">5785861</data>
+</node>
+<node id="Puglia">
+  <data key="d1">4008296</data>
+</node>
+<node id="Basilicata">
+  <data key="d1">556934</data>
+</node>
+<node id="Calabria">
+  <data key="d1">1924701</data>
+</node>
+<node id="Sicilia">
+  <data key="d1">4968410</data>
+</node>
+<node id="Sardegna">
+  <data key="d1">1630474</data>
+</node>
+<edge source="Piemonte" target="Valle d'Aosta"/>
+<edge source="Piemonte" target="Lombardia"/>
+<edge source="Piemonte" target="Liguria"/>
+<edge source="Piemonte" target="Emilia-Romagna"/>
+<edge source="Lombardia" target="Trentino-Alto Adige"/>
+<edge source="Lombardia" target="Veneto"/>
+<edge source="Lombardia" target="Emilia-Romagna"/>
+<edge source="Liguria" target="Emilia-Romagna"/>
+<edge source="Liguria" target="Toscana"/>
+<edge source="Emilia-Romagna" target="Veneto"/>
+<edge source="Emilia-Romagna" target="Toscana"/>
+<edge source="Emilia-Romagna" target="Marche"/>
+<edge source="Trentino-Alto Adige" target="Veneto"/>
+<edge source="Veneto" target="Friuli Venezia Giulia"/>
+<edge source="Toscana" target="Umbria"/>
+<edge source="Toscana" target="Marche"/>
+<edge source="Toscana" target="Lazio"/>
+<edge source="Marche" target="Umbria"/>
+<edge source="Marche" target="Lazio"/>
+<edge source="Marche" target="Abruzzo"/>
+<edge source="Umbria" target="Lazio"/>
+<edge source="Lazio" target="Abruzzo"/>
+<edge source="Lazio" target="Molise"/>
+<edge source="Lazio" target="Campania"/>
+<edge source="Abruzzo" target="Molise"/>
+<edge source="Molise" target="Campania"/>
+<edge source="Molise" target="Puglia"/>
+<edge source="Campania" target="Puglia"/>
+<edge source="Campania" target="Basilicata"/>
+<edge source="Puglia" target="Basilicata"/>
+<edge source="Basilicata" target="Calabria"/>
+</graph></graphml>

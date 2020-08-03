@@ -1,0 +1,31 @@
+Piemonte,Valle d'Aosta,{}
+Piemonte,Lombardia,{}
+Piemonte,Liguria,{}
+Piemonte,Emilia-Romagna,{}
+Lombardia,Trentino-Alto Adige,{}
+Lombardia,Veneto,{}
+Lombardia,Emilia-Romagna,{}
+Liguria,Emilia-Romagna,{}
+Liguria,Toscana,{}
+Emilia-Romagna,Veneto,{}
+Emilia-Romagna,Toscana,{}
+Emilia-Romagna,Marche,{}
+Trentino-Alto Adige,Veneto,{}
+Veneto,Friuli Venezia Giulia,{}
+Toscana,Umbria,{}
+Toscana,Marche,{}
+Toscana,Lazio,{}
+Marche,Umbria,{}
+Marche,Lazio,{}
+Marche,Abruzzo,{}
+Umbria,Lazio,{}
+Lazio,Abruzzo,{}
+Lazio,Molise,{}
+Lazio,Campania,{}
+Abruzzo,Molise,{}
+Molise,Campania,{}
+Molise,Puglia,{}
+Campania,Puglia,{}
+Campania,Basilicata,{}
+Puglia,Basilicata,{}
+Basilicata,Calabria,{}

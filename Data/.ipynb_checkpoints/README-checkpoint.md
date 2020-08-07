@@ -5,7 +5,7 @@
 ## Geospatial 
 * EuroGeographics, [EuroGlobalMap19](https://eurogeographics.org/maps-for-europe/open-data/): A 1:1 million scale topographic dataset covering 45 countries and territories in the European region. It is perfect for use as background to many from planning, monitoring and network analysis to presenting environmental policies. The dataset contains five themes: administrative boundaries; water network; transport networks; settlements; named locations.
 * WorldPop, [Grid-Cell Surface Areas](https://www.worldpop.org/project/categories?id=16): The value of each grid cell represents its surface area (in square meters).
-* WorldPop, [Administrative Areas](https://www.worldpop.org/project/categories?id=17)
+* WorldPop, [Administrative Areas](https://www.worldpop.org/project/categories?id=17).
 
 ## Demographic  
 * WorldPop, [Population Density](https://www.worldpop.org/project/categories?id=18): Estimated population density per grid-cell. 
@@ -21,7 +21,7 @@
 * Pepe, E., Bajardi, P., Gauvin, L. et al. [COVID-19 outbreak response, a dataset to assess mobility changes in Italy following national lockdown](https://doi.org/10.1038/s41597-020-00575-2). *Scientific Data* 7, 230 (2020). 
 
 ## Epidemic  
-Our World in Data, [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data).
+* Our World in Data, [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data).
 
 ## Graph  
 * [SocioPatterns](http://www.sociopatterns.org/datasets/)

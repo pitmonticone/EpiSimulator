@@ -52,6 +52,8 @@ Julian Homburger et al. [Modeling SARS-CoV-2 Outbreaks in workplaces, universiti
 
 #### Human Mobility 
 
+Simini, F., González, M., Maritan, A. et al. [A universal model for mobility and migration patterns](https://doi.org/10.1038/nature10856). *Nature* 484, 96–100 (2012). 
+
 Ren, Y., Ercsey-Ravasz, M., Wang, P. et al. [Predicting commuter flows in spatial networks using a radiation model based on temporal ranges](https://doi.org/10.1038/ncomms6347). *Nature Communications* 5, 5347 (2014). 
 
 Tizzoni M, Bajardi P, Decuyper A, Kon Kam King G, Schneider CM, Blondel V, et al. (2014) [On the Use of Human Mobility Proxies for Modeling Epidemics](https://doi.org/10.1371/journal.pcbi.1003716). *PLOS Computational Biology* 10(7): e1003716. 

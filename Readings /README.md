@@ -40,7 +40,6 @@ Gomes, Marcelo FC, Ana Pastore y Piontti, Luca Rossi, Dennis Chao, Ira Longini, 
 Elizabeth Halloran, and Alessandro Vespignani. [Assessing the international spreading risk
 associated with the 2014 West African Ebola outbreak](https://doi.org/10.1371/currents.outbreaks.cd818f63d40e24aef769dda7df9e0da5.). *PLOS Currents* 6 (2014).
 
-
 Zhang, Qian, Kaiyuan Sun, Matteo Chinazzi, Ana Pastore y Piontti, Natalie E. Dean, Diana
 Patricia Rojas, Stefano Merler et al. [Spread of Zika virus in the Americas](https://doi.org/10.1073/pnas.1620161114). *Proceedings of the National Academy of Sciences* 114, no. 22 (2017): E4334-E4343.
 
@@ -49,6 +48,8 @@ Aleta et al. [Modeling the impact of social distancing, testing, contact tracing
 Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214), *arXiv*:2003.01214 [q-bio.PE] (2020).
 
 Julian Homburger et al. [Modeling SARS-CoV-2 Outbreaks in workplaces, universities, and other congregate settings](https://www.color.com/modeling-sars-cov-2-outbreaks-in-workplaces-universities-and-other-congregate-settings).
+
+Bertuzzo, E., Mari, L., Pasetto, D. et al. [The geography of COVID-19 spread in Italy and implications for the relaxation of confinement measures](https://doi.org/10.1038/s41467-020-18050-2). Nat Commun 11, 4264 (2020). 
 
 #### Human Mobility 
 

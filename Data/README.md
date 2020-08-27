@@ -6,6 +6,8 @@
 * EuroGeographics, [EuroGlobalMap19](https://eurogeographics.org/maps-for-europe/open-data/): A 1:1 million scale topographic dataset covering 45 countries and territories in the European region. It is perfect for use as background to many from planning, monitoring and network analysis to presenting environmental policies. The dataset contains five themes: administrative boundaries; water network; transport networks; settlements; named locations.
 * WorldPop, [Grid-Cell Surface Areas](https://www.worldpop.org/project/categories?id=16): The value of each grid cell represents its surface area (in square meters).
 * WorldPop, [Administrative Areas](https://www.worldpop.org/project/categories?id=17).
+* GADM, [Administrative Areas](https://gadm.org/index.html): GADM provides maps and spatial data for all countries and their sub-divisions. You can browse our maps or download the data to make your own maps. 
+
 
 ## Demographic  
 * WorldPop, [Population Density](https://www.worldpop.org/project/categories?id=18): Estimated population density per grid-cell. 

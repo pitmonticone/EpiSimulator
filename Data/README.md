@@ -28,7 +28,7 @@
 * Mossong J, Hens N, Jit M, Beutels P, Auranen K, Mikolajczyk R, et al. (2008) [Social Contacts and Mixing Patterns Relevant to the Spread of Infectious Diseases](https://doi.org/10.1371/journal.pmed.0050074). *PLoS Med 5(3): e74. 
 * Prem K, Cook AR, Jit M (2017). [Projecting social contact matrices in 152 countries using contact surveys and demographic data](https://doi.org/10.1371/journal.pcbi.1005697). *PLoS Comput Biol* 13(9).
 * Kiesha Prem et al. (2020). [Projecting contact matrices in 177 geographical regions: an update and comparison with empirical data for the COVID-19 era](https://doi.org/10.1101/2020.07.22.20159772). *medRxiv pre-print*. 
-* [Socialmixr: Social Mixing Matrices for Infectious Disease Modelling](https://CRAN.R-project.org/package=socialmixr https://github.com/sbfnk/socialmixr). The Comprehensive R Archive Network. 
+* [Socialmixr: Social Mixing Matrices for Infectious Disease Modelling](https://CRAN.R-project.org/package=socialmixr). The Comprehensive R Archive Network. 
 
 ## Epidemiological  
 * Our World in Data, [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data).

@@ -19,6 +19,8 @@ M. E. J. Newman. [Spread of epidemic disease on networks](https://doi.org/10.110
 
 Metcalf et al. [Mathematical models to guide pandemic response](https://doi.org/10.1126/science.abd1668). *Science Perspective* (2020).
 
+Ernesto Estrada. [COVID-19 and SARS-CoV-2. Modeling the present, looking at the future](https://doi.org/10.1016/j.physrep.2020.07.005). *Physics Reports* (2020).
+
 Bjørnstad, O.N., Shea, K., Krzywinski, M. et al. [The SEIRS model for infectious disease dynamics](https://doi.org/10.1038/s41592-020-0856-2). *Nature Methods* 17, 557–558 (2020). 
 
 ### Computational Epidemiology
@@ -51,6 +53,7 @@ Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution 
 
 Julian Homburger et al. [Modeling SARS-CoV-2 Outbreaks in workplaces, universities, and other congregate settings](https://www.color.com/modeling-sars-cov-2-outbreaks-in-workplaces-universities-and-other-congregate-settings).
 
+Marino Gatto et al. [Spread and dynamics of the COVID-19 epidemic in Italy: Effects of emergency containment measures](https://doi.org/10.1073/pnas.2004978117). *PNAS* (2020)
 Bertuzzo, E., Mari, L., Pasetto, D. et al. [The geography of COVID-19 spread in Italy and implications for the relaxation of confinement measures](https://doi.org/10.1038/s41467-020-18050-2). Nat Commun 11, 4264 (2020). 
 
 #### Human Mobility 
@@ -71,3 +74,5 @@ Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnar
 
 Yang Liu et al. [A Modelling Study for Designing a Multi-layered Surveillance Approach to Detect the Potential Resurgence of SARS-CoV-2](https://doi.org/10.1101/2020.06.27.20141440), *medRxiv* (2020).
   * [GitHub Repository](https://github.com/yangclaraliu/covid_surveillance_strategy)
+  
+Stites, E.C., Wilen, C.B., [The Interpretation of SARS-CoV-2 Diagnostic Tests](https://doi.org/10.1016/j.medj.2020.08.001), *Med* (2020).

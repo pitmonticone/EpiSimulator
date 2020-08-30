@@ -36,18 +36,15 @@ Broeck, W.V.d., Gioannini, C., Gonçalves, B. et al. [The GLEaMviz computational
 
 Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) [Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread](https://doi.org/10.1371/journal.pcbi.1002673). *PLOS Computational Biology* 8(9): e1002673. 
 
-Tizzoni, Michele, Paolo Bajardi, Chiara Poletto, José J. Ramasco, Duygu Balcan, Bruno
-Gonçalves, Nicola Perra, Vittoria Colizza, and Alessandro Vespignani. [Real-time numerical
+Tizzoni, Michele, Paolo Bajardi, Chiara Poletto, José J. Ramasco, Duygu Balcan, Bruno Gonçalves, Nicola Perra, Vittoria Colizza, and Alessandro Vespignani. [Real-time numerical
 forecast of global epidemic spreading: case study of 2009 A/H1N1pdm](https://doi.org/10.1016/j.jocs.2010.07.002). *BMC Medicine* 10, no. 1 (2012): 165.
 
-Gomes, Marcelo FC, Ana Pastore y Piontti, Luca Rossi, Dennis Chao, Ira Longini, M.
-Elizabeth Halloran, and Alessandro Vespignani. [Assessing the international spreading risk
+Gomes, Marcelo FC, Ana Pastore y Piontti, Luca Rossi, Dennis Chao, Ira Longini, M. Elizabeth Halloran, and Alessandro Vespignani. [Assessing the international spreading risk
 associated with the 2014 West African Ebola outbreak](https://doi.org/10.1371/currents.outbreaks.cd818f63d40e24aef769dda7df9e0da5.). *PLOS Currents* 6 (2014).
 
-Zhang, Qian, Kaiyuan Sun, Matteo Chinazzi, Ana Pastore y Piontti, Natalie E. Dean, Diana
-Patricia Rojas, Stefano Merler et al. [Spread of Zika virus in the Americas](https://doi.org/10.1073/pnas.1620161114). *Proceedings of the National Academy of Sciences* 114, no. 22 (2017): E4334-E4343.
+Zhang, Qian, Kaiyuan Sun, Matteo Chinazzi, Ana Pastore y Piontti, Natalie E. Dean, Diana Patricia Rojas, Stefano Merler et al. [Spread of Zika virus in the Americas](https://doi.org/10.1073/pnas.1620161114). *Proceedings of the National Academy of Sciences* 114, no. 22 (2017): E4334-E4343.
 
-Aleta et al. [Modeling the impact of social distancing, testing, contact tracing and household quarantine on second-wave scen- arios of the COVID-19 epidemic](https://www.medrxiv.org/content/10.1101/2020.05.06.20092841v1.full.pdf). *medRxiv pre-print* (2020).
+Aleta et al. [Modeling the impact of social distancing, testing, contact tracing and household quarantine on second-wave scenarios of the COVID-19 epidemic](https://www.medrxiv.org/content/10.1101/2020.05.06.20092841v1.full.pdf). *medRxiv pre-print* (2020).
 
 Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214), *arXiv*:2003.01214 [q-bio.PE] (2020).
 

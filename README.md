@@ -27,7 +27,7 @@
 
 <!-- Subtitle -->
 <h2 align="center">
-  Insert Project Title
+  Data-Driven Agent-Based Metapopulation SEIR Model
 </h2>
 
 <!-- Badges -->

@@ -1,3 +1,11 @@
+<h2 align="center">
+  Authors
+</h2>
+
+| Name  | Mail | GitHub | Twitter | Contributions |
+| ---- | ---- | ---- | ---- | ---- |
+| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Contact & mobility data exploration, selection and wrangling ; ... |
+| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://github.com/DavideOrsenigo) | Population data exploration, selection and wrangling ; ... |
 
 <h2 align="center">
   Contents

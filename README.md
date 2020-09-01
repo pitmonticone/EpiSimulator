@@ -27,7 +27,7 @@
 
 <!-- Subtitle -->
 <h2 align="center">
-  Insert Project Title
+  Data-Driven Agent-Based Metapopulation SEIR Model
 </h2>
 
 <!-- Badges -->
@@ -48,10 +48,10 @@
   Authors
 </h2>
 
-| Name  | Mail | GitHub | Contributions |
-| ---- | ---- | ---- | ---- |
-| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | xxxxxx; yyyyyyyyy; zzzzzzzzzz|
-| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@dadorse](https://github.com/dadorse) | xxxxxx; yyyyyyyyy; zzzzzzzzzz |
+| Name  | Mail | GitHub | Twitter | Contributions |
+| ---- | ---- | ---- | ---- | ---- |
+| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Geospatial, contact & mobility data exploration, selection and wrangling ; ... |
+| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://github.com/DavideOrsenigo) | Population data exploration, selection and wrangling ; ... |
 
 
 <h2 align="center">

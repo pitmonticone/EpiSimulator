@@ -55,33 +55,36 @@ md"
 *  **Duration of infectiousness in days during the symptomatic phase $d_S=\mathcal{\Gamma}(3.5,4)$**
 *  **Duration of infectiousness in days during the a-symptomatic phase $d_A=\mathcal{\Gamma}(5,4)$**
 
-## Diagnostics
+## Diagnostic Strategies
 
-0. Dividere gli algoritmi di sorveglianza in due classi: attiva e passiva, a seconda che sia corredata o meno da intervento (farmaceutico o meno)
-1. Partire dall’implementazione della più banale: passiva, nazionale, uniforme 
-2. Passiva, nazionale, per fasce d’età / rischio a priori 
-3. Passiva, nazionale, symptom-based / rischio a posteriori
+* Passive, national, random, uniform
+* Passive, national, random, uniform, contact-tracing
+* Passive, national, age-stratified / ex-ante fatality risk, contact-tracing
+* Passive, national, targeted, symptom-based / ex-post fatality risk
+* Passive, national, targeted, symptom-based / ex-post fatality risk, contact-tracing
 
-4. Passiva, provinciale, uniforme
-5. Passiva, provinciale, per fasce d’età / rischio a priori
-6. Passiva provinciale, symptom-based / rischio a posteriori
+* Passive, provincial, random, uniform
+* Passive, provincial, random, uniform, contact-tracing
+* Passive, provincial, age-stratified / ex-ante fatality risk, contact-tracing
+* Passive, provincial, targeted, symptom-based / ex-post fatality risk
+* Passive, provincial, targeted, symptom-based / ex-post fatality risk, contact-tracing
 
-7. Attiva, nazionale, uniforme 
-8. Attiva, nazionale, per fasce d’età / rischio a priori 
-9. Attiva, nazionale, symptom-based / rischio a posteriori
+* Active, national, random, uniform
+* Active, national, random, uniform, contact-tracing
+* Active, national, age-stratified / ex-ante fatality risk, contact-tracing
+* Active, national, targeted, symptom-based / ex-post fatality risk
+* Active, national, targeted, symptom-based / ex-post fatality risk, contact-tracing
 
-10. Attiva, provinciale, uniforme
-11. Attiva, provinciale, per fasce d’età / rischio a priori
-12. Attiva provinciale, symptom-based / rischio a posteriori
+* Active, provincial, random, uniform
+* Active, provincial, random, uniform, contact-tracing
+* Active, provincial, age-stratified / ex-ante fatality risk, contact-tracing
+* Active, provincial, targeted, symptom-based / ex-post fatality risk
+* Active, provincial, targeted, symptom-based / ex-post fatality risk, contact-tracing
 
-14. Passiva, contact-tracing biased 
-15. Attiva, contact-tracing biased (a la Crisanti) 
+* All the above with behavioral module: endogenous, individual-based physical distancing (local and global)
+* All the above with behavioral module: exogeneous, enforced physical distancing (local and global lockdown)
 
-17. Tutte quelle scritte senza distanziamento o mitigazione alcuna
-18. Tutte quelle scritte con distanziamento sociale non forzato (behavioral compartments)
-19. Tutte quelle scritte sopra con distanziamento sociale forzato (lockdown) locale e/o globale
-
-* Stavo per dimenticare la mia preferita: attiva, contact-tracing biased, lockdown_on, symptomatic_is_positive che consiste nel considerare, in piena epidemia (prevalenza alta), tutti i sintomatici come infetti e quindi contarli come positivi senza tampone (accettando quindi incertezza della diagnosi del medico di base) potendo così allocarne di più alla sorveglianza attiva dei maledetti asintomatici.
+* **Special one**: Active, provincial, targeted, symptom-based, symptomatic-is-positive, contact-tracing, endogenous & exogenous distancing: assume all symptomatic patients to be **positive** ($I_s$) without testing them (accepting the uncertainty of the symptom-based MD diagnosis) in order to allocate more diagnostic resources to the active surveillance of exposed, asymptomatic, vulnerable patients.
 
 ## References
 * Davies, N.G., Klepac, P., Liu, Y. et al. [Age-dependent effects in the transmission and control of COVID-19 epidemics](https://doi.org/10.1038/s41591-020-0962-9). *Nature Medicine* 26, 1205–1211 (2020).
@@ -359,8 +362,8 @@ begin
 	t = 0:δt:tf;
 	
 	# Populations 
-	provincial_pops = round.(Int, population_data.population./100);  # provincial sub-populations
-	age_provincial_pops = round.(Int, age_population_data./100);     # age-stratified provincial sub-populations
+	provincial_pops = round.(Int, population_data.population./9000);  # provincial sub-populations
+	age_provincial_pops = round.(Int, age_population_data./9000);     # age-stratified provincial sub-populations
 	N = sum(Array(age_provincial_pops))  # number of agents
 	M = length(provincial_pops)          # number of subpopulations
 	K = length(age_provincial_pops[1])   # number of age groups (16)
@@ -684,7 +687,7 @@ end
 =#
 
 # ╔═╡ Cell order:
-# ╟─8edb8016-ec8a-11ea-213b-ffcca7d88845
+# ╠═8edb8016-ec8a-11ea-213b-ffcca7d88845
 # ╟─1951b03a-ec8b-11ea-326b-9b07018058f1
 # ╟─04981242-ec8b-11ea-0c48-4fda39c1245e
 # ╟─2f7454ee-ec8b-11ea-3227-17ab1eff2513

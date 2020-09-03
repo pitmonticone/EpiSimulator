@@ -1,66 +1,105 @@
 # DIGITAL EPIDEMIOLOGY JULIA PACKAGE 
 # AUTHORS: Monticone Pietro, Orsenigo Davide 
-# LAST UPDATE: 26-07-2020
+# LAST UPDATE: 03-09-2020
 
 module DigitalEpidemiology
+export test!
 
 # REQUIRED PACKAGES 
 
-## INSTALL 
-###ENV["PYTHON"] = "path/to/python"
-###Pkg.build("PyCall")
-
-## IMPORT 
-using DataFrames, DataFramesMeta, DrWatson         # Data Management 
+using DataFrames, DataFramesMeta, DrWatson, Queryverse    # Data Management 
 using Random, Distributions, StatsBase             # Statistics
 using LightGraphs, SimpleWeightedGraphs, GraphIO   # Graphs 
 using GraphPlot, Plots, AgentsPlots, PlotThemes    # Data Visualization
-using PyCall, PyPlot                               # Python
-nx = pyimport("networkx")                          # Python
-np = pyimport("numpy")                             # Python
-nw = pyimport("netwulf")                           # Python
+using LinearAlgebra                                # Numerical Computation
 
-# FUNCTIONS 
-
-### Convert weighted directed LightGraphs into weighted directed NetworkX 
-function LightGraphs_to_NetworkX(G)
-    # instantiate directed graph object 
-    H = nx.DiGraph()  
-    # create empty edgelist 
-    edgelist = []     
-    # fill edgelist 
-    for row in eachrow(DataFrame([edge for edge in edges(G)]))
-        push!(edgelist, (row[1], row[2], row[3]))
-    end
-    # build NetworkX weighted directed graph from edgelist 
-    H.add_weighted_edges_from(edgelist)
-    return H
-end
-
-### Convert directed LightGraphs into directed NetworkX 
-function LG_to_NX(G)
-    # instantiate directed graph object 
-    H = nx.DiGraph()
-    # create empty edgelist 
-    edgelist = []
-    # fill edgelist 
-    for row in eachrow(DataFrame([edge for edge in edges(G)]))
-        push!(edgelist, (row[1], row[2]))
-    end
-    # build NetworkX weighted directed graph from edgelist 
-    H.add_edges_from(edgelist)
-    return H
-end
-
-### Convert weighted directed NetworkX into weighted directed LightGraphs 
-function NetworkX_to_LightGraphs(H)
-    # conveniently relable nodes
-    nx.convert_node_labels_to_integers(H, first_label=1)
-    # write NX edgelist
-    nx.write_edgelist(H, "graph.edgelist")
-    # read LG edgelist
-    G = loadgraph("graph.edgelist", GraphIO.EdgeList.EdgeListFormat())
-    return SimpleWeightedDiGraph(G)
+# MACRO
+### Diagnosis Dyanmics
+	
+function test!(model,strategy,capacity)
+	agents = [agent for agent in allagents(model) if agent.status!=:D || agent.diagnosis!=:HR]
+	provinces = 1:model.M
+    prov_populations = model.provincial_pops
+    prov_capacities = round.(Int, normalize(prov_populations) * capacity)
+    prov_agents = [[agent for agent in agents if agent.home == i] for i in provinces]
+		
+	if strategy == "base_passive_random_uniform_national"
+		for agent in StatsBase.sample(agents, capacity)
+			if agent.status == :S || agent.status == :R
+				if rand() ≤ 0.95 #specificity
+					agent.diagnosis=:N
+				else 
+					agent.diagnosis=:P
+				end
+			elseif agent.status!=:S && agent.status!=:R
+				if rand() ≤ 0.70 #sensitivity
+					agent.diagnosis=:P
+				else 
+					agent.diagnosis=:N
+				end
+			end
+		end
+			
+	elseif strategy == "passive_random_uniform_national"
+		for agent in StatsBase.sample(agents, capacity)
+			if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
+				if rand() ≤ 0.95
+					agent.diagnosis=:N
+				else 
+					agent.diagnosis=:P
+				end
+			elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status!=:S && agent.status!=:R) 
+				if rand() ≤ 0.70
+					agent.diagnosis=:P
+				else 
+					agent.diagnosis=:N
+				end
+			elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
+				if rand() ≤ 0.95
+					agent.diagnosis=:HR
+				else 
+					agent.diagnosis=:P
+				end
+			elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
+				if rand() ≤ 0.70
+					agent.diagnosis=:P
+				else 
+					agent.diagnosis=:HR
+				end
+			end
+		end
+			
+	elseif strategy == "passive_random_uniform_provincial"
+		for prov in provinces
+			for agent in StatsBase.sample(prov_agents[prov], prov_capacities[prov])
+				if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
+					if rand() ≤ 0.95
+						agent.diagnosis=:N
+					else 
+						agent.diagnosis=:P
+					end
+				elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status!=:S && agent.status!=:R) 
+					if rand() ≤ 0.70
+						agent.diagnosis=:P
+					else 
+						agent.diagnosis=:N
+					end
+				elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
+					if rand() ≤ 0.95
+						agent.diagnosis=:R
+					else 
+						agent.diagnosis=:P
+					end
+				elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
+					if rand() ≤ 0.70
+						agent.diagnosis=:P
+					else 
+						agent.diagnosis=:R
+					end
+				end
+			end
+		end
+	end	
 end
 
 end # Moudule

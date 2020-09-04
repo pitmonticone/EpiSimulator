@@ -131,6 +131,9 @@ md"
 * Oxford University Clinical Research Unit COVID-19 Research Group, [The Natural History and Transmission Potential of Asymptomatic Severe Acute Respiratory Syndrome Coronavirus 2 Infection](https://doi.org/10.1093/cid/ciaa711), *Clinical Infectious Diseases*, ciaa711
 * Poletti Piero wt al. [Age-specific SARS-CoV-2 infection fatality ratio and associated risk factors, Italy, February to April 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383). *Euro Surveill.* 2020;25(31):pii=2001383. 
 
+##### Policy 
+* Desvars-Larrive, A., Dervic, E., Haug, N. et al. [A structured open dataset of government interventions in response to COVID-19](https://doi.org/10.1038/s41597-020-00609-9). *Scientific Data* 7, 285 (2020).
+
 #### Modelling
 
 ##### Conceptual
@@ -144,29 +147,32 @@ md"
 * Duncan J. Watts et al. [Multiscale, resurgent epidemics in a hierarchical metapopulation model](https://doi.org/10.1073/pnas.0501226102). *PNAS* (2005)
 * Vittoria Colizza, Alessandro Vespignani. [Epidemic modeling in metapopulation systems with heterogeneous coupling pattern: Theory and simulations](https://doi.org/10.1016/j.jtbi.2007.11.028). *Journal of Theoretical Biology* (2008).
 * Balcan, Duygu, Vittoria Colizza, Bruno Gonçalves, Hao Hu, José J. Ramasco, and Alessandro Vespignani. [Multiscale mobility networks and the spatial spreading of infectious diseases](https://doi.org/10.1073/pnas.0906910106). *Proceedings of the National Academy of Sciences* 106, no. 51 (2009): 21484-21489.
-* Balcan, Duygu, Bruno Gonçalves, Hao Hu, José J. Ramasco, Vittoria Colizza, and Alessandro Vespignani. [Modeling the spatial spread of infectious diseases: The GLobal Epidemic and Mobility computational model](https://doi.org/10.1016/j.jocs.2010.07.002). *Journal of Computational Science* 1, no. 3 (2010): 132-145.
-* Ross JV, House T, Keeling MJ [Calculation of Disease Dynamics in a Population of Households](https://doi.org/10.1371/journal.pone.0009666). *PLoS ONE* (2010).
-* Salathé M, Jones JH (2010) [Dynamics and Control of Diseases in Networks with Community Structure](https://doi.org/10.1371/journal.pcbi.1000736). *PLoS Comput Biol* 6(4): e1000736. 
-* Apolloni, A., Poletto, C., Ramasco, J.J. et al. [Metapopulation epidemic models with heterogeneous mixing and travel behaviour](https://doi.org/10.1186/1742-4682-11-3). *Theor Biol Med Model* 11, 3 (2014). 
-* Daniela Calvetti et al. [Metapopulation Network Models for Understanding, Predicting, and Managing the Coronavirus Disease COVID-19](https://doi.org/10.3389/fphy.2020.00261). *Front. Phys.*, 2020.
-* Hassan S, Mughal BJ, Siwiak M, Yasin Z. [A modified SEIR meta-population transmission based Modeling and Forecasting of the COVID-19 pandemic in Pakistan](https://doi.org/10.1101/2020.06.03.20121517). *medRxiv*, 2020.
-* Stephen J Beckett et al. [Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://doi.org/10.1101/2020.05.28.20115642). *medRxiv pre-print* (2020).
+* Balcan, Duygu, Bruno Gonçalves, Hao Hu, José J. Ramasco, Vittoria Colizza, and Alessandro Vespignani. [Modeling the spatial spread of infectious diseases: The GLobal Epidemic and Mobility computational model](https://doi.org/10.1016/j.jocs.2010.07.002). *Journal of Computational Science* 1, no. 3 (2010): 132-145
+* Ross JV, House T, Keeling MJ [Calculation of Disease Dynamics in a Population of Households](https://doi.org/10.1371/journal.pone.0009666). *PLoS ONE* (2010)
+* Salathé M, Jones JH (2010) [Dynamics and Control of Diseases in Networks with Community Structure](https://doi.org/10.1371/journal.pcbi.1000736). *PLoS Comput Biol* 6(4): e1000736
+* Apolloni, A., Poletto, C., Ramasco, J.J. et al. [Metapopulation epidemic models with heterogeneous mixing and travel behaviour](https://doi.org/10.1186/1742-4682-11-3). *Theor Biol Med Model* 11, 3 (2014)
+* Daniela Calvetti et al. [Metapopulation Network Models for Understanding, Predicting, and Managing the Coronavirus Disease COVID-19](https://doi.org/10.3389/fphy.2020.00261). *Front. Phys.*, 2020
+* Hassan S, Mughal BJ, Siwiak M, Yasin Z. [A modified SEIR meta-population transmission based Modeling and Forecasting of the COVID-19 pandemic in Pakistan](https://doi.org/10.1101/2020.06.03.20121517). *medRxiv*, 2020
+* Stephen J Beckett et al. [Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://doi.org/10.1101/2020.05.28.20115642). *medRxiv pre-print* (2020)
 
 ##### Calibration
-* Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893.
+* Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 
 ##### Surveillance 
-* Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance](https://doi.org/10.1101/2020.06.22.20136309), *medRxiv* (2020).
-* Yang Liu et al. [A Modelling Study for Designing a Multi-layered Surveillance Approach to Detect the Potential Resurgence of SARS-CoV-2](https://doi.org/10.1101/2020.06.27.20141440), *medRxiv* (2020).
-* Frank G Sandmann, Peter J White, Mary Ramsay, Mark Jit, [Optimizing Benefits of Testing Key Workers for Infection with SARS-CoV-2: A Mathematical Modeling Analysis](https://doi.org/10.1093/cid/ciaa901), *Clinical Infectious Diseases*, , ciaa901
+* Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance](https://doi.org/10.1101/2020.06.22.20136309), *medRxiv* (2020)
+* Yang Liu et al. [A Modelling Study for Designing a Multi-layered Surveillance Approach to Detect the Potential Resurgence of SARS-CoV-2](https://doi.org/10.1101/2020.06.27.20141440), *medRxiv* (2020)
+* Frank G Sandmann, Peter J White, Mary Ramsay, Mark Jit, [Optimizing Benefits of Testing Key Workers for Infection with SARS-CoV-2: A Mathematical Modeling Analysis](https://doi.org/10.1093/cid/ciaa901), *Clinical Infectious Diseases*,  ciaa901
 
 ##### Interventions
 * Josh A Firth, Joel Hellewell, Petra Klepac, Stephen M Kissler et al. [Combining fine-scale social contact data with epidemic modelling reveals interactions between contact tracing, quarantine, testing and physical distancing for controlling COVID-19](https://cmmid.github.io/topics/covid19/tracing-network-local.html), *CMMID pre-print* (2020)
 *  Akira Endo et al. [Implication of backward contact tracing in the presence of overdispersed transmission in COVID-19 outbreaks](https://cmmid.github.io/topics/covid19/backwardtracing.html), *CMMID pre-print* (2020)
-* Giordano, G., Blanchini, F., Bruno, R. et al. [Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy](https://doi.org/10.1038/s41591-020-0883-7). Nat Med 26, 855–860 (2020). 
+* Giordano, G., Blanchini, F., Bruno, R. et al. [Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy](https://doi.org/10.1038/s41591-020-0883-7). Nat Med 26, 855–860 (2020) 
 * Marino Gatto et al. [Spread and dynamics of the COVID-19 epidemic in Italy: Effects of emergency containment measures](https://doi.org/10.1073/pnas.2004978117). *PNAS* (2020)
-* Bertuzzo, E., Mari, L., Pasetto, D. et al. [The geography of COVID-19 spread in Italy and implications for the relaxation of confinement measures](https://doi.org/10.1038/s41467-020-18050-2). Nat Commun 11, 4264 (2020).
+* Bertuzzo, E., Mari, L., Pasetto, D. et al. [The geography of COVID-19 spread in Italy and implications for the relaxation of confinement measures](https://doi.org/10.1038/s41467-020-18050-2). Nat Commun 11, 4264 (2020)
 * Aleta, A., Martín-Corral, D., Pastore y Piontti, A. et al. [Modelling the impact of testing, contact tracing and household quarantine on second waves of COVID-19]( https://doi.org/10.1038/s41562-020-0931-9). Nat Hum Behav (2020)
+
+##### Mortality 
+* WHO, [Estimating mortality from COVID-19](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19), *Scientific Brief* (2020)
 "
 
 # ╔═╡ 1951b03a-ec8b-11ea-326b-9b07018058f1
@@ -227,8 +233,10 @@ md"
 begin
 	# Load mobility data
 	mobility_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlow.csv"))
+	mobility_lockdown_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlowLockdown.csv"))
 	# Build mobility graph 
 	mobility_graph = SimpleWeightedDiGraph(mobility_data[1], mobility_data[2], mobility_data[3])
+	mobility_lockdown_graph = SimpleWeightedDiGraph(mobility_lockdown_data[1], mobility_lockdown_data[2], mobility_lockdown_data[3])
 
 	# Remove the 104th node: provincial code doesn't exist
 	rem_vertex!(mobility_graph, 104)
@@ -238,12 +246,36 @@ begin
 	rem_vertex!(mobility_graph, 104)
 	# Remove the 107th node: provincial code doesn't exist
 	rem_vertex!(mobility_graph, 104);
+	
+	# Remove the 104th node: provincial code doesn't exist
+	rem_vertex!(mobility_lockdown_graph, 104)
+	# Remove the 105th node: provincial code doesn't exist
+	rem_vertex!(mobility_lockdown_graph, 104)
+	# Remove the 106th node: provincial code doesn't exist
+	rem_vertex!(mobility_lockdown_graph, 104)
+	# Remove the 107th node: provincial code doesn't exist
+	rem_vertex!(mobility_lockdown_graph, 104);
 
 	# ADD MOBILITY DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlow.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlow.csv"
 	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\MobilityFlow.csv"
 	
+end;
+
+# ╔═╡ 5b11f7e4-eee0-11ea-1808-d17cfea76625
+md"
+### Epidemiological
+"
+
+# ╔═╡ 653d6bc2-eee0-11ea-125a-6b7a3f984d7c
+begin 
+	active_cases = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ActiveCases.csv"))
+
+	# ADD POPULATION DATA PATHS 
+	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ActiveCases.csv"
+	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ActiveCases.csv"
+	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\ActiveCases.csv"
 end;
 
 # ╔═╡ b50b2880-ec8b-11ea-3989-21870f8c0f72
@@ -260,12 +292,12 @@ mutable struct Patient <: AbstractAgent
    	home::Int         # household node ∈ ℕ
    	#work::Int        # workplace node ∈ ℕ
     status::Symbol    # ∈ {S,E,I_a,I_p,I_s,I_c,R,D}
-    delay_left::Int  #
-	diagnosis::Symbol  # {N,O,P,HR}
-	#prescription::Symbol # {O,Q}
+    delay_left::Int   
+	diagnosis::Symbol # ∈ {N,O,P,HR}
+	#prescription::Symbol # ∈ {O,Q/H}
 	#serological
 	#contacts
-	#fear, risk aversion   
+	#fear, risk aversion -> individual-based social distancing  
 end;
 
 # ╔═╡ 3f36a99a-ed03-11ea-3936-5ff45f406f73
@@ -294,6 +326,18 @@ begin
 			return 0.5
 		else
 			return TruncatedNormal(0.5,0.1,0.5,1)
+		end
+	end
+	
+	function IFR(age_group) #Merler2020
+		if age_group ≤ 10
+			return 0
+		elseif age_group ≤ 12
+			return 0.46/100
+		elseif age_group ≤ 14
+			return 1.42/100
+		else 
+			return 6.87/100
 		end
 	end
 	
@@ -340,7 +384,8 @@ begin
 		for age_group in 1:model.K
 			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  # ADD NOISE !!
 			#out_contacts = round(Int, LightGraphs.weights(model.contact_graph)[agent.age_group, age_group])
-			ncontacts = round(Int, LightGraphs.weights(model.contact_graph)[age_group, agent.age_group]) # in
+			# MITIGATION
+			ncontacts = round(Int, 0.4*LightGraphs.weights(model.contact_graph)[age_group, agent.age_group]) # in
 			if length(aged_neighbors) != 0 
 				push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
 			end
@@ -352,7 +397,7 @@ begin
 	# Transmission Dynamics
 	function get_exposed!(agent, model, contacted_agents)
 		# If I'm not susceptible, I return
-		agent.status != :S && return
+		agent.status!=:S && return
 
 		neighbors = contacted_agents
 		for neighbor in neighbors 
@@ -371,38 +416,32 @@ begin
 	# Infection Dynamics
 	function get_infected!(agent, model)
 		# If I'm not susceptible, I return
-		agent.status != :E && return
-		agent.delay_left !=0 && return
+		(agent.status!=:E || agent.delay_left !=0) && return
 			
 		if rand() ≤ SymptomaticFraction(agent.age_group)
 			agent.status = :I_p 
 			agent.delay_left = round(Int, rand(Gamma(1.5,4)))
 		else
 			agent.status = :I_a
-			###agent.delay_left = round(Int, rand(Gamma(5,4)))
+			agent.delay_left = round(Int, rand(Gamma(5,4)))
 		end
 	end
 	
 	function get_symptoms!(agent, model)
 		# If I'm not susceptible, I return
-		agent.status != :I_p && return
-		agent.delay_left !=0 && return
+		(agent.status != :I_p || agent.delay_left !=0) && return
 		agent.status = :I_s
-		###agent.delay_left = round(Int, rand(Gamma(3.5,4)))
+		agent.delay_left = round(Int, rand(Gamma(3.5,4)))
 	end
 	
 	# Recovery Dynamics
 	function recover_or_die!(agent, model)
-		(agent.status!=:I_s && agent.status!=:I_a) && return
-		###agent.delay_left != 0 && return
-		
-		if rand() ≤ model.γ
-			agent.status = :R
-
-		elseif rand() ≤ model.σ
-			agent.status!=:I_s && return
-			agent.status = :D
-			#delete!(model.agents, agent.id)
+		((agent.status!=:I_s && agent.status!=:I_a)||agent.delay_left != 0) && return
+		# eventually include DOF
+		if rand() ≤ IFR(agent.age_group) && agent.status==:I_s
+			agent.status=:D
+		else
+			agent.status=:R
 		end
 	end;
 
@@ -443,34 +482,35 @@ begin
 	t = 0:δt:tf;
 	
 	# Populations 
-	provincial_pops = round.(Int, population_data.population./9000);  # provincial sub-populations
-	age_provincial_pops = round.(Int, age_population_data./9000);     # age-stratified provincial sub-populations
+	provincial_pops = round.(Int, population_data.population./5000);  # provincial sub-populations
+	age_provincial_pops = round.(Int, age_population_data./5000);     # age-stratified provincial sub-populations
 	N = sum(Array(age_provincial_pops))  # number of agents
 	M = length(provincial_pops)          # number of subpopulations
 	K = length(age_provincial_pops[1])   # number of age groups (16)
 
 	# Transition rates 
-	α = 0.1    # S -> E   
-	β = 0.3    # E -> I
-	γ = 0.1    # I -> R
+	#α = 0.1    # S -> E   
+	#β = 0.3    # E -> I
+	#γ = 0.1    # I -> R
 	#γ = 0.2   # I -> R
-	σ = 0.01   # I -> D
+	#σ = 0.01   # I -> D
 
 	# Migration rates
 	h = 0.8    # home 
 
 	# Initial conditions 
-	I0 = round(Int, N/500)
+	I0 = round(Int, N/2000)
 	
 	# Health System
 	capacity = round(Int, N * 5 * 10^(-4))
-end;
+	#capacity = round(Int, N/100)
+end
 
 # ╔═╡ 03fd6022-ed23-11ea-1587-f58557320659
 begin
 	# Diagnosis Dyanmics
 	function test!(model,strategy,capacity)
-		agents = [agent for agent in allagents(model) if agent.status!=:D || agent.diagnosis!=:HR]
+		agents = [agent for agent in allagents(model) if agent.status!=:D && agent.diagnosis!=:HR]
 		provinces = 1:model.M
 		prov_populations = model.provincial_pops
 		
@@ -553,13 +593,103 @@ begin
 					end
 				end
 			end
-		end	
+		elseif strategy == "passive_biased_symptoms_national"
+			if rand()≤0.3 
+				pos=[agent for agent in agents if agent.diagnosis==:P]
+				syms=[agent for agent in agents if agent.diagnosis!=:P && agent.status==:I_s]
+				nsyms=[agent for agent in agents if agent.diagnosis!=:P && agent.status!=:I_s]
+				pos=pos[randperm(length(pos))]
+				syms=syms[randperm(length(syms))]
+				nsyms=nsyms[randperm(length(nsyms))]
+				ags = vcat(pos,syms,nsyms)
+			else
+				syms=[agent for agent in agents if agent.status==:I_s]
+				nsyms=[agent for agent in agents if agent.status!=:I_s]
+				syms=syms[randperm(length(syms))]
+				nsyms=nsyms[randperm(length(nsyms))]
+				ags = vcat(syms,nsyms)
+			end
+			for agent in ags[1:capacity]
+				if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
+					if rand() ≤ 0.95
+						agent.diagnosis=:N
+					else 
+						agent.diagnosis=:P
+					end
+				elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status!=:S && agent.status!=:R) 
+					if rand() ≤ 0.70
+						agent.diagnosis=:P
+					else 
+						agent.diagnosis=:N
+					end
+				elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
+					if rand() ≤ 0.95
+						agent.diagnosis=:HR
+					else 
+						agent.diagnosis=:P
+					end
+				elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
+					if rand() ≤ 0.70
+						agent.diagnosis=:P
+					else 
+						agent.diagnosis=:HR
+					end
+				end
+			end
+		elseif strategy == "passive_biased_symptoms_provincial"
+			for prov in provinces
+				if rand()≤0.4 
+					pos=[agent for agent in prov_agents[prov] if agent.diagnosis==:P]
+					syms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status==:I_s]
+					nsyms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status!=:I_s]
+					pos=pos[randperm(length(pos))]
+					syms=syms[randperm(length(syms))]
+					nsyms=nsyms[randperm(length(nsyms))]
+					ags = vcat(pos,syms,nsyms)
+				else
+					syms=[agent for agent in prov_agents[prov] if agent.status==:I_s]
+					nsyms=[agent for agent in prov_agents[prov] if agent.status!=:I_s]
+					syms=syms[randperm(length(syms))]
+					nsyms=nsyms[randperm(length(nsyms))]
+					ags = vcat(syms,nsyms)
+				end
+				for agent in ags[1:prov_capacities[prov]]
+					if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
+						if rand() ≤ 0.95
+							agent.diagnosis=:N
+						else 
+							agent.diagnosis=:P
+						end
+					elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status!=:S && agent.status!=:R) 
+						if rand() ≤ 0.70
+							agent.diagnosis=:P
+						else 
+							agent.diagnosis=:N
+						end
+					elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
+						if rand() ≤ 0.95
+							agent.diagnosis=:HR
+						else 
+							agent.diagnosis=:P
+						end
+					elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
+						if rand() ≤ 0.70
+							agent.diagnosis=:P
+						else 
+							agent.diagnosis=:HR
+						end
+					end
+				end
+			end
+		end
 	end
 	# Macro Dynamics
 	function model_step!(model)
-		test!(model,"base_passive_random_uniform_national",capacity)
+		#test!(model,"base_passive_random_uniform_national",capacity)
 		#test!(model,"passive_random_uniform_national",capacity)
 		#test!(model,"passive_random_uniform_provincial",capacity)
+		#test!(model,"passive_biased_symptoms_national",capacity)
+		test!(model,"passive_biased_symptoms_provincial",capacity)
 	end
 end;
 
@@ -572,11 +702,8 @@ md"
 # ╔═╡ 1bdcafac-ec8c-11ea-3586-f70109e150ef
 begin
 	# Model initialization 
-	function initialize_model(provincial_pops::Array{Int,1}, age_provincial_pops::DataFrame,
-							  contact_graph::SimpleWeightedDiGraph{Int64,Float64},
-							  mobility_graph::SimpleWeightedDiGraph{Int64,Float64}, 
-							  α::Real, β::Real, γ::Real,σ::Real,h::Real,
-							  I0::Int)
+	function initialize_model(provincial_pops::Array{Int,1}, age_provincial_pops::DataFrame,contact_graph::SimpleWeightedDiGraph{Int64,Float64}, mobility_graph::SimpleWeightedDiGraph{Int64,Float64},h::Real,I0::Int)
+		
 		# Set populations
 		N = sum(Array(age_provincial_pops))  # number of agents
 		M = length(provincial_pops)          # number of subpopulations
@@ -587,7 +714,7 @@ begin
 		# Define the dictionary of model properties
 		properties = @dict(contact_graph, 
 						   provincial_pops, age_provincial_pops,
-						   α, β, γ, σ, h, I0,
+						   h, I0,
 						   N, M, K)
 
 		# Instantiate graph ambient space
@@ -616,14 +743,12 @@ begin
 		agents = [agent for agent in allagents(model)]
 		for agent in StatsBase.sample(agents, I0)
 			agent.status = :I_s
+			agent.delay_left = round(Int, rand(Gamma(3.5,4)))
 		end
 
 		return model
 	end;
 end;
-
-# ╔═╡ 2875b1c8-ee42-11ea-3ad2-5dbf0101e052
-round(Int, quantile([1,2,3,4,5,6,7],0.95))
 
 # ╔═╡ 3561741c-ec8c-11ea-2a37-6be5151207b3
 md"
@@ -636,7 +761,7 @@ begin
 	Random.seed!(1234);
 
 	# Initialize the model
-	model = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_graph,α, β, γ, σ, h, I0)
+	model = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_lockdown_graph,h, I0)
 
 	#simulation_data = @time run!(model, agent_step!, 100);
 
@@ -654,65 +779,86 @@ begin
 	
 	tested(diagnosis) = count(i != :O for i in diagnosis);
 	positive(diagnosis) = count(i == :P for i in diagnosis);
-	positive_rate(diagnosis)=positive(diagnosis)/tested(diagnosis)
+	#positive_rate(diagnosis)=positive(diagnosis)/tested(diagnosis)
+	positive_rate(diagnosis)=positive(diagnosis)/capacity
 	infected_rate(status)= infected(status) / model.N
 
 	# Data Collection
 	to_collect = [(:status, susceptible),(:status, exposed),(:status, infected_presymptomatic),(:status, infected_symptomatic),(:status, infected_asymptomatic),(:status, infected),(:status, recovered),(:status, dead),(:status, infected_rate),
 		(:diagnosis, tested),(:diagnosis, positive),(:diagnosis, positive_rate)]
 	
-	data, _ = run!(model, agent_step!, model_step!, nsteps; adata = to_collect, replicates=100);
+	data, _ = run!(model, agent_step!, model_step!, nsteps; adata = to_collect, replicates=3);
 
 	sort!(DataFrame(allagents(model)), :home, rev = false)
+	gd = groupby(data, [:step])
 end
 
-# ╔═╡ d824dc5e-ee49-11ea-1aa8-ff06ab00469d
-gd = groupby(data, [:step]);
+# ╔═╡ 88924e16-ee46-11ea-36e4-e1bb800d773a
+begin
+	# LIST COMPREHENSION EXIST, FUCKING IDIOT!
+	using LaTeXStrings
+	m1=[quantile(gd[i].infected_rate_status,0.05) for i in 2:length(gd)]
+	f1=[quantile(gd[i].infected_rate_status,0.5) for i in 2:length(gd)] 
+	n1=[quantile(gd[i].infected_rate_status,0.95) for i in 2:length(gd)]
+	
+	
+	m2=[quantile(gd[i].positive_rate_diagnosis,0.05) for i in 2:length(gd)]
+	f2=[quantile(gd[i].positive_rate_diagnosis,0.5) for i in 2:length(gd)] 
+	n2=[quantile(gd[i].positive_rate_diagnosis,0.95) for i in 2:length(gd)]
+	
+	Χ = round(Int, sum(((m2-m1).^2)./m1))
+	
+	timestep = 2:length(gd)
+	plot(timestep, m1,
+		label="Incidence",
+		xlab="Time",
+    	ylabel="Number",
+		title="DC=$capacity | Χ²=$Χ", 
+		legend=:topright,
+		lw=2.5; 
+		ribbon=[m1-f1,n1-m1],
+	    fillalpha=0.3)
+	plot!(timestep, m2,
+		label="Positive Rate",
+		lw=2.5; 
+		ribbon=[m2-f2,n2-m2],
+	    fillalpha=0.3)
+end
 
 # ╔═╡ 4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
 md"
 ## Visualization
 "
 
-# ╔═╡ 88924e16-ee46-11ea-36e4-e1bb800d773a
-begin
-	m1=[]
-	f1 =[]
-	n1=[]
+# ╔═╡ a321cef8-eee0-11ea-173f-ef9e0ef61e57
+begin 
 	
-	for i in 1:length(gd)
-		push!(f1, quantile(gd[i].infected_rate_status,0.05))
-		push!(m1, quantile(gd[i].infected_rate_status,0.5))
-		push!(n1, quantile(gd[i].infected_rate_status,0.95))
-	end
+	m=[quantile(gd[i].infected_status,0.05) for i in 2:length(gd)]
+	f=[quantile(gd[i].infected_status,0.5) for i in 2:length(gd)] 
+	n=[quantile(gd[i].infected_status,0.95) for i in 2:length(gd)]
 	
-	timestep = 1:length(gd)
-	plot(timestep, m1,
-		label="Incidence",
+	
+	m0=[quantile(gd[i].positive_diagnosis,0.05) for i in 2:length(gd)]
+	f0=[quantile(gd[i].positive_diagnosis,0.5) for i in 2:length(gd)] 
+	n0=[quantile(gd[i].positive_diagnosis,0.95) for i in 2:length(gd)]
+	
+	#=plot(timestep, m,
+		label="Simulated Infected",
 		xlab="Time",
     	ylabel="Number",
-		title="Agent-Based Metapopulation SEIIRD", 
-		legend=:topright,
-		lw=2.5; 
-		ribbon=[m1-f1,n1-m1],
-	    fillalpha=0.3)
-	
-	m2=[]
-	f2=[]
-	n2=[]
-	
-	for i in 2:length(gd)
-		push!(f2, quantile(gd[i].positive_rate_diagnosis,0.05))
-		push!(m2, quantile(gd[i].positive_rate_diagnosis,0.5))
-		push!(n2, quantile(gd[i].positive_rate_diagnosis,0.95))
-	end
-	
-	t2 = 2:length(gd)
-	plot!(t2, m2,
-		label="Positive Rate",
-		lw=2.5; 
-		ribbon=[m2-f2,n2-m2],
-	    fillalpha=0.3)
+		title="DC=$capacity | Χ²=$Χ", 
+		legend=:right,
+		lw=2.5;
+		ribbon=[m-f,n-m],
+	    fillalpha=0.3)=#
+	plot(timestep, m0,
+		  label="Simulated Positive",
+		  lw=2.5; 
+		  ribbon=[m0-f0,n0-m0],
+	      fillalpha=0.3)
+	plot!(timestep,active_cases["Active Cases"][1:100]/1000,
+		  label="Active Cases",
+		  lw=2.5)
 end
 
 # ╔═╡ ac81d164-ed2b-11ea-0433-85048542e41b
@@ -721,7 +867,7 @@ begin
 	f3 =[]
 	n3=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f3, quantile(gd[i].susceptible_status,0.05))
 		push!(m3, quantile(gd[i].susceptible_status,0.5))
 		push!(n3, quantile(gd[i].susceptible_status,0.95))
@@ -730,7 +876,7 @@ begin
 	f4 =[]
 	n4=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f4, quantile(gd[i].exposed_status,0.05))
 		push!(m4, quantile(gd[i].exposed_status,0.5))
 		push!(n4, quantile(gd[i].exposed_status,0.95))
@@ -739,7 +885,7 @@ begin
 	f5 =[]
 	n5=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.05))
 		push!(m5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.5))
 		push!(n5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.95))
@@ -749,7 +895,7 @@ begin
 	f6 =[]
 	n6=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f6, quantile(gd[i].recovered_status,0.05))
 		push!(m6, quantile(gd[i].recovered_status,0.5))
 		push!(n6, quantile(gd[i].recovered_status,0.95))
@@ -759,7 +905,7 @@ begin
 	f7 =[]
 	n7=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f7, quantile(gd[i].dead_status,0.05))
 		push!(m7, quantile(gd[i].dead_status,0.5))
 		push!(n7, quantile(gd[i].dead_status,0.95))
@@ -786,7 +932,7 @@ begin
 	f8 =[]
 	n8=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f8, quantile(gd[i].infected_presymptomatic_status,0.05))
 		push!(m8, quantile(gd[i].infected_presymptomatic_status,0.5))
 		push!(n8, quantile(gd[i].infected_presymptomatic_status,0.95))
@@ -795,7 +941,7 @@ begin
 	f9 =[]
 	n9=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f9, quantile(gd[i].infected_symptomatic_status,0.05))
 		push!(m9, quantile(gd[i].infected_symptomatic_status,0.5))
 		push!(n9, quantile(gd[i].infected_symptomatic_status,0.95))
@@ -805,7 +951,7 @@ begin
 	f10=[]
 	n10=[]
 	
-	for i in 1:length(gd)
+	for i in 2:length(gd)
 		push!(f10, quantile(gd[i].infected_asymptomatic_status,0.05))
 		push!(m10, quantile(gd[i].infected_asymptomatic_status,0.5))
 		push!(n10, quantile(gd[i].infected_asymptomatic_status,0.95))
@@ -829,7 +975,7 @@ end
 begin 
 	exposed_fraction(x) = cgrad(:inferno)[count(a.status == :E for a in x) / length(x)]
 	
-	model1 = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_graph,α, β, γ, σ, h, I0)
+	model1 = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_graph,h, I0)
 
 	g = model1.space.graph
 	weight_matrix = LightGraphs.weights(g)
@@ -858,7 +1004,7 @@ end;
 
 # ╔═╡ 804007b6-ed0c-11ea-2e06-4be094d672c3
 #=begin 
-	model2 = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_graph,α, β, γ, σ, h, I0)
+	model2 = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_graph,h, I0)
 
 	n = 10
 	anim = @animate for i in 0:30
@@ -875,7 +1021,7 @@ end
 # ╟─8edb8016-ec8a-11ea-213b-ffcca7d88845
 # ╟─09c71a20-ede5-11ea-30af-01a29ca75c30
 # ╟─1951b03a-ec8b-11ea-326b-9b07018058f1
-# ╠═04981242-ec8b-11ea-0c48-4fda39c1245e
+# ╟─04981242-ec8b-11ea-0c48-4fda39c1245e
 # ╟─2f7454ee-ec8b-11ea-3227-17ab1eff2513
 # ╟─1761da66-ec8b-11ea-05b7-519b5405c9ae
 # ╟─4380dbf6-ec8b-11ea-31f9-d565a048f603
@@ -883,8 +1029,10 @@ end
 # ╟─6ffd583a-ec8b-11ea-3505-3764a56edece
 # ╟─82ad393c-ec8b-11ea-2474-f1e7400a1536
 # ╟─8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1
+# ╟─5b11f7e4-eee0-11ea-1808-d17cfea76625
+# ╟─653d6bc2-eee0-11ea-125a-6b7a3f984d7c
 # ╟─b50b2880-ec8b-11ea-3989-21870f8c0f72
-# ╟─9e707de6-ec8b-11ea-38c7-cb8a621135d0
+# ╠═9e707de6-ec8b-11ea-38c7-cb8a621135d0
 # ╟─3f36a99a-ed03-11ea-3936-5ff45f406f73
 # ╟─58ffc854-ed01-11ea-2972-750e0dc0908c
 # ╟─cab724b8-ec8b-11ea-1f80-eb2ef177675e
@@ -896,13 +1044,12 @@ end
 # ╠═f2d7ab0c-ec8b-11ea-1ad4-f5b14794a405
 # ╟─11311608-ec8c-11ea-1858-5736b227c537
 # ╠═1bdcafac-ec8c-11ea-3586-f70109e150ef
-# ╠═2875b1c8-ee42-11ea-3ad2-5dbf0101e052
 # ╟─3561741c-ec8c-11ea-2a37-6be5151207b3
 # ╠═3bddaf18-ec8c-11ea-1958-8b69072c855f
-# ╠═d824dc5e-ee49-11ea-1aa8-ff06ab00469d
 # ╟─4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
-# ╟─88924e16-ee46-11ea-36e4-e1bb800d773a
-# ╟─ac81d164-ed2b-11ea-0433-85048542e41b
-# ╟─bec50eac-ed41-11ea-0137-c7016eb9e5a9
+# ╠═88924e16-ee46-11ea-36e4-e1bb800d773a
+# ╠═a321cef8-eee0-11ea-173f-ef9e0ef61e57
+# ╠═ac81d164-ed2b-11ea-0433-85048542e41b
+# ╠═bec50eac-ed41-11ea-0137-c7016eb9e5a9
 # ╠═4e4be2ac-ed0c-11ea-0e9d-7dc8d803f923
 # ╠═804007b6-ed0c-11ea-2e06-4be094d672c3

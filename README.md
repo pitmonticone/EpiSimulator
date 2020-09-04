@@ -27,7 +27,7 @@
 
 <!-- Subtitle -->
 <h2 align="center">
-  Data-Driven Agent-Based Metapopulation SEIR Model
+  Data-Driven Stochastic Agent-Based Metapopulation SEIIIRD Model
 </h2>
 
 <!-- Badges -->

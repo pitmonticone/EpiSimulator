@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 04981242-ec8b-11ea-0c48-4fda39c1245e
 begin 
 	# Data Management 
-	using DataFrames, DataFramesMeta, DrWatson, Queryverse
+	using DataFrames, DataFramesMeta, DrWatson, Queryverse, IterableTables
 	# Statistics
 	using StatsBase, Distributions, Random
 	# Graphs 
@@ -15,7 +15,7 @@ begin
 	# Modelling
 	using Agents
 	# Numerical Computation 
-	using LinearAlgebra
+	using LinearAlgebra, DifferentialEquations
 	# Data Visualization
 	using Plots, AgentsPlots, PlotThemes
 	# Python Interface
@@ -27,7 +27,7 @@ end;
 
 # ╔═╡ 8edb8016-ec8a-11ea-213b-ffcca7d88845
 md"
-# Data-Driven Agent-Based Metapopulation SEIR Model
+# Data-Driven Stochastic Agent-Based Metapopulation SEIR Model
 
 ## Framework 
 * Data exploration, selection and processing in Python 
@@ -192,10 +192,12 @@ begin
 	# ADD POPULATION DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"
+	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\ProvincialPopulation.csv"
 
 	# ADD AGE-STRATIFIED POPULATION DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/AgeStratifiedProvincialPopulation.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/AgeStratifiedProvincialPopulation.csv"
+		### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\AgeStratifiedProvincialPopulation.csv"
 end;
 
 # ╔═╡ 7d2351ae-ec8b-11ea-0f27-c9fe5fd25f8e
@@ -213,6 +215,7 @@ begin
 	# ADD CONTACT DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"
+	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\ContactEdgeList.csv"
 end;
 
 # ╔═╡ 82ad393c-ec8b-11ea-2474-f1e7400a1536
@@ -239,6 +242,8 @@ begin
 	# ADD MOBILITY DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlow.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlow.csv"
+	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\MobilityFlow.csv"
+	
 end;
 
 # ╔═╡ b50b2880-ec8b-11ea-3989-21870f8c0f72
@@ -260,7 +265,7 @@ mutable struct Patient <: AbstractAgent
 	#prescription::Symbol # {O,Q}
 	#serological
 	#contacts
-	#fear   
+	#fear, risk aversion   
 end;
 
 # ╔═╡ 3f36a99a-ed03-11ea-3936-5ff45f406f73
@@ -552,15 +557,16 @@ begin
 	end
 	# Macro Dynamics
 	function model_step!(model)
-		#test!(model,"base_passive_random_uniform_national",capacity)
+		test!(model,"base_passive_random_uniform_national",capacity)
 		#test!(model,"passive_random_uniform_national",capacity)
-		test!(model,"passive_random_uniform_provincial",capacity)
+		#test!(model,"passive_random_uniform_provincial",capacity)
 	end
 end;
 
 # ╔═╡ 11311608-ec8c-11ea-1858-5736b227c537
 md"
 ## Model
+### Initialization
 "
 
 # ╔═╡ 1bdcafac-ec8c-11ea-3586-f70109e150ef
@@ -616,9 +622,12 @@ begin
 	end;
 end;
 
+# ╔═╡ 2875b1c8-ee42-11ea-3ad2-5dbf0101e052
+round(Int, quantile([1,2,3,4,5,6,7],0.95))
+
 # ╔═╡ 3561741c-ec8c-11ea-2a37-6be5151207b3
 md"
-## Simulations 
+### Simulations 
 "
 
 # ╔═╡ 3bddaf18-ec8c-11ea-1958-8b69072c855f
@@ -652,65 +661,167 @@ begin
 	to_collect = [(:status, susceptible),(:status, exposed),(:status, infected_presymptomatic),(:status, infected_symptomatic),(:status, infected_asymptomatic),(:status, infected),(:status, recovered),(:status, dead),(:status, infected_rate),
 		(:diagnosis, tested),(:diagnosis, positive),(:diagnosis, positive_rate)]
 	
-	data, _ = @time run!(model, agent_step!, model_step!, nsteps; adata = to_collect);
+	data, _ = run!(model, agent_step!, model_step!, nsteps; adata = to_collect, replicates=100);
 
 	sort!(DataFrame(allagents(model)), :home, rev = false)
 end
+
+# ╔═╡ d824dc5e-ee49-11ea-1aa8-ff06ab00469d
+gd = groupby(data, [:step]);
 
 # ╔═╡ 4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
 md"
 ## Visualization
 "
 
-# ╔═╡ ac81d164-ed2b-11ea-0433-85048542e41b
-begin 
-	# Data Manipulation
-	data[!,:t] = t;
-	#N_list = fill(N,nsteps+1)
-
-	# Select Theme
-	theme(:default)
-	###theme(:default)
-	###theme(:vibrant)
-	###theme(:ggplot2)
-
-	# Plot
-	plot(t,data[:,10],label="Infected Rate",
-		 xlab="Time",
-		 ylabel="Number",
-		 title="Agent-Based Metapopulation SEIIRD", 
-		 legend=:topright,
-		 lw=2.5)
-	plot!(t,data[:,13],label="Positive Rate", lw=2.5)
+# ╔═╡ 88924e16-ee46-11ea-36e4-e1bb800d773a
+begin
+	m1=[]
+	f1 =[]
+	n1=[]
+	
+	for i in 1:length(gd)
+		push!(f1, quantile(gd[i].infected_rate_status,0.05))
+		push!(m1, quantile(gd[i].infected_rate_status,0.5))
+		push!(n1, quantile(gd[i].infected_rate_status,0.95))
+	end
+	
+	timestep = 1:length(gd)
+	plot(timestep, m1,
+		label="Incidence",
+		xlab="Time",
+    	ylabel="Number",
+		title="Agent-Based Metapopulation SEIIRD", 
+		legend=:topright,
+		lw=2.5; 
+		ribbon=[m1-f1,n1-m1],
+	    fillalpha=0.3)
+	
+	m2=[]
+	f2=[]
+	n2=[]
+	
+	for i in 2:length(gd)
+		push!(f2, quantile(gd[i].positive_rate_diagnosis,0.05))
+		push!(m2, quantile(gd[i].positive_rate_diagnosis,0.5))
+		push!(n2, quantile(gd[i].positive_rate_diagnosis,0.95))
+	end
+	
+	t2 = 2:length(gd)
+	plot!(t2, m2,
+		label="Positive Rate",
+		lw=2.5; 
+		ribbon=[m2-f2,n2-m2],
+	    fillalpha=0.3)
 end
 
-# ╔═╡ 457b07b4-ec8c-11ea-10cf-0f42a8b57829
-begin
-	# Plot
-	plot(t,data[:,2],label="S",
-		 xlab="Time",
-		 ylabel="Number",
-		 title="Agent-Based Metapopulation SEIIRD", 
-		 legend=:right,
-		 lw=2.5)
-	plot!(t,data[:,3],label="E", lw=2.5)
-	plot!(t,data[:,4]+data[:,5]+data[:,6],label="I", lw=2.5)
-	plot!(t,data[:,8],label="R", lw=2.5)
-	plot!(t,data[:,9],label="D", lw=2.5)
-	#plot!(t,N_list-data[:,2]-data[:,3]-data[:,4]-data[:,5]-data[:,6]-data[:,7], label="D")
+# ╔═╡ ac81d164-ed2b-11ea-0433-85048542e41b
+begin 
+	m3=[]
+	f3 =[]
+	n3=[]
+	
+	for i in 1:length(gd)
+		push!(f3, quantile(gd[i].susceptible_status,0.05))
+		push!(m3, quantile(gd[i].susceptible_status,0.5))
+		push!(n3, quantile(gd[i].susceptible_status,0.95))
+	end
+	m4=[]
+	f4 =[]
+	n4=[]
+	
+	for i in 1:length(gd)
+		push!(f4, quantile(gd[i].exposed_status,0.05))
+		push!(m4, quantile(gd[i].exposed_status,0.5))
+		push!(n4, quantile(gd[i].exposed_status,0.95))
+	end
+	m5=[]
+	f5 =[]
+	n5=[]
+	
+	for i in 1:length(gd)
+		push!(f5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.05))
+		push!(m5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.5))
+		push!(n5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.95))
+	end
+	
+	m6=[]
+	f6 =[]
+	n6=[]
+	
+	for i in 1:length(gd)
+		push!(f6, quantile(gd[i].recovered_status,0.05))
+		push!(m6, quantile(gd[i].recovered_status,0.5))
+		push!(n6, quantile(gd[i].recovered_status,0.95))
+	end
+	
+	m7=[]
+	f7 =[]
+	n7=[]
+	
+	for i in 1:length(gd)
+		push!(f7, quantile(gd[i].dead_status,0.05))
+		push!(m7, quantile(gd[i].dead_status,0.5))
+		push!(n7, quantile(gd[i].dead_status,0.95))
+	end
+	
+	plot(timestep, m3,
+		label="S",
+		xlab="Time",
+    	ylabel="Number",
+		title="Agent-Based Metapopulation SEIIRD", 
+		legend=:right,
+		lw=2.5; 
+		ribbon=[m3-f3,n3-m3],
+	    fillalpha=0.3)
+	plot!(timestep, m4,label="E",lw=2.5; ribbon=[m4-f4,n4-m4],fillalpha=0.3)
+	plot!(timestep, m5,label="I",lw=2.5; ribbon=[m5-f5,n5-m5],fillalpha=0.3)
+	plot!(timestep, m6,label="R",lw=2.5; ribbon=[m6-f6,n6-m6],fillalpha=0.3)
+	plot!(timestep, m7,label="D",lw=2.5; ribbon=[m7-f7,n7-m7],fillalpha=0.3)
 end
 
 # ╔═╡ bec50eac-ed41-11ea-0137-c7016eb9e5a9
-begin
-	# Plot
-	plot(t,data[:,4],label="Pre-Symptomatic",
-		 xlab="Time",
-		 ylabel="Number",
-		 title="Agent-Based Metapopulation SEIIRD", 
-		 legend=:topright,
-		 lw=2.5)
-	plot!(t,data[:,5],label="Symptomatic", lw=2.5)
-	plot!(t,data[:,6],label="Asymptomatic", lw=2.5)
+begin 
+	m8=[]
+	f8 =[]
+	n8=[]
+	
+	for i in 1:length(gd)
+		push!(f8, quantile(gd[i].infected_presymptomatic_status,0.05))
+		push!(m8, quantile(gd[i].infected_presymptomatic_status,0.5))
+		push!(n8, quantile(gd[i].infected_presymptomatic_status,0.95))
+	end
+	m9=[]
+	f9 =[]
+	n9=[]
+	
+	for i in 1:length(gd)
+		push!(f9, quantile(gd[i].infected_symptomatic_status,0.05))
+		push!(m9, quantile(gd[i].infected_symptomatic_status,0.5))
+		push!(n9, quantile(gd[i].infected_symptomatic_status,0.95))
+	end
+	
+	m10=[]
+	f10=[]
+	n10=[]
+	
+	for i in 1:length(gd)
+		push!(f10, quantile(gd[i].infected_asymptomatic_status,0.05))
+		push!(m10, quantile(gd[i].infected_asymptomatic_status,0.5))
+		push!(n10, quantile(gd[i].infected_asymptomatic_status,0.95))
+	end
+	
+	plot(timestep, m8,
+		label="Pre-Symptomatic",
+		xlab="Time",
+    	ylabel="Number",
+		title="Agent-Based Metapopulation SEIIRD", 
+		legend=:topright,
+		lw=2.5; 
+		ribbon=[m8-f8,n8-m8],
+	    fillalpha=0.3)
+	plot!(timestep, m9,label="Symptomatic",lw=2.5; ribbon=[m9-f9,n9-m9],fillalpha=0.3)
+	plot!(timestep, m10,label="Asymptomatic",lw=2.5; ribbon=[m10-f10,n10-m10],fillalpha=0.3)
 end
 
 # ╔═╡ 4e4be2ac-ed0c-11ea-0e9d-7dc8d803f923
@@ -773,7 +884,7 @@ end
 # ╟─82ad393c-ec8b-11ea-2474-f1e7400a1536
 # ╟─8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1
 # ╟─b50b2880-ec8b-11ea-3989-21870f8c0f72
-# ╠═9e707de6-ec8b-11ea-38c7-cb8a621135d0
+# ╟─9e707de6-ec8b-11ea-38c7-cb8a621135d0
 # ╟─3f36a99a-ed03-11ea-3936-5ff45f406f73
 # ╟─58ffc854-ed01-11ea-2972-750e0dc0908c
 # ╟─cab724b8-ec8b-11ea-1f80-eb2ef177675e
@@ -785,11 +896,13 @@ end
 # ╠═f2d7ab0c-ec8b-11ea-1ad4-f5b14794a405
 # ╟─11311608-ec8c-11ea-1858-5736b227c537
 # ╠═1bdcafac-ec8c-11ea-3586-f70109e150ef
+# ╠═2875b1c8-ee42-11ea-3ad2-5dbf0101e052
 # ╟─3561741c-ec8c-11ea-2a37-6be5151207b3
 # ╠═3bddaf18-ec8c-11ea-1958-8b69072c855f
+# ╠═d824dc5e-ee49-11ea-1aa8-ff06ab00469d
 # ╟─4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
+# ╟─88924e16-ee46-11ea-36e4-e1bb800d773a
 # ╟─ac81d164-ed2b-11ea-0433-85048542e41b
-# ╟─457b07b4-ec8c-11ea-10cf-0f42a8b57829
 # ╟─bec50eac-ed41-11ea-0137-c7016eb9e5a9
 # ╠═4e4be2ac-ed0c-11ea-0e9d-7dc8d803f923
 # ╠═804007b6-ed0c-11ea-2e06-4be094d672c3

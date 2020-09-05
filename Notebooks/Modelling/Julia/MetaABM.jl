@@ -213,10 +213,30 @@ md"
 
 # ╔═╡ 6ffd583a-ec8b-11ea-3505-3764a56edece
 begin
-	# Load contact data
-	contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"))
-	# Build contact graph 
-	contact_graph = SimpleWeightedDiGraph(contact_data[1].+1, contact_data[2].+1, contact_data[3]);
+	# Load contact data for all locations
+	all_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
+	# Build contact graph for all locations
+	all_contact_graph = SimpleWeightedDiGraph(all_contact_data[1].+1, all_contact_data[2].+1, all_contact_data[3]);
+	
+	# Load contact data for home
+	home_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
+	# Build contact graph for home
+	home_contact_graph = SimpleWeightedDiGraph(home_contact_data[1].+1, home_contact_data[2].+1, home_contact_data[3]);
+	
+	# Load contact data for work
+	work_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
+	# Build contact graph for work
+	work_contact_graph = SimpleWeightedDiGraph(work_contact_data[1].+1, work_contact_data[2].+1, work_contact_data[3]);
+	
+	# Load contact data for school
+	school_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
+	# Build contact graph for school
+	school_contact_graph = SimpleWeightedDiGraph(school_contact_data[1].+1, school_contact_data[2].+1, school_contact_data[3]);
+	
+	# Load contact data for other locations
+	other_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
+	# Build contact graph for other locations
+	other_contact_graph = SimpleWeightedDiGraph(other_contact_data[1].+1, other_contact_data[2].+1, other_contact_data[3]);
 
 	# ADD CONTACT DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"
@@ -1054,7 +1074,7 @@ end
 # ╟─1761da66-ec8b-11ea-05b7-519b5405c9ae
 # ╟─4380dbf6-ec8b-11ea-31f9-d565a048f603
 # ╟─7d2351ae-ec8b-11ea-0f27-c9fe5fd25f8e
-# ╟─6ffd583a-ec8b-11ea-3505-3764a56edece
+# ╠═6ffd583a-ec8b-11ea-3505-3764a56edece
 # ╟─82ad393c-ec8b-11ea-2474-f1e7400a1536
 # ╟─8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1
 # ╟─5b11f7e4-eee0-11ea-1808-d17cfea76625

@@ -27,7 +27,7 @@ end;
 
 # ╔═╡ 8edb8016-ec8a-11ea-213b-ffcca7d88845
 md"
-# Data-Driven Stochastic Agent-Based Metapopulation SEIR Model
+# Data-Driven Stochastic Agent-Based Metapopulation SEIIIRD Model
 
 ## Framework 
 * Data exploration, selection and processing in Python 
@@ -289,11 +289,11 @@ mutable struct Patient <: AbstractAgent
     id::Int           # identity code ∈ ℕ               
    	pos::Int          # location node ∈ ℕ 
    	age_group::Int    # age group ∈ [1,16] ⊂ ℕ
-   	home::Int         # household node ∈ ℕ
+   	home::Int         # household node ∈ ℕ || RESIDENCE!!
    	#work::Int        # workplace node ∈ ℕ
     status::Symbol    # ∈ {S,E,I_a,I_p,I_s,I_c,R,D}
     delay_left::Int   
-	diagnosis::Symbol # ∈ {N,O,P,HR}
+	diagnosis::Symbol # ∈ {N,O,P,HR} || DOUBLE NEGATIVE TEST!!!
 	#prescription::Symbol # ∈ {O,Q/H}
 	#serological
 	#contacts
@@ -331,7 +331,7 @@ begin
 	
 	function IFR(age_group) #Merler2020
 		if age_group ≤ 10
-			return 0
+			return 0 # Avg, but thing about the distribution
 		elseif age_group ≤ 12
 			return 0.46/100
 		elseif age_group ≤ 14
@@ -385,7 +385,7 @@ begin
 			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  # ADD NOISE !!
 			#out_contacts = round(Int, LightGraphs.weights(model.contact_graph)[agent.age_group, age_group])
 			# MITIGATION
-			ncontacts = round(Int, 0.4*LightGraphs.weights(model.contact_graph)[age_group, agent.age_group]) # in
+			ncontacts = round(Int, LightGraphs.weights(model.contact_graph)[age_group, agent.age_group]) # in
 			if length(aged_neighbors) != 0 
 				push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
 			end
@@ -638,7 +638,7 @@ begin
 			end
 		elseif strategy == "passive_biased_symptoms_provincial"
 			for prov in provinces
-				if rand()≤0.4 
+				if rand()≤0.2 
 					pos=[agent for agent in prov_agents[prov] if agent.diagnosis==:P]
 					syms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status==:I_s]
 					nsyms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status!=:I_s]
@@ -761,7 +761,7 @@ begin
 	Random.seed!(1234);
 
 	# Initialize the model
-	model = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_lockdown_graph,h, I0)
+	model = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_graph,h, I0)
 
 	#simulation_data = @time run!(model, agent_step!, 100);
 
@@ -773,14 +773,18 @@ begin
 	infected_presymptomatic(status) = count(i == :I_p for i in status)
 	infected_symptomatic(status) = count(i == :I_s for i in status)
 	infected_asymptomatic(status) = count(i == :I_a for i in status)
-	infected(status) =infected_asymptomatic(status)+infected_presymptomatic(status)+infected_symptomatic(status)
+	infected(status) =exposed(status)+infected_asymptomatic(status)+infected_presymptomatic(status)+infected_symptomatic(status)
 	recovered(status) = count(i == :R for i in status)
 	dead(status) = count(i == :D for i in status);
 	
+	#total_tests = nsteps * capacity
+	#daily_tests = capacity
+	
 	tested(diagnosis) = count(i != :O for i in diagnosis);
+	#daily_tested(diagnosis)= count
 	positive(diagnosis) = count(i == :P for i in diagnosis);
 	#positive_rate(diagnosis)=positive(diagnosis)/tested(diagnosis)
-	positive_rate(diagnosis)=positive(diagnosis)/capacity
+	positive_rate(diagnosis)=positive(diagnosis)/capacity # new_positives/cpacity or #positives/ || "daily tests" != "daily tested people"
 	infected_rate(status)= infected(status) / model.N
 
 	# Data Collection
@@ -829,6 +833,30 @@ end
 md"
 ## Visualization
 "
+
+# ╔═╡ 67b9d940-ef89-11ea-005a-4566b7dc7dfc
+ begin 
+	mt=[quantile(gd[i].tested_diagnosis,0.05) for i in 1:length(gd)]
+	ft=[quantile(gd[i].tested_diagnosis,0.5) for i in 1:length(gd)] 
+	nt=[quantile(gd[i].tested_diagnosis,0.95) for i in 1:length(gd)]
+		
+	#=plot(timestep, mt[2:length(mt)],
+		label="Tested Patients",
+		xlab="Time",
+    	ylabel="Number",
+		#title="DC=$capacity | Χ²=$Χ", 
+		legend=:bottomright,
+		lw=2.5; 
+		ribbon=[mt-ft,nt-mt],
+	    fillalpha=0.3)=#
+	plot(timestep, [mt[i]-mt[i-1] for i in timestep],
+		label="Daily Tested Patients",
+		lw=2.5; 
+	    fillalpha=0.3)
+	plot!(timestep, [capacity for i in timestep],
+	      label="Daily Tests",
+	      lw=2.5)
+end
 
 # ╔═╡ a321cef8-eee0-11ea-173f-ef9e0ef61e57
 begin 
@@ -1047,6 +1075,7 @@ end
 # ╟─3561741c-ec8c-11ea-2a37-6be5151207b3
 # ╠═3bddaf18-ec8c-11ea-1958-8b69072c855f
 # ╟─4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
+# ╠═67b9d940-ef89-11ea-005a-4566b7dc7dfc
 # ╠═88924e16-ee46-11ea-36e4-e1bb800d773a
 # ╠═a321cef8-eee0-11ea-173f-ef9e0ef61e57
 # ╠═ac81d164-ed2b-11ea-0433-85048542e41b

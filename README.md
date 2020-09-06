@@ -50,8 +50,8 @@
 
 | Name  | Mail | GitHub | Twitter | Contributions |
 | ---- | ---- | ---- | ---- | ---- |
-| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Geospatial, contact & mobility data exploration, selection and wrangling ; ... |
-| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://github.com/DavideOrsenigo) | Population data exploration, selection and wrangling ; ... |
+| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Geospatial, contact, mobility and epidemiological data exploration, selection and processing ; ... |
+| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://github.com/DavideOrsenigo) | Population data exploration, selection and processing ; ... |
 
 
 <h2 align="center">

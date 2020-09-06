@@ -311,6 +311,7 @@ mutable struct Patient <: AbstractAgent
    	age_group::Int    # age group ∈ [1,16] ⊂ ℕ
    	home::Int         # household node ∈ ℕ || RESIDENCE!!
    	#work::Int        # workplace node ∈ ℕ
+	#school::Int
     status::Symbol    # ∈ {S,E,I_a,I_p,I_s,I_c,R,D}
     delay_left::Int   
 	diagnosis::Symbol # ∈ {N,O,P,HR} || DOUBLE NEGATIVE TEST!!!
@@ -398,13 +399,13 @@ begin
 
 	# Contact Dynamics 
 	function contact!(agent, model)
+		agent.status == :D && return
 		neighbors = get_node_agents(agent.pos, model)
 		contacted_agents = []
 
 		for age_group in 1:model.K
-			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  # ADD NOISE !!
+			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.status!=:D]  # ADD NOISE !!
 			#out_contacts = round(Int, LightGraphs.weights(model.contact_graph)[agent.age_group, age_group])
-			# MITIGATION
 			ncontacts = round(Int, LightGraphs.weights(model.contact_graph)[age_group, agent.age_group]) # in
 			if length(aged_neighbors) != 0 
 				push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
@@ -425,7 +426,7 @@ begin
 				agent.status = :E
 				agent.delay_left = round(Int, rand(Gamma(3,4)))
 				break
-			elseif neighbor.status == :I_a && (rand() ≤ 0.5*TruncatedNormal(0.5,0.1,0,0.5))
+			elseif neighbor.status == :I_a && (rand() ≤ TruncatedNormal(0.5,0.1,0,0.5)/2)
 				agent.status = :E
 				agent.delay_left = round(Int, rand(Gamma(3,4)))
 				break
@@ -449,7 +450,7 @@ begin
 	
 	function get_symptoms!(agent, model)
 		# If I'm not susceptible, I return
-		(agent.status != :I_p || agent.delay_left !=0) && return
+		(agent.status!=:I_p || agent.delay_left !=0) && return
 		agent.status = :I_s
 		agent.delay_left = round(Int, rand(Gamma(3.5,4)))
 	end
@@ -475,6 +476,7 @@ begin
 
 	# Micro Dynamics
 	function agent_step!(agent, model)
+		#CONTACT at home!
 		migrate!(agent, model)                       # M
 		contacted_agents = contact!(agent, model)    # C
 		get_exposed!(agent, model, contacted_agents) # E
@@ -781,7 +783,7 @@ begin
 	Random.seed!(1234);
 
 	# Initialize the model
-	model = initialize_model(provincial_pops, age_provincial_pops, contact_graph, mobility_graph,h, I0)
+	model = initialize_model(provincial_pops, age_provincial_pops, all_contact_graph, mobility_graph,h, I0)
 
 	#simulation_data = @time run!(model, agent_step!, 100);
 
@@ -911,53 +913,26 @@ end
 
 # ╔═╡ ac81d164-ed2b-11ea-0433-85048542e41b
 begin 
-	m3=[]
-	f3 =[]
-	n3=[]
+	m3=[quantile(gd[i].susceptible_status,0.05) for i in 2:length(gd)]
+	f3=[quantile(gd[i].susceptible_status,0.5) for i in 2:length(gd)] 
+	n3=[quantile(gd[i].susceptible_status,0.95) for i in 2:length(gd)]
 	
-	for i in 2:length(gd)
-		push!(f3, quantile(gd[i].susceptible_status,0.05))
-		push!(m3, quantile(gd[i].susceptible_status,0.5))
-		push!(n3, quantile(gd[i].susceptible_status,0.95))
-	end
-	m4=[]
-	f4 =[]
-	n4=[]
 	
-	for i in 2:length(gd)
-		push!(f4, quantile(gd[i].exposed_status,0.05))
-		push!(m4, quantile(gd[i].exposed_status,0.5))
-		push!(n4, quantile(gd[i].exposed_status,0.95))
-	end
-	m5=[]
-	f5 =[]
-	n5=[]
+	m4=[quantile(gd[i].exposed_status,0.05) for i in 2:length(gd)]
+	f4=[quantile(gd[i].exposed_status,0.5) for i in 2:length(gd)] 
+	n4=[quantile(gd[i].exposed_status,0.95) for i in 2:length(gd)]
 	
-	for i in 2:length(gd)
-		push!(f5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.05))
-		push!(m5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.5))
-		push!(n5, quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.95))
-	end
+	m5=[quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.05) for i in 2:length(gd)]
+	f5=[quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.5) for i in 2:length(gd)] 
+	n5=[quantile(gd[i].infected_presymptomatic_status+gd[i].infected_symptomatic_status+gd[i].infected_asymptomatic_status,0.95) for i in 2:length(gd)]
 	
-	m6=[]
-	f6 =[]
-	n6=[]
+	m6=[quantile(gd[i].recovered_status,0.05) for i in 2:length(gd)]
+	f6=[quantile(gd[i].recovered_status,0.5) for i in 2:length(gd)] 
+	n6=[quantile(gd[i].recovered_status,0.95) for i in 2:length(gd)]
 	
-	for i in 2:length(gd)
-		push!(f6, quantile(gd[i].recovered_status,0.05))
-		push!(m6, quantile(gd[i].recovered_status,0.5))
-		push!(n6, quantile(gd[i].recovered_status,0.95))
-	end
-	
-	m7=[]
-	f7 =[]
-	n7=[]
-	
-	for i in 2:length(gd)
-		push!(f7, quantile(gd[i].dead_status,0.05))
-		push!(m7, quantile(gd[i].dead_status,0.5))
-		push!(n7, quantile(gd[i].dead_status,0.95))
-	end
+	m7=[quantile(gd[i].dead_status,0.05) for i in 2:length(gd)]
+	f7=[quantile(gd[i].dead_status,0.5) for i in 2:length(gd)] 
+	n7=[quantile(gd[i].dead_status,0.95) for i in 2:length(gd)]
 	
 	plot(timestep, m3,
 		label="S",
@@ -974,36 +949,48 @@ begin
 	plot!(timestep, m7,label="D",lw=2.5; ribbon=[m7-f7,n7-m7],fillalpha=0.3)
 end
 
+# ╔═╡ eec74d5a-efd4-11ea-0e3e-35ae47a3bf0e
+gdd = groupby(data, [:replicate])
+
+# ╔═╡ fa0f76c4-efd4-11ea-37ea-e5b85076db48
+sum(gdd[1].infected_presymptomatic_status)
+
+# ╔═╡ fbd3bb58-efd6-11ea-1574-4becbfd0eb8d
+a=[gdd[1].infected_presymptomatic_status[i]-gdd[1].infected_presymptomatic_status[i-1] for i in timestep]
+
+# ╔═╡ 3252b352-efd7-11ea-34b2-07e9dc9dde36
+b=[gdd[1].infected_symptomatic_status[i]-gdd[1].infected_symptomatic_status[i-1] for i in timestep]
+
+# ╔═╡ 694dd18c-efd7-11ea-1194-973a6114bcd6
+begin
+	plot(timestep, a,
+		label="Δ Pre-Symptomatic",
+		xlab="Time",
+    	ylabel="Number",
+		legend=:topright,
+		lw=2.5)
+plot!(timestep, b,
+		label="Δ Symptomatic",
+		xlab="Time",
+    	ylabel="Number",
+		legend=:topright,
+		lw=2.5)
+end
+
 # ╔═╡ bec50eac-ed41-11ea-0137-c7016eb9e5a9
 begin 
-	m8=[]
-	f8 =[]
-	n8=[]
+	m8=[quantile(gd[i].infected_presymptomatic_status,0.05) for i in 2:length(gd)]
+	f8=[quantile(gd[i].infected_presymptomatic_status,0.5) for i in 2:length(gd)] 
+	n8=[quantile(gd[i].infected_presymptomatic_status,0.95) for i in 2:length(gd)]
 	
-	for i in 2:length(gd)
-		push!(f8, quantile(gd[i].infected_presymptomatic_status,0.05))
-		push!(m8, quantile(gd[i].infected_presymptomatic_status,0.5))
-		push!(n8, quantile(gd[i].infected_presymptomatic_status,0.95))
-	end
-	m9=[]
-	f9 =[]
-	n9=[]
 	
-	for i in 2:length(gd)
-		push!(f9, quantile(gd[i].infected_symptomatic_status,0.05))
-		push!(m9, quantile(gd[i].infected_symptomatic_status,0.5))
-		push!(n9, quantile(gd[i].infected_symptomatic_status,0.95))
-	end
+	m9=[quantile(gd[i].infected_symptomatic_status,0.05) for i in 2:length(gd)]
+	f9=[quantile(gd[i].infected_symptomatic_status,0.5) for i in 2:length(gd)] 
+	n9=[quantile(gd[i].infected_symptomatic_status,0.95) for i in 2:length(gd)]
 	
-	m10=[]
-	f10=[]
-	n10=[]
-	
-	for i in 2:length(gd)
-		push!(f10, quantile(gd[i].infected_asymptomatic_status,0.05))
-		push!(m10, quantile(gd[i].infected_asymptomatic_status,0.5))
-		push!(n10, quantile(gd[i].infected_asymptomatic_status,0.95))
-	end
+	m10=[quantile(gd[i].infected_asymptomatic_status,0.05) for i in 2:length(gd)]
+	f10=[quantile(gd[i].infected_asymptomatic_status,0.5) for i in 2:length(gd)] 
+	n10=[quantile(gd[i].infected_asymptomatic_status,0.95) for i in 2:length(gd)]
 	
 	plot(timestep, m8,
 		label="Pre-Symptomatic",
@@ -1099,6 +1086,11 @@ end
 # ╠═88924e16-ee46-11ea-36e4-e1bb800d773a
 # ╠═a321cef8-eee0-11ea-173f-ef9e0ef61e57
 # ╠═ac81d164-ed2b-11ea-0433-85048542e41b
+# ╠═eec74d5a-efd4-11ea-0e3e-35ae47a3bf0e
+# ╠═fa0f76c4-efd4-11ea-37ea-e5b85076db48
+# ╠═fbd3bb58-efd6-11ea-1574-4becbfd0eb8d
+# ╠═3252b352-efd7-11ea-34b2-07e9dc9dde36
+# ╠═694dd18c-efd7-11ea-1194-973a6114bcd6
 # ╠═bec50eac-ed41-11ea-0137-c7016eb9e5a9
 # ╠═4e4be2ac-ed0c-11ea-0e9d-7dc8d803f923
 # ╠═804007b6-ed0c-11ea-2e06-4be094d672c3

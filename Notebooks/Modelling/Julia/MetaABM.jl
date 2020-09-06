@@ -44,7 +44,7 @@ md"
 * Middle: 7-12
 * Old : 13-16
 
-## Age-Specific Distributions (Daviers et al. 2020)
+## Age-Specific Distributions (Davies et al. 2020)
 * Susceptibility to infection upon contact with an infectious person $\mathcal{N}(\mu=0.1,\sigma=0.023, min=0)$ 
 * Clinical fraction on infection: 
     1. $y_y  \sim \mathcal{N}(\mu=0.5,\sigma=0.1, min=0, max = 0.5)$ 
@@ -192,8 +192,8 @@ md"
 
 # ╔═╡ 4380dbf6-ec8b-11ea-31f9-d565a048f603
 begin
-	population_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"));
-	age_population_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/AgeStratifiedProvincialPopulation.csv"));
+	population_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Population/ProvincialPopulation.csv"));
+	age_population_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Population/AgeStratifiedProvincialPopulation.csv"));
 
 	# ADD POPULATION DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"
@@ -252,9 +252,9 @@ md"
 # ╔═╡ 8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1
 begin
 	# Load mobility data
-	mobility_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlow.csv"))
-	mobility_lockdown_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlowLockdown.csv"))
-	# Build mobility graph 
+	mobility_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/LockdownOFF.csv"))
+	mobility_lockdown_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/LockdownON.csv"))
+	# Build mobility graphs 
 	mobility_graph = SimpleWeightedDiGraph(mobility_data[1], mobility_data[2], mobility_data[3])
 	mobility_lockdown_graph = SimpleWeightedDiGraph(mobility_lockdown_data[1], mobility_lockdown_data[2], mobility_lockdown_data[3])
 
@@ -290,7 +290,9 @@ md"
 
 # ╔═╡ 653d6bc2-eee0-11ea-125a-6b7a3f984d7c
 begin 
-	active_cases = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ActiveCases.csv"))
+	active_cases = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Active.csv"))
+	
+	symptoms_diagnosis_cases = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/SymptomsDiagnosis.csv"))
 
 	# ADD POPULATION DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ActiveCases.csv"
@@ -1061,11 +1063,11 @@ end
 # ╟─1761da66-ec8b-11ea-05b7-519b5405c9ae
 # ╟─4380dbf6-ec8b-11ea-31f9-d565a048f603
 # ╟─7d2351ae-ec8b-11ea-0f27-c9fe5fd25f8e
-# ╠═6ffd583a-ec8b-11ea-3505-3764a56edece
+# ╟─6ffd583a-ec8b-11ea-3505-3764a56edece
 # ╟─82ad393c-ec8b-11ea-2474-f1e7400a1536
 # ╟─8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1
 # ╟─5b11f7e4-eee0-11ea-1808-d17cfea76625
-# ╟─653d6bc2-eee0-11ea-125a-6b7a3f984d7c
+# ╠═653d6bc2-eee0-11ea-125a-6b7a3f984d7c
 # ╟─b50b2880-ec8b-11ea-3989-21870f8c0f72
 # ╠═9e707de6-ec8b-11ea-38c7-cb8a621135d0
 # ╟─3f36a99a-ed03-11ea-3936-5ff45f406f73

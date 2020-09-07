@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 04981242-ec8b-11ea-0c48-4fda39c1245e
 begin 
 	# Data Management 
-	using DataFrames, DataFramesMeta, DrWatson, Queryverse, IterableTables
+	using DataFrames, DataFramesMeta, DrWatson, Queryverse
 	# Statistics
 	using StatsBase, Distributions, Random
 	# Graphs 
@@ -15,14 +15,9 @@ begin
 	# Modelling
 	using Agents
 	# Numerical Computation 
-	using LinearAlgebra, DifferentialEquations
+	using LinearAlgebra
 	# Visualization
 	using Plots, AgentsPlots, PlotThemes
-	# Python Interface
-	###using PyCall 
-	###nx = pyimport("networkx");
-	# Custom Module
-	#using DigitalEpidemiology
 end;
 
 # ╔═╡ 76393228-f05a-11ea-2712-a116615a9bd6
@@ -32,9 +27,16 @@ compartmental_diagram = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Image
 # COMPARTMENTAL DIAGRAMS FOR DIAGNOSTIC STRATEGIES / SURVEILLANCE MODULE
 end
 
+# ╔═╡ 1915055a-f14c-11ea-3715-9db52875acab
+
+
 # ╔═╡ 8edb8016-ec8a-11ea-213b-ffcca7d88845
 md"
 # Data-Driven Stochastic Agent-Based Metapopulation SEIIIRD Model
+
+## Authors
+* Pietro Monticone
+* Davide Orsenigo
 
 ## Framework 
 * Data exploration, selection and processing in Python 
@@ -208,15 +210,20 @@ begin
 	# Load population pyramid
 	population_pyramid = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/PopulationPyramid.png")
 	
-	# ADD POPULATION DATA PATHS 
-	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"
-	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"
-	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\ProvincialPopulation.csv"
-
-	# ADD AGE-STRATIFIED POPULATION DATA PATHS 
-	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/AgeStratifiedProvincialPopulation.csv"
-	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/AgeStratifiedProvincialPopulation.csv"
-		### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\AgeStratifiedProvincialPopulation.csv"
+	# ALTERNATIVE POPULATION DATA PATHS
+	## PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Population/ProvincialPopulation.csv"
+	## PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Population/ProvincialPopulation.csv"
+	## DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Population\ProvincialPopulation.csv"
+	
+	# ALTERNATIVE AGE-STRATIFIED POPULATION DATA PATHS
+	## PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Population/AgeStratifiedProvincialPopulation.csv"
+	## PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Population/AgeStratifiedProvincialPopulation.csv"
+	## DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Population\AgeStratifiedProvincialPopulation.csv"
+	
+	# ALTERNATIVE POPULATION IMAGE PATHS
+	## PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/PopulationPyramid.png"
+	## PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/PopulationPyramid.png"
+	## DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images/PopulationPyramid.png"
 end;
 
 # ╔═╡ c9e57212-f083-11ea-3482-5931524d174e
@@ -263,11 +270,6 @@ begin
 	other_contact_graph = SimpleWeightedDiGraph(other_contact_data[1].+1, other_contact_data[2].+1, other_contact_data[3]);
 	# Load contact matrix plot for other locations
 	other_contact_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Contact/Other.png")
-
-	# ADD CONTACT DATA PATHS 
-	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"
-	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"
-	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\ContactEdgeList.csv"
 end;
 
 # ╔═╡ 9cb69576-f064-11ea-0308-cf8fd29c6e0c
@@ -508,7 +510,7 @@ begin
 		contacted_agents = []
 		for age_group in 1:K
 			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  
-			ncontacts = round(Int, LightGraphs.weights(home_contact_graph)[age_group, agent.age_group]) 
+			ncontacts = round(Int, LightGraphs.weights(model.home_contact_graph)[age_group, agent.age_group]) 
 			if length(aged_neighbors)>0 && ncontacts>0
 					push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
 			end
@@ -1210,16 +1212,17 @@ end
 =#
 
 # ╔═╡ Cell order:
+# ╟─1915055a-f14c-11ea-3715-9db52875acab
 # ╟─8edb8016-ec8a-11ea-213b-ffcca7d88845
 # ╟─09c71a20-ede5-11ea-30af-01a29ca75c30
 # ╟─1951b03a-ec8b-11ea-326b-9b07018058f1
-# ╟─04981242-ec8b-11ea-0c48-4fda39c1245e
+# ╠═04981242-ec8b-11ea-0c48-4fda39c1245e
 # ╟─2f7454ee-ec8b-11ea-3227-17ab1eff2513
 # ╟─1761da66-ec8b-11ea-05b7-519b5405c9ae
-# ╟─4380dbf6-ec8b-11ea-31f9-d565a048f603
+# ╠═4380dbf6-ec8b-11ea-31f9-d565a048f603
 # ╟─c9e57212-f083-11ea-3482-5931524d174e
 # ╟─7d2351ae-ec8b-11ea-0f27-c9fe5fd25f8e
-# ╟─6ffd583a-ec8b-11ea-3505-3764a56edece
+# ╠═6ffd583a-ec8b-11ea-3505-3764a56edece
 # ╟─9cb69576-f064-11ea-0308-cf8fd29c6e0c
 # ╟─82ad393c-ec8b-11ea-2474-f1e7400a1536
 # ╟─8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1

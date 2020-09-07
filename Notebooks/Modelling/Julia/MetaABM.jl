@@ -16,7 +16,7 @@ begin
 	using Agents
 	# Numerical Computation 
 	using LinearAlgebra, DifferentialEquations
-	# Data Visualization
+	# Visualization
 	using Plots, AgentsPlots, PlotThemes
 	# Python Interface
 	###using PyCall 
@@ -24,6 +24,13 @@ begin
 	# Custom Module
 	#using DigitalEpidemiology
 end;
+
+# ╔═╡ 76393228-f05a-11ea-2712-a116615a9bd6
+begin
+	using Images, ImageIO
+compartmental_diagram = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/CompartmentalDiagram.png")
+# COMPARTMENTAL DIAGRAMS FOR DIAGNOSTIC STRATEGIES / SURVEILLANCE MODULE
+end
 
 # ╔═╡ 8edb8016-ec8a-11ea-213b-ffcca7d88845
 md"
@@ -34,28 +41,28 @@ md"
 * Modelling and simulations in Julia 
 
 ## Desiderata
-1. Implement `move_to_work` and `move_back_home` methods
-1. Implement age-stratified susceptibility and recovery/death rates. 
+1. Design compartmental diagram for epidemic ($\alpha_X$, $d_X$, $\beta_X(age)$,...) and surveillance systems  ($O,N,P,H/W,R$)
+1. Implement timeline of policy interventions
 1. Import real COVID-19 data for Italy (tests, lockdown_mobility,...)
-1. Think about contact-tracing app 
+1. Implement contact-tracing app and centrality-based passive and active surveillance strategies
 
 ## Age Categories
-* Young : 1-6
-* Middle: 7-12
-* Old : 13-16
+* Young : [1,6]
+* Middle: [7,12]
+* Old: [13,16]
 
-## Age-Specific Distributions (Davies et al. 2020)
+## Age-Specific Distributions 
 * Susceptibility to infection upon contact with an infectious person $\mathcal{N}(\mu=0.1,\sigma=0.023, min=0)$ 
-* Clinical fraction on infection: 
-    1. $y_y  \sim \mathcal{N}(\mu=0.5,\sigma=0.1, min=0, max = 0.5)$ 
-    1. $y_m = 0.5$
-    1. $y_o \sim \mathcal{N}(\mu=0.5,\sigma=0.1, min=0.5, max = 1)$
+* Symptomatic fraction on infection: 
+$$y_y\sim \mathcal{N}(\mu=0.5,\sigma=0.1, min=0, max=0.5)$$
+$$y_m = 0.5$$
+$$y_o \sim \mathcal{N}(\mu=0.5,\sigma=0.1, min=0.5, max=1)$$
 
 ## Delays
 * Incubation period ($E$ to $I_a$ and $E$ to $I_s$; days): $$d_E \sim \mathcal{\Gamma}(\mu = 3.0, k = 4)$$
 * Duration of infectiousness in days during the pre-symptomatic phase $d_P=\mathcal{\Gamma}(1.5,4)$
-*  **Duration of infectiousness in days during the symptomatic phase $d_S=\mathcal{\Gamma}(3.5,4)$**
-*  **Duration of infectiousness in days during the a-symptomatic phase $d_A=\mathcal{\Gamma}(5,4)$**
+*  Duration of infectiousness in days during the symptomatic phase $d_S=\mathcal{\Gamma}(3.5,4)$
+*  Duration of infectiousness in days during the a-symptomatic phase $d_A=\mathcal{\Gamma}(5,4)$
 
 ## Diagnostic Strategies
 
@@ -121,6 +128,7 @@ md"
 * [False Negative Tests for SARS-CoV-2 Infection — Challenges and Implications](https://doi.org/10.1056/NEJMp2015897) *N Engl J Med* 2020; 383:e38
 * [Saliva or Nasopharyngeal Swab Specimens for Detection of SARS-CoV-2](https://doi.org/10.1056/NEJMc2016359) 
 * Lisboa Bastos Mayara, Tavaziva Gamuchirai, Abidi Syed Kunal, Campbell Jonathon R, Haraoui Louis-Patrick, Johnston James C et al. [Diagnostic accuracy of serological tests for covid-19: systematic review and meta-analysis](https://doi.org/10.1136/bmj.m2516) *BMJ* 2020; 370 :m2516
+* Kucirka, Lauren M., et al. [Variation in false-negative rate of reverse transcriptase polymerase chain reaction–based SARS-CoV-2 tests by time since exposure](https://doi.org/10.7326/M20-1495). *Annals of Internal Medicine* (2020).
 
 ##### Epidemiological
 * Our World in Data, [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data).
@@ -192,9 +200,14 @@ md"
 
 # ╔═╡ 4380dbf6-ec8b-11ea-31f9-d565a048f603
 begin
+	# Load population data
 	population_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Population/ProvincialPopulation.csv"));
+	# Load age-stratified population data
 	age_population_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Population/AgeStratifiedProvincialPopulation.csv"));
-
+	
+	# Load population pyramid
+	population_pyramid = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/PopulationPyramid.png")
+	
 	# ADD POPULATION DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ProvincialPopulation.csv"
@@ -205,6 +218,9 @@ begin
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/AgeStratifiedProvincialPopulation.csv"
 		### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\AgeStratifiedProvincialPopulation.csv"
 end;
+
+# ╔═╡ c9e57212-f083-11ea-3482-5931524d174e
+population_pyramid
 
 # ╔═╡ 7d2351ae-ec8b-11ea-0f27-c9fe5fd25f8e
 md"
@@ -217,32 +233,46 @@ begin
 	all_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
 	# Build contact graph for all locations
 	all_contact_graph = SimpleWeightedDiGraph(all_contact_data[1].+1, all_contact_data[2].+1, all_contact_data[3]);
+	# Load contact matrix plot for all locations
+	all_contact_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Contact/All.png")
 	
 	# Load contact data for home
 	home_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
 	# Build contact graph for home
 	home_contact_graph = SimpleWeightedDiGraph(home_contact_data[1].+1, home_contact_data[2].+1, home_contact_data[3]);
+	# Load contact matrix plot for home
+	home_contact_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Contact/Home.png")
 	
 	# Load contact data for work
 	work_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
 	# Build contact graph for work
 	work_contact_graph = SimpleWeightedDiGraph(work_contact_data[1].+1, work_contact_data[2].+1, work_contact_data[3]);
+	# Load contact matrix plot for work
+	work_contact_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Contact/Work.png")
 	
 	# Load contact data for school
 	school_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
 	# Build contact graph for school
 	school_contact_graph = SimpleWeightedDiGraph(school_contact_data[1].+1, school_contact_data[2].+1, school_contact_data[3]);
+	# Load contact matrix plot for school
+	school_contact_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Contact/School.png")
 	
 	# Load contact data for other locations
 	other_contact_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/ContactMatrices/AllEdgeList.csv"))
 	# Build contact graph for other locations
 	other_contact_graph = SimpleWeightedDiGraph(other_contact_data[1].+1, other_contact_data[2].+1, other_contact_data[3]);
+	# Load contact matrix plot for other locations
+	other_contact_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Contact/Other.png")
 
 	# ADD CONTACT DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ContactEdgeList.csv"
 	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\ContactEdgeList.csv"
 end;
+
+# ╔═╡ 9cb69576-f064-11ea-0308-cf8fd29c6e0c
+[home_contact_image work_contact_image
+school_contact_image other_contact_image]
 
 # ╔═╡ 82ad393c-ec8b-11ea-2474-f1e7400a1536
 md"
@@ -252,29 +282,27 @@ md"
 # ╔═╡ 8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1
 begin
 	# Load mobility data
-	mobility_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/LockdownOFF.csv"))
-	mobility_lockdown_data = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/LockdownON.csv"))
-	# Build mobility graphs 
-	mobility_graph = SimpleWeightedDiGraph(mobility_data[1], mobility_data[2], mobility_data[3])
-	mobility_lockdown_graph = SimpleWeightedDiGraph(mobility_lockdown_data[1], mobility_lockdown_data[2], mobility_lockdown_data[3])
-
-	# Remove the 104th node: provincial code doesn't exist
-	rem_vertex!(mobility_graph, 104)
-	# Remove the 105th node: provincial code doesn't exist
-	rem_vertex!(mobility_graph, 104)
-	# Remove the 106th node: provincial code doesn't exist
-	rem_vertex!(mobility_graph, 104)
-	# Remove the 107th node: provincial code doesn't exist
-	rem_vertex!(mobility_graph, 104);
+	mobility_data_phase1 = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/Flow1.csv"))
+	mobility_data_phase2 = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/Flow2.csv"))
+	mobility_data_phase3 = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/Flow3.csv"))
+	mobility_data_phase4 = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Mobility/Flow4.csv"))
 	
-	# Remove the 104th node: provincial code doesn't exist
-	rem_vertex!(mobility_lockdown_graph, 104)
-	# Remove the 105th node: provincial code doesn't exist
-	rem_vertex!(mobility_lockdown_graph, 104)
-	# Remove the 106th node: provincial code doesn't exist
-	rem_vertex!(mobility_lockdown_graph, 104)
-	# Remove the 107th node: provincial code doesn't exist
-	rem_vertex!(mobility_lockdown_graph, 104);
+	# Build mobility graphs 
+	mobility_graph_phase1 = SimpleWeightedDiGraph(mobility_data_phase1[1], mobility_data_phase1[2], mobility_data_phase1[3])
+	mobility_graph_phase2 = SimpleWeightedDiGraph(mobility_data_phase2[1], mobility_data_phase2[2], mobility_data_phase2[3])
+	mobility_graph_phase3 = SimpleWeightedDiGraph(mobility_data_phase3[1], mobility_data_phase3[2], mobility_data_phase3[3])
+	mobility_graph_phase4 = SimpleWeightedDiGraph(mobility_data_phase4[1], mobility_data_phase4[2], mobility_data_phase4[3])
+	
+	mobility_graph = SimpleWeightedDiGraph(mobility_data_phase1[1], mobility_data_phase1[2], mobility_data_phase1[3])
+	
+	# Remove the 104/5/6/7th node: provincial code doesn't exist
+	for i in 1:4
+		rem_vertex!(mobility_graph_phase1, 104)
+		rem_vertex!(mobility_graph_phase2, 104)
+		rem_vertex!(mobility_graph_phase3, 104)
+		rem_vertex!(mobility_graph_phase4, 104)
+		rem_vertex!(mobility_graph, 104)
+	end
 
 	# ADD MOBILITY DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/MobilityFlow.csv"
@@ -282,6 +310,17 @@ begin
 	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\MobilityFlow.csv"
 	
 end;
+
+# ╔═╡ ef6712e2-f072-11ea-06cb-97f5ff556eac
+begin 
+	mobility_phase1_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Mobility/Phase1.png")
+	mobility_phase2_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Mobility/Phase2.png")
+	mobility_phase3_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Mobility/Phase3.png")
+	mobility_phase4_image = load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Mobility/Phase4.png")
+	
+	[mobility_phase1_image mobility_phase2_image
+	mobility_phase3_image mobility_phase4_image]
+end
 
 # ╔═╡ 5b11f7e4-eee0-11ea-1808-d17cfea76625
 md"
@@ -293,12 +332,38 @@ begin
 	active_cases = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Active.csv"))
 	
 	symptoms_diagnosis_cases = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/SymptomsDiagnosis.csv"))
+	
+	tests = DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Tests.csv"))
 
 	# ADD POPULATION DATA PATHS 
 	### PIETRO1: "/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/ActiveCases.csv"
 	### PIETRO2: "/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/ActiveCases.csv"
 	### DAVIDE: raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\ActiveCases.csv"
 end;
+
+# ╔═╡ b3830528-f104-11ea-020a-03106bdd926f
+begin
+	plot_cases=plot(1:100,symptoms_diagnosis_cases["Diagnosis"][1:100],
+	label="Date of Diagnosis",
+	xlab="Time [Days]",
+   	ylabel="Number [Cases]",
+	#title="COVID-19 Confirmed Cases in Italy", 
+	legend=:topleft,
+	lw=2)
+	plot!(plot_cases,1:100,symptoms_diagnosis_cases["Symptoms"][1:100],
+	label="Date of Symptoms Onset",
+	lw=2);
+	
+	plot_active=plot(1:100,active_cases["Active Cases"][1:100],
+	label="Active Cases",
+	xlab="Time [Days]",
+   	ylabel="Number [Cases]",
+	#title="COVID-19 Confirmed Cases in Italy", 
+	legend=:topleft,
+	lw=2);
+	
+	plot(plot_cases, plot_active, layout=2)
+end
 
 # ╔═╡ b50b2880-ec8b-11ea-3989-21870f8c0f72
 md"
@@ -311,13 +376,12 @@ mutable struct Patient <: AbstractAgent
     id::Int           # identity code ∈ ℕ               
    	pos::Int          # location node ∈ ℕ 
    	age_group::Int    # age group ∈ [1,16] ⊂ ℕ
-   	home::Int         # household node ∈ ℕ || RESIDENCE!!
-   	#work::Int        # workplace node ∈ ℕ
-	#school::Int
-    status::Symbol    # ∈ {S,E,I_a,I_p,I_s,I_c,R,D}
+   	residence::Int    # residence node ∈ ℕ || RESIDENCE!!
+	household::Array # household
+    status::Symbol    # ∈ {S,E,I_a,I_p,I_s,H,ICU,R,D}
     delay_left::Int   
 	diagnosis::Symbol # ∈ {N,O,P,HR} || DOUBLE NEGATIVE TEST!!!
-	#prescription::Symbol # ∈ {O,Q/H}
+	#prescription::Symbol # ∈ {O, Q, ICU}
 	#serological
 	#contacts
 	#fear, risk aversion -> individual-based social distancing  
@@ -327,6 +391,61 @@ end;
 md"
 ## Utilities
 "
+
+# ╔═╡ cab724b8-ec8b-11ea-1f80-eb2ef177675e
+md"
+## Behaviors
+"
+
+# ╔═╡ 5c57691c-ed24-11ea-33e4-779a4bd311a8
+md"
+### Macro
+"
+
+# ╔═╡ 63ad5744-ed24-11ea-317c-5f53e1137cda
+md"
+### Micro
+"
+
+# ╔═╡ ea17e80e-ec8b-11ea-1c0f-8bbd80a8bb9a
+md"
+## Parameters
+"
+
+# ╔═╡ f2d7ab0c-ec8b-11ea-1ad4-f5b14794a405
+begin
+	# Time 
+	δt = 1
+	nsteps = 100
+	tf = nsteps*δt
+	t = 0:δt:tf;
+	
+	# Populations 
+	scale_factor=4500
+	provincial_pops = round.(Int, population_data.population./scale_factor);  # provincial sub-populations
+	age_provincial_pops = round.(Int, age_population_data./scale_factor);     # age-stratified provincial sub-populations
+	N = sum(Array(age_provincial_pops))  # number of agents
+	M = length(provincial_pops)          # number of subpopulations
+	K = length(age_provincial_pops[1])   # number of age groups (16)
+
+	# Transition rates 
+	#α = 0.1    # S -> E   
+	#β = 0.3    # E -> I
+	#γ = 0.1    # I -> R
+	#γ = 0.2   # I -> R
+	#σ = 0.01   # I -> D
+
+	# Migration rates
+	h = 0.8    # home 
+
+	# Initial conditions 
+	###I0 = round(Int, N/2000)
+	I0=1
+	
+	# Health System
+	capacity = round(Int, N * 5 * 10^(-4))
+	#capacity = round(Int, N/100)
+end
 
 # ╔═╡ 58ffc854-ed01-11ea-2972-750e0dc0908c
 # Create truncated normal distribution
@@ -364,67 +483,118 @@ begin
 		end
 	end
 	
+	function DiagnosticRate(status,request)
+		false_negative_rate=0
+		false_positive_rate=0
+		if status==:E
+			false_negative_rate=(0.67+1)/2
+			false_positive_rate=0.06
+		elseif status==:I_s || status==:I_a
+			false_negative_rate=(0.38+0.20)/2
+			false_positive_rate=0.02
+		elseif status==:I_p
+			false_negative_rate=(0.67+0.38)/2
+			false_positive_rate=0.04
+		end
+		if request == "false_negative_rate"
+			return false_negative_rate
+		else
+			return false_positive_rate
+		end
+	end
+	
+	function InitializeHousehold(agent, model)
+		neighbors = get_node_agents(agent.residence, model)
+		contacted_agents = []
+		for age_group in 1:K
+			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  
+			ncontacts = round(Int, LightGraphs.weights(home_contact_graph)[age_group, agent.age_group]) 
+			if length(aged_neighbors)>0 && ncontacts>0
+					push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
+			end
+		end
+	contacted_agents = [(contacted_agents...)...] 
+	return contacted_agents
+	end
 	# function DiagnosticCapacity(time)
 	
 end;
 
-# ╔═╡ cab724b8-ec8b-11ea-1f80-eb2ef177675e
-md"
-## Behaviors
-"
-
-# ╔═╡ 5c57691c-ed24-11ea-33e4-779a4bd311a8
-md"
-### Macro
-"
-
-# ╔═╡ 63ad5744-ed24-11ea-317c-5f53e1137cda
-md"
-### Micro
-"
-
 # ╔═╡ c7971b8c-ec8b-11ea-3ef9-b9cf02336e5b
 begin
 
-	# Mobility Dynamics
-	function migrate!(agent, model)
-		agent.status == :D && return
-		source = agent.pos
-		x = [outneighbor for outneighbor in LightGraphs.weights(model.space.graph)[source,:]]
-		#outneighbors = node_neighbors(agent, model; neighbor_type=:out)
-		distribution = DiscreteNonParametric(1:(model.M),x./sum(x))
-		target = rand(distribution)
-		if target ≠ source
-			agent.pos = target #move_agent!(agent, target, model)
-		end
-	end
-
 	# Contact Dynamics 
-	function contact!(agent, model)
-		agent.status == :D && return
+	function contact!(agent, model,location)
+		attenuation_factor = 1
+		if location=="home"
+			agent.pos != agent.residence && return
+			contact_graph=model.home_contact_graph
+			
+		elseif location=="work"
+			if model.phase == 3
+				attenuation_factor=0.2
+			end
+			contact_graph=model.work_contact_graph
+		elseif location=="school"
+			model.phase == 3 && return # school closure
+			contact_graph=model.school_contact_graph
+		elseif location=="other"
+			if model.phase == 3
+				attenuation_factor=0.5
+			end
+			contact_graph=model.other_contact_graph
+		end
+		
 		neighbors = get_node_agents(agent.pos, model)
 		contacted_agents = []
 
 		for age_group in 1:model.K
-			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.status!=:D]  # ADD NOISE !!
+			aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.status!=:D]  
 			#out_contacts = round(Int, LightGraphs.weights(model.contact_graph)[agent.age_group, age_group])
-			ncontacts = round(Int, LightGraphs.weights(model.contact_graph)[age_group, agent.age_group]) # in
-			if length(aged_neighbors) != 0 
+			ncontacts = round(Int, attenuation_factor*LightGraphs.weights(contact_graph)[age_group, agent.age_group]) # in
+			if length(aged_neighbors)>0 && ncontacts>0
 				push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
 			end
 		end
 		contacted_agents = [(contacted_agents...)...] 
 		return contacted_agents
 	end
+	
+	# Mobility Dynamics
+	function migrate!(agent, model)
+		source = agent.pos
+		targets=[]
+		if model.phase == 1
+			targets = [outneighbor for outneighbor in LightGraphs.weights(model.mobility_graph_phase1)[source,:]]
+		elseif model.phase == 2
+			targets = [outneighbor for outneighbor in LightGraphs.weights(model.mobility_graph_phase2)[source,:]]
+		elseif model.phase == 3
+			targets = [outneighbor for outneighbor in LightGraphs.weights(model.mobility_graph_phase3)[source,:]]
+		elseif model.phase == 4
+			targets = [outneighbor for outneighbor in LightGraphs.weights(model.mobility_graph_phase4)[source,:]]
+		end
+		
+		#outneighbors = node_neighbors(agent, model; neighbor_type=:out)
+		distribution = DiscreteNonParametric(1:model.M,targets./sum(targets))
+		target = rand(distribution)
+		if target ≠ source
+			agent.pos = target #move_agent!(agent, target, model)
+		end
+	end
 
 	# Transmission Dynamics
 	function get_exposed!(agent, model, contacted_agents)
 		# If I'm not susceptible, I return
 		agent.status!=:S && return
-
+		typeof(contacted_agents)==Nothing && return
+		
 		neighbors = contacted_agents
 		for neighbor in neighbors 
-			if (neighbor.status == :I_s || neighbor.status == :I_p) && (rand() ≤ TruncatedNormal(0.5,0.1,0,0.5))
+			if neighbor.status == :I_s && (rand() ≤ TruncatedNormal(0.5,0.1,0,0.5))
+				agent.status = :E
+				agent.delay_left = round(Int, rand(Gamma(3,4)))
+				break
+			elseif neighbor.status == :I_p && (rand() ≤ 0.15*TruncatedNormal(0.5,0.1,0,0.5)) # Aleta et al.(2020)
 				agent.status = :E
 				agent.delay_left = round(Int, rand(Gamma(3,4)))
 				break
@@ -470,65 +640,33 @@ begin
 
 	# Mobility Dynamics
 	function move_back_home!(agent, model)
-		agent.pos == agent.home && return
+		agent.pos == agent.residence && return
 		if rand() ≤ model.h 
-			agent.pos = agent.home #move_agent!(agent, agent.home, model)
+			agent.pos = agent.residence 
 		end
 	end
 
 	# Micro Dynamics
 	function agent_step!(agent, model)
-		#CONTACT at home!
-		migrate!(agent, model)                       # M
-		contacted_agents = contact!(agent, model)    # C
-		get_exposed!(agent, model, contacted_agents) # E
-		get_infected!(agent,model)                   # I_p | I_a
-		get_symptoms!(agent,model)                   # I_s                      
-		recover_or_die!(agent, model)                # R or D 
+		(agent.status==:D) && return
+		home_contacted_agents=contact!(agent, model,"home")
+		get_exposed!(agent, model, home_contacted_agents)
+		migrate!(agent, model)                          
+		work_contacted_agents=contact!(agent, model,"work")  
+		get_exposed!(agent, model, work_contacted_agents)   
+		school_contacted_agents=contact!(agent, model,"school") 
+		get_exposed!(agent, model, school_contacted_agents)   
+		other_contacted_agents=contact!(agent, model,"other") 
+		get_exposed!(agent, model, other_contacted_agents)    
+		get_infected!(agent,model)                    
+		get_symptoms!(agent,model)                                        
+		recover_or_die!(agent, model)               
 		move_back_home!(agent, model)
 		if agent.delay_left > 0
 			agent.delay_left-=1
 		end
 	end;
 end;
-
-# ╔═╡ ea17e80e-ec8b-11ea-1c0f-8bbd80a8bb9a
-md"
-## Parameters
-"
-
-# ╔═╡ f2d7ab0c-ec8b-11ea-1ad4-f5b14794a405
-begin
-	# Time 
-	δt = 1
-	nsteps = 100
-	tf = nsteps*δt
-	t = 0:δt:tf;
-	
-	# Populations 
-	provincial_pops = round.(Int, population_data.population./5000);  # provincial sub-populations
-	age_provincial_pops = round.(Int, age_population_data./5000);     # age-stratified provincial sub-populations
-	N = sum(Array(age_provincial_pops))  # number of agents
-	M = length(provincial_pops)          # number of subpopulations
-	K = length(age_provincial_pops[1])   # number of age groups (16)
-
-	# Transition rates 
-	#α = 0.1    # S -> E   
-	#β = 0.3    # E -> I
-	#γ = 0.1    # I -> R
-	#γ = 0.2   # I -> R
-	#σ = 0.01   # I -> D
-
-	# Migration rates
-	h = 0.8    # home 
-
-	# Initial conditions 
-	I0 = round(Int, N/2000)
-	
-	# Health System
-	capacity = round(Int, N * 5 * 10^(-4))
-	#capacity = round(Int, N/100)
-end
 
 # ╔═╡ 03fd6022-ed23-11ea-1587-f58557320659
 begin
@@ -537,20 +675,20 @@ begin
 		agents = [agent for agent in allagents(model) if agent.status!=:D && agent.diagnosis!=:HR]
 		provinces = 1:model.M
 		prov_populations = model.provincial_pops
-		
-		prov_capacities = round.(Int, normalize(prov_populations) * capacity)
-		prov_agents = [[agent for agent in agents if agent.home == i] for i in provinces]
+	
+		prov_capacities = round.(Int, prov_populations./sum(prov_populations) * capacity)
+		prov_agents = [[agent for agent in agents if agent.residence == i] for i in provinces]
 		
 		if strategy == "base_passive_random_uniform_national"
 			for agent in StatsBase.sample(agents, capacity)
-				if agent.status == :S || agent.status == :R
-					if rand() ≤ 0.95 #specificity
+				if agent.status==:S || agent.status==:R
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #specificity
 						agent.diagnosis=:N
 					else 
 						agent.diagnosis=:P
 					end
 				elseif agent.status!=:S && agent.status!=:R
-					if rand() ≤ 0.70 #sensitivity
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_positive_rate") #sensitivity
 						agent.diagnosis=:P
 					else 
 						agent.diagnosis=:N
@@ -561,25 +699,25 @@ begin
 		elseif strategy == "passive_random_uniform_national"
 			for agent in StatsBase.sample(agents, capacity)
 				if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
-					if rand() ≤ 0.95
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") 
 						agent.diagnosis=:N
 					else 
 						agent.diagnosis=:P
 					end
 				elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status!=:S && agent.status!=:R) 
-					if rand() ≤ 0.70
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_positive_rate") #sensitivity
 						agent.diagnosis=:P
 					else 
 						agent.diagnosis=:N
 					end
 				elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
-					if rand() ≤ 0.95
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") 
 						agent.diagnosis=:HR
 					else 
 						agent.diagnosis=:P
 					end
 				elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
-					if rand() ≤ 0.70
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_positive_rate") #sensitivity
 						agent.diagnosis=:P
 					else 
 						agent.diagnosis=:HR
@@ -591,28 +729,28 @@ begin
 			for prov in provinces
 				for agent in StatsBase.sample(prov_agents[prov], prov_capacities[prov])
 					if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
-						if rand() ≤ 0.95
+						if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") 
 							agent.diagnosis=:N
 						else 
 							agent.diagnosis=:P
 						end
 					elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status!=:S && agent.status!=:R) 
-						if rand() ≤ 0.70
+						if rand() ≤ 1-DiagnosticRate(agent.status,"false_positive_rate") #sensitivity
 							agent.diagnosis=:P
 						else 
 							agent.diagnosis=:N
 						end
 					elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
-						if rand() ≤ 0.95
-							agent.diagnosis=:R
+						if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") 
+							agent.diagnosis=:HR
 						else 
 							agent.diagnosis=:P
 						end
 					elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
-						if rand() ≤ 0.70
+						if rand() ≤ 1-DiagnosticRate(agent.status,"false_positive_rate") #sensitivity
 							agent.diagnosis=:P
 						else 
-							agent.diagnosis=:R
+							agent.diagnosis=:HR
 						end
 					end
 				end
@@ -635,7 +773,7 @@ begin
 			end
 			for agent in ags[1:capacity]
 				if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
-					if rand() ≤ 0.95
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") 
 						agent.diagnosis=:N
 					else 
 						agent.diagnosis=:P
@@ -647,7 +785,7 @@ begin
 						agent.diagnosis=:N
 					end
 				elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
-					if rand() ≤ 0.95
+					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") 
 						agent.diagnosis=:HR
 					else 
 						agent.diagnosis=:P
@@ -707,26 +845,58 @@ begin
 			end
 		end
 	end
+	
+	# Policy scenarios
+	function phase1!(model)
+		model.phase = 1
+	end
+	function phase2!(model)
+		model.phase = 2
+	end
+	function phase3!(model)
+		model.phase = 3
+	end
+	function phase4!(model)
+		model.phase = 4
+	end
+	
 	# Macro Dynamics
 	function model_step!(model)
+		model.t+=1
 		#test!(model,"base_passive_random_uniform_national",capacity)
-		#test!(model,"passive_random_uniform_national",capacity)
-		#test!(model,"passive_random_uniform_provincial",capacity)
+		test!(model,"passive_random_uniform_national",capacity)
+		#test!(model,"passive_random_uniform_provincial",capacity) #ONLY FOR LARGE N
 		#test!(model,"passive_biased_symptoms_national",capacity)
-		test!(model,"passive_biased_symptoms_provincial",capacity)
+		#test!(model,"passive_biased_symptoms_provincial",capacity)
+		if model.t≤11
+			phase1!(model)
+		elseif model.t≤11+22
+			phase2!(model)
+		elseif model.t≤11+22+65
+			phase3!(model)
+		elseif model.t≤11+22+65+28
+			phase4!(model)
+		end
 	end
 end;
 
 # ╔═╡ 11311608-ec8c-11ea-1858-5736b227c537
 md"
 ## Model
+"
+
+# ╔═╡ 60d393f6-f05a-11ea-05e2-17548373aa22
+md"
 ### Initialization
 "
 
 # ╔═╡ 1bdcafac-ec8c-11ea-3586-f70109e150ef
 begin
 	# Model initialization 
-	function initialize_model(provincial_pops::Array{Int,1}, age_provincial_pops::DataFrame,contact_graph::SimpleWeightedDiGraph{Int64,Float64}, mobility_graph::SimpleWeightedDiGraph{Int64,Float64},h::Real,I0::Int)
+	function InitializeModel(t::Int, provincial_pops::Array{Int,1}, age_provincial_pops::DataFrame,
+			home_contact_graph::SimpleWeightedDiGraph{Int64,Float64}, work_contact_graph::SimpleWeightedDiGraph{Int64,Float64}, school_contact_graph::SimpleWeightedDiGraph{Int64,Float64}, other_contact_graph::SimpleWeightedDiGraph{Int64,Float64},
+			mobility_graph::SimpleWeightedDiGraph{Int64,Float64},mobility_graph_phase1::SimpleWeightedDiGraph{Int64,Float64},mobility_graph_phase2::SimpleWeightedDiGraph{Int64,Float64},mobility_graph_phase3::SimpleWeightedDiGraph{Int64,Float64},mobility_graph_phase4::SimpleWeightedDiGraph{Int64,Float64},
+			h::Real,I0::Int)
 		
 		# Set populations
 		N = sum(Array(age_provincial_pops))  # number of agents
@@ -734,12 +904,15 @@ begin
 		K = length(age_provincial_pops[1])   # number of age groups (16)
 		# Initialize id 
 		id = 0    
-
+		# Initialize Phase 
+		phase = 1
 		# Define the dictionary of model properties
-		properties = @dict(contact_graph, 
-						   provincial_pops, age_provincial_pops,
-						   h, I0,
-						   N, M, K)
+		properties = @dict(t, phase, 
+			home_contact_graph, work_contact_graph, school_contact_graph, other_contact_graph,
+			mobility_graph_phase1,mobility_graph_phase2,mobility_graph_phase3,mobility_graph_phase4,
+			provincial_pops, age_provincial_pops,
+			h, I0,
+			N, M, K)
 
 		# Instantiate graph ambient space
 		space = GraphSpace(mobility_graph) 
@@ -751,23 +924,29 @@ begin
 			for age ∈ 1:K 
 				for n ∈ 1:age_provincial_pops[province][age]
 					id+=1
-					home=province
-					pos=home
+					residence=province
+					household=[]
+					pos=residence
 					age_group=age
 					status=:S
 					delay_left=-1
 					diagnosis=:O
-					add_agent!(pos, model, age_group, home, status, 
+					add_agent!(pos, model, age_group,residence,household, status, 
 								delay_left, diagnosis)
 				end
 			end
 		end
-
+		
+		# Initialize households
+		for agent in allagents(model)
+			agent.household=InitializeHousehold(agent, model)
+		end
+		
 		# Initialize infected agents 
 		agents = [agent for agent in allagents(model)]
 		for agent in StatsBase.sample(agents, I0)
-			agent.status = :I_s
-			agent.delay_left = round(Int, rand(Gamma(3.5,4)))
+			agent.status = :E
+			agent.delay_left = round(Int, rand(Gamma(3,4)))
 		end
 
 		return model
@@ -785,7 +964,11 @@ begin
 	Random.seed!(1234);
 
 	# Initialize the model
-	model = initialize_model(provincial_pops, age_provincial_pops, all_contact_graph, mobility_graph,h, I0)
+	model = InitializeModel(0,
+		provincial_pops, age_provincial_pops, 
+		home_contact_graph, work_contact_graph, school_contact_graph, other_contact_graph,
+		mobility_graph,mobility_graph_phase1,mobility_graph_phase2,mobility_graph_phase3,mobility_graph_phase4,
+		h, I0)
 
 	#simulation_data = @time run!(model, agent_step!, 100);
 
@@ -807,8 +990,8 @@ begin
 	tested(diagnosis) = count(i != :O for i in diagnosis);
 	#daily_tested(diagnosis)= count
 	positive(diagnosis) = count(i == :P for i in diagnosis);
-	#positive_rate(diagnosis)=positive(diagnosis)/tested(diagnosis)
-	positive_rate(diagnosis)=positive(diagnosis)/capacity # new_positives/cpacity or #positives/ || "daily tests" != "daily tested people"
+	positive_rate(diagnosis)=positive(diagnosis)/tested(diagnosis)
+	#positive_rate(diagnosis)=positive(diagnosis)/capacity # new_positives/cpacity or #positives/ || "daily tests" != "daily tested people"
 	infected_rate(status)= infected(status) / model.N
 
 	# Data Collection
@@ -817,32 +1000,61 @@ begin
 	
 	data, _ = run!(model, agent_step!, model_step!, nsteps; adata = to_collect, replicates=3);
 
-	sort!(DataFrame(allagents(model)), :home, rev = false)
+	sort!(DataFrame(allagents(model)), :residence, rev = false)
 	gd = groupby(data, [:step])
+end
+
+# ╔═╡ 4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
+md"
+## Visualization
+"
+
+# ╔═╡ 244ce9ee-f07f-11ea-0eec-d71e6439fc6f
+timestep = 2:length(gd);
+
+# ╔═╡ 67b9d940-ef89-11ea-005a-4566b7dc7dfc
+ begin 
+	ft=[quantile(gd[i].tested_diagnosis-gd[i-1].tested_diagnosis,0.05) for i in timestep]
+	mt=[quantile(gd[i].tested_diagnosis-gd[i-1].tested_diagnosis,0.5) for i in timestep]
+	nt=[quantile(gd[i].tested_diagnosis-gd[i-1].tested_diagnosis,0.95) for i in timestep]
+		
+	plot(timestep, mt[2:length(mt)],
+		label="Tested Patients",
+		xlab="Time",
+    	ylabel="Number",
+		#title="DC=$capacity | Χ²=$Χ", 
+		legend=:bottomright,
+		lw=2.5; 
+		ribbon=[mt-ft,nt-mt],
+	    fillalpha=0.3)
+	plot(timestep, mt,
+		label="Daily Tested Patients",
+		lw=2.5;
+		ribbon=[mt-ft,nt-mt],
+	    fillalpha=0.3)
+	plot!(timestep, [capacity for i in timestep],
+	      label="Daily Tests",
+	      lw=2.5)
 end
 
 # ╔═╡ 88924e16-ee46-11ea-36e4-e1bb800d773a
 begin
-	# LIST COMPREHENSION EXIST, FUCKING IDIOT!
-	using LaTeXStrings
-	m1=[quantile(gd[i].infected_rate_status,0.05) for i in 2:length(gd)]
-	f1=[quantile(gd[i].infected_rate_status,0.5) for i in 2:length(gd)] 
-	n1=[quantile(gd[i].infected_rate_status,0.95) for i in 2:length(gd)]
+	f1=[quantile(gd[i].infected_rate_status,0.05) for i in timestep]
+	m1=[quantile(gd[i].infected_rate_status,0.5) for i in timestep] 
+	n1=[quantile(gd[i].infected_rate_status,0.95) for i in timestep]
 	
-	
-	m2=[quantile(gd[i].positive_rate_diagnosis,0.05) for i in 2:length(gd)]
-	f2=[quantile(gd[i].positive_rate_diagnosis,0.5) for i in 2:length(gd)] 
-	n2=[quantile(gd[i].positive_rate_diagnosis,0.95) for i in 2:length(gd)]
+	f2=[quantile(gd[i].positive_rate_diagnosis,0.05) for i in timestep]
+	m2=[quantile(gd[i].positive_rate_diagnosis,0.5) for i in timestep] 
+	n2=[quantile(gd[i].positive_rate_diagnosis,0.95) for i in timestep]
 	
 	Χ = round(Int, sum(((m2-m1).^2)./m1))
 	
-	timestep = 2:length(gd)
 	plot(timestep, m1,
 		label="Incidence",
 		xlab="Time",
     	ylabel="Number",
 		title="DC=$capacity | Χ²=$Χ", 
-		legend=:topright,
+		legend=:right,
 		lw=2.5; 
 		ribbon=[m1-f1,n1-m1],
 	    fillalpha=0.3)
@@ -851,35 +1063,6 @@ begin
 		lw=2.5; 
 		ribbon=[m2-f2,n2-m2],
 	    fillalpha=0.3)
-end
-
-# ╔═╡ 4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
-md"
-## Visualization
-"
-
-# ╔═╡ 67b9d940-ef89-11ea-005a-4566b7dc7dfc
- begin 
-	mt=[quantile(gd[i].tested_diagnosis,0.05) for i in 1:length(gd)]
-	ft=[quantile(gd[i].tested_diagnosis,0.5) for i in 1:length(gd)] 
-	nt=[quantile(gd[i].tested_diagnosis,0.95) for i in 1:length(gd)]
-		
-	#=plot(timestep, mt[2:length(mt)],
-		label="Tested Patients",
-		xlab="Time",
-    	ylabel="Number",
-		#title="DC=$capacity | Χ²=$Χ", 
-		legend=:bottomright,
-		lw=2.5; 
-		ribbon=[mt-ft,nt-mt],
-	    fillalpha=0.3)=#
-	plot(timestep, [mt[i]-mt[i-1] for i in timestep],
-		label="Daily Tested Patients",
-		lw=2.5; 
-	    fillalpha=0.3)
-	plot!(timestep, [capacity for i in timestep],
-	      label="Daily Tests",
-	      lw=2.5)
 end
 
 # ╔═╡ a321cef8-eee0-11ea-173f-ef9e0ef61e57
@@ -894,21 +1077,21 @@ begin
 	f0=[quantile(gd[i].positive_diagnosis,0.5) for i in 2:length(gd)] 
 	n0=[quantile(gd[i].positive_diagnosis,0.95) for i in 2:length(gd)]
 	
-	#=plot(timestep, m,
+	plot(timestep, m,
 		label="Simulated Infected",
 		xlab="Time",
     	ylabel="Number",
-		title="DC=$capacity | Χ²=$Χ", 
+		#title="DC=$capacity | Χ²=$Χ", 
 		legend=:right,
 		lw=2.5;
 		ribbon=[m-f,n-m],
-	    fillalpha=0.3)=#
-	plot(timestep, m0,
+	    fillalpha=0.3)
+	plot!(timestep, m0,
 		  label="Simulated Positive",
 		  lw=2.5; 
 		  ribbon=[m0-f0,n0-m0],
 	      fillalpha=0.3)
-	plot!(timestep,active_cases["Active Cases"][1:100]/1000,
+	plot!(timestep,active_cases["Active Cases"][1:100]/scale_factor,
 		  label="Active Cases",
 		  lw=2.5)
 end
@@ -949,34 +1132,6 @@ begin
 	plot!(timestep, m5,label="I",lw=2.5; ribbon=[m5-f5,n5-m5],fillalpha=0.3)
 	plot!(timestep, m6,label="R",lw=2.5; ribbon=[m6-f6,n6-m6],fillalpha=0.3)
 	plot!(timestep, m7,label="D",lw=2.5; ribbon=[m7-f7,n7-m7],fillalpha=0.3)
-end
-
-# ╔═╡ eec74d5a-efd4-11ea-0e3e-35ae47a3bf0e
-gdd = groupby(data, [:replicate])
-
-# ╔═╡ fa0f76c4-efd4-11ea-37ea-e5b85076db48
-sum(gdd[1].infected_presymptomatic_status)
-
-# ╔═╡ fbd3bb58-efd6-11ea-1574-4becbfd0eb8d
-a=[gdd[1].infected_presymptomatic_status[i]-gdd[1].infected_presymptomatic_status[i-1] for i in timestep]
-
-# ╔═╡ 3252b352-efd7-11ea-34b2-07e9dc9dde36
-b=[gdd[1].infected_symptomatic_status[i]-gdd[1].infected_symptomatic_status[i-1] for i in timestep]
-
-# ╔═╡ 694dd18c-efd7-11ea-1194-973a6114bcd6
-begin
-	plot(timestep, a,
-		label="Δ Pre-Symptomatic",
-		xlab="Time",
-    	ylabel="Number",
-		legend=:topright,
-		lw=2.5)
-plot!(timestep, b,
-		label="Δ Symptomatic",
-		xlab="Time",
-    	ylabel="Number",
-		legend=:topright,
-		lw=2.5)
 end
 
 # ╔═╡ bec50eac-ed41-11ea-0137-c7016eb9e5a9
@@ -1062,16 +1217,20 @@ end
 # ╟─2f7454ee-ec8b-11ea-3227-17ab1eff2513
 # ╟─1761da66-ec8b-11ea-05b7-519b5405c9ae
 # ╟─4380dbf6-ec8b-11ea-31f9-d565a048f603
+# ╟─c9e57212-f083-11ea-3482-5931524d174e
 # ╟─7d2351ae-ec8b-11ea-0f27-c9fe5fd25f8e
 # ╟─6ffd583a-ec8b-11ea-3505-3764a56edece
+# ╟─9cb69576-f064-11ea-0308-cf8fd29c6e0c
 # ╟─82ad393c-ec8b-11ea-2474-f1e7400a1536
 # ╟─8cae6d28-ec8b-11ea-0f9f-4bfee0ec90b1
+# ╟─ef6712e2-f072-11ea-06cb-97f5ff556eac
 # ╟─5b11f7e4-eee0-11ea-1808-d17cfea76625
-# ╠═653d6bc2-eee0-11ea-125a-6b7a3f984d7c
+# ╟─653d6bc2-eee0-11ea-125a-6b7a3f984d7c
+# ╟─b3830528-f104-11ea-020a-03106bdd926f
 # ╟─b50b2880-ec8b-11ea-3989-21870f8c0f72
 # ╠═9e707de6-ec8b-11ea-38c7-cb8a621135d0
 # ╟─3f36a99a-ed03-11ea-3936-5ff45f406f73
-# ╟─58ffc854-ed01-11ea-2972-750e0dc0908c
+# ╠═58ffc854-ed01-11ea-2972-750e0dc0908c
 # ╟─cab724b8-ec8b-11ea-1f80-eb2ef177675e
 # ╟─5c57691c-ed24-11ea-33e4-779a4bd311a8
 # ╠═03fd6022-ed23-11ea-1587-f58557320659
@@ -1080,19 +1239,17 @@ end
 # ╟─ea17e80e-ec8b-11ea-1c0f-8bbd80a8bb9a
 # ╠═f2d7ab0c-ec8b-11ea-1ad4-f5b14794a405
 # ╟─11311608-ec8c-11ea-1858-5736b227c537
+# ╟─76393228-f05a-11ea-2712-a116615a9bd6
+# ╟─60d393f6-f05a-11ea-05e2-17548373aa22
 # ╠═1bdcafac-ec8c-11ea-3586-f70109e150ef
 # ╟─3561741c-ec8c-11ea-2a37-6be5151207b3
 # ╠═3bddaf18-ec8c-11ea-1958-8b69072c855f
 # ╟─4d012f86-ec8c-11ea-1e30-b7182bb5c4b7
-# ╠═67b9d940-ef89-11ea-005a-4566b7dc7dfc
+# ╟─244ce9ee-f07f-11ea-0eec-d71e6439fc6f
+# ╟─67b9d940-ef89-11ea-005a-4566b7dc7dfc
 # ╠═88924e16-ee46-11ea-36e4-e1bb800d773a
 # ╠═a321cef8-eee0-11ea-173f-ef9e0ef61e57
-# ╠═ac81d164-ed2b-11ea-0433-85048542e41b
-# ╠═eec74d5a-efd4-11ea-0e3e-35ae47a3bf0e
-# ╠═fa0f76c4-efd4-11ea-37ea-e5b85076db48
-# ╠═fbd3bb58-efd6-11ea-1574-4becbfd0eb8d
-# ╠═3252b352-efd7-11ea-34b2-07e9dc9dde36
-# ╠═694dd18c-efd7-11ea-1194-973a6114bcd6
-# ╠═bec50eac-ed41-11ea-0137-c7016eb9e5a9
-# ╠═4e4be2ac-ed0c-11ea-0e9d-7dc8d803f923
-# ╠═804007b6-ed0c-11ea-2e06-4be094d672c3
+# ╟─ac81d164-ed2b-11ea-0433-85048542e41b
+# ╟─bec50eac-ed41-11ea-0137-c7016eb9e5a9
+# ╟─4e4be2ac-ed0c-11ea-0e9d-7dc8d803f923
+# ╟─804007b6-ed0c-11ea-2e06-4be094d672c3

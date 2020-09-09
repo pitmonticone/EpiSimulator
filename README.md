@@ -27,7 +27,7 @@
 
 <!-- Subtitle -->
 <h2 align="center">
-  Data-Driven Stochastic Agent-Based Metapopulation SEIIIRD Model
+  Data-Driven Stochastic Agent-Based Metapopulation Model
 </h2>
 
 <!-- Badges -->
@@ -43,44 +43,88 @@
   
 </p>
 
+<!-- Title -->
+<h1 align="center">
+  Digital Epidemiology Project
+</h1>
 
+<!-- Subtitle -->
 <h2 align="center">
-  Authors
+   Data-Driven Stochastic Agent-Based Metapopulation Model
 </h2>
+
+### Authors
 
 | Name  | Mail | GitHub | Twitter | Contributions |
-| ---- | ---- | ---- | ---- | ---- |
-| Monticone Pietro | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Geospatial, contact, mobility and epidemiological data exploration, selection and processing ; ... |
-| Orsenigo Davide |[davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://twitter.com/DavideOrsenigo) | Population data exploration, selection and processing ; ... |
+| :---- | :---- | :---- | :---- | :---- |
+| Pietro Monticone | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Geospatial data exploration, selection and processing | 
+|  |  |  |  | Contact data exploration, selection and processing |
+|  |  |  |  | Mobility data exploration, selection and processing |
+|  |  |  |  | Epidemiological data exploration, selection and processing | 
+|  |  |  |  | Policy data exploration, selection and processing | 
+|  |  |  |  | Age-specific IFR calibration |
+|  |  |  |  | Surveillance module design and implementation |
+| Davide Orsenigo | [davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://twitter.com/DavideOrsenigo) | Population data exploration, selection and processing | 
+|  |  |  |  | Diagnostic data exploration, selection and processing |
+|  |  |  |  | Age-specific symptomatic fraction calibration |
+|  |  |  |  | Inter-compartment transition delays calibration |
 
+### Computational Framework
 
-<h2 align="center">
-  Contents
-</h2>
+| Language  | Activities |
+| :---- | :---- |
+| [Python](https://www.python.org/) | Data collection | 
+| | Data wrangling | 
+|  | Data visualization | 
+| [Julia](https://julialang.org) | Modelling | 
+|  | Scenario Analysis | 
 
-| Scrapers  | Data | Analysis | 
-|-----|-----|-----|
-| [Twitter Friends Ego Graph Scraper](https://inphyt.github.io/SocialPhysicsProject/Scrapers/RTweet/RTweet_TwitterFriendsEgographScraper.html) with `rtweet` | [@PietroMonticone](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Data/GraphML/@PietroMonticone1.graphml) at 1ˢᵗ Order | [@PietroMonticone](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Twitter1.ipynb) at 1ˢᵗ Order |
-| [Twitter Followers Ego Graph Scraper](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Scrapers/Tweepy/Tweepy_TwitterFollowersEgographScraper.ipynb) with `tweepy` | [@PietroMonticone](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Data/GraphML/@PietroMonticone2.graphml) at 2ⁿᵈ Order | [@PietroMonticone](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Twitter2.ipynb) at 2ⁿᵈ Order |
-| [Twitter Followers Ego Graph Scraper](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Scrapers/Twint/Twint_TwitterFollowersEgographScraper.ipynb) with `twint` | [Facebook User 1](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Data/GraphML/Facebook1.graphml) at 1ˢᵗ Order | [Facebook User 1](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Facebook1.ipynb) at 1ˢᵗ Order |
-|| [Facebook User 2](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Data/GraphML/Facebook2.graphml) at 1ˢᵗ Order | [Facebook User 2](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Facebook2.ipynb) at 1ˢᵗ Order |
+### Parameters
 
-<h3 align="center">
-  Facebook
-</h3>
+| Name | Value | Description | References | 
+| :---- | :---- | :---- | :---- | 
+| *y* | `age_group` in [1,6] | Category of "young" age groups |  | 
+| *m*  | `age_group` in [7,12] | Category of "middle" age groups |  | 
+| *o*  | `age_group` in [13,16] | Category of "old" age groups |  | 
+|  |  |  |  | 
+| *s_y* | *N(μ=0.5, σ=0.1; [0,0.5])* | Symptomatic fraction on infection for "young" age groups|  
+| *s_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
+| *s_o* | *N(μ=0.5, σ=0.1; [0.5,1])* | Symptomatic fraction on infection for "old" age groups |  |
+|  |  |  |  |
+| $d_E$ | *Γ(μ=3,k=4)* | Incubation period |  |
+| $d_P$ | *Γ(μ=1.5,k=4)* | Duration of infectiousness in days during the pre-symptomatic phase |  |
+| $d_A$ | *Γ(μ=3.5,k=4)* | Duration of infectiousness in days during the a-symptomatic phase |  |
+| $d_S$ | *Γ(μ=5,k=4)* | Duration of infectiousness in days during the symptomatic phase |  |
 
-| ![Facebook1](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/Facebook4.png) [Anonymous User 1](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Facebook1.ipynb) | ![Facebook2](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/Facebook3.png) [Anonymous User 2](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Facebook2.ipynb) | ![Facebook3](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/Facebook2.png) Anonymous User 3 | ![Facebook4](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/Facebook1.png) Anonymous User 4 | ![Facebook5](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/Facebook5.png) Anonymous User 5 | 
-|:--------:|:-------:|:--------:|:-------:|:--------:|
+### Diagnostic Strategies
 
+| Role | Region | Priority | Distribution | Contact-Tracing | 
+| :---- | :---- | :---- | :---- | :---- |
+| Passive | National | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Provincial | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+| Active | National | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Provincial | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
 
-<h3 align="center">
-  Twitter
-</h3>
-
-| ![@ClaudioMoroni3_1](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/@ClaudioMoroni3_1.png) @ClaudioMoroni3 | ![@PietroMonticone_1](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/@PietroMonticone_1.png) [@PietroMonticone](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Twitter1.ipynb) | ![@ClaudioMoroni3_2](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/@ClaudioMoroni3_2.png) @ClaudioMoroni3¹ | ![@PietroMonticone_22](https://github.com/InPhyT/SocialPhysicsProject/blob/master/Images/@PietroMonticone_21.png) [@PietroMonticone](https://nbviewer.jupyter.org/github/InPhyT/SocialPhysicsProject/blob/master/Analysis/Twitter2.ipynb)¹|
-|:--------:|:-------:|:--------:|:-------:|
-
-<br>
-
-<sup>**[1]** This is a second order ego graph with truncated edge set.</sup>
-
+* All the above with behavioral module: endogenous, individual-based physical distancing (local and global)
+* All the above with behavioral module: exogeneous, enforced physical distancing (local and global lockdown)
+* **Special one**: Active, provincial, targeted, symptom-based, symptomatic-is-positive, contact-tracing, endogenous & exogenous distancing: assume all symptomatic patients to be **positive** ($I_s$) without testing them (accepting the uncertainty of the symptom-based MD diagnosis) in order to allocate more diagnostic resources to the active surveillance of exposed, asymptomatic, vulnerable patients.

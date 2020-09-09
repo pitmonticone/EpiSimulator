@@ -45,19 +45,19 @@
 
 ### Authors
 
-| Name  | Mail | GitHub | Twitter | Contributions |
-| :---- | :---- | :---- | :---- | :---- |
-| Pietro Monticone | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Geospatial data exploration, selection and processing | 
-|  |  |  |  | Contact data exploration, selection and processing |
-|  |  |  |  | Mobility data exploration, selection and processing |
-|  |  |  |  | Epidemiological data exploration, selection and processing | 
-|  |  |  |  | Policy data exploration, selection and processing | 
-|  |  |  |  | Age-specific IFR calibration |
-|  |  |  |  | Surveillance module design and implementation |
-| Davide Orsenigo | [davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://twitter.com/DavideOrsenigo) | Population data exploration, selection and processing | 
-|  |  |  |  | Diagnostic data exploration, selection and processing |
-|  |  |  |  | Age-specific symptomatic fraction calibration |
-|  |  |  |  | Inter-compartment transition delays calibration |
+| Name | Contacts | Contribution | 
+| :---- | :---- | :---- |
+| Pietro Monticone | [Mail](pietro.monticone@edu.unito.it) | Geospatial data exploration, selection and processing | 
+|  | [GitHub](https://github.com/pitmonticone) | Contact data exploration, selection and processing | 
+|  | [Twitter](https://twitter.com/PietroMonticone) | Mobility data exploration, selection and processing | 
+|  |  | Epidemiological data exploration, selection and processing | 
+|  |  | Policy data exploration, selection and processing | 
+|  |  | Age-specific IFR calibration |
+|  |  | Surveillance module design and implementation |
+| Davide Orsenigo | [Mail](davide.orsenigo@edu.unito.it) | Population data exploration, selection and processing | 
+|  | [GitHub](https://github.com/daorse) | Diagnostic data exploration, selection and processing | 
+|  | [Twitter](https://twitter.com/DavideOrsenigo) | Age-specific symptomatic fraction calibration | 
+|  |  | Inter-compartment transition delays calibration |
 
 ### Computational Framework
 

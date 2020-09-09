@@ -10,19 +10,19 @@
 
 ### Authors
 
-| Name  | Mail | GitHub | Twitter | Contributions |
-| :---- | :---- | :---- | :---- | :---- |
-| Pietro Monticone | [pietro.monticone@edu.unito.it](pietro.monticone@edu.unito.it) | [@pitmonticone](https://github.com/pitmonticone) | [@PietroMonticone](https://github.com/pitmonticone) | Geospatial data exploration, selection and processing | 
-|  |  |  |  | Contact data exploration, selection and processing |
-|  |  |  |  | Mobility data exploration, selection and processing |
-|  |  |  |  | Epidemiological data exploration, selection and processing | 
-|  |  |  |  | Policy data exploration, selection and processing | 
-|  |  |  |  | Age-specific IFR calibration |
-|  |  |  |  | Surveillance module design and implementation |
-| Davide Orsenigo | [davide.orsenigo@edu.unito.it](davide.orsenigo@edu.unito.it) | [@daorse](https://github.com/daorse) | [@DavideOrsenigo](https://twitter.com/DavideOrsenigo) | Population data exploration, selection and processing | 
-|  |  |  |  | Diagnostic data exploration, selection and processing |
-|  |  |  |  | Age-specific symptomatic fraction calibration |
-|  |  |  |  | Inter-compartment transition delays calibration |
+| Name | Contacts | Contribution | 
+| :---- | :---- | :---- |
+| Pietro Monticone | [Mail](pietro.monticone@edu.unito.it) | Geospatial data exploration, selection and processing | 
+|  | [GitHub](https://github.com/pitmonticone) | Contact data exploration, selection and processing | 
+|  | [Twitter](https://twitter.com/PietroMonticone) | Mobility data exploration, selection and processing | 
+|  |  | Epidemiological data exploration, selection and processing | 
+|  |  | Policy data exploration, selection and processing | 
+|  |  | Age-specific IFR calibration |
+|  |  | Surveillance module design and implementation |
+| Davide Orsenigo | [Mail](davide.orsenigo@edu.unito.it) | Population data exploration, selection and processing | 
+|  | [GitHub](https://github.com/daorse) | Diagnostic data exploration, selection and processing | 
+|  | [Twitter](https://twitter.com/DavideOrsenigo) | Age-specific symptomatic fraction calibration | 
+|  |  | Inter-compartment transition delays calibration |
 
 ### Computational Framework
 
@@ -46,14 +46,12 @@
 | *s_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
 | *s_o* | *N(μ=0.5, σ=0.1; [0.5,1])* | Symptomatic fraction on infection for "old" age groups |  |
 |  |  |  |  |
-| $d_E$ | *Γ(μ=3,k=4)* | Incubation period |  |
-| $d_P$ | *Γ(μ=1.5,k=4)* | Duration of infectiousness in days during the pre-symptomatic phase |  |
-| $d_A$ | *Γ(μ=3.5,k=4)* | Duration of infectiousness in days during the a-symptomatic phase |  |
-| $d_S$ | *Γ(μ=5,k=4)* | Duration of infectiousness in days during the symptomatic phase |  |
+| *d_E* | *Γ(μ=3,k=4)* | Incubation period |  |
+| *d_P* | *Γ(μ=1.5,k=4)* | Duration of infectiousness in days during the pre-symptomatic phase |  |
+| *d_A* | *Γ(μ=3.5,k=4)* | Duration of infectiousness in days during the a-symptomatic phase |  |
+| *d_S* | *Γ(μ=5,k=4)* | Duration of infectiousness in days during the symptomatic phase |  |
 
-<h2 align="center">
-  Diagnostic Strategies
-</h2> 
+### Diagnostic Strategies
 
 | Role | Region | Priority | Distribution | Contact-Tracing | 
 | :---- | :---- | :---- | :---- | :---- |

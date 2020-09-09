@@ -43,16 +43,6 @@
   
 </p>
 
-<!-- Title -->
-<h1 align="center">
-  Digital Epidemiology Project
-</h1>
-
-<!-- Subtitle -->
-<h2 align="center">
-   Data-Driven Stochastic Agent-Based Metapopulation Model
-</h2>
-
 ### Authors
 
 | Name  | Mail | GitHub | Twitter | Contributions |
@@ -91,10 +81,10 @@
 | *s_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
 | *s_o* | *N(μ=0.5, σ=0.1; [0.5,1])* | Symptomatic fraction on infection for "old" age groups |  |
 |  |  |  |  |
-| $d_E$ | *Γ(μ=3,k=4)* | Incubation period |  |
-| $d_P$ | *Γ(μ=1.5,k=4)* | Duration of infectiousness in days during the pre-symptomatic phase |  |
-| $d_A$ | *Γ(μ=3.5,k=4)* | Duration of infectiousness in days during the a-symptomatic phase |  |
-| $d_S$ | *Γ(μ=5,k=4)* | Duration of infectiousness in days during the symptomatic phase |  |
+| *d_E* | *Γ(μ=3,k=4)* | Incubation period |  |
+| *d_P* | *Γ(μ=1.5,k=4)* | Duration of infectiousness in days during the pre-symptomatic phase |  |
+| *d_A* | *Γ(μ=3.5,k=4)* | Duration of infectiousness in days during the a-symptomatic phase |  |
+| *d_S* | *Γ(μ=5,k=4)* | Duration of infectiousness in days during the symptomatic phase |  |
 
 ### Diagnostic Strategies
 

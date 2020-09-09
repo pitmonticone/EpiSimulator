@@ -73,9 +73,9 @@
 
 | Name | Value | Description | References | 
 | :---- | :---- | :---- | :---- | 
-| *y* | `age_group` in [1,6] | Category of "young" age groups |  | 
-| *m*  | `age_group` in [7,12] | Category of "middle" age groups |  | 
-| *o*  | `age_group` in [13,16] | Category of "old" age groups |  | 
+| *y* | [1,6] | Range of "young" age groups |  | 
+| *m*  | [7,12] | Range of "middle" age groups |  | 
+| *o*  | [13,16] | Range of "old" age groups |  | 
 |  |  |  |  | 
 | *s_y* | *N(μ=0.5, σ=0.1; [0,0.5])* | Symptomatic fraction on infection for "young" age groups|  
 | *s_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 

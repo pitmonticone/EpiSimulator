@@ -78,6 +78,7 @@
 * Frank G Sandmann, Peter J White, Mary Ramsay, Mark Jit, [Optimizing Benefits of Testing Key Workers for Infection with SARS-CoV-2: A Mathematical Modeling Analysis](https://doi.org/10.1093/cid/ciaa901), *Clinical Infectious Diseases*,  ciaa901
 * Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillance strategies for preventing epidemics on networks](https://doi.org/10.1371/journal.pcbi.1007517). *PLoS Comput Biol* 15(11): e1007517. 
 * Nicholas C Grassly, Margarita Pons-Salort, Edward P K Parker, Peter J White, Neil M Ferguson, on behalf of the *Imperial College COVID-19 Response Team*. [Comparison of molecular testing strategies for COVID-19 control: a mathematical modelling study](https://doi.org/10.1016/S1473-3099(20)30630-7), *The Lancet* (2020)
+* Ted Bergstrom, Carl Bergstrom, Haoran Li [Frequency and accuracy of proactive testing for COVID-19](https://doi.org/10.1101/2020.09.05.20188839), *medRxiv* (2020)
 
 #### Interventions
 * Josh A Firth, Joel Hellewell, Petra Klepac, Stephen M Kissler et al. [Combining fine-scale social contact data with epidemic modelling reveals interactions between contact tracing, quarantine, testing and physical distancing for controlling COVID-19](https://cmmid.github.io/topics/covid19/tracing-network-local.html), *CMMID pre-print* (2020)

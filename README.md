@@ -89,7 +89,7 @@
 ### Diagnostic Strategies
 
 | Role | Region | Priority | Distribution | Contact-Tracing | 
-| :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :----: |
 | Passive | National | Random | Uniform | No |
 |  |  |  |  | Yes |
 |  |  | Targeted | Age-based / Ex-Ante IFR | No |

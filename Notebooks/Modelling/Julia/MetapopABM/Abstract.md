@@ -42,9 +42,9 @@
 | *m*  | `age_group` in [7,12] | Category of "middle" age groups |  | 
 | *o*  | `age_group` in [13,16] | Category of "old" age groups |  | 
 |  |  |  |  | 
-| *s_y* | *Normal(μ=0.5, σ=0.1; [0,0.5])* | Symptomatic fraction on infection for "young" age groups|  
+| *s_y* | *N(μ=0.5, σ=0.1; [0,0.5])* | Symptomatic fraction on infection for "young" age groups|  
 | *s_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
-| *s_o* | *Normal(μ=0.5, σ=0.1; [0.5,1])* | Symptomatic fraction on infection for "old" age groups |  |
+| *s_o* | *N(μ=0.5, σ=0.1; [0.5,1])* | Symptomatic fraction on infection for "old" age groups |  |
 |  |  |  |  |
 | $d_E$ | *Γ(μ=3,k=4)* | Incubation period |  |
 | $d_P$ | *Γ(μ=1.5,k=4)* | Duration of infectiousness in days during the pre-symptomatic phase |  |

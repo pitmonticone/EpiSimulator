@@ -435,16 +435,26 @@ function test!(model, strategy, capacity)
 		end
 		
 	elseif strategy == "passive_random_uniform_national"
-		for agent in StatsBase.sample(agents, capacity)
+        pos=[agent for agent in agents if agent.diagnosis==:P && agent.diagnosis_delay_left==0]
+		npos=[agent for agent in agents if agent.diagnosis!=:P]
+		pos=pos[randperm(length(pos))]
+		npos=npos[randperm(length(npos))]
+        ags=npos
+        if rand() ≤ 0.4 
+            ags = vcat(pos,npos)
+        end
+		for agent in ags[1:capacity] ###StatsBase.sample(agents, capacity)
 			if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
 				if rand() ≤ 0.95
 					agent.diagnosis=:N
 				else 
 					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14 # TRY INFECTIOUSNESS PEIOD GAMMA(MU,K)
 				end
 			elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status !=:S && agent.status !=:R) 
 				if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
 					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
 				else 
 					agent.diagnosis=:N
 				end
@@ -453,10 +463,12 @@ function test!(model, strategy, capacity)
 					agent.diagnosis=:HR
 				else 
 					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
 				end
 			elseif agent.diagnosis==:P && (agent.status !=:S && agent.status !=:R) 
 				if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
 					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
 				else 
 					agent.diagnosis=:HR
 				end
@@ -563,10 +575,12 @@ function test!(model, strategy, capacity)
 						agent.diagnosis=:HR
 					else 
 						agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
 					end
 				elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
 					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
 						agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
 					else 
 						agent.diagnosis=:HR
 					end

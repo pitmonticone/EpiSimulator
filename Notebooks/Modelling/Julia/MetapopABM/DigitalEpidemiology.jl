@@ -1,6 +1,12 @@
 # DIGITAL EPIDEMIOLOGY JULIA PACKAGE 
-# AUTHORS: Monticone Pietro, Orsenigo Davide 
 # LAST UPDATE: 07-09-2020
+
+###########################################
+################ AUTHORS ##################
+###########################################
+# PIETRO MONTICONE 
+# DAVIDE ORSENIGO 
+
 
 module DigitalEpidemiology
 
@@ -13,6 +19,7 @@ using StatsBase, Distributions, Random                       # Statistics
 using LightGraphs, SimpleWeightedGraphs, GraphIO, GraphPlot  # Graphs
 using Agents                                                 # Modelling 
 using LinearAlgebra                                          # Numerical Computation
+using LinearAlgebra                                          # Parallel Computation
 using Plots, AgentsPlots, PlotThemes, Images, ImageIO        # Visualization
 
 #####################################
@@ -594,7 +601,7 @@ function contact!(agent, model, location)
 	amplification = 1
     #age_amplification = fill(1,model.K)
     agents=get_node_agents(agent.pos, model)
-    neighbors=[n for n in agents if n != agent && n.status !=:D]
+    neighbors=[n for n in agents if n != agent && n.status !=:D] 
 	### @ Home
     if location=="home" 
         possible_contacted_agents=[a for a in neighbors if a.id in agent.household]
@@ -619,7 +626,7 @@ function contact!(agent, model, location)
         end
         contacted_agents = []
         for age_group in 1:model.K
-            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  
+            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.diagnosis !=:P]  # Total isolation of positives
             ncontacts = round(Int, amplification*LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) # in
             if length(aged_neighbors)>0 && ncontacts>0
                 push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
@@ -631,7 +638,7 @@ function contact!(agent, model, location)
 	elseif location=="school"
         contacted_agents = []
         for age_group in 1:model.K
-            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  
+            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.diagnosis !=:P]  # Total isolation of positives
             ncontacts = round(Int, amplification*LightGraphs.weights(model.school_contact_graph)[age_group, agent.age_group]) # in
             if length(aged_neighbors)>0 && ncontacts>0
                 push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
@@ -646,7 +653,7 @@ function contact!(agent, model, location)
 		end
         contacted_agents = []
         for age_group in 1:model.K
-            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  
+            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.diagnosis !=:P]  # Total isolation of positives
             ncontacts = round(Int, amplification*LightGraphs.weights(model.other_contact_graph)[age_group, agent.age_group]) # in
             if length(aged_neighbors)>0 && ncontacts>0
                 push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
@@ -692,7 +699,7 @@ function get_exposed!(agent, model, contacted_agents)
 	
 	neighbors = contacted_agents
 	for neighbor in neighbors 
-		if neighbor.status == :I_s && (rand() ≤ TruncatedNormal(0.5,0.1,0,0.5))
+        if neighbor.status == :I_s && (rand() ≤ TruncatedNormal(0.5,0.1,0,0.5))
 			agent.status = :E
 			agent.status_delay_left = round(Int, rand(Gamma(3,4)))
 			break

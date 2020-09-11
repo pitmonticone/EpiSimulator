@@ -1,5 +1,5 @@
 # DIGITAL EPIDEMIOLOGY JULIA PACKAGE 
-# LAST UPDATE: 07-09-2020
+# LAST UPDATE: 11-09-2020
 
 ###########################################
 ################ AUTHORS ##################
@@ -435,7 +435,7 @@ function test!(model, strategy, capacity)
 		end
 		
 	elseif strategy == "passive_random_uniform_national"
-        pos=[agent for agent in agents if agent.diagnosis==:P && agent.diagnosis_delay_left==0]
+        pos=[agent for agent in agents if agent.diagnosis==:P && agent.diagnosis_delay_left==0] #:W
 		npos=[agent for agent in agents if agent.diagnosis!=:P]
 		pos=pos[randperm(length(pos))]
 		npos=npos[randperm(length(npos))]
@@ -449,7 +449,7 @@ function test!(model, strategy, capacity)
 					agent.diagnosis=:N
 				else 
 					agent.diagnosis=:P
-                    agent.diagnosis_delay_left=14 # TRY INFECTIOUSNESS PEIOD GAMMA(MU,K)
+                    agent.diagnosis_delay_left=14 # TRY INFECTIOUSNESS PERIOD GAMMA(MU,K)
 				end
 			elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status !=:S && agent.status !=:R) 
 				if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
@@ -736,7 +736,7 @@ function get_infected!(agent, model)
 		
 	if rand() ≤ SymptomaticFraction(agent.age_group)
 		agent.status = :I_p 
-		agent.status_delay_left = round(Int, rand(Gamma(1.5,4)))
+		agent.status_delay_left = round(Int, rand(Gamma(1.5,4))) # 2.1 | Davies et al. (2020)
 	else
 		agent.status = :I_a
 		agent.status_delay_left = round(Int, rand(Gamma(5,4)))
@@ -748,7 +748,7 @@ function get_symptoms!(agent, model)
 	# If I'm not susceptible, I return
 	(agent.status!=:I_p || agent.status_delay_left !=0) && return
 	agent.status = :I_s
-	agent.status_delay_left = round(Int, rand(Gamma(3.5,4)))
+	agent.status_delay_left = round(Int, rand(Gamma(3.5,4))) # 2.9 | Davies et al. (2020)
 end
 
 # RECOVERY

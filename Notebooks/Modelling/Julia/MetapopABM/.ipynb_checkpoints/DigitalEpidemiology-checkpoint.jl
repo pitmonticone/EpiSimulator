@@ -408,7 +408,8 @@ infected_rate(status)= infected(status) / model.N
 ####################################
 
 # DIAGNOSTIC (CALIBRATE MEMORY WITH KNOWLEDGE OF AVG. DELAY)
-function test!(model, strategy, capacity)
+function test!(model, strategy)
+    model.capacity_array[model.t] == 0 && return
     
 	agents = [agent for agent in allagents(model) if agent.status!=:D && agent.diagnosis!=:HR]
 	provinces = 1:model.M

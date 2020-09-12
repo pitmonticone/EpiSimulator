@@ -409,10 +409,12 @@ infected_rate(status)= infected(status) / model.N
 
 # DIAGNOSTIC (CALIBRATE MEMORY WITH KNOWLEDGE OF AVG. DELAY)
 function test!(model, strategy)
-    model.capacity_array[model.t] == 0 && return
+    capacity = model.capacity_array[model.t]
+    capacity == 0 && return
     
 	agents = [agent for agent in allagents(model) if agent.status!=:D && agent.diagnosis!=:HR]
 	provinces = 1:model.M
+    #regions = 1:model.R 
 	prov_populations = model.provincial_pops
 
 	prov_capacities = round.(Int, prov_populations./sum(prov_populations) * capacity)
@@ -436,7 +438,7 @@ function test!(model, strategy)
 		end
 		
 	elseif strategy == "passive_random_uniform_national"
-        pos=[agent for agent in agents if agent.diagnosis==:P && agent.diagnosis_delay_left==0] #:W
+        pos=[agent for agent in agents if (agent.diagnosis==:P || agent.diagnosis==:W) && agent.diagnosis_delay_left==0]
 		npos=[agent for agent in agents if agent.diagnosis!=:P]
 		pos=pos[randperm(length(pos))]
 		npos=npos[randperm(length(npos))]
@@ -461,7 +463,8 @@ function test!(model, strategy)
 				end
 			elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
 				if rand() ≤ 0.95
-					agent.diagnosis=:HR
+					agent.diagnosis=:W
+                    agent.diagnosis_delay_left=2
 				else 
 					agent.diagnosis=:P
                     agent.diagnosis_delay_left=14
@@ -471,15 +474,30 @@ function test!(model, strategy)
 					agent.diagnosis=:P
                     agent.diagnosis_delay_left=14
 				else 
+					agent.diagnosis=:W
+                    agent.diagnosis_delay_left=2
+				end
+            elseif agent.diagnosis==:W && (agent.status == :S || agent.status == :R)
+                if rand() ≤ 0.95
+					agent.diagnosis=:HR
+				else 
+					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
+				end
+            elseif agent.diagnosis==:W && (agent.status !=:S && agent.status !=:R) 
+				if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
+				else 
 					agent.diagnosis=:HR
 				end
-			end
+            end
 		end
 		
 	elseif strategy == "passive_random_uniform_provincial"
 		for prov in provinces
 			for agent in StatsBase.sample(prov_agents[prov], prov_capacities[prov])
-				if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
+                 if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
 					if rand() ≤ 0.95
 						agent.diagnosis=:N
 					else 
@@ -492,22 +510,40 @@ function test!(model, strategy)
 						agent.diagnosis=:N
 					end
 				elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
-					if rand() ≤ 0.95
-						agent.diagnosis=:HR
-					else 
-						agent.diagnosis=:P
-					end
-				elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
-					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
-						agent.diagnosis=:P
-					else 
-						agent.diagnosis=:HR
-					end
-				end
-			end
-		end
+                    if rand() ≤ 0.95
+                        agent.diagnosis=:W
+                        agent.diagnosis_delay_left=2
+                    else 
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    end
+                elseif agent.diagnosis==:P && (agent.status !=:S && agent.status !=:R) 
+                    if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    else 
+                        agent.diagnosis=:W
+                        agent.diagnosis_delay_left=2
+                    end
+                elseif agent.diagnosis==:W && (agent.status == :S || agent.status == :R)
+                    if rand() ≤ 0.95
+                        agent.diagnosis=:HR
+                    else 
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    end
+                elseif agent.diagnosis==:W && (agent.status !=:S && agent.status !=:R) 
+                    if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    else 
+                        agent.diagnosis=:HR
+                    end
+                end
+            end
+        end
 	elseif strategy == "passive_biased_symptoms_national"
-			pos=[agent for agent in agents if agent.diagnosis==:P && agent.diagnosis_delay_left==0]
+			pos=[agent for agent in agents if (agent.diagnosis==:P || agent.diagnosis==:W) && agent.diagnosis_delay_left==0]
 			syms=[agent for agent in agents if agent.diagnosis!=:P && agent.status==:I_s]
 			nsyms=[agent for agent in agents if agent.diagnosis!=:P && agent.status !=:I_s]
 			pos=pos[randperm(length(pos))]
@@ -533,21 +569,39 @@ function test!(model, strategy)
 				end
 			elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
 				if rand() ≤ 0.95
-					agent.diagnosis=:HR
+					agent.diagnosis=:W
+                    agent.diagnosis_delay_left=2
 				else 
 					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
 				end
-			elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
+			elseif agent.diagnosis==:P && (agent.status !=:S && agent.status !=:R) 
 				if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
 					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
+				else 
+					agent.diagnosis=:W
+                    agent.diagnosis_delay_left=2
+				end
+            elseif agent.diagnosis==:W && (agent.status == :S || agent.status == :R)
+                if rand() ≤ 0.95
+					agent.diagnosis=:HR
+				else 
+					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
+				end
+            elseif agent.diagnosis==:W && (agent.status !=:S && agent.status !=:R) 
+				if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+					agent.diagnosis=:P
+                    agent.diagnosis_delay_left=14
 				else 
 					agent.diagnosis=:HR
 				end
-			end
+            end
 		end
 	elseif strategy == "passive_biased_symptoms_provincial"
 		for prov in provinces
-			pos=[agent for agent in prov_agents[prov] if agent.diagnosis==:P && agent.diagnosis_delay_left==0]
+			pos=[agent for agent in agents if (agent.diagnosis==:P || agent.diagnosis==:W) && agent.diagnosis_delay_left==0]
 			syms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status==:I_s]
 			nsyms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status!=:I_s]
 			pos=pos[randperm(length(pos))]
@@ -572,22 +626,97 @@ function test!(model, strategy)
 						agent.diagnosis=:N
 					end
 				elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
+                    if rand() ≤ 0.95
+                        agent.diagnosis=:W
+                        agent.diagnosis_delay_left=2
+                    else 
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    end
+                elseif agent.diagnosis==:P && (agent.status !=:S && agent.status !=:R) 
+                    if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    else 
+                        agent.diagnosis=:W
+                        agent.diagnosis_delay_left=2
+                    end
+                elseif agent.diagnosis==:W && (agent.status == :S || agent.status == :R)
+                    if rand() ≤ 0.95
+                        agent.diagnosis=:HR
+                    else 
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    end
+                elseif agent.diagnosis==:W && (agent.status !=:S && agent.status !=:R) 
+                    if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    else 
+                        agent.diagnosis=:HR
+                    end
+                end
+            end
+        end
+    elseif strategy == "passive_biased_symptoms_regional"
+		for reg in regions
+			pos=[agent for agent in agents if (agent.diagnosis==:P || agent.diagnosis==:W) && agent.diagnosis_delay_left==0]
+			syms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status==:I_s]
+			nsyms=[agent for agent in prov_agents[prov] if agent.diagnosis!=:P && agent.status!=:I_s]
+			pos=pos[randperm(length(pos))]
+            syms=syms[randperm(length(syms))]
+            nsyms=nsyms[randperm(length(nsyms))]
+			posyms=vcat(pos,syms)
+            posyms=posyms[randperm(length(posyms))]
+			ags = vcat(posyms,nsyms)
+			for agent in ags[1:prov_capacities[prov]]
+				if (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status == :S || agent.status == :R)
 					if rand() ≤ 0.95
-						agent.diagnosis=:HR
+						agent.diagnosis=:N
 					else 
 						agent.diagnosis=:P
                         agent.diagnosis_delay_left=14
 					end
-				elseif agent.diagnosis==:P && (agent.status!=:S && agent.status!=:R) 
+				elseif (agent.diagnosis==:O || agent.diagnosis==:N) && (agent.status!=:S && agent.status!=:R) 
 					if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
 						agent.diagnosis=:P
                         agent.diagnosis_delay_left=14
 					else 
-						agent.diagnosis=:HR
+						agent.diagnosis=:N
 					end
-				end
-			end
-		end
+				elseif agent.diagnosis==:P && (agent.status == :S || agent.status == :R)
+                    if rand() ≤ 0.95
+                        agent.diagnosis=:W
+                        agent.diagnosis_delay_left=2
+                    else 
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    end
+                elseif agent.diagnosis==:P && (agent.status !=:S && agent.status !=:R) 
+                    if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    else 
+                        agent.diagnosis=:W
+                        agent.diagnosis_delay_left=2
+                    end
+                elseif agent.diagnosis==:W && (agent.status == :S || agent.status == :R)
+                    if rand() ≤ 0.95
+                        agent.diagnosis=:HR
+                    else 
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    end
+                elseif agent.diagnosis==:W && (agent.status !=:S && agent.status !=:R) 
+                    if rand() ≤ 1-DiagnosticRate(agent.status,"false_negative_rate") #sensitivity
+                        agent.diagnosis=:P
+                        agent.diagnosis_delay_left=14
+                    else 
+                        agent.diagnosis=:HR
+                    end
+                end
+            end
+        end
 	end
 end;
 

@@ -315,7 +315,6 @@ function DiagnosticRate(status, request)
 end
 ## Household initialization
 function InitializeHousehold(agent, model)
-    #length(agent.household) != 0 && return
     agents=get_node_agents(agent.residence, model)
     neighbors=[a for a in agents if a != agent]
     for age_group in 1:model.K
@@ -327,34 +326,19 @@ function InitializeHousehold(agent, model)
     end
     agent.household = [(agent.household...)...] 
 end;
-#= More complex household initialization
-function InitializeHousehold(agent, model)
-    length(agent.household) != 0 && return
-    neighbors=get_node_agents(agent.residence, model)
-    neighbors_without_household = [neighbor for neighbor in agents if neighbor != agent && length(neighbor.household) == 0]
-    neighbors_with_household = [neighbor for neighbor in agents if neighbor != agent && length(neighbor.household) != 0]
-    
-    if length(neighbors_without_household) > 0
-        contacted_agents = []
-        for age_group in 1:model.K
-            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  
-            ncontacts = round(Int, LightGraphs.weights(model.home_contact_graph)[age_group, agent.age_group]) 
-            if length(aged_neighbors)>0 && ncontacts>0
-                push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
-            end
-        end
-        #contacted_agents = [(contacted_agents...)...] 
-        return [(contacted_agents...)...] 
-    else
-        agent.housrand(neighbors_with_household).household
-    end
-end=#
 
 ## Workplace initialization
 function InitializeWorkplace(agent, model)
-    #length(agent.workplace) != 0 && return
-    agents=get_node_agents(agent.pos, model)
+    # MIGRATE -> work_pos
+    source = agent.residence
+	targets=[]
+    targets = [outneighbor for outneighbor in collect(LightGraphs.weights(model.mobility_graph)[source,:])] # mobility_graph
+    target=StatsBase.sample(1:model.M, Weights(targets./sum(targets))) 
+	location = target
+    # CONTACT -> workplace
+    agents=get_node_agents(location, model)
     neighbors=[a for a in agents if a != agent]
+    
     for age_group in 1:model.K
         aged_neighbors = [neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
         ncontacts = round(Int, LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) 
@@ -362,24 +346,12 @@ function InitializeWorkplace(agent, model)
             push!(agent.workplace, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
         end
     end
-    agent.workplace = [(agent.workplace...)...] 
+    
+    agent.workplace = [(agent.workplace...)...]
+    if length(agent.workplace)>0
+        agent.work_pos=location
+    end    
 end;
-#= More complex workplace initialization
-function InitializeWorkplace(agent, model)
-    length(agent.workplace) != 0 && return
-    agents=get_node_agents(agent.pos, model)
-    neighbors = [neighbor for neighbor in agents if neighbor != agent && length(neighbor.workplace) == 0] # WARNING: STRONG ASSUMPTION!
-    contacted_agents = []
-    for age_group in 1:model.K
-        aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group]  
-        ncontacts = round(Int, LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) 
-        if length(aged_neighbors)>0 && ncontacts>0
-                push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
-        end
-    end
-    #contacted_agents = [(contacted_agents...)...] 
-    return [(contacted_agents...)...] 
-end;=#
 
 ####################################
 ########## SURVEILLANCE ############
@@ -765,19 +737,36 @@ function contact!(agent, model, location)
         end
     ### @ Work   
 	elseif location=="work"
-		if model.phase == 3
-			amplification=0.3
-        end
-        contacted_agents = []
-        for age_group in 1:model.K
-            aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.diagnosis !=:P]  # Total isolation of positives
-            ncontacts = round(Int, amplification*LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) # in
-            if length(aged_neighbors)>0 && ncontacts>0
-                push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
+        if agent.pos == agent.work_pos
+            possible_contacted_agents=[a for a in neighbors if a.id in agent.workplace]
+            effective_contacted_agents=[]
+            if model.phase == 3
+                amplification=0.2
+                #age_amplification= vcat(fill(1.5,4),fill(1.1,model.K-4)) # Davies et al.(2020)
+                ncontacts = round(Int, amplification*length(possible_contacted_agents))
+                if ncontacts>0
+                    push!(effective_contacted_agents, StatsBase.sample(possible_contacted_agents, ncontacts; replace=true, ordered=false))
+                end
+                effective_contacted_agents=[(effective_contacted_agents...)...] 
+                return effective_contacted_agents
+            else 
+                return possible_contacted_agents
             end
+        else
+            if model.phase == 3
+                amplification=0.2
+            end
+            contacted_agents = []
+            for age_group in 1:model.K
+                aged_neighbors = [neighbor for neighbor in neighbors if neighbor.age_group == age_group && neighbor.diagnosis !=:P]  # Total isolation of positives
+                ncontacts = round(Int, amplification*LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) # in
+                if length(aged_neighbors)>0 && ncontacts>0
+                    push!(contacted_agents, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
+                end
+            end
+            contacted_agents = [(contacted_agents...)...] 
+            return contacted_agents   
         end
-        contacted_agents = [(contacted_agents...)...] 
-        return contacted_agents
     ### @ School    
 	elseif location=="school"
         contacted_agents = []
@@ -843,15 +832,15 @@ function get_exposed!(agent, model, contacted_agents)
 	
 	neighbors = contacted_agents
 	for neighbor in neighbors 
-        if neighbor.status == :I_s && (rand() ≤ TruncatedNormal(0.5,0.1,0,0.5))
+        if neighbor.status == :I_s && (rand() ≤ TruncatedNormal(0.1,0.023,0,1000)) #TruncatedNormal(0.5,0.1,0,0.5
 			agent.status = :E
 			agent.status_delay_left = round(Int, rand(Gamma(3,4)))
 			break
-		elseif neighbor.status == :I_p && (rand() ≤ 0.15*TruncatedNormal(0.5,0.1,0,0.5)) # Aleta et al.(2020)
+		elseif neighbor.status == :I_p && (rand() ≤ 0.15*TruncatedNormal(0.1,0.023,0,1000)) # Aleta et al.(2020)
 			agent.status = :E
 			agent.status_delay_left = round(Int, rand(Gamma(3,4)))
 			break
-		elseif neighbor.status == :I_a && (rand() ≤ TruncatedNormal(0.5,0.1,0,0.5)/2)
+		elseif neighbor.status == :I_a && (rand() ≤ 0.5*TruncatedNormal(0.1,0.023,0,1000))
 			agent.status = :E
 			agent.status_delay_left = round(Int, rand(Gamma(3,4)))
 			break

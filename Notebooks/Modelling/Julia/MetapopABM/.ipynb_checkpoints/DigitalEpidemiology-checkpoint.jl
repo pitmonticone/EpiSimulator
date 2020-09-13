@@ -331,9 +331,9 @@ end;
 function InitializeWorkplace(agent, model)
     # MIGRATE -> work_pos
     source = agent.residence
-	targets=[]
-    targets = [outneighbor for outneighbor in collect(LightGraphs.weights(model.mobility_graph)[source,:])] # mobility_graph
-    target=StatsBase.sample(1:model.M, Weights(targets./sum(targets))) 
+    targets = collect(LightGraphs.weights(model.mobility_graph)[agent.residence,:]) # mobility_graph
+    distribution = DiscreteNonParametric(1:model.M,targets./sum(targets))
+	target = rand(distribution) #target=StatsBase.sample(1:model.M, Weights(targets./sum(targets))) 
 	location = target
     # CONTACT -> workplace
     agents=get_node_agents(location, model)

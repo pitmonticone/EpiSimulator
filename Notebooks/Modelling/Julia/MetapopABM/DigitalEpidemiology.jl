@@ -132,27 +132,27 @@ function LoadData(file, user)
         if user=="PietroMonticone1"
             return DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Active.csv"))
         elseif user=="PietroMonticone2"
-            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/Epidemiological/Active.csv"))
+            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Active.csv"))
         elseif user=="DavideOrsenigo"
-            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\Epidemiological\Active.csv"))
+            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\Active.csv"))
         end
     ### Load data on confirmed COVID-19 cases by date of diagnosis and symptoms onset
     elseif file=="SymptomsDiagnosis"
         if user=="PietroMonticone1"
             return DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/SymptomsDiagnosis.csv"))
         elseif user=="PietroMonticone2"
-            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/Epidemiological/SymptomsDiagnosis.csv"))
+            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/SymptomsDiagnosis.csv"))
         elseif user=="DavideOrsenigo"
-            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\Epidemiological\SymptomsDiagnosis.csv"))
+            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\SymptomsDiagnosis.csv"))
         end
     ### Load data on COVID-19 tests and tested patients
     elseif file=="Tests"
         if user=="PietroMonticone1"
             return DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Tests.csv"))
         elseif user=="PietroMonticone2"
-            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/Epidemiological/Tests.csv"))
+            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Tests.csv"))
         elseif user=="DavideOrsenigo"
-            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\Epidemiological\Tests.csv"))
+            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\Tests.csv"))
         end
     end
 end

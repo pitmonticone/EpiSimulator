@@ -1,12 +1,11 @@
 # DIGITAL EPIDEMIOLOGY JULIA PACKAGE 
-# LAST UPDATE: 11-09-2020
+# LAST UPDATE: 20-09-2020
 
 ###########################################
 ################ AUTHORS ##################
 ###########################################
 # PIETRO MONTICONE 
 # DAVIDE ORSENIGO 
-
 
 module DigitalEpidemiology
 
@@ -132,27 +131,27 @@ function LoadData(file, user)
         if user=="PietroMonticone1"
             return DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Active.csv"))
         elseif user=="PietroMonticone2"
-            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/Epidemiological/Active.csv"))
+            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Active.csv"))
         elseif user=="DavideOrsenigo"
-            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\Epidemiological\Active.csv"))
+            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\Active.csv"))
         end
     ### Load data on confirmed COVID-19 cases by date of diagnosis and symptoms onset
     elseif file=="SymptomsDiagnosis"
         if user=="PietroMonticone1"
             return DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/SymptomsDiagnosis.csv"))
         elseif user=="PietroMonticone2"
-            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/Epidemiological/SymptomsDiagnosis.csv"))
+            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/SymptomsDiagnosis.csv"))
         elseif user=="DavideOrsenigo"
-            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\Epidemiological\SymptomsDiagnosis.csv"))
+            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\SymptomsDiagnosis.csv"))
         end
     ### Load data on COVID-19 tests and tested patients
     elseif file=="Tests"
         if user=="PietroMonticone1"
             return DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Tests.csv"))
         elseif user=="PietroMonticone2"
-            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/Epidemiological/Tests.csv"))
+            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Tests.csv"))
         elseif user=="DavideOrsenigo"
-            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\Epidemiological\Tests.csv"))
+            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\Tests.csv"))
         end
     end
 end
@@ -162,15 +161,127 @@ end
 ######################################
 
 function LoadImage(file, user)
+    # GEOSPATIAL
+    ### Load airports image 
+    if file=="Airports"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Geospatial/Airports.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Geospatial/Airports.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Geospatial\Airports.png")
+        end
+    ### Load airports+stations image 
+    elseif file=="Airports+Stations"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Geospatial\Airports+Stations.png")
+        end
+    ### Load airports+stations+railways image 
+    elseif file=="Airports+Stations+Railways"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Geospatial\Airports+Stations+Railways.png")
+        end
+    ### Load airports+stations+railways+roads image 
+    elseif file=="Airports+Stations+Railways+Roads"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways+Roads.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways+Roads.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Geospatial\Airports+Stations+Railways+Roads.png")
+        end
+    ### Load airports+stations+railways+roads+built1 image 
+    elseif file=="Airports+Stations+Railways+Roads+Built1"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways+Roads+Built1.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways+Roads+Built1.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Geospatial\Airports+Stations+Railways+Roads+Built1.png")
+        end
+    ### Load airports+stations+railways+roads+built1+built2 image 
+    elseif file=="Airports+Stations+Railways+Roads+Built1+Built2"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways+Roads+Built1+Built2.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Geospatial/Airports+Stations+Railways+Roads+Built1+Built2.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Geospatial\Airports+Stations+Railways+Roads+Built1+Built2.png")
+        end
+    # ADMINISTRATIVE
+    ### Load administrative multiplex proximity graph image 
+    elseif file=="AdministrativeProximityMultiplexGraph"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Administrative/MultiplexProximityGraph.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Administrative/MultiplexProximityGraph.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Administrative\MultiplexProximityGraph.png")
+        end
+    ### Load regional-level map
+    elseif file=="Regions"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Administrative/Regions.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Administrative/Regions.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Administrative\Regions.png")
+        end
+    ### Load provincial-level map
+    elseif file=="Provinces"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Administrative/Provinces.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Administrative/Provinces.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Administrative\Provinces.png")
+        end
+    ### Load municipal-level map
+    elseif file=="Municipalities"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Administrative/Municipalities.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Administrative/Municipalities.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Administrative\Municipalities.png")
+        end
     # POPULATION
     ### Load population pyramid image
-    if file=="PopulationPyramid"
+    elseif file=="AgeStructure"
         if user=="PietroMonticone1"
-            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/PopulationPyramid.png")
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Population/AgeStructure.png")
         elseif user=="PietroMonticone2"
-            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/PopulationPyramid.png")
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Population/AgeStructure.png")
         elseif user=="DavideOrsenigo"
-            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\PopulationPyramid.png")
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Population\AgeStructure.png")
+        end
+    # EPIDEMIOLOGY
+    ### Load epidemic model diagram
+    elseif file=="EpidemicModelDiagram"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Epidemiology/EpidemicModelDiagram.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Epidemiology/EpidemicModelDiagram.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Epidemiology\EpidemicModelDiagram.png")
+        end
+    # SURVEILLANCE
+    ### Load surveillance model diagram
+    elseif file=="SurveillanceModelDiagram"
+        if user=="PietroMonticone1"
+            return Images.load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Surveillance/SurveillanceModelDiagram.png")
+        elseif user=="PietroMonticone2"
+            return Images.load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Images/Surveillance/SurveillanceModelDiagram.png")
+        elseif user=="DavideOrsenigo"
+            return Images.load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Images\Surveillance\SurveillanceModelDiagram.png")
         end
     # CONTACT
     ### Load contact matrix plot for all locations
@@ -259,7 +370,7 @@ end
 ######### UTILITIES ###########
 ###############################
 
-## Truncated normal distribution
+## Truncated normal distribution | Davies et al. (2020)
 function TruncatedNormal(μ,σ,min,max)
     y = 0
     while true
@@ -309,14 +420,12 @@ function DiagnosticRate(status, request)
     if request == "false_negative_rate"
         return false_negative_rate
     end
-    #else
-        #return false_positive_rate
-    #end
 end
 ## Household initialization
 function InitializeHousehold(agent, model)
+    length(agent.household)!=0 && return 
     agents=get_node_agents(agent.residence, model)
-    neighbors=[a for a in agents if a != agent]
+    neighbors=[a for a in agents if a != agent && length(a.household)==0]
     for age_group in 1:model.K
         aged_neighbors = [neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
         ncontacts = round(Int, LightGraphs.weights(model.home_contact_graph)[age_group, agent.age_group]) 
@@ -325,33 +434,49 @@ function InitializeHousehold(agent, model)
         end
     end
     agent.household = [(agent.household...)...] 
+    household_ids = vcat(agent.household, agent.id) # appen! ?
+    household_agents = [a for a in allagents(model) if a.id in household_ids]
+    for member in household_agents
+        member.household = [id for id in household_ids if id != member.id]
+    end
 end;
-
 ## Workplace initialization
 function InitializeWorkplace(agent, model)
+    length(agent.workplace)!=0 && return 
     # MIGRATE -> work_pos
     source = agent.residence
     targets = collect(LightGraphs.weights(model.mobility_graph)[agent.residence,:]) # mobility_graph
-    distribution = DiscreteNonParametric(1:model.M,targets./sum(targets))
-	target = rand(distribution) #target=StatsBase.sample(1:model.M, Weights(targets./sum(targets))) 
-	location = target
-    # CONTACT -> workplace
-    agents=get_node_agents(location, model)
-    neighbors=[a for a in agents if a != agent]
-    
-    for age_group in 1:model.K
-        aged_neighbors = [neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
-        ncontacts = round(Int, LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) 
-        if length(aged_neighbors)>0 && ncontacts>0
-            push!(agent.workplace, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
+    target=0
+    if length(targets) == 107
+        distribution = DiscreteNonParametric(1:model.M,targets./sum(targets))
+        target = rand(distribution) #target=StatsBase.sample(1:model.M, Weights(targets./sum(targets))) 
+        location = target
+        # CONTACT -> workplace
+        agents=get_node_agents(location, model)
+        neighbors=[a for a in agents if a != agent && length(a.workplace)==0]
+        
+        for age_group in 1:model.K
+            aged_neighbors = [neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
+            ncontacts = round(Int, LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) 
+            if length(aged_neighbors)>0 && ncontacts>0
+                push!(agent.workplace, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
+            end
         end
+        agent.workplace = [(agent.workplace...)...]
+        if length(agent.workplace)>0
+            #agent.work_pos=location   
+            workplace_ids = vcat(agent.workplace, agent.id) 
+            workplace_agents = [a for a in allagents(model) if a.id in workplace_ids]
+            for member in workplace_agents
+                member.work_pos=location  
+                member.workplace = [id for id in workplace_ids if id != member.id]
+            end
+        end
+    else
+        print(length(targets)," ")
     end
-    
-    agent.workplace = [(agent.workplace...)...]
-    if length(agent.workplace)>0
-        agent.work_pos=location
-    end    
 end;
+
 
 ####################################
 ########## SURVEILLANCE ############
@@ -693,7 +818,6 @@ function test!(model, strategy)
 end;
 
 # POLICY SCENARIOS 
-
 function phase1!(model)
 	model.phase = 1
 end
@@ -706,7 +830,6 @@ end
 function phase4!(model)
 	model.phase = 4
 end
-
 
 ####################################
 ######### MICRO-DYNAMICS ###########
@@ -847,7 +970,6 @@ function get_exposed!(agent, model, contacted_agents)
 		end
 	end
 end
-
 # INFECTION
 function get_infected!(agent, model)
 	# If I'm not susceptible, I return
@@ -861,7 +983,6 @@ function get_infected!(agent, model)
 		agent.status_delay_left = round(Int, rand(Gamma(5,4)))
 	end
 end
-
 # SYMPTOMS ONSET
 function get_symptoms!(agent, model)
 	# If I'm not susceptible, I return
@@ -869,7 +990,6 @@ function get_symptoms!(agent, model)
 	agent.status = :I_s
 	agent.status_delay_left = round(Int, rand(Gamma(3.5,4))) # 2.9 | Davies et al. (2020)
 end
-
 # RECOVERY
 function recover_or_die!(agent, model)
 	((agent.status!=:I_s && agent.status!=:I_a)||agent.status_delay_left != 0) && return

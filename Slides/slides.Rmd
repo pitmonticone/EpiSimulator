@@ -1,7 +1,7 @@
 ---
 title: "Digital Epidemiology Project<br>"
-subtitle: '<em>A hybrid model for Italy</em> <br><br>'
-author: 'Pietro Monticone | [`r icon::fa("at")`](pietro.monticone@edu.unito.it) [`r icon::fa("github")`](https://github.com/pitmonticone) [`r icon::fa("twitter")`](https://twitter.com/PietroMonticone)<br> &nbsp;Davide Orsenigo &nbsp;| [`r icon::fa("at")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github")`](https://github.com/daorse) [`r icon::fa("twitter")`](https://twitter.com/DavideOrsenigo)<br><br>'
+subtitle: '<em>A data-driven stochastic hybrid model for Italy</em> <br><br>'
+author: 'Pietro Monticone | [`r icon::fa("at")`](pietro.monticone@edu.unito.it) [`r icon::fa("github")`](https://github.com/pitmonticone) [`r icon::fa("twitter")`](https://twitter.com/PietroMonticone)<br>&nbsp;Davide Orsenigo &nbsp;| [`r icon::fa("at")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github")`](https://github.com/daorse) [`r icon::fa("twitter")`](https://twitter.com/DavideOrsenigo)<br><br>'
 date: "`r Sys.Date()` | *University of Turin*"
 output:
   xaringan::moon_reader:
@@ -73,20 +73,58 @@ library(tidyverse)
 ### 
 ```
 
-name: climate-problem
+
+name: image
 class: center 
 
-### Climate Change: **A Stock-Flow Problem**
-
-.right[<small> **Source**: [IPCC SR15 (2018)](https://www.ipcc.ch/sr15/) </small>]
-![Fig 2.3](https://www.ipcc.ch/site/assets/uploads/sites/2/2019/01/figure-2.3.jpg)
+![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Slides/figures/Administrative1.png)
 
 ---
-name: carbon-budgets
+name: data
 class: center 
-background-image: url(figures/glen-peters/carbon-budgets.png)
-background-position: center
-background-size: contain
+
+## Data
+.left[
+### Geospatial
+]
+--
+.left[
+### Administrative
+]
+--
+.left[
+### Population
+]
+--
+.left[
+### Contact
+]
+--
+.left[
+### Mobility
+]
+--
+.left[
+### Epidemiological
+]
+--
+.left[
+### Diagnostic
+]
+--
+.left[
+### Policy
+]
+---
+name: geospatial-data
+class: center 
+## Geospatial Data
+.left[
+#### Administrative boundaries
+#### Transport networks
+#### Settlements
+]
+---
 
 ### Climate Change: **Carbon Budgets**
 

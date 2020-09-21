@@ -1,0 +1,99 @@
+type,country,state/province,epoch,event_id,date,value,restriction
+entertainment/cultural sector closure,ITA,,1580515200000.0,9a6e4c4a-c4d7-11ea-81dc-eeee0af715ab,2020-02-01,"Museums, theaters, cinema, libraries, festivities",1
+school closure,ITA,,1589328000000.0,786bbf96-c4d8-11ea-ac90-eeee0af510b7,2020-05-13,na,1
+entertainment/cultural sector closure,ITA,,1582416000000.0,a7495c9c-fc8c-45b0-a09c-3f2b85e29465,2020-02-23,"Bars, restaurants, night clubs",1
+school closure,ITA,,1582502400000.0,6195e2f6-32d2-4d32-8001-5dea07f11198,2020-02-24,Universities closed,1
+confinement,ITA,,1583798400000.0,33c914bc-a553-4eec-838a-6bda9c109c1e,2020-03-10,na,1
+entertainment/cultural sector closure,ITA,,1582329600000.0,340f17cf-dcf8-4f33-925a-5eb1fbbbbe59,2020-02-22,na,1
+entertainment/cultural sector closure,ITA,,1589068800000.0,413e610a-1e75-4ba2-b9b9-9acc5c17060d,2020-05-10,Parks and public gardens,1
+introduction of travel quarantine policies,ITA,,1582502400000.0,d0fb4ca1-ac50-459a-b34d-455d8352d922,2020-02-24,KOR,1
+introduction of travel quarantine policies,ITA,,1582502400000.0,0da4a965-f6b1-4c10-9ce9-7c013d352230,2020-02-24,SGP,1
+introduction of travel quarantine policies,ITA,,1582502400000.0,2133129f-f140-4800-9835-ea0e298348f8,2020-02-24,CHN,1
+school closure,ITA,,1582934400000.0,8329d02c-2199-4704-9137-b4d85104c458,2020-02-29,Universities closed,1
+entertainment/cultural sector closure,ITA,,1583539200000.0,fb0bc5f6-cece-4c48-b1d6-5ebb62712fc9,2020-03-07,"Museums, theaters, cinema, libraries, festivities",1
+entertainment/cultural sector closure,ITA,,1582329600000.0,dcf34e76-9be6-46ae-be6a-44abf222e9f0,2020-02-22,Churches,1
+entertainment/cultural sector closure,ITA,,1582329600000.0,39be76eb-0b59-4010-bf2f-a995e6892365,2020-02-22,"Museums, theaters, cinema, libraries, festivities",1
+school closure,ITA,,1582502400000.0,8afb0d1b-0073-4de7-9fce-bf502a3b4a8e,2020-02-24,Only schools (primary/secondary) closed,1
+confinement,ITA,,1582761600000.0,a16b0b61-b1f4-4f0f-bc01-69af474a66b3,2020-02-27,na,1
+introduction of travel quarantine policies,ITA,,1582329600000.0,cc25ea21-c084-4125-9711-c68dabf83546,2020-02-22,ROU,1
+work restrictions,ITA,,1584748800000.0,d8b9dbe5-da60-45e5-b161-5259544c38e7,2020-03-21,na,1
+entertainment/cultural sector closure,ITA,,1582588800000.0,dca5da76-6910-4713-bd67-4200f716f8c5,2020-02-25,"Museums, theaters, cinema, libraries, festivities",1
+entertainment/cultural sector closure,ITA,,1582329600000.0,b4c947d3-0afd-43d3-a39d-7a5c1c9d21d1,2020-02-22,Gyms and pools,1
+school closure,ITA,,1583712000000.0,33d890ff-e2f4-410a-968e-40bd78adfd4a,2020-03-09,Universities closed,1
+entertainment/cultural sector closure,ITA,,1585872000000.0,e1b9c132-26dd-4098-868f-59ec35fcf0c1,2020-04-03,Gyms and pools,1
+entertainment/cultural sector closure,ITA,,1583712000000.0,c074e3ad-c976-47a1-9622-d41e915b2e20,2020-03-09,"Museums, theaters, cinema, libraries, festivities",1
+entertainment/cultural sector closure,ITA,,1580947200000.0,53518df3-9361-4739-b6bf-860cbd00a855,2020-02-06,Gyms and pools,1
+school closure,ITA,,1582416000000.0,ab8f2d10-2b69-4c03-a224-50e88d104312,2020-02-23,Universities closed,1
+school closure,ITA,,1583539200000.0,3ae6323a-8f88-4101-b6fa-75bc686d4a5e,2020-03-07,Universities closed,1
+school closure,ITA,,1583280000000.0,7809fa02-f326-455f-a05c-1c0362a2444a,2020-03-04,Universities closed,1
+confinement,ITA,,1582502400000.0,b4c9c1d4-c092-4fea-8cb5-313ddf4432a7,2020-02-24,na,1
+introduction of travel quarantine policies,ITA,,1582761600000.0,266373b0-9859-49e7-b30c-38272a737579,2020-02-27,na,1
+entertainment/cultural sector closure,ITA,,1580947200000.0,211da321-8e2a-4f57-9f59-fb9142aff633,2020-02-06,Churches,1
+school closure,ITA,,1582416000000.0,2bd5ecdd-3ddc-4d4b-a182-cf99f320c471,2020-02-23,Only schools (primary/secondary) closed,1
+confinement,ITA,,1582243200000.0,9c714581-528f-49f9-9eed-5a10380ed109,2020-02-21,na,1
+school closure,ITA,,1582588800000.0,970d54c2-2ce4-42bd-bbaa-7029e5e8c3a7,2020-02-25,Only schools (primary/secondary) closed,1
+school closure,ITA,,1582934400000.0,d98e9244-8749-4bef-b0e9-0450df18e105,2020-02-29,Only schools (primary/secondary) closed,1
+school closure,ITA,,1582761600000.0,6b178938-8c0b-4be5-84db-ba19543aaaf6,2020-02-27,Only schools (primary/secondary) closed,1
+school closure,ITA,,1583020800000.0,fb6e07af-42e6-4c8a-a044-ab092d1ad15b,2020-03-01,Only schools (primary/secondary) closed,1
+entertainment/cultural sector closure,ITA,,1585008000000.0,be3a2f34-c49b-43c8-bdd2-761ead79f0a2,2020-03-24,"Bars, restaurants, night clubs",1
+entertainment/cultural sector closure,ITA,,1589068800000.0,31b27769-7718-4c92-892d-736ffb6f773b,2020-05-10,"Bars, restaurants, night clubs",1
+entertainment/cultural sector closure,ITA,,1586217600000.0,b5ca15a4-5dc1-4139-a1f8-dd03712bfcbd,2020-04-07,Gyms and pools,1
+international flight restrictions,ITA,,1580428800000.0,e4dffd69-c435-4144-81ff-d627a71f1847,2020-01-31,CHN,1
+introduction of travel quarantine policies,ITA,,1582588800000.0,a049ed78-119a-4552-a1ca-e77e1610835f,2020-02-25,MLT,1
+economic impact,ITA,,1585958400000.0,7647e44d-6895-491b-9afa-24903ea18692,2020-04-04,na,1
+entertainment/cultural sector closure,ITA,,1584662400000.0,a8a88d9b-51fe-490f-9320-ddc5ff440faa,2020-03-20,Parks and public gardens,1
+economic impact,ITA,,1584144000000.0,59510cd3-b780-462c-acfb-873f61a5c36e,2020-03-14,Industrial production,1
+school closure,ITA,,1587859200000.0,2f705525-23ae-4c23-b69f-ee9caa13a291,2020-04-26,Only schools (primary/secondary) closed,1
+entertainment/cultural sector closure,ITA,,1587859200000.0,83f99b38-0f35-4453-a91d-e51630f689d1,2020-04-26,"Bars, restaurants, night clubs",1
+state of emergency (legal impact),ITA,,1580428800000.0,924b177b-51b5-4232-89b5-48295a63b1da,2020-01-31,na,1
+entertainment/cultural sector closure,ITA,,1582416000000.0,7d40103c-c12a-11ea-8d21-eeee0af72e81,2020-02-23,"Museums, theaters, cinema, libraries, festivities",1
+public services closure,ITA,,1582502400000.0,a206099e-c12a-11ea-890b-eeee0af49f8d,2020-02-24,Legal system,1
+freedom of movement (nationality dependent),ITA,,1583798400000.0,130e3429-4392-467a-b5fe-7ff3828604f0,2020-03-10,AUT,1
+freedom of movement (nationality dependent),ITA,,1583798400000.0,052f8f1d-dca4-4716-9915-fc409497d1a4,2020-03-10,DEU,1
+freedom of movement (nationality dependent),ITA,,1582588800000.0,80b6bd27-e243-4da8-8029-6c4cc4117d29,2020-02-25,USA,1
+entertainment/cultural sector closure,ITA,,1583020800000.0,d4bdae27-9a7f-4e3c-9d41-17fd1646c120,2020-03-01,"Bars, restaurants, night clubs",1
+entertainment/cultural sector closure,ITA,,1580947200000.0,5a1a4325-a148-434a-a12d-99880dd63909,2020-02-06,"Bars, restaurants, night clubs",1
+entertainment/cultural sector closure,ITA,,1583712000000.0,bd9c2b95-f3a8-4228-9ed2-af4d63a0ce4a,2020-03-09,"Bars, restaurants, night clubs",1
+entertainment/cultural sector closure,ITA,,1583020800000.0,eec69b02-a180-4051-b7e1-230d04dd7383,2020-03-01,"Museums, theaters, cinema, libraries, festivities",1
+entertainment/cultural sector closure,ITA,,1580947200000.0,e9a0d7eb-9b40-4b9f-b1c5-fdebec17c900,2020-02-06,"Museums, theaters, cinema, libraries, festivities",1
+school closure,ITA,,1583280000000.0,6d472bdf-45ea-4b07-8e76-29e751e83f28,2020-03-04,Only schools (primary/secondary) closed,1
+school closure,ITA,,1580947200000.0,1794740e-635b-4d7f-b49c-678c0d9ffd7f,2020-02-06,Only schools (primary/secondary) closed,1
+school closure,ITA,,1583712000000.0,7b04c773-7dc5-41bf-a8f9-3a85d8aa98a1,2020-03-09,Only schools (primary/secondary) closed,1
+confinement,ITA,,1583625600000.0,922e3de7-02d4-4e1e-9ce2-ce2ce719071f,2020-03-08,na,1
+entertainment/cultural sector closure,ITA,,1582675200000.0,ca356fde-48d4-4dfc-a82c-c3c23e58138f,2020-02-26,na,1
+confinement,ITA,,1583280000000.0,216b385c-0314-4846-9477-55cee310c1ba,2020-03-04,na,1
+public transportation,ITA,,1582329600000.0,c897c3c6-f66a-4655-ab12-24bb3c9ff97a,2020-02-22,na,1
+public transportation,ITA,,1589068800000.0,1a868c43-84fa-41e1-a553-3b7ad17a7db2,2020-05-10,na,1
+confinement,ITA,,1582588800000.0,e51edb3d-4de4-432a-8cc7-cd4ea9426839,2020-02-25,na,1
+entertainment/cultural sector closure,ITA,,1582588800000.0,4177449b-fa61-4ab4-a0db-23ba5808ac8d,2020-02-25,na,1
+entertainment/cultural sector closure,ITA,,1582934400000.0,1cdd48bc-1c45-4ec1-b22e-950444ad1285,2020-02-29,na,1
+confinement,ITA,,1583712000000.0,9ea7937a-d41c-4e92-982e-1852517e5b45,2020-03-09,na,1
+confinement,ITA,,1582329600000.0,f06bc2ae-3615-4b95-8bc0-345e6c95df8f,2020-02-22,na,1
+entertainment/cultural sector closure,ITA,,1583712000000.0,772d3c8c-bf9d-4e8d-b4b4-b2c813977dd8,2020-03-09,na,1
+economic impact,ITA,,1583884800000.0,55a7fc5b-ebbe-4bef-a64f-406d6b2208c7,2020-03-11,na,1
+work restrictions,ITA,,1583884800000.0,97755873-e58d-466d-9b94-8a27fcfa2816,2020-03-11,na,1
+public transportation,ITA,,1583884800000.0,2dceceb5-d9b6-4173-9e58-4883e2493f97,2020-03-11,na,1
+economic impact,ITA,,1586131200000.0,ed467efe-abaf-47e0-9b09-8e3f7a84f4cf,2020-04-06,na,1
+confinement,ITA,,1586476800000.0,5bfb16bf-87fb-4ee0-963e-734a45adc0e4,2020-04-10,na,1
+confinement,ITA,,1584230400000.0,61e4c546-8422-4217-a4ce-8f82b4fc6bb4,2020-03-15,na,1
+confinement,ITA,,1584316800000.0,ec21a8f3-7480-4114-8fe9-f7961c123472,2020-03-16,na,1
+public transportation,ITA,,1582416000000.0,86278df2-c78c-4b1a-baf9-7c977feb53a3,2020-02-23,na,1
+confinement,ITA,,1584403200000.0,0c2ef0b5-fc90-4913-9c15-107a69705612,2020-03-17,na,1
+introduction of travel quarantine policies,ITA,,1583625600000.0,af68474e-e35c-4fb4-996a-b79ea21c27b1,2020-03-08,na,1
+work restrictions,ITA,,1583971200000.0,c9e06a1b-8879-408c-90df-c1a60d7ea8a2,2020-03-12,na,1
+confinement,ITA,,1580947200000.0,65bda5c1-bb17-4b02-8004-fd6aed796d90,2020-02-06,na,1
+freedom of movement (nationality dependent),ITA,,1585008000000.0,6c3693d2-1666-48d6-a3eb-f718ecabd826,2020-03-24,na,1
+freedom of movement (nationality dependent),ITA,,1586304000000.0,fc1426d2-c7fe-4acd-9a6b-944d2b068b92,2020-04-08,na,1
+freedom of movement (nationality dependent),ITA,,1587859200000.0,39b95f23-a776-4692-8896-7e74e01d9c00,2020-04-26,na,1
+freedom of movement (nationality dependent),ITA,,1584316800000.0,dad26635-3c56-493b-920c-b649eb6fe489,2020-03-16,na,1
+freedom of movement (nationality dependent),ITA,,1583539200000.0,58d71e01-be5f-4dcd-9a3a-a6b174eb656a,2020-03-07,na,1
+freedom of movement (nationality dependent),ITA,,1586131200000.0,841defc6-c0e6-11ea-8517-eeee0af72e81,2020-04-06,other,1
+entertainment/cultural sector closure,ITA,,1582416000000.0,6b73091c-d0a3-11ea-a4e6-eeee0af63fc2,2020-02-23,na,1
+entertainment/cultural sector closure,ITA,,1585353600000.0,e8f249a2-d0a3-11ea-a3d3-eeee0af63fc2,2020-03-28,na,1
+work restrictions,ITA,,1589760000000.0,5d2d5aa0-d0a4-11ea-a0a2-eeee0af7bc4e,2020-05-18,Mandatory work from home enforcement for non-essential workers,0
+confinement,ITA,,1589760000000.0,6cc6dc3e-d0a4-11ea-b3a9-eeee0af63fc2,2020-05-18,Mandatory/advisedfor all the population,0
+entertainment/cultural sector closure,ITA,,1590364800000.0,864b28d6-d0a4-11ea-ba54-eeee0af456f2,2020-05-25,"Museums, theaters, cinema, libraries, festivities",0
+entertainment/cultural sector closure,ITA,,1582329600000.0,c2a51374-d0a3-11ea-9a3e-eeee0af63fc2,2020-02-22,"Museums, theaters, cinema, libraries, festivities",1
+mask wearing,ITA,,1588550400000.0,84e21cd4-3b38-4b1d-a108-8deb114746e6,2020-05-04,Mandatory,1
+entertainment/cultural sector closure,ITA,,1597622400000.0,87557b76-e6c7-11ea-913c-eeee0af7c302,2020-08-17,"Bars, restaurants, night clubs",1
+mask wearing,ITA,,1597622400000.0,931bc992-e6c7-11ea-898d-eeee0af635f0,2020-08-17,Mandatory,1

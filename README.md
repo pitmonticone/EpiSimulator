@@ -26,12 +26,10 @@
 
 <!-- Subtitle -->
 <h2 align="center">
-   Data-Driven Stochastic Agent-Based Metapopulation Model
+   A Data-Drive Stochastic Hybrid Model for Italy
 </h2>
 
-<h3 align="center">
-  Authors
-</h3>
+## Authors 
 
 | Name | Contacts | Contribution | 
 | :---- | :---- | :---- |
@@ -43,18 +41,18 @@
 |  |  | Age-specific IFR calibration |
 |  |  | Epidemiological module design and implementation (50%)|
 |  |  | Surveillance module design and implementation |
-|  |  | Contact-tracing app design and implementation |
-|  |  | `DigitalEpidemiology.jl` module development (50%) |
+|  |  | Contact-tracing module design and implementation |
+|  |  | Geospatial static and dynamic visualization of simulated data |
+|  |  | `DigitalEpidemiology.jl` package development (50%) |
 | Davide Orsenigo | [Mail](davide.orsenigo@edu.unito.it) | Population data exploration, selection and processing | 
 |  | [GitHub](https://github.com/daorse) | Diagnostic data exploration, selection and processing | 
 |  | [Twitter](https://twitter.com/DavideOrsenigo) | Age-specific symptomatic fraction calibration | 
 |  |  | Inter-compartment transition delays calibration |
 |  |  | Epidemiological module design and implementation (50%)|
-|  |  | `DigitalEpidemiology.jl` module development (50%) |
+|  |  | Contact-tracing static and dynamic visualization of simulated data |
+|  |  | `DigitalEpidemiology.jl` package development (50%) |
 
-<h3 align="center">
-  Computational Framework
-</h3> 
+## Computational Framework
 
 | Language  | Activity |
 | :---- | :---- |
@@ -64,9 +62,7 @@
 | [Julia](https://julialang.org) | Modelling | 
 |  | Scenario Analysis | 
 
-<h3 align="center">
-  Parameters
-</h3> 
+## Parameters
 
 | Name | Value | Description | References | 
 | :---- | :---- | :---- | :---- | 
@@ -83,32 +79,48 @@
 | $d_A$ | $\sim \mathcal{\Gamma}(\mu=3.5,k=4)$ | Duration of infectiousness in days during the a-symptomatic phase |  |
 | $d_S$ | $\sim \mathcal{\Gamma}(\mu=5,k=4)$ | Duration of infectiousness in days during the symptomatic phase |  |
 
-<h3 align="center">
-  Diagnostic Strategies
-</h3> 
+## Diagnostic Strategies
 
 | Role | Region | Priority | Distribution | Contact-Tracing | 
 | :---- | :---- | :---- | :---- | :----: |
 | Passive | National | Random | Uniform | No |
 |  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Regional | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
 |  |  | Targeted | Age-based / Ex-Ante IFR | No |
 |  |  |  | | Yes |
 |  |  |  | Symptom-based / Ex-Post IFR | No |
 |  |  |  | | Yes |
 |  | Provincial | Random | Uniform | No |
 |  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
 |  |  | Targeted | Age-based / Ex-Ante IFR | No |
 |  |  |  | | Yes |
 |  |  |  | Symptom-based / Ex-Post IFR | No |
 |  |  |  | | Yes |
 | Active | National | Random | Uniform | No |
 |  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Regional | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
 |  |  | Targeted | Age-based / Ex-Ante IFR | No |
 |  |  |  | | Yes |
 |  |  |  | Symptom-based / Ex-Post IFR | No |
 |  |  |  | | Yes |
 |  | Provincial | Random | Uniform | No |
 |  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
 |  |  | Targeted | Age-based / Ex-Ante IFR | No |
 |  |  |  | | Yes |
 |  |  |  | Symptom-based / Ex-Post IFR | No |

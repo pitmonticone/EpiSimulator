@@ -47,7 +47,7 @@
 | Davide Orsenigo | [Mail](davide.orsenigo@edu.unito.it) | Population data exploration, selection and processing | 
 |  | [GitHub](https://github.com/daorse) | Diagnostic data exploration, selection and processing | 
 |  | [Twitter](https://twitter.com/DavideOrsenigo) | Age-specific symptomatic fraction calibration | 
-|  |  | Inter-compartment transition delays calibration |
+|  |  | Inter-compartmental transition delays calibration |
 |  |  | Epidemiological module design and implementation (50%)|
 |  |  | Contact-tracing static and dynamic visualization of simulated data |
 |  |  | `DigitalEpidemiology.jl` package development (50%) |

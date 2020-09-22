@@ -23,10 +23,13 @@ library(tidyverse)
 ### Super-compact description, explanation
 # Introduction 
 ### Narrative stuff
+
 # Research Questions / Goals / Objectives 
-### Geo-spatial scale exploration 
+### Geo-spatial scale exploration
 ### Diagnostic / Surveillance strategies portfolio exploration
 ### Contact-tracing app coverage exploration
+### Minimum treshold for contact-tracing coverage
+### Double dataset: clinical vs. epidemiological
 
 # Data
 ## Geo-spatial (Provincial, NUTS3)
@@ -47,30 +50,29 @@ library(tidyverse)
 
 # Model
 ## Epidemiological Module
-## Structure
-## Dynamics
+### Structure
+### Dynamics
 ## Surveillance Module
-## Structure
-## Dynamics
+### Structure
+### Dynamics
 ## Contact-Tracing Module
-## Structure
-## Dynamics
+### Structure
+### Dynamics
 ## Behavioral Module
-## Structure
-## Dynamics
+### Structure
+### Dynamics
 
 # Results
 ### Diagnostic / Surveillance
 ### Epidemiological
 ### Decision-support system (trade-off analysis, Pareto front,...)
-### Epistemic (Indirect) value vs. Mitigation/Containment/Control/Clinical(Direct) value tradeoff
+### Epistemic (Indirect) value vs. Mitigation/Containment/Control/Clinical(Direct) value trade-off
 
 # Limitations & Future Development / Extensions (What's Next?)
 ### Full phase space & parameter space exploration 
 ### Add Behavioral module
 ### Computational framework development, serial & parallelized optimization (see C.R.)
 ### Apply SciML to ABMs 
-### 
 ```
 
 

@@ -92,7 +92,7 @@
 
 ## Diagnostic Strategies
 
-| Role | Region | Priority | Distribution | Contact-Tracing | 
+| Role | Scale | Priority | Distribution | Contact-Tracing | 
 | :---- | :---- | :---- | :---- | :----: |
 | Passive | National | Random | Uniform | No |
 |  |  |  |  | Yes |

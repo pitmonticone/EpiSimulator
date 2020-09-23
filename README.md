@@ -153,7 +153,7 @@
 ### Mobility
 ![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Slides/figures/Mobility.png)
 ## Model
-### Epidemic Module
+### Epidemiological Module
 ![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Images/Epidemiology/EpidemicModelDiagram.png)
 ### Surveillance Module
 ![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Images/Surveillance/SurveillanceModelDiagram.png)

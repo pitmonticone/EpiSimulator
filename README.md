@@ -66,18 +66,42 @@
 
 | Name | Value | Description | References | 
 | :---- | :---- | :---- | :---- | 
-| $y$ | $[1,6]$ | Range of "young" age groups |  | 
-| $m$ | $[7,12]$ | Range of "middle" age groups |  | 
-| $o$ | $[13,16]$ | Range of "old" age groups |  | 
+| *y* | [1,6] | Range of "young" age groups |  | 
+| *m* | [7,12] | Range of "middle" age groups |  | 
+| *o* | [13,16] | Range of "old" age groups |  | 
 |  |  |  |  | 
-| $s_y$ | $$\sim \mathcal{N}(\mu=0.5,\sigma=0.1;[0,0.5])$$ | Symptomatic fraction on infection for "young" age groups|  
-| $s_m$ | $0.5$ | Symptomatic fraction on infection  for "middle" age groups|  | 
-| $s_o$ | $\sim \mathcal{N}(\mu=0.5,\sigma=0.1;[0.5,1])$ | Symptomatic fraction on infection for "old" age groups |  |
+| *s_y* | $$\sim \mathcal{N}(μ=0.5,σ=0.1;[0,0.5])$$ | Symptomatic fraction on infection for "young" age groups|  
+| *s_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
+| *s_o* | $\sim \mathcal{N}(\mu=0.5,\sigma=0.1;[0.5,1])$ | Symptomatic fraction on infection for "old" age groups |  |
 |  |  |  |  |
-| $d_E$ | $\sim \mathcal{\Gamma}(\mu=3,k=4)$ | Incubation period |  |
-| $d_P$ | $\sim \mathcal{\Gamma}(\mu=1.5,k=4)$ | Duration of infectiousness in days during the pre-symptomatic phase |  |
-| $d_A$ | $\sim \mathcal{\Gamma}(\mu=3.5,k=4)$ | Duration of infectiousness in days during the a-symptomatic phase |  |
-| $d_S$ | $\sim \mathcal{\Gamma}(\mu=5,k=4)$ | Duration of infectiousness in days during the symptomatic phase |  |
+| *d_E* | $\sim \mathcal{\Gamma}(μ=3,k=4)$ | Incubation period |  |
+| *d_P* | $\sim \mathcal{\Gamma}(μ=1.5,k=4)$ | Duration of infectiousness in days during the pre-symptomatic phase |  |
+| *d_A* | $\sim \mathcal{\Gamma}(μ=3.5,k=4)$ | Duration of infectiousness in days during the a-symptomatic phase |  |
+| *d_S* | $\sim \mathcal{\Gamma}(μ=5,k=4)$ | Duration of infectiousness in days during the symptomatic phase |  |
+
+| Name | Value | Description | References | 
+| :---- | :---- | :---- | :---- | 
+| *y* | 0-29 (1-6) | Range of "young" age groups |  | 
+| *m* | 30-59 (7-12) | Range of "middle" age groups |  | 
+| *o* | 60-80 (13-16) | Range of "old" age groups |  | 
+|  |  |  |  | 
+| *f_y* | 𝒩(μ=0.5,σ=0.1;[0,0.5]) | Symptomatic fraction on infection for "young" age groups|  
+| *f_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
+| *f_o* | 𝒩(μ=0.1,σ=0.023;[0.5,1]) | Symptomatic fraction on infection for "old" age groups |  |
+|  |  |  |  |
+| *s* | 𝒩(μ=0.5,σ=0.1;[0,+∞]) |Susceptibility to infection upon contact with infectious person |  |
+|  |  |  |  |
+| *d_E* | Γ(μ=3,k=4) | Incubation period |  |
+| *d_P* | Γ(μ=1.5,k=4) | Duration of infectiousness in days during the pre-symptomatic phase |  |
+| *d_A* | Γ(μ=3.5,k=4) | Duration of infectiousness in days during the a-symptomatic phase |  |
+| *d_S* | Γ(μ=5,k=4) | Duration of infectiousness in days during the symptomatic phase |  |
+|  |  |  |  |
+| IFR([0,50]) | 0 % | Infection fatality ratio for the 0-50 age group | Poletti et al. (2020) |
+| IFR([50,60]) | 0.46 % | Infection fatality ratio for the 50-60 age group | Poletti et al. (2020) |
+| IFR([60,70]) | 1.42 % | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
+| IFR([70,80]) | 6.87 % | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
+
+
 
 ## Diagnostic Strategies
 

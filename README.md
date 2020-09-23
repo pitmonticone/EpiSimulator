@@ -88,7 +88,7 @@
 | IFR(0,50) | 0 |  Infection fatality ratio for the 0-50 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
 | IFR(50,60) | 0.46 | Infection fatality ratio for the 50-60 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
 | IFR(60,70) | 1.42 | Infection fatality ratio for the 60-70 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
-| IFR(70,80) | 6.87 | Infection fatality ratio for the 60-70 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
+| IFR(70,80) | 6.87 | Infection fatality ratio for the 70-80 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
 |  |  |  |  |
 | FNR_S | *mean*(0.20,0.38) | False negative rate in symptomatic phase | [Kucirka et al. (2020)](https://doi.org/10.7326/M20-1495) |
 | FNR_P | *mean*(0.38,0.67) | False negative rate in pre-symptomatic phase | [Kucirka et al. (2020)](https://doi.org/10.7326/M20-1495) |

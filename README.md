@@ -96,10 +96,10 @@
 | *d_A* | Γ(μ=3.5,k=4) | Duration of infectiousness in days during the a-symptomatic phase |  |
 | *d_S* | Γ(μ=5,k=4) | Duration of infectiousness in days during the symptomatic phase |  |
 |  |  |  |  |
-| IFR([0,50]) | 0 % | Infection fatality ratio for the 0-50 age group | Poletti et al. (2020) |
-| IFR([50,60]) | 0.46 % | Infection fatality ratio for the 50-60 age group | Poletti et al. (2020) |
-| IFR([60,70]) | 1.42 % | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
-| IFR([70,80]) | 6.87 % | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
+| IFR(0,50) | 0 |  Infection fatality ratio for the 0-50 age group | Poletti et al. (2020) |
+| IFR(50,60) | 0.46 | Infection fatality ratio for the 50-60 age group | Poletti et al. (2020) |
+| IFR(60,70) | 1.42 | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
+| IFR(70,80) | 6.87 | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
 
 
 

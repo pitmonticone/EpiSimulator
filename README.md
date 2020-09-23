@@ -29,6 +29,10 @@
    A Data-Driven Stochastic Hybrid Model for Italy
 </h2>
 
+<p align="center">
+  <img alt="Multiplex Proximity Graph" src="https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Slides/figures/Administrative2.png"
+</p>
+
 ## Authors 
 
 | Name | Contacts | Contribution | 

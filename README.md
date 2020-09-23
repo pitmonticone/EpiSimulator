@@ -66,21 +66,6 @@
 
 | Name | Value | Description | References | 
 | :---- | :---- | :---- | :---- | 
-| *y* | [1,6] | Range of "young" age groups |  | 
-| *m* | [7,12] | Range of "middle" age groups |  | 
-| *o* | [13,16] | Range of "old" age groups |  | 
-|  |  |  |  | 
-| *s_y* | $$\sim \mathcal{N}(μ=0.5,σ=0.1;[0,0.5])$$ | Symptomatic fraction on infection for "young" age groups|  
-| *s_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
-| *s_o* | $\sim \mathcal{N}(\mu=0.5,\sigma=0.1;[0.5,1])$ | Symptomatic fraction on infection for "old" age groups |  |
-|  |  |  |  |
-| *d_E* | $\sim \mathcal{\Gamma}(μ=3,k=4)$ | Incubation period |  |
-| *d_P* | $\sim \mathcal{\Gamma}(μ=1.5,k=4)$ | Duration of infectiousness in days during the pre-symptomatic phase |  |
-| *d_A* | $\sim \mathcal{\Gamma}(μ=3.5,k=4)$ | Duration of infectiousness in days during the a-symptomatic phase |  |
-| *d_S* | $\sim \mathcal{\Gamma}(μ=5,k=4)$ | Duration of infectiousness in days during the symptomatic phase |  |
-
-| Name | Value | Description | References | 
-| :---- | :---- | :---- | :---- | 
 | *y* | 0-29 (1-6) | Range of "young" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
 | *m* | 30-59 (7-12) | Range of "middle" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
 | *o* | 60-80 (13-16) | Range of "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 

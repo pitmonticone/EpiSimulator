@@ -141,6 +141,23 @@
 * All the above with behavioral module: exogeneous, enforced physical distancing (local and global lockdown)
 * **Special one**: Active, provincial, targeted, symptom-based, symptomatic-is-positive, contact-tracing, endogenous & exogenous distancing: assume all symptomatic patients to be **positive** ($I_s$) without testing them (accepting the uncertainty of the symptom-based MD diagnosis) in order to allocate more diagnostic resources to the active surveillance of exposed, asymptomatic, vulnerable patients.
 
+## Data 
+### Geospatial
+![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Slides/figures/Geospatial.png)
+### Administrative
+![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Slides/figures/Administrative1.png)
+### Population
+![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Slides/figures/Population.png)
+### Contact
+![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Slides/figures/Contact.png)
+### Mobility
+![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Slides/figures/Mobility.png)
+## Model
+### Epidemic Module
+![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Images/Epidemiology/EpidemicModelDiagram.png)
+### Surveillance Module
+![](https://github.com/InPhyT/DigitalEpidemiologyProject/blob/master/Images/Surveillance/SurveillanceModelDiagram.png)
+
 ## References 
 
 ### Data

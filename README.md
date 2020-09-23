@@ -81,27 +81,29 @@
 
 | Name | Value | Description | References | 
 | :---- | :---- | :---- | :---- | 
-| *y* | 0-29 (1-6) | Range of "young" age groups |  | 
-| *m* | 30-59 (7-12) | Range of "middle" age groups |  | 
-| *o* | 60-80 (13-16) | Range of "old" age groups |  | 
+| *y* | 0-29 (1-6) | Range of "young" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
+| *m* | 30-59 (7-12) | Range of "middle" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
+| *o* | 60-80 (13-16) | Range of "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
 |  |  |  |  | 
-| *f_y* | 𝒩(μ=0.5,σ=0.1;[0,0.5]) | Symptomatic fraction on infection for "young" age groups|  
-| *f_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups|  | 
-| *f_o* | 𝒩(μ=0.1,σ=0.023;[0.5,1]) | Symptomatic fraction on infection for "old" age groups |  |
+| *f_y* | 𝒩(μ=0.5,σ=0.1;[0,0.5]) | Symptomatic fraction on infection for "young" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *f_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
+| *f_o* | 𝒩(μ=0.1,σ=0.023;[0.5,1]) | Symptomatic fraction on infection for "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
-| *s* | 𝒩(μ=0.5,σ=0.1;[0,+∞]) |Susceptibility to infection upon contact with infectious person |  |
+| *s* | 𝒩(μ=0.5,σ=0.1;[0,+∞]) |Susceptibility to infection upon contact with infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
-| *d_E* | Γ(μ=3,k=4) | Incubation period |  |
-| *d_P* | Γ(μ=1.5,k=4) | Duration of infectiousness in days during the pre-symptomatic phase |  |
-| *d_A* | Γ(μ=3.5,k=4) | Duration of infectiousness in days during the a-symptomatic phase |  |
-| *d_S* | Γ(μ=5,k=4) | Duration of infectiousness in days during the symptomatic phase |  |
+| *d_E* | Γ(μ=3,k=4) | Incubation period | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *d_P* | Γ(μ=1.5,k=4) | Duration of infectiousness in days during the pre-symptomatic phase | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *d_A* | Γ(μ=3.5,k=4) | Duration of infectiousness in days during the a-symptomatic phase | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *d_S* | Γ(μ=5,k=4) | Duration of infectiousness in days during the symptomatic phase | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
-| IFR(0,50) | 0 |  Infection fatality ratio for the 0-50 age group | Poletti et al. (2020) |
-| IFR(50,60) | 0.46 | Infection fatality ratio for the 50-60 age group | Poletti et al. (2020) |
-| IFR(60,70) | 1.42 | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
-| IFR(70,80) | 6.87 | Infection fatality ratio for the 60-70 age group | Poletti et al. (2020) |
-
-
+| IFR(0,50) | 0 |  Infection fatality ratio for the 0-50 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
+| IFR(50,60) | 0.46 | Infection fatality ratio for the 50-60 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
+| IFR(60,70) | 1.42 | Infection fatality ratio for the 60-70 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
+| IFR(70,80) | 6.87 | Infection fatality ratio for the 60-70 age group | [Poletti et al. (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383) |
+|  |  |  |  |
+| FNR_S | *mean*(0.20,0.38) | False negative rate in symptomatic phase | [Kucirka et al. (2020)](https://doi.org/10.7326/M20-1495) |
+| FNR_P | *mean*(0.38,0.67) | False negative rate in pre-symptomatic phase | [Kucirka et al. (2020)](https://doi.org/10.7326/M20-1495) |
+| FNR_E | *mean*(0.67,1) | False negative rate in incubation phase | [Kucirka et al. (2020)](https://doi.org/10.7326/M20-1495) |
 
 ## Diagnostic Strategies
 

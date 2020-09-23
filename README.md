@@ -26,7 +26,7 @@
 
 <!-- Subtitle -->
 <h2 align="center">
-   A Data-Drive Stochastic Hybrid Model for Italy
+   A Data-Driven Stochastic Hybrid Model for Italy
 </h2>
 
 ## Authors 

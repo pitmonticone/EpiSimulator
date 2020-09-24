@@ -76,9 +76,9 @@
 |  |  |  |  | 
 | *f_y* | 𝒩(μ=0.5,σ=0.1;[0,0.5]) | Symptomatic fraction on infection for "young" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 | *f_m* | 0.5 | Symptomatic fraction on infection  for "middle" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
-| *f_o* | 𝒩(μ=0.1,σ=0.023;[0.5,1]) | Symptomatic fraction on infection for "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *f_o* | 𝒩(μ=0.1,σ=0.1;[0.5,1]) | Symptomatic fraction on infection for "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
-| *s* | 𝒩(μ=0.5,σ=0.1;[0,+∞]) |Susceptibility to infection upon contact with infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *s* | 𝒩(μ=0.5,σ=0.023;[0,+∞]) |Susceptibility to infection upon contact with infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
 | *d_E* | Γ(μ=3,k=4) | Incubation period | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 | *d_P* | Γ(μ=1.5,k=4) | Duration of infectiousness in days during the pre-symptomatic phase | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |

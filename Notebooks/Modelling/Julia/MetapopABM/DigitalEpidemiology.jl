@@ -405,11 +405,11 @@ function IFR(age_group)
     if age_group ≤ 10
         return 0 # Avg, but think about the distribution
     elseif age_group ≤ 12
-        return 0.46#/100
+        return 0.46/100
     elseif age_group ≤ 14
-        return 1.42#/100
+        return 1.42/100
     else 
-        return 6.87#/100
+        return 6.87/100
     end
 end
 ## Diagnostic rates | Kucirka et al. (2020) | LOOK FOR OTHER REFERENCES (ALREADY FOUND!!)

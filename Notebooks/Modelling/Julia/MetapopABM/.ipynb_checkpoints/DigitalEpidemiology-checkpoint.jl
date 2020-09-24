@@ -17,8 +17,8 @@ using DataFrames, DataFramesMeta, DrWatson, Queryverse       # Data Management
 using StatsBase, Distributions, Random                       # Statistics 
 using LightGraphs, SimpleWeightedGraphs, GraphIO, GraphPlot  # Graphs
 using Agents                                                 # Modelling 
-using LinearAlgebra                                          # Numerical Computation
-using LinearAlgebra                                          # Parallel Computation
+using LinearAlgebra, StaticArrays                            # Numerical Computation
+using Distributed                                            # Parallel Computation
 using Plots, AgentsPlots, PlotThemes, Images, ImageIO        # Visualization
 
 #####################################
@@ -427,53 +427,41 @@ function InitializeHousehold(agent, model)
     agents=get_node_agents(agent.residence, model)
     neighbors=[a for a in agents if a != agent && length(a.household)==0]
     for age_group in 1:model.K
-        aged_neighbors = [neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
+        aged_neighbors=[neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
         ncontacts = round(Int, LightGraphs.weights(model.home_contact_graph)[age_group, agent.age_group]) 
         if length(aged_neighbors)>0 && ncontacts>0
             push!(agent.household, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
         end
     end
-    agent.household = [(agent.household...)...] 
-    household_ids = vcat(agent.household, agent.id) # appen! ?
-    household_agents = [a for a in allagents(model) if a.id in household_ids]
+    agent.household=[(agent.household...)...] 
+    household_ids=vcat(agent.household, agent.id) 
+    household_agents=[a for a in allagents(model) if a.id in household_ids]
     for member in household_agents
-        member.household = [id for id in household_ids if id != member.id]
+        member.household=[id for id in household_ids if id != member.id]
     end
 end;
 ## Workplace initialization
 function InitializeWorkplace(agent, model)
     length(agent.workplace)!=0 && return 
-    # MIGRATE -> work_pos
-    source = agent.residence
-    targets = collect(LightGraphs.weights(model.mobility_graph)[agent.residence,:]) # mobility_graph
-    target=0
-    if length(targets) == 107
-        distribution = DiscreteNonParametric(1:model.M,targets./sum(targets))
-        target = rand(distribution) #target=StatsBase.sample(1:model.M, Weights(targets./sum(targets))) 
-        location = target
-        # CONTACT -> workplace
-        agents=get_node_agents(location, model)
-        neighbors=[a for a in agents if a != agent && length(a.workplace)==0]
-        
-        for age_group in 1:model.K
-            aged_neighbors = [neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
-            ncontacts = round(Int, LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) 
-            if length(aged_neighbors)>0 && ncontacts>0
-                push!(agent.workplace, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
-            end
+    # CONTACT -> workplace
+    agent.work_pos=agent.pos 
+    agents=get_node_agents(agent.work_pos, model)
+    neighbors=[a for a in agents if a != agent && length(a.workplace)==0]
+    for age_group in 1:model.K
+        aged_neighbors=[neighbor.id for neighbor in neighbors if neighbor.age_group == age_group]      
+        ncontacts = round(Int, LightGraphs.weights(model.work_contact_graph)[age_group, agent.age_group]) 
+        if length(aged_neighbors)>0 && ncontacts>0
+            push!(agent.workplace, StatsBase.sample(aged_neighbors, ncontacts; replace=true, ordered=false))
         end
-        agent.workplace = [(agent.workplace...)...]
-        if length(agent.workplace)>0
-            #agent.work_pos=location   
-            workplace_ids = vcat(agent.workplace, agent.id) 
-            workplace_agents = [a for a in allagents(model) if a.id in workplace_ids]
-            for member in workplace_agents
-                member.work_pos=location  
-                member.workplace = [id for id in workplace_ids if id != member.id]
-            end
+    end
+    agent.workplace=[(agent.workplace...)...]
+    if length(agent.workplace)>0  
+        workplace_ids=vcat(agent.workplace, agent.id) 
+        workplace_agents=[a for a in allagents(model) if a.id in workplace_ids]
+        for member in workplace_agents
+            member.work_pos=agent.work_pos  
+            member.workplace=[id for id in workplace_ids if id != member.id]
         end
-    else
-        print(length(targets)," ")
     end
 end;
 

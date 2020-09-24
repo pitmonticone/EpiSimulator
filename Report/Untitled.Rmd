@@ -1,8 +1,8 @@
 ---
 title: "Digital Epidemiology Project<br>"
-subtitle: '<em>A data-driven stochastic hybrid model for Italy</em> <br><br>'
-author: 'Pietro Monticone | [`r icon::fa("at")`](pietro.monticone@edu.unito.it) [`r icon::fa("github")`](https://github.com/pitmonticone) [`r icon::fa("twitter")`](https://twitter.com/PietroMonticone)<br>&nbsp;Davide Orsenigo &nbsp;| [`r icon::fa("at")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github")`](https://github.com/daorse) [`r icon::fa("twitter")`](https://twitter.com/DavideOrsenigo)<br><br>'
-date: "`r Sys.Date()` | *University of Turin*"
+subtitle: '<em>A data-driven stochastic hybrid model for Italy</em> <br>'
+author: 'Pietro Monticone | [`r icon::fa("at", color="white")`](pietro.monticone@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/pitmonticone) [`r icon::fa("twitter", color="white")`](https://twitter.com/PietroMonticone)<br>&nbsp;Davide Orsenigo &nbsp;| [`r icon::fa("at", color="white")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/daorse) [`r icon::fa("twitter", color="white")`](https://twitter.com/DavideOrsenigo)<br>'
+date: "`r Sys.Date()`, *University of Turin*"
 output: 
   prettydoc::html_pretty:
     theme: cayman
@@ -95,13 +95,73 @@ The number of agents in each provincial node and each age group is determined by
 
 In order to initialize the workplace locations we let each agent migrate from its residence node according to the probability vector defined by the mobility weights. The workplace community is populated by the agents who have been contacted according to $C_{ij}^{\text{Work}}$ sharing the workplace location, while the household community is populated by the agents who have been contacted according to $C_{ij}^{\text{Home}}$.
 
-The phase space of the epidemiological compartmental model used to describe the natural history of the disease is defined by the following states: susceptible ($S$), exposed or latent ($E$), asymptomatic infected ($I_a$), pre-symptomatic infected ($I_p$), symptomatic infected ($I_s$), recovered ($R$), died ($D$). All the relevant epidemiological and timing parameters are reported in the diagram below
+The phase space of the epidemiological compartmental model used to describe the natural history of the disease is defined by the following states: susceptible ($S$), exposed or latent ($E$), asymptomatic infected ($I_a$), pre-symptomatic infected ($I_p$), symptomatic infected ($I_s$), recovered ($R$), died ($D$). All the relevant epidemiological parameters and timing distributions are reported in the diagram below
 
 ![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Epidemiology/EpidemicModelDiagram.png)
 
+# Abstract
+### Super-compact description
+# Introduction 
+### Narrative stuff
+
+# Research Questions / Goals / Objectives 
+### Geo-spatial scale exploration
+### Diagnostic / Surveillance strategies portfolio exploration
+### Contact-tracing app coverage exploration
+### Minimum treshold for contact-tracing coverage
+### Double dataset: clinical vs. epidemiological
+
+# Data
+## Geo-spatial (Provincial, NUTS3)
+## Administrative (Provincial)
+## Population (Age-stratified)
+## Contact (Main locations)
+## Mobility 
+## Epidemiological
+## Diagnostic
+
+# Graphs 
+## Proximity (Provincial)
+## Contact Graphs
+## Mobility Graphs
+# Agents
+## Structure
+## Dynamics
+
+# Model
+## Epidemiological Module
+### Structure
+### Dynamics
+## Surveillance Module
+### Structure
+### Dynamics
+## Contact-Tracing Module
+### Structure
+### Dynamics
+## Behavioral Module
+### Structure
+### Dynamics
+
+# Results
+### Diagnostic / Surveillance
+### Epidemiological
+### Decision-support system (trade-off analysis, Pareto front,...)
+### Epistemic (Indirect) value vs. Mitigation/Containment/Control/Clinical(Direct) value trade-off
+
+# Limitations & Future Development / Extensions (What's Next?)
+### Full phase space & parameter space exploration 
+### Add Behavioral module
+### Computational framework development, serial & parallelized optimization (see C.R.)
+### Apply SciML to ABMs 
+
+### Micro-dynamics
+
 The model micro-dynamics is structured as follows
 
+`agent_step!`
 
+### Macro-dynamics
+`model_step!`
 
 
 

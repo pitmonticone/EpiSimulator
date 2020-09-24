@@ -78,9 +78,9 @@
 | *σ_S(m)* | 0.5 | Symptomatic fraction on infection  for "middle" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
 | *σ_S(o)* | 𝒩(μ=0.1,σ=0.1;[0.5,1]) | Symptomatic fraction on infection for "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
-| *β_S* | 𝒩(μ=0.5,σ=0.023;[0,+∞]) |Susceptibility to infection upon contact with symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
-| *β_P* | *0.15 ⨉ β_S* |Susceptibility to infection upon contact with pre-symptomatic infectious person | [Aleta et al. (2020)](https://doi.org/10.1038/s41562-020-0931-9) |
-| *β_A* | *0.5 ⨉ β_S* |Susceptibility to infection upon contact with asymptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *β_S* | 𝒩(μ=0.5,σ=0.023;[0,+∞]) | Transmissability of symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *β_P* | *0.15 ⨉ β_S* | Transmissability of pre-symptomatic infectious person | [Aleta et al. (2020)](https://doi.org/10.1038/s41562-020-0931-9) |
+| *β_A* | *0.5 ⨉ β_S* | Transmissability of a-symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |   
 | *d_E* | Γ(μ=3,k=4) | Incubation period | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 | *d_P* | Γ(μ=1.5,k=4) | Duration of infectiousness in days during the pre-symptomatic phase | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |

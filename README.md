@@ -74,9 +74,9 @@
 | *m* | 30-59 (7-12) | Range of "middle" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
 | *o* | 60-80 (13-16) | Range of "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
 |  |  |  |  | 
-| *σ_S(y)* | 𝒩(μ=0.5,σ=0.1;[0,0.5]) | Symptomatic fraction on infection for "young" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
-| *σ_S(m)* | 0.5 | Symptomatic fraction on infection  for "middle" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
-| *σ_S(o)* | 𝒩(μ=0.1,σ=0.1;[0.5,1]) | Symptomatic fraction on infection for "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *σ₁* | 𝒩(μ=0.5,σ=0.1;[0,0.5]) | Symptomatic fraction on infection for "young" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *σ₂* | 0.5 | Symptomatic fraction on infection  for "middle" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
+| *σ₃* | 𝒩(μ=0.1,σ=0.1;[0.5,1]) | Symptomatic fraction on infection for "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
 | *β_S* | 𝒩(μ=0.5,σ=0.023;[0,+∞]) | Transmissability of symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 | *β_P* | *0.15 ⨉ β_S* | Transmissability of pre-symptomatic infectious person | [Aleta et al. (2020)](https://doi.org/10.1038/s41562-020-0931-9) |

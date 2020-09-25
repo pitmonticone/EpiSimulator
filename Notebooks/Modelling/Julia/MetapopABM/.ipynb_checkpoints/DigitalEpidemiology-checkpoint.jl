@@ -135,6 +135,15 @@ function LoadData(file, user)
         elseif user=="DavideOrsenigo"
             return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\Active.csv"))
         end
+    ### Load data on confirmed COVID-19 deaths
+    elseif file=="Deaths"
+        if user=="PietroMonticone1"
+            return DataFrame(load("/Users/Pit/GitHub/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Deaths.csv"))
+        elseif user=="PietroMonticone2"
+            return DataFrame(load("/Users/pietromonticone/github/DigitalEpidemiologyProject/Data/CSV/2020/Epidemiological/Deaths.csv"))
+        elseif user=="DavideOrsenigo"
+            return DataFrame(load(raw"C:\Users\Utente\Desktop\Progetti\GitHub\DigitalEpidemiologyProject\Data\CSV\2020\Epidemiological\Deaths.csv"))
+        end
     ### Load data on confirmed COVID-19 cases by date of diagnosis and symptoms onset
     elseif file=="SymptomsDiagnosis"
         if user=="PietroMonticone1"
@@ -396,11 +405,11 @@ function IFR(age_group)
     if age_group ≤ 10
         return 0 # Avg, but think about the distribution
     elseif age_group ≤ 12
-        return 0.46#/100
+        return 0.46/100
     elseif age_group ≤ 14
-        return 1.42#/100
+        return 1.42/100
     else 
-        return 6.87#/100
+        return 6.87/100
     end
 end
 ## Diagnostic rates | Kucirka et al. (2020) | LOOK FOR OTHER REFERENCES (ALREADY FOUND!!)
@@ -831,7 +840,7 @@ function contact!(agent, model, location)
     neighbors=[n for n in agents if n != agent && n.status !=:D] 
 	### @ Home
     if location=="home" 
-        possible_contacted_agents=[a for a in neighbors if a.id in agent.household]
+        possible_contacted_agents=[a for a in allagents(model) if a.id in model.agents_at_home && a.residence==agent.residence && a.id in agent.household]
         effective_contacted_agents=[]
         if model.phase == 3
             amplification=1.3
@@ -922,11 +931,16 @@ function migrate!(agent, model)
 	elseif model.phase == 4
 		targets = [outneighbor for outneighbor in LightGraphs.weights(model.mobility_graph_phase4)[source,:]]
 	end
-    distribution = DiscreteNonParametric(1:model.M,targets./sum(targets))
-	target = rand(distribution)
-	if target ≠ source
-		agent.pos = target #move_agent!(agent, target, model)
-	end
+    if length(targets)==model.M
+        distribution = DiscreteNonParametric(1:model.M,targets./sum(targets))
+        target = rand(distribution)
+        if target ≠ source
+            agent.pos = target #move_agent!(agent, target, model)
+        end
+    end
+    if agent.id in model.agents_at_home
+        deleteat!(model.agents_at_home, findfirst(isequal(agent.id), model.agents_at_home))
+    end
 end
 ### In-residence flow
 function move_back_home!(agent, model)
@@ -943,7 +957,7 @@ function get_exposed!(agent, model, contacted_agents)
 	
 	neighbors = contacted_agents
 	for neighbor in neighbors 
-        if neighbor.status == :I_s && (rand() ≤ TruncatedNormal(0.1,0.023,0,1000)) #TruncatedNormal(0.5,0.1,0,0.5
+        if neighbor.status == :I_s && (rand() ≤ TruncatedNormal(0.1,0.023,0,1000)) #TruncatedNormal(0.5,0.1,0,0.5)
 			agent.status = :E
 			agent.status_delay_left = round(Int, rand(Gamma(3,4)))
 			break

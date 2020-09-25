@@ -840,7 +840,7 @@ function contact!(agent, model, location)
     neighbors=[n for n in agents if n != agent && n.status !=:D] 
 	### @ Home
     if location=="home" 
-        possible_contacted_agents=[a for a in neighbors if a.id in agent.household]
+        possible_contacted_agents=[a for a in allagents(model) if a.id in model.agents_at_home && a.residence==agent.residence && a.id in agent.household]
         effective_contacted_agents=[]
         if model.phase == 3
             amplification=1.3
@@ -937,6 +937,9 @@ function migrate!(agent, model)
         if target ≠ source
             agent.pos = target #move_agent!(agent, target, model)
         end
+    end
+    if agent.id in model.agents_at_home
+        deleteat!(model.agents_at_home, findfirst(isequal(agent.id), model.agents_at_home))
     end
 end
 ### In-residence flow

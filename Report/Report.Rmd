@@ -1,0 +1,171 @@
+---
+title: "Computational Epidemiology Project<br>"
+subtitle: '<em>A data-driven stochastic hybrid model for Italy</em> <br>'
+author: 'Pietro Monticone | [`r icon::fa("at", color="white")`](pietro.monticone@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/pitmonticone) [`r icon::fa("twitter", color="white")`](https://twitter.com/PietroMonticone)<br>&nbsp;Davide Orsenigo &nbsp;| [`r icon::fa("at", color="white")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/daorse) [`r icon::fa("twitter", color="white")`](https://twitter.com/DavideOrsenigo)<br>'
+date: "`r Sys.Date()`, *University of Turin*"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: true
+fontsize: 10pt
+bibliography: references.bibtex 
+biblio-style: apalike
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, include = FALSE, eval = FALSE) 
+library(DT)
+library(knitr)
+library(tidyverse)
+
+# Abstract
+### Super-compact description, explanation
+# Introduction 
+### Narrative stuff
+
+# Research Questions / Goals / Objectives 
+### Geo-spatial scale exploration
+### Diagnostic / Surveillance strategies portfolio exploration
+### Contact-tracing app coverage exploration
+### Minimum treshold for contact-tracing coverage
+### Double dataset: clinical vs. epidemiological
+
+# Data
+## Geo-spatial (Provincial, NUTS3)
+## Administrative (Provincial)
+## Population (Age-stratified)
+## Contact (Main locations)
+## Mobility 
+## Epidemiological
+## Diagnostic
+
+# Graphs 
+## Proximity (Provincial)
+## Contact Graphs
+## Mobility Graphs
+# Agents
+## Structure
+## Dynamics
+
+# Model
+## Epidemiological Module
+### Structure
+### Dynamics
+## Surveillance Module
+### Structure
+### Dynamics
+## Contact-Tracing Module
+### Structure
+### Dynamics
+## Behavioral Module
+### Structure
+### Dynamics
+
+# Results
+### Diagnostic / Surveillance
+### Epidemiological
+### Decision-support system (trade-off analysis, Pareto front,...)
+### Epistemic (Indirect) value vs. Mitigation/Containment/Control/Clinical(Direct) value trade-off
+
+# Limitations & Future Development / Extensions (What's Next?)
+### Full phase space & parameter space exploration 
+### Add Behavioral module
+### Computational framework development, serial & parallelized optimization (see C.R.)
+### Apply SciML to ABMs 
+```
+
+## Data 
+
+We have collected and processed provincial-level geo-spatial data for Italy [@IstatGeo2020] in order to construct the mobility graph, whose nodes represent provinces which are populated according to age-stratified census data [@IstatPop2020] (16 equi-spaced age groups from 0 to 80) and whose normalized weighted directed edges encode inter-provincial traffic flows [@Pepe2020].
+
+![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Slides/figures/Mobility.png)
+
+The heterogeneous contact patterns among provincial sub-populations are governed by synthetic contact matrices [@Prem2017] whose components $C_{ij}^{L}$ represent the frequency of daily contacts that a given agent of age group $i$ has with any agent of age group $j$ in a given location $L \in$ {Home, School, Work, Other}.
+
+![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Slides/figures/Contact.png)
+
+The number of agents in each provincial node and each age group is determined by the actual provincial population adjusted by a scale factor. The internal structure of the agent is completely specified by the following attributes: 
+
+* identifier code $\text{id} \in [1,N] \subset \mathbb{N}$           
+* current location $p \in [1,M] \subset \mathbb{N}$
+* age group $a \in [1,A] \subset \mathbb{N}$
+* residence (origin) location $r \in [1,M] \subset \mathbb{N}$
+* workplace location  $\text{wp} \in [1,M] \subset \mathbb{N}$
+* household community $\vec{h}, h_j \in \{j \in [1,N] : p_j=p_i\}$
+* workplace community $\vec{w}, w_j \in \{j \in [1,N] : \text{wp}_j=\text{wp}_i\}$
+* infection state $x \in \{S,E,I_a,I_p,I_s,R,D\}$
+* diagnostic state $d \in \{O,N,P,W,R\}$
+
+In order to initialize the workplace locations we let each agent migrate from its residence node according to the probability vector defined by the mobility weights. The workplace community is populated by the agents who have been contacted according to $C_{ij}^{\text{Work}}$ sharing the workplace location, while the household community is populated by the agents who have been contacted according to $C_{ij}^{\text{Home}}$.
+
+## Model 
+
+The model is composed of two main (extendable) components: the epidemic module governing the micro, individual-level dynamics and the surveillance module depicting the macro, system-level dynamics.
+
+
+### Epidemic module
+
+The state space of the epidemic compartmental module developed to describe the natural history of the disease is defined by the following states: susceptible ($S$), exposed or latent ($E$), asymptomatic infected ($I_a$), pre-symptomatic infected ($I_p$), symptomatic infected ($I_s$), recovered ($R$), died ($D$). All the relevant epidemiological parameters and timing distributions are reported in the [Appendix](#appendix).
+
+![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Epidemiology/EpidemicModelDiagram.png)
+
+The scheduled behaviors of the patient is structured as follows:
+
+1. contact household members (if present at home);
+2. move to workplace with probability $p_w$ or, with probability $1-p_w$ to another location driven by the mobility weights;
+3. contact workplace members;
+4. contact a sample of the population in the current nodal location determined by $C_{ij}^{\text{School}}$;
+5. contact a sample of the population in the current nodal location determined by $C_{ij}^{\text{Other}}$;
+6. move back home with probability $p_h$;
+
+### Public health surveillance module
+
+The state space of the surveillance compartmental module developed to describe the diagnostic protocol is defined by the following states: untested ($O$), tested negative ($N$), tested positive and not yet negative ($P$), tested negative after being tested positive at least once waiting for second negative test confirming recovery ($W$), tested negative twice consecutively after being positive ($R$). All the relevant diagnostic performance parameters are taken into account and reported in the appendix. All patients diagnosed as $P$ or $W$ are quarantined at home so that all the contacts in alternative locations are prevented.  
+
+<p align="center">
+<img src="/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Surveillance/SurveillanceModelDiagram.png" alt="" width="555"/>
+</p>
+
+The surveillance module controls all the policy interventions such as inter- and intra-provincial mobility restrictions: we have aggregated the mobility dataset into three distinct phases by building with the graphs and integrating information about the timing and stringency of national and sub-national policy interventions [@Hale2020; @DesvarsLarrive2020]. In particular in *phase 3* we modeled the national lockdown enforcement modulating the contact matrices by an amplification factor [@Prem2020].
+
+## Appendix 
+
+#### Epidemiological Parameters & Timing Distributions
+
+| Name | Value | Description | References | 
+| :---- | :---- | :---- | :---- | 
+| $y$ | $0-29$ $(1-6)$ | Range of *young* age groups | @Davies2020 | 
+| $m$ | $30-59$ $(7-12)$ | Range of *middle* age groups | @Davies2020 | 
+| $o$ | $60-80$ $(13-16)$ | Range of *old* age groups | @Davies2020 | 
+|  |  |  |  | 
+| $\sigma_1$ | $\mathcal{N}(\mu=0.5,\sigma=0.1;[0,0.5])$ | Symptomatic fraction on infection for *young* age groups| @Davies2020 |
+| $\sigma_2$ | 0.5 | Symptomatic fraction on infection  for *middle* age groups| @Davies2020 | 
+| $\sigma_3$ | $\mathcal{N}(\mu=0.1,\sigma=0.1;[0.5,1])$ | Symptomatic fraction on infection for *old* age groups | @Davies2020 |
+|  |  |  |  |
+| $\beta_S$ | $\mathcal{N}(\mu=0.5,\sigma=0.023;[0,+∞])$ | Transmissibility of *symptomatic* infectious person | @Davies2020 |
+| $\beta_P$ | $0.15 \cdot \beta_S$ | Transmissibility of *pre-symptomatic* infectious person | @Aleta2020 |
+| $\beta_A$ | $0.5 \cdot \beta_S$ | Transmissibility of *a-symptomatic* infectious person | @Davies2020 |
+|  |  |  |  |   
+| $d_E$ | $\mathcal{\Gamma}(\mu=3,k=4)$ | Incubation period | @Davies2020 |
+| $d_P$ | $\mathcal{\Gamma}(\mu=1.5,k=4)$ | Duration of infectiousness in days during the pre-symptomatic phase | @Davies2020 |
+| $d_A$ | $\mathcal{\Gamma}(\mu=3.5,k=4)$ | Duration of infectiousness in days during the a-symptomatic phase | @Davies2020 |
+| $d_S$ | $\mathcal{\Gamma}(\mu=5,k=4)$ | Duration of infectiousness in days during the symptomatic phase | @Davies2020 |
+|  |  |  |  |
+| $\delta_1$ | $0$ |  Infection fatality ratio for the 0-50 age group | @Poletti2020 |
+| $\delta_2$ | $0.46$ | Infection fatality ratio for the 50-60 age group | @Poletti2020|
+| $\delta_3$ | $1.42$ | Infection fatality ratio for the 60-70 age group | @Poletti2020|
+| $\delta_4$ | $6.87$ | Infection fatality ratio for the 70-80 age group | @Poletti2020|
+|  |  |  |  |
+| $\nu_S$ | $mean(0.20,0.38)$ | False negative rate in *symptomatic* phase | @Kucirka2020 |
+| $\nu_P$ | $mean(0.38,0.67)$ | False negative rate in *pre-symptomatic* phase | @Kucirka2020 |
+| $\nu_E$ | $mean(0.67,1)$ | False negative rate in *incubation* phase | @Kucirka2020 |
+
+## References 
+
+
+
+
+
+

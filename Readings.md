@@ -3,15 +3,7 @@
   Readings 
 </h1>
 
-## Popular Articles 
-
-Derek Watkins et al. [How the Virus Won](https://www.nytimes.com/interactive/2020/us/coronavirus-spread.html), *The New York Times* (2020). 
-
-David Adam. [A guide to R — the pandemic’s misunderstood metric](https://www.nature.com/articles/d41586-020-02009-w). *Nature* (2020).
-
-## Technical Articles 
-
-### Mathematical Epidemiology 
+## Mathematical Epidemiology 
 
 Kermack William Ogilvy , McKendrick A. G.  and Walker Gilbert Thomas, 1997. [A contribution to the mathematical theory of epidemics](http://doi.org/10.1098/rspa.1927.0118) *Proc. R. Soc.* Lond. A115700–721
 
@@ -23,7 +15,7 @@ Ernesto Estrada. [COVID-19 and SARS-CoV-2. Modeling the present, looking at the 
 
 Bjørnstad, O.N., Shea, K., Krzywinski, M. et al. [The SEIRS model for infectious disease dynamics](https://doi.org/10.1038/s41592-020-0856-2). *Nature Methods* 17, 557–558 (2020). 
 
-### Computational Epidemiology
+## Computational Epidemiology
 
 Mossong J, Hens N, Jit M, Beutels P, Auranen K, Mikolajczyk R, et al. (2008) [Social Contacts and Mixing Patterns Relevant to the Spread of Infectious Diseases](https://doi.org/10.1371/journal.pmed.0050074). *PLoS Med* 5(3): e74. 
 
@@ -53,6 +45,12 @@ Julian Homburger et al. [Modeling SARS-CoV-2 Outbreaks in workplaces, universiti
 Marino Gatto et al. [Spread and dynamics of the COVID-19 epidemic in Italy: Effects of emergency containment measures](https://doi.org/10.1073/pnas.2004978117). *PNAS* (2020)
 Bertuzzo, E., Mari, L., Pasetto, D. et al. [The geography of COVID-19 spread in Italy and implications for the relaxation of confinement measures](https://doi.org/10.1038/s41467-020-18050-2). Nat Commun 11, 4264 (2020). 
 
+#### ABM 
+
+Iozzi F, Trusiano F, Chinazzi M, Billari FC, Zagheni E, Merler S, et al. (2010) [Little Italy: An Agent-Based Approach to the Estimation of Contact Patterns- Fitting Predicted Matrices to Serological Data](https://doi.org/10.1371/journal.pcbi.1001021). *PLoS Comput Biol* 6(12): e1001021. 
+
+Seyed M. Moghadas, Meagan C. Fitzpatrick, Pratha Sah, Abhishek Pandey, Affan Shoukat, Burton H. Singer, and Alison P. Galvani. [The implications of silent transmission for the control of COVID-19 outbreaks](https://doi.org/10.1073/pnas.2008373117). *PNAS* 117 (30) 17513-17515 (2020) 
+
 #### Human Mobility 
 
 Simini, F., González, M., Maritan, A. et al. [A universal model for mobility and migration patterns](https://doi.org/10.1038/nature10856). *Nature* 484, 96–100 (2012). 
@@ -65,6 +63,22 @@ Kang C, Liu Y, Guo D, Qin K (2015) [A Generalized Radiation Model for Human Mobi
 
 Camargo Chico Q., Bright Jonathan and Hale Scott A. 2019 [Diagnosing the performance of human mobility models at small spatial scales using volunteered geographical information](http://doi.org/10.1098/rsos.191034) *Royal Society Open Science*. 6191034
 
+#### Behavioral 
+
+Ferguson, N. [Capturing human behaviour](https://doi.org/10.1038/446733a). *Nature* 446, 733 (2007).
+
+Bleichrodt, H., Crainich, D., Eeckhoudt, L. et al. [Risk aversion and the value of diagnostic tests](https://doi.org/10.1007/s11238-020-09750-8). *Theory Decis* 89, 137–149 (2020). 
+
+Liu, Jiming, Shang, Xia. [Computational Epidemiology: From Disease Transmission Modeling to Vaccination Decision Making](https://www.springer.com/gp/book/9783030521073). *Springer, Health Information Science* (2020).
+
+Meili Li, Manting Wang, Shuyang Xue, Junling Ma. [The influence of awareness on epidemic spreading on random networks](https://doi.org/10.1016/j.jtbi.2019.110090). *Journal of Theoretical Biology*, Volume 486, 2020.
+
+Manfredi P., D'Onofrio A. (eds) [Modeling the Interplay Between Human Behavior and the Spread of Infectious Diseases](https://doi.org/10.1007/978-1-4614-5474-8). Springer, New York, NY. 
+
+Weston, D., Hauck, K. & Amlôt, R. [Infection prevention behaviour and infectious disease modelling: a review of the literature and recommendations for the future](https://doi.org/10.1186/s12889-018-5223-1). *BMC Public Health* 18, 336 (2018). 
+
+Gozzi N, Perrotta D, Paolotti D, Perra N (2020). [Towards a data-driven characterization of behavioral changes induced by the seasonal flu](https://doi.org/10.1371/journal.pcbi.1007879). *PLoS Comput Biol* 16(5): e1007879. 
+
 #### Surveillance 
 
 Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance](https://doi.org/10.1101/2020.06.22.20136309), *medRxiv* (2020).
@@ -73,3 +87,13 @@ Yang Liu et al. [A Modelling Study for Designing a Multi-layered Surveillance Ap
   * [GitHub Repository](https://github.com/yangclaraliu/covid_surveillance_strategy)
   
 Stites, E.C., Wilen, C.B., [The Interpretation of SARS-CoV-2 Diagnostic Tests](https://doi.org/10.1016/j.medj.2020.08.001), *Med* (2020).
+
+Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillance strategies for preventing epidemics on networks](https://doi.org/10.1371/journal.pcbi.1007517). *PLoS Comput Biol* 15(11): e1007517.
+
+#### Contact-Tracing
+
+Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
+
+#### Mortality 
+
+Poletti et al. [Infection fatality ratio of SARS-CoV-2 in Italy](https://arxiv.org/abs/2007.04381). *arXiv pre-print* (2020).

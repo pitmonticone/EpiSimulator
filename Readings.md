@@ -93,6 +93,7 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Aleta, A., Martín-Corral, D., Pastore y Piontti, A. et al. [Modelling the impact of testing, contact tracing and household quarantine on second waves of COVID-19](https://doi.org/10.1038/s41562-020-0931-9). Nat Hum Behav (2020)
 #### Behavioral 
 * Ferguson, N. [Capturing human behaviour](https://doi.org/10.1038/446733a). *Nature* 446, 733 (2007).
+* Piero Poletti. [Human behaviour in epidemic modelling](http://eprints-phd.biblio.unitn.it/422/1/tesi.pdf). (2010)
 * Bleichrodt, H., Crainich, D., Eeckhoudt, L. et al. [Risk aversion and the value of diagnostic tests](https://doi.org/10.1007/s11238-020-09750-8). *Theory Decis* 89, 137–149 (2020). 
 * Liu, Jiming, Shang, Xia. [Computational Epidemiology: From Disease Transmission Modeling to Vaccination Decision Making](https://www.springer.com/gp/book/9783030521073). *Springer, Health Information Science* (2020).
 * Meili Li, Manting Wang, Shuyang Xue, Junling Ma. [The influence of awareness on epidemic spreading on random networks](https://doi.org/10.1016/j.jtbi.2019.110090). *Journal of Theoretical Biology*, Volume 486, 2020.

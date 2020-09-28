@@ -1,0 +1,11 @@
+## People 
+
+
+* Daniela Paolotti, *ISI Foundation* | [Mail](daniela.paolotti@isi.it) | [GitHub](https://github.com/danielapaolotti) | [Twitter](https://twitter.com/danielapaolotti)
+* Michele Tizzoni, *ISI Foundation* | [Mail](michele.tizzoni@isi.it) | [GitHub](https://github.com/micheletizzoni) | [Twitter](https://twitter.com/mtizzoni)
+* Daniela Paolotti, *ISI Foundation* | [Mail](daniela.paolotti@isi.it) | [Twitter](https://twitter.com/danielapaolotti)
+* Nicola Perra, *Greenwich University* | [Mail](nicolaperra@gmail.com) | [Twitter](https://twitter.com/net_science)
+* Yelena Mejova, *ISI Foundation* | [Mail](yelena.mejova@gmail.com) | [Twitter](https://twitter.com/yelenamejova)
+* Nicolò Gozzi | [Mail]( N.Gozzi@gre.ac.uk) | [GitHub](https://github.com/ngozzi) | [Twitter](https://twitter.com/gozzi_nicolo)
+* Eugenio Valdano | [Mail](eugenio.valdano@gmail.com) | [GitHub](https://github.com/eugenio-valdano) | [Twitter](https://twitter.com/eugeValdano)
+* Piero Poletti | [Mail](poletti@fbk.eu) 

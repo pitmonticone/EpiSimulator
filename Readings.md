@@ -42,6 +42,7 @@
 * Luca Ferretti et al. [The timing of COVID-19 transmission](https://doi.org/10.1101/2020.09.04.20188516). *medRxiv pre-print* (2020)
 * Poletti Piero et al. [Age-specific SARS-CoV-2 infection fatality ratio and associated risk factors, Italy, February to April 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.31.2001383). *Euro Surveill.* 2020;25(31):pii=2001383. 
 * Poletti, Piero, et al. [Probability of symptoms and critical disease after SARS-CoV-2 infection](https://arxiv.org/abs/2006.08471). *arXiv pre-print* arXiv:2006.08471 (2020).
+* Poletti, Piero, et al. [Infection fatality ratio of SARS-CoV-2 in Italy](https://arxiv.org/abs/2007.04381). *arXiv pre-print* (2020).
 * Andrew T. Levin et al. [Assessing the Age Specificity of Infection Fatality Rates for COVID-19: Systematic Review, Meta-Analysis, and Public Policy Implications](https://doi.org/10.1101/2020.07.23.20160895). *medRxiv pre-print* (2020)
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020.
 #### Policy 
@@ -71,9 +72,10 @@
 #### Calibration
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020.
-#### Contact
+#### Contact-Tracing
 * Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) [Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread](https://doi.org/10.1371/journal.pcbi.1002673). *PLOS Computational Biology* 8(9): e1002673. 
 * Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214), *arXiv*:2003.01214 [q-bio.PE] (2020).
+* Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
 #### Surveillance 
 * Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance](https://doi.org/10.1101/2020.06.22.20136309), *medRxiv* (2020)
 * Yang Liu et al. [A Modelling Study for Designing a Multi-layered Surveillance Approach to Detect the Potential Resurgence of SARS-CoV-2](https://doi.org/10.1101/2020.06.27.20141440), *medRxiv* (2020)
@@ -81,6 +83,7 @@
 * Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillance strategies for preventing epidemics on networks](https://doi.org/10.1371/journal.pcbi.1007517). *PLoS Comput Biol* 15(11): e1007517. 
 * Grassly NC, Pons-Salort M, Parker EPK, et al. [Comparison of molecular testing strategies for COVID-19 control: a mathematical modelling study](https://doi.org/10.1016/S1473-3099(20)30630-7). *Lancet Infect Dis* 2020
 * Ted Bergstrom, Carl Bergstrom, Haoran Li [Frequency and accuracy of proactive testing for COVID-19](https://doi.org/10.1101/2020.09.05.20188839), *medRxiv* (2020)
+Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillance strategies for preventing epidemics on networks](https://doi.org/10.1371/journal.pcbi.1007517). *PLoS Comput Biol* 15(11): e1007517.
 #### Interventions
 * Josh A Firth, Joel Hellewell, Petra Klepac, Stephen M Kissler et al. [Combining fine-scale social contact data with epidemic modelling reveals interactions between contact tracing, quarantine, testing and physical distancing for controlling COVID-19](https://cmmid.github.io/topics/covid19/tracing-network-local.html), *CMMID pre-print* (2020)
 *  Akira Endo et al. [Implication of backward contact tracing in the presence of overdispersed transmission in COVID-19 outbreaks](https://cmmid.github.io/topics/covid19/backwardtracing.html), *CMMID pre-print* (2020)
@@ -106,28 +109,10 @@
 * WHO, [Estimating mortality from COVID-19](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19), *Scientific Brief* (2020)
 
 
-#### Human Mobility 
 
 
-#### Behavioral 
 
-F
 
-#### Surveillance 
-
-Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance](https://doi.org/10.1101/2020.06.22.20136309), *medRxiv* (2020).
-
-Yang Liu et al. [A Modelling Study for Designing a Multi-layered Surveillance Approach to Detect the Potential Resurgence of SARS-CoV-2](https://doi.org/10.1101/2020.06.27.20141440), *medRxiv* (2020).
-  * [GitHub Repository](https://github.com/yangclaraliu/covid_surveillance_strategy)
-  
-Stites, E.C., Wilen, C.B., [The Interpretation of SARS-CoV-2 Diagnostic Tests](https://doi.org/10.1016/j.medj.2020.08.001), *Med* (2020).
-
-Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillance strategies for preventing epidemics on networks](https://doi.org/10.1371/journal.pcbi.1007517). *PLoS Comput Biol* 15(11): e1007517.
-
-#### Contact-Tracing
-
-Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
 
 #### Mortality 
 
-Poletti et al. [Infection fatality ratio of SARS-CoV-2 in Italy](https://arxiv.org/abs/2007.04381). *arXiv pre-print* (2020).

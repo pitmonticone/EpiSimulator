@@ -1,0 +1,5445 @@
+Code,Province,ATECO3_2007,Age_Group,Population
+1,Torino,B,15-29 anni,20
+1,Torino,C,15-29 anni,14219
+1,Torino,D,15-29 anni,348
+1,Torino,E,15-29 anni,346
+1,Torino,F,15-29 anni,3220
+1,Torino,G,15-29 anni,14687
+1,Torino,H,15-29 anni,3287
+1,Torino,I,15-29 anni,10367
+1,Torino,J,15-29 anni,4690
+1,Torino,K,15-29 anni,1165
+1,Torino,L,15-29 anni,408
+1,Torino,M,15-29 anni,5050
+1,Torino,N,15-29 anni,11606
+1,Torino,P,15-29 anni,351
+1,Torino,Q,15-29 anni,3521
+1,Torino,R,15-29 anni,722
+1,Torino,S,15-29 anni,2856
+1,Torino,B,30-49 anni,147
+1,Torino,C,30-49 anni,87033
+1,Torino,D,30-49 anni,1654
+1,Torino,E,30-49 anni,3363
+1,Torino,F,30-49 anni,13898
+1,Torino,G,30-49 anni,43803
+1,Torino,H,30-49 anni,18014
+1,Torino,I,30-49 anni,16418
+1,Torino,J,30-49 anni,22591
+1,Torino,K,30-49 anni,15264
+1,Torino,L,30-49 anni,1478
+1,Torino,M,30-49 anni,19286
+1,Torino,N,30-49 anni,31953
+1,Torino,P,30-49 anni,1408
+1,Torino,Q,30-49 anni,15632
+1,Torino,R,30-49 anni,1602
+1,Torino,S,30-49 anni,3910
+1,Torino,B,50 anni e più,102
+1,Torino,C,50 anni e più,56549
+1,Torino,D,50 anni e più,2267
+1,Torino,E,50 anni e più,3305
+1,Torino,F,50 anni e più,6250
+1,Torino,G,50 anni e più,17672
+1,Torino,H,50 anni e più,14217
+1,Torino,I,50 anni e più,7275
+1,Torino,J,50 anni e più,12247
+1,Torino,K,50 anni e più,10818
+1,Torino,L,50 anni e più,868
+1,Torino,M,50 anni e più,8336
+1,Torino,N,50 anni e più,13848
+1,Torino,P,50 anni e più,515
+1,Torino,Q,50 anni e più,8239
+1,Torino,R,50 anni e più,511
+1,Torino,S,50 anni e più,1169
+2,Vercelli,B,15-29 anni,2
+2,Vercelli,C,15-29 anni,1260
+2,Vercelli,D,15-29 anni,17
+2,Vercelli,E,15-29 anni,60
+2,Vercelli,F,15-29 anni,337
+2,Vercelli,G,15-29 anni,825
+2,Vercelli,H,15-29 anni,154
+2,Vercelli,I,15-29 anni,777
+2,Vercelli,J,15-29 anni,65
+2,Vercelli,K,15-29 anni,60
+2,Vercelli,L,15-29 anni,10
+2,Vercelli,M,15-29 anni,102
+2,Vercelli,N,15-29 anni,723
+2,Vercelli,P,15-29 anni,10
+2,Vercelli,Q,15-29 anni,254
+2,Vercelli,R,15-29 anni,77
+2,Vercelli,S,15-29 anni,208
+2,Vercelli,B,30-49 anni,11
+2,Vercelli,C,30-49 anni,8233
+2,Vercelli,D,30-49 anni,82
+2,Vercelli,E,30-49 anni,445
+2,Vercelli,F,30-49 anni,1304
+2,Vercelli,G,30-49 anni,2735
+2,Vercelli,H,30-49 anni,731
+2,Vercelli,I,30-49 anni,952
+2,Vercelli,J,30-49 anni,215
+2,Vercelli,K,30-49 anni,460
+2,Vercelli,L,30-49 anni,33
+2,Vercelli,M,30-49 anni,534
+2,Vercelli,N,30-49 anni,1388
+2,Vercelli,P,30-49 anni,38
+2,Vercelli,Q,30-49 anni,1012
+2,Vercelli,R,30-49 anni,86
+2,Vercelli,S,30-49 anni,210
+2,Vercelli,B,50 anni e più,7
+2,Vercelli,C,50 anni e più,4913
+2,Vercelli,D,50 anni e più,52
+2,Vercelli,E,50 anni e più,299
+2,Vercelli,F,50 anni e più,667
+2,Vercelli,G,50 anni e più,1356
+2,Vercelli,H,50 anni e più,736
+2,Vercelli,I,50 anni e più,480
+2,Vercelli,J,50 anni e più,119
+2,Vercelli,K,50 anni e più,421
+2,Vercelli,L,50 anni e più,19
+2,Vercelli,M,50 anni e più,304
+2,Vercelli,N,50 anni e più,667
+2,Vercelli,P,50 anni e più,7
+2,Vercelli,Q,50 anni e più,591
+2,Vercelli,R,50 anni e più,29
+2,Vercelli,S,50 anni e più,88
+3,Novara,B,15-29 anni,6
+3,Novara,C,15-29 anni,3162
+3,Novara,D,15-29 anni,28
+3,Novara,E,15-29 anni,40
+3,Novara,F,15-29 anni,573
+3,Novara,G,15-29 anni,2532
+3,Novara,H,15-29 anni,707
+3,Novara,I,15-29 anni,1736
+3,Novara,J,15-29 anni,187
+3,Novara,K,15-29 anni,72
+3,Novara,L,15-29 anni,73
+3,Novara,M,15-29 anni,406
+3,Novara,N,15-29 anni,1367
+3,Novara,P,15-29 anni,46
+3,Novara,Q,15-29 anni,611
+3,Novara,R,15-29 anni,170
+3,Novara,S,15-29 anni,437
+3,Novara,B,30-49 anni,105
+3,Novara,C,30-49 anni,17857
+3,Novara,D,30-49 anni,142
+3,Novara,E,30-49 anni,521
+3,Novara,F,30-49 anni,2734
+3,Novara,G,30-49 anni,7540
+3,Novara,H,30-49 anni,3018
+3,Novara,I,30-49 anni,2265
+3,Novara,J,30-49 anni,872
+3,Novara,K,30-49 anni,1073
+3,Novara,L,30-49 anni,157
+3,Novara,M,30-49 anni,1711
+3,Novara,N,30-49 anni,2887
+3,Novara,P,30-49 anni,120
+3,Novara,Q,30-49 anni,2594
+3,Novara,R,30-49 anni,289
+3,Novara,S,30-49 anni,547
+3,Novara,B,50 anni e più,114
+3,Novara,C,50 anni e più,10433
+3,Novara,D,50 anni e più,179
+3,Novara,E,50 anni e più,390
+3,Novara,F,50 anni e più,1393
+3,Novara,G,50 anni e più,3202
+3,Novara,H,50 anni e più,2310
+3,Novara,I,50 anni e più,968
+3,Novara,J,50 anni e più,570
+3,Novara,K,50 anni e più,964
+3,Novara,L,50 anni e più,80
+3,Novara,M,50 anni e più,777
+3,Novara,N,50 anni e più,1385
+3,Novara,P,50 anni e più,48
+3,Novara,Q,50 anni e più,1391
+3,Novara,R,50 anni e più,105
+3,Novara,S,50 anni e più,161
+4,Cuneo,B,15-29 anni,28
+4,Cuneo,C,15-29 anni,7296
+4,Cuneo,D,15-29 anni,120
+4,Cuneo,E,15-29 anni,95
+4,Cuneo,F,15-29 anni,1803
+4,Cuneo,G,15-29 anni,4719
+4,Cuneo,H,15-29 anni,676
+4,Cuneo,I,15-29 anni,3319
+4,Cuneo,J,15-29 anni,558
+4,Cuneo,K,15-29 anni,399
+4,Cuneo,L,15-29 anni,79
+4,Cuneo,M,15-29 anni,888
+4,Cuneo,N,15-29 anni,3062
+4,Cuneo,P,15-29 anni,46
+4,Cuneo,Q,15-29 anni,970
+4,Cuneo,R,15-29 anni,198
+4,Cuneo,S,15-29 anni,787
+4,Cuneo,B,30-49 anni,124
+4,Cuneo,C,30-49 anni,27669
+4,Cuneo,D,30-49 anni,389
+4,Cuneo,E,30-49 anni,619
+4,Cuneo,F,30-49 anni,4692
+4,Cuneo,G,30-49 anni,12655
+4,Cuneo,H,30-49 anni,3502
+4,Cuneo,I,30-49 anni,3382
+4,Cuneo,J,30-49 anni,1468
+4,Cuneo,K,30-49 anni,2625
+4,Cuneo,L,30-49 anni,199
+4,Cuneo,M,30-49 anni,2858
+4,Cuneo,N,30-49 anni,6416
+4,Cuneo,P,30-49 anni,246
+4,Cuneo,Q,30-49 anni,3257
+4,Cuneo,R,30-49 anni,414
+4,Cuneo,S,30-49 anni,751
+4,Cuneo,B,50 anni e più,87
+4,Cuneo,C,50 anni e più,14599
+4,Cuneo,D,50 anni e più,336
+4,Cuneo,E,50 anni e più,416
+4,Cuneo,F,50 anni e più,2100
+4,Cuneo,G,50 anni e più,4653
+4,Cuneo,H,50 anni e più,2863
+4,Cuneo,I,50 anni e più,1351
+4,Cuneo,J,50 anni e più,524
+4,Cuneo,K,50 anni e più,1680
+4,Cuneo,L,50 anni e più,74
+4,Cuneo,M,50 anni e più,1145
+4,Cuneo,N,50 anni e più,2681
+4,Cuneo,P,50 anni e più,99
+4,Cuneo,Q,50 anni e più,1736
+4,Cuneo,R,50 anni e più,126
+4,Cuneo,S,50 anni e più,258
+5,Asti,B,15-29 anni,2
+5,Asti,C,15-29 anni,1656
+5,Asti,D,15-29 anni,27
+5,Asti,E,15-29 anni,18
+5,Asti,F,15-29 anni,455
+5,Asti,G,15-29 anni,1134
+5,Asti,H,15-29 anni,215
+5,Asti,I,15-29 anni,788
+5,Asti,J,15-29 anni,75
+5,Asti,K,15-29 anni,112
+5,Asti,L,15-29 anni,19
+5,Asti,M,15-29 anni,194
+5,Asti,N,15-29 anni,566
+5,Asti,P,15-29 anni,40
+5,Asti,Q,15-29 anni,328
+5,Asti,R,15-29 anni,54
+5,Asti,S,15-29 anni,199
+5,Asti,B,30-49 anni,17
+5,Asti,C,30-49 anni,7812
+5,Asti,D,30-49 anni,73
+5,Asti,E,30-49 anni,297
+5,Asti,F,30-49 anni,1413
+5,Asti,G,30-49 anni,3444
+5,Asti,H,30-49 anni,1212
+5,Asti,I,30-49 anni,925
+5,Asti,J,30-49 anni,306
+5,Asti,K,30-49 anni,862
+5,Asti,L,30-49 anni,58
+5,Asti,M,30-49 anni,687
+5,Asti,N,30-49 anni,1164
+5,Asti,P,30-49 anni,78
+5,Asti,Q,30-49 anni,1544
+5,Asti,R,30-49 anni,115
+5,Asti,S,30-49 anni,321
+5,Asti,B,50 anni e più,13
+5,Asti,C,50 anni e più,4105
+5,Asti,D,50 anni e più,73
+5,Asti,E,50 anni e più,267
+5,Asti,F,50 anni e più,651
+5,Asti,G,50 anni e più,1377
+5,Asti,H,50 anni e più,1242
+5,Asti,I,50 anni e più,403
+5,Asti,J,50 anni e più,165
+5,Asti,K,50 anni e più,591
+5,Asti,L,50 anni e più,36
+5,Asti,M,50 anni e più,355
+5,Asti,N,50 anni e più,447
+5,Asti,P,50 anni e più,40
+5,Asti,Q,50 anni e più,915
+5,Asti,R,50 anni e più,39
+5,Asti,S,50 anni e più,125
+6,Alessandria,B,15-29 anni,4
+6,Alessandria,C,15-29 anni,2642
+6,Alessandria,D,15-29 anni,64
+6,Alessandria,E,15-29 anni,58
+6,Alessandria,F,15-29 anni,651
+6,Alessandria,G,15-29 anni,2790
+6,Alessandria,H,15-29 anni,791
+6,Alessandria,I,15-29 anni,1721
+6,Alessandria,J,15-29 anni,131
+6,Alessandria,K,15-29 anni,112
+6,Alessandria,L,15-29 anni,37
+6,Alessandria,M,15-29 anni,329
+6,Alessandria,N,15-29 anni,1339
+6,Alessandria,P,15-29 anni,37
+6,Alessandria,Q,15-29 anni,565
+6,Alessandria,R,15-29 anni,192
+6,Alessandria,S,15-29 anni,498
+6,Alessandria,B,30-49 anni,113
+6,Alessandria,C,30-49 anni,15897
+6,Alessandria,D,30-49 anni,161
+6,Alessandria,E,30-49 anni,685
+6,Alessandria,F,30-49 anni,3370
+6,Alessandria,G,30-49 anni,8902
+6,Alessandria,H,30-49 anni,4242
+6,Alessandria,I,30-49 anni,2403
+6,Alessandria,J,30-49 anni,730
+6,Alessandria,K,30-49 anni,1235
+6,Alessandria,L,30-49 anni,183
+6,Alessandria,M,30-49 anni,1889
+6,Alessandria,N,30-49 anni,2871
+6,Alessandria,P,30-49 anni,193
+6,Alessandria,Q,30-49 anni,2731
+6,Alessandria,R,30-49 anni,364
+6,Alessandria,S,30-49 anni,771
+6,Alessandria,B,50 anni e più,105
+6,Alessandria,C,50 anni e più,9496
+6,Alessandria,D,50 anni e più,165
+6,Alessandria,E,50 anni e più,669
+6,Alessandria,F,50 anni e più,1949
+6,Alessandria,G,50 anni e più,4088
+6,Alessandria,H,50 anni e più,3629
+6,Alessandria,I,50 anni e più,1020
+6,Alessandria,J,50 anni e più,481
+6,Alessandria,K,50 anni e più,1076
+6,Alessandria,L,50 anni e più,123
+6,Alessandria,M,50 anni e più,848
+6,Alessandria,N,50 anni e più,1503
+6,Alessandria,P,50 anni e più,72
+6,Alessandria,Q,50 anni e più,1595
+6,Alessandria,R,50 anni e più,140
+6,Alessandria,S,50 anni e più,349
+7,Aosta,B,15-29 anni,1
+7,Aosta,C,15-29 anni,588
+7,Aosta,D,15-29 anni,48
+7,Aosta,E,15-29 anni,16
+7,Aosta,F,15-29 anni,433
+7,Aosta,G,15-29 anni,835
+7,Aosta,H,15-29 anni,187
+7,Aosta,I,15-29 anni,1750
+7,Aosta,J,15-29 anni,92
+7,Aosta,K,15-29 anni,48
+7,Aosta,L,15-29 anni,27
+7,Aosta,M,15-29 anni,121
+7,Aosta,N,15-29 anni,409
+7,Aosta,P,15-29 anni,18
+7,Aosta,Q,15-29 anni,121
+7,Aosta,R,15-29 anni,77
+7,Aosta,S,15-29 anni,175
+7,Aosta,B,30-49 anni,8
+7,Aosta,C,30-49 anni,2172
+7,Aosta,D,30-49 anni,419
+7,Aosta,E,30-49 anni,157
+7,Aosta,F,30-49 anni,1325
+7,Aosta,G,30-49 anni,2047
+7,Aosta,H,30-49 anni,1086
+7,Aosta,I,30-49 anni,2172
+7,Aosta,J,30-49 anni,644
+7,Aosta,K,30-49 anni,528
+7,Aosta,L,30-49 anni,97
+7,Aosta,M,30-49 anni,460
+7,Aosta,N,30-49 anni,1138
+7,Aosta,P,30-49 anni,204
+7,Aosta,Q,30-49 anni,665
+7,Aosta,R,30-49 anni,328
+7,Aosta,S,30-49 anni,275
+7,Aosta,B,50 anni e più,13
+7,Aosta,C,50 anni e più,1051
+7,Aosta,D,50 anni e più,189
+7,Aosta,E,50 anni e più,163
+7,Aosta,F,50 anni e più,799
+7,Aosta,G,50 anni e più,934
+7,Aosta,H,50 anni e più,865
+7,Aosta,I,50 anni e più,953
+7,Aosta,J,50 anni e più,338
+7,Aosta,K,50 anni e più,330
+7,Aosta,L,50 anni e più,39
+7,Aosta,M,50 anni e più,195
+7,Aosta,N,50 anni e più,625
+7,Aosta,P,50 anni e più,71
+7,Aosta,Q,50 anni e più,327
+7,Aosta,R,50 anni e più,414
+7,Aosta,S,50 anni e più,97
+8,Imperia,B,15-29 anni,1
+8,Imperia,C,15-29 anni,432
+8,Imperia,D,15-29 anni,24
+8,Imperia,E,15-29 anni,45
+8,Imperia,F,15-29 anni,414
+8,Imperia,G,15-29 anni,1377
+8,Imperia,H,15-29 anni,190
+8,Imperia,I,15-29 anni,1801
+8,Imperia,J,15-29 anni,61
+8,Imperia,K,15-29 anni,63
+8,Imperia,L,15-29 anni,60
+8,Imperia,M,15-29 anni,110
+8,Imperia,N,15-29 anni,221
+8,Imperia,P,15-29 anni,35
+8,Imperia,Q,15-29 anni,204
+8,Imperia,R,15-29 anni,125
+8,Imperia,S,15-29 anni,261
+8,Imperia,B,30-49 anni,18
+8,Imperia,C,30-49 anni,1422
+8,Imperia,D,30-49 anni,88
+8,Imperia,E,30-49 anni,406
+8,Imperia,F,30-49 anni,1324
+8,Imperia,G,30-49 anni,4233
+8,Imperia,H,30-49 anni,1134
+8,Imperia,I,30-49 anni,2433
+8,Imperia,J,30-49 anni,250
+8,Imperia,K,30-49 anni,446
+8,Imperia,L,30-49 anni,127
+8,Imperia,M,30-49 anni,609
+8,Imperia,N,30-49 anni,873
+8,Imperia,P,30-49 anni,53
+8,Imperia,Q,30-49 anni,850
+8,Imperia,R,30-49 anni,285
+8,Imperia,S,30-49 anni,389
+8,Imperia,B,50 anni e più,18
+8,Imperia,C,50 anni e più,748
+8,Imperia,D,50 anni e più,83
+8,Imperia,E,50 anni e più,475
+8,Imperia,F,50 anni e più,721
+8,Imperia,G,50 anni e più,2055
+8,Imperia,H,50 anni e più,1259
+8,Imperia,I,50 anni e più,1268
+8,Imperia,J,50 anni e più,184
+8,Imperia,K,50 anni e più,435
+8,Imperia,L,50 anni e più,64
+8,Imperia,M,50 anni e più,340
+8,Imperia,N,50 anni e più,527
+8,Imperia,P,50 anni e più,24
+8,Imperia,Q,50 anni e più,468
+8,Imperia,R,50 anni e più,285
+8,Imperia,S,50 anni e più,155
+9,Savona,B,15-29 anni,1
+9,Savona,C,15-29 anni,958
+9,Savona,D,15-29 anni,32
+9,Savona,E,15-29 anni,74
+9,Savona,F,15-29 anni,394
+9,Savona,G,15-29 anni,1517
+9,Savona,H,15-29 anni,436
+9,Savona,I,15-29 anni,2226
+9,Savona,J,15-29 anni,105
+9,Savona,K,15-29 anni,94
+9,Savona,L,15-29 anni,90
+9,Savona,M,15-29 anni,235
+9,Savona,N,15-29 anni,493
+9,Savona,P,15-29 anni,16
+9,Savona,Q,15-29 anni,439
+9,Savona,R,15-29 anni,262
+9,Savona,S,15-29 anni,310
+9,Savona,B,30-49 anni,30
+9,Savona,C,30-49 anni,4953
+9,Savona,D,30-49 anni,138
+9,Savona,E,30-49 anni,551
+9,Savona,F,30-49 anni,1897
+9,Savona,G,30-49 anni,5040
+9,Savona,H,30-49 anni,2304
+9,Savona,I,30-49 anni,3396
+9,Savona,J,30-49 anni,432
+9,Savona,K,30-49 anni,860
+9,Savona,L,30-49 anni,188
+9,Savona,M,30-49 anni,1217
+9,Savona,N,30-49 anni,1549
+9,Savona,P,30-49 anni,54
+9,Savona,Q,30-49 anni,1789
+9,Savona,R,30-49 anni,349
+9,Savona,S,30-49 anni,430
+9,Savona,B,50 anni e più,13
+9,Savona,C,50 anni e più,2865
+9,Savona,D,50 anni e più,204
+9,Savona,E,50 anni e più,535
+9,Savona,F,50 anni e più,1148
+9,Savona,G,50 anni e più,2360
+9,Savona,H,50 anni e più,2132
+9,Savona,I,50 anni e più,1710
+9,Savona,J,50 anni e più,264
+9,Savona,K,50 anni e più,869
+9,Savona,L,50 anni e più,82
+9,Savona,M,50 anni e più,569
+9,Savona,N,50 anni e più,1035
+9,Savona,P,50 anni e più,38
+9,Savona,Q,50 anni e più,856
+9,Savona,R,50 anni e più,185
+9,Savona,S,50 anni e più,195
+10,Genova,B,15-29 anni,6
+10,Genova,C,15-29 anni,2698
+10,Genova,D,15-29 anni,127
+10,Genova,E,15-29 anni,103
+10,Genova,F,15-29 anni,1596
+10,Genova,G,15-29 anni,4681
+10,Genova,H,15-29 anni,4199
+10,Genova,I,15-29 anni,5186
+10,Genova,J,15-29 anni,559
+10,Genova,K,15-29 anni,378
+10,Genova,L,15-29 anni,134
+10,Genova,M,15-29 anni,1147
+10,Genova,N,15-29 anni,2411
+10,Genova,P,15-29 anni,135
+10,Genova,Q,15-29 anni,1148
+10,Genova,R,15-29 anni,748
+10,Genova,S,15-29 anni,1073
+10,Genova,B,30-49 anni,62
+10,Genova,C,30-49 anni,16995
+10,Genova,D,30-49 anni,575
+10,Genova,E,30-49 anni,1420
+10,Genova,F,30-49 anni,6489
+10,Genova,G,30-49 anni,16348
+10,Genova,H,30-49 anni,15644
+10,Genova,I,30-49 anni,7103
+10,Genova,J,30-49 anni,4051
+10,Genova,K,30-49 anni,3718
+10,Genova,L,30-49 anni,555
+10,Genova,M,30-49 anni,5709
+10,Genova,N,30-49 anni,7281
+10,Genova,P,30-49 anni,543
+10,Genova,Q,30-49 anni,4898
+10,Genova,R,30-49 anni,1169
+10,Genova,S,30-49 anni,2074
+10,Genova,B,50 anni e più,49
+10,Genova,C,50 anni e più,10000
+10,Genova,D,50 anni e più,418
+10,Genova,E,50 anni e più,1930
+10,Genova,F,50 anni e più,4073
+10,Genova,G,50 anni e più,8621
+10,Genova,H,50 anni e più,10472
+10,Genova,I,50 anni e più,3254
+10,Genova,J,50 anni e più,1831
+10,Genova,K,50 anni e più,3573
+10,Genova,L,50 anni e più,334
+10,Genova,M,50 anni e più,2919
+10,Genova,N,50 anni e più,4433
+10,Genova,P,50 anni e più,280
+10,Genova,Q,50 anni e più,2879
+10,Genova,R,50 anni e più,539
+10,Genova,S,50 anni e più,920
+11,La Spezia,B,15-29 anni,4
+11,La Spezia,C,15-29 anni,985
+11,La Spezia,D,15-29 anni,49
+11,La Spezia,E,15-29 anni,22
+11,La Spezia,F,15-29 anni,336
+11,La Spezia,G,15-29 anni,1270
+11,La Spezia,H,15-29 anni,367
+11,La Spezia,I,15-29 anni,1787
+11,La Spezia,J,15-29 anni,113
+11,La Spezia,K,15-29 anni,46
+11,La Spezia,L,15-29 anni,44
+11,La Spezia,M,15-29 anni,156
+11,La Spezia,N,15-29 anni,557
+11,La Spezia,P,15-29 anni,23
+11,La Spezia,Q,15-29 anni,173
+11,La Spezia,R,15-29 anni,129
+11,La Spezia,S,15-29 anni,246
+11,La Spezia,B,30-49 anni,4
+11,La Spezia,C,30-49 anni,4727
+11,La Spezia,D,30-49 anni,196
+11,La Spezia,E,30-49 anni,285
+11,La Spezia,F,30-49 anni,1392
+11,La Spezia,G,30-49 anni,4158
+11,La Spezia,H,30-49 anni,2474
+11,La Spezia,I,30-49 anni,2409
+11,La Spezia,J,30-49 anni,605
+11,La Spezia,K,30-49 anni,622
+11,La Spezia,L,30-49 anni,126
+11,La Spezia,M,30-49 anni,912
+11,La Spezia,N,30-49 anni,2863
+11,La Spezia,P,30-49 anni,122
+11,La Spezia,Q,30-49 anni,906
+11,La Spezia,R,30-49 anni,247
+11,La Spezia,S,30-49 anni,443
+11,La Spezia,B,50 anni e più,6
+11,La Spezia,C,50 anni e più,2942
+11,La Spezia,D,50 anni e più,341
+11,La Spezia,E,50 anni e più,340
+11,La Spezia,F,50 anni e più,861
+11,La Spezia,G,50 anni e più,2018
+11,La Spezia,H,50 anni e più,1852
+11,La Spezia,I,50 anni e più,1011
+11,La Spezia,J,50 anni e più,313
+11,La Spezia,K,50 anni e più,578
+11,La Spezia,L,50 anni e più,47
+11,La Spezia,M,50 anni e più,668
+11,La Spezia,N,50 anni e più,1600
+11,La Spezia,P,50 anni e più,51
+11,La Spezia,Q,50 anni e più,579
+11,La Spezia,R,50 anni e più,114
+11,La Spezia,S,50 anni e più,160
+12,Varese,B,15-29 anni,1
+12,Varese,C,15-29 anni,7396
+12,Varese,D,15-29 anni,67
+12,Varese,E,15-29 anni,104
+12,Varese,F,15-29 anni,1296
+12,Varese,G,15-29 anni,5783
+12,Varese,H,15-29 anni,1383
+12,Varese,I,15-29 anni,4857
+12,Varese,J,15-29 anni,611
+12,Varese,K,15-29 anni,265
+12,Varese,L,15-29 anni,125
+12,Varese,M,15-29 anni,859
+12,Varese,N,15-29 anni,3759
+12,Varese,P,15-29 anni,205
+12,Varese,Q,15-29 anni,1431
+12,Varese,R,15-29 anni,334
+12,Varese,S,15-29 anni,1439
+12,Varese,B,30-49 anni,66
+12,Varese,C,30-49 anni,43810
+12,Varese,D,30-49 anni,232
+12,Varese,E,30-49 anni,876
+12,Varese,F,30-49 anni,5450
+12,Varese,G,30-49 anni,18034
+12,Varese,H,30-49 anni,8963
+12,Varese,I,30-49 anni,6385
+12,Varese,J,30-49 anni,2162
+12,Varese,K,30-49 anni,2339
+12,Varese,L,30-49 anni,414
+12,Varese,M,30-49 anni,3747
+12,Varese,N,30-49 anni,8202
+12,Varese,P,30-49 anni,617
+12,Varese,Q,30-49 anni,4606
+12,Varese,R,30-49 anni,788
+12,Varese,S,30-49 anni,2183
+12,Varese,B,50 anni e più,77
+12,Varese,C,50 anni e più,27311
+12,Varese,D,50 anni e più,267
+12,Varese,E,50 anni e più,819
+12,Varese,F,50 anni e più,2528
+12,Varese,G,50 anni e più,8319
+12,Varese,H,50 anni e più,5100
+12,Varese,I,50 anni e più,2573
+12,Varese,J,50 anni e più,799
+12,Varese,K,50 anni e più,1992
+12,Varese,L,50 anni e più,232
+12,Varese,M,50 anni e più,1567
+12,Varese,N,50 anni e più,3919
+12,Varese,P,50 anni e più,256
+12,Varese,Q,50 anni e più,2220
+12,Varese,R,50 anni e più,297
+12,Varese,S,50 anni e più,683
+13,Como,B,15-29 anni,8
+13,Como,C,15-29 anni,4907
+13,Como,D,15-29 anni,42
+13,Como,E,15-29 anni,70
+13,Como,F,15-29 anni,1198
+13,Como,G,15-29 anni,4001
+13,Como,H,15-29 anni,1166
+13,Como,I,15-29 anni,4085
+13,Como,J,15-29 anni,330
+13,Como,K,15-29 anni,184
+13,Como,L,15-29 anni,88
+13,Como,M,15-29 anni,812
+13,Como,N,15-29 anni,2873
+13,Como,P,15-29 anni,105
+13,Como,Q,15-29 anni,957
+13,Como,R,15-29 anni,353
+13,Como,S,15-29 anni,874
+13,Como,B,30-49 anni,39
+13,Como,C,30-49 anni,25154
+13,Como,D,30-49 anni,189
+13,Como,E,30-49 anni,671
+13,Como,F,30-49 anni,4340
+13,Como,G,30-49 anni,12422
+13,Como,H,30-49 anni,3654
+13,Como,I,30-49 anni,4561
+13,Como,J,30-49 anni,1250
+13,Como,K,30-49 anni,1686
+13,Como,L,30-49 anni,337
+13,Como,M,30-49 anni,2859
+13,Como,N,30-49 anni,6674
+13,Como,P,30-49 anni,412
+13,Como,Q,30-49 anni,3173
+13,Como,R,30-49 anni,737
+13,Como,S,30-49 anni,1269
+13,Como,B,50 anni e più,33
+13,Como,C,50 anni e più,16633
+13,Como,D,50 anni e più,178
+13,Como,E,50 anni e più,432
+13,Como,F,50 anni e più,2053
+13,Como,G,50 anni e più,5719
+13,Como,H,50 anni e più,2369
+13,Como,I,50 anni e più,1688
+13,Como,J,50 anni e più,593
+13,Como,K,50 anni e più,1346
+13,Como,L,50 anni e più,144
+13,Como,M,50 anni e più,1155
+13,Como,N,50 anni e più,3515
+13,Como,P,50 anni e più,180
+13,Como,Q,50 anni e più,1636
+13,Como,R,50 anni e più,370
+13,Como,S,50 anni e più,407
+14,Sondrio,B,15-29 anni,6
+14,Sondrio,C,15-29 anni,1580
+14,Sondrio,D,15-29 anni,59
+14,Sondrio,E,15-29 anni,29
+14,Sondrio,F,15-29 anni,647
+14,Sondrio,G,15-29 anni,1570
+14,Sondrio,H,15-29 anni,326
+14,Sondrio,I,15-29 anni,1539
+14,Sondrio,J,15-29 anni,158
+14,Sondrio,K,15-29 anni,187
+14,Sondrio,L,15-29 anni,35
+14,Sondrio,M,15-29 anni,297
+14,Sondrio,N,15-29 anni,463
+14,Sondrio,P,15-29 anni,22
+14,Sondrio,Q,15-29 anni,304
+14,Sondrio,R,15-29 anni,72
+14,Sondrio,S,15-29 anni,278
+14,Sondrio,B,30-49 anni,39
+14,Sondrio,C,30-49 anni,5670
+14,Sondrio,D,30-49 anni,333
+14,Sondrio,E,30-49 anni,150
+14,Sondrio,F,30-49 anni,1662
+14,Sondrio,G,30-49 anni,3401
+14,Sondrio,H,30-49 anni,1218
+14,Sondrio,I,30-49 anni,2207
+14,Sondrio,J,30-49 anni,437
+14,Sondrio,K,30-49 anni,1181
+14,Sondrio,L,30-49 anni,72
+14,Sondrio,M,30-49 anni,762
+14,Sondrio,N,30-49 anni,857
+14,Sondrio,P,30-49 anni,63
+14,Sondrio,Q,30-49 anni,926
+14,Sondrio,R,30-49 anni,110
+14,Sondrio,S,30-49 anni,339
+14,Sondrio,B,50 anni e più,27
+14,Sondrio,C,50 anni e più,2973
+14,Sondrio,D,50 anni e più,332
+14,Sondrio,E,50 anni e più,118
+14,Sondrio,F,50 anni e più,940
+14,Sondrio,G,50 anni e più,1313
+14,Sondrio,H,50 anni e più,915
+14,Sondrio,I,50 anni e più,948
+14,Sondrio,J,50 anni e più,169
+14,Sondrio,K,50 anni e più,731
+14,Sondrio,L,50 anni e più,21
+14,Sondrio,M,50 anni e più,237
+14,Sondrio,N,50 anni e più,433
+14,Sondrio,P,50 anni e più,38
+14,Sondrio,Q,50 anni e più,415
+14,Sondrio,R,50 anni e più,37
+14,Sondrio,S,50 anni e più,87
+15,Milano,B,15-29 anni,214
+15,Milano,C,15-29 anni,18332
+15,Milano,D,15-29 anni,701
+15,Milano,E,15-29 anni,671
+15,Milano,F,15-29 anni,6954
+15,Milano,G,15-29 anni,34531
+15,Milano,H,15-29 anni,14788
+15,Milano,I,15-29 anni,23843
+15,Milano,J,15-29 anni,13101
+15,Milano,K,15-29 anni,4811
+15,Milano,L,15-29 anni,1294
+15,Milano,M,15-29 anni,19712
+15,Milano,N,15-29 anni,32198
+15,Milano,P,15-29 anni,1248
+15,Milano,Q,15-29 anni,6207
+15,Milano,R,15-29 anni,2237
+15,Milano,S,15-29 anni,6098
+15,Milano,B,30-49 anni,2138
+15,Milano,C,30-49 anni,105654
+15,Milano,D,30-49 anni,4754
+15,Milano,E,30-49 anni,5567
+15,Milano,F,30-49 anni,30802
+15,Milano,G,30-49 anni,125467
+15,Milano,H,30-49 anni,56056
+15,Milano,I,30-49 anni,38268
+15,Milano,J,30-49 anni,62030
+15,Milano,K,30-49 anni,46449
+15,Milano,L,30-49 anni,5773
+15,Milano,M,30-49 anni,66754
+15,Milano,N,30-49 anni,89315
+15,Milano,P,30-49 anni,4498
+15,Milano,Q,30-49 anni,26541
+15,Milano,R,30-49 anni,5252
+15,Milano,S,30-49 anni,10349
+15,Milano,B,50 anni e più,1743
+15,Milano,C,50 anni e più,64265
+15,Milano,D,50 anni e più,3127
+15,Milano,E,50 anni e più,4078
+15,Milano,F,50 anni e più,15013
+15,Milano,G,50 anni e più,54666
+15,Milano,H,50 anni e più,31830
+15,Milano,I,50 anni e più,14933
+15,Milano,J,50 anni e più,24514
+15,Milano,K,50 anni e più,26153
+15,Milano,L,50 anni e più,3372
+15,Milano,M,50 anni e più,24100
+15,Milano,N,50 anni e più,36569
+15,Milano,P,50 anni e più,1493
+15,Milano,Q,50 anni e più,13081
+15,Milano,R,50 anni e più,1526
+15,Milano,S,50 anni e più,3394
+16,Bergamo,B,15-29 anni,22
+16,Bergamo,C,15-29 anni,15595
+16,Bergamo,D,15-29 anni,134
+16,Bergamo,E,15-29 anni,270
+16,Bergamo,F,15-29 anni,3797
+16,Bergamo,G,15-29 anni,8296
+16,Bergamo,H,15-29 anni,2369
+16,Bergamo,I,15-29 anni,5992
+16,Bergamo,J,15-29 anni,1096
+16,Bergamo,K,15-29 anni,627
+16,Bergamo,L,15-29 anni,225
+16,Bergamo,M,15-29 anni,1712
+16,Bergamo,N,15-29 anni,5946
+16,Bergamo,P,15-29 anni,316
+16,Bergamo,Q,15-29 anni,2046
+16,Bergamo,R,15-29 anni,586
+16,Bergamo,S,15-29 anni,1602
+16,Bergamo,B,30-49 anni,183
+16,Bergamo,C,30-49 anni,67370
+16,Bergamo,D,30-49 anni,450
+16,Bergamo,E,30-49 anni,1662
+16,Bergamo,F,30-49 anni,13183
+16,Bergamo,G,30-49 anni,22523
+16,Bergamo,H,30-49 anni,10236
+16,Bergamo,I,30-49 anni,7134
+16,Bergamo,J,30-49 anni,3415
+16,Bergamo,K,30-49 anni,5296
+16,Bergamo,L,30-49 anni,626
+16,Bergamo,M,30-49 anni,5345
+16,Bergamo,N,30-49 anni,11799
+16,Bergamo,P,30-49 anni,1041
+16,Bergamo,Q,30-49 anni,6742
+16,Bergamo,R,30-49 anni,757
+16,Bergamo,S,30-49 anni,2160
+16,Bergamo,B,50 anni e più,128
+16,Bergamo,C,50 anni e più,35121
+16,Bergamo,D,50 anni e più,439
+16,Bergamo,E,50 anni e più,1040
+16,Bergamo,F,50 anni e più,5888
+16,Bergamo,G,50 anni e più,9215
+16,Bergamo,H,50 anni e più,5688
+16,Bergamo,I,50 anni e più,3086
+16,Bergamo,J,50 anni e più,1041
+16,Bergamo,K,50 anni e più,3763
+16,Bergamo,L,50 anni e più,329
+16,Bergamo,M,50 anni e più,1804
+16,Bergamo,N,50 anni e più,4943
+16,Bergamo,P,50 anni e più,444
+16,Bergamo,Q,50 anni e più,2911
+16,Bergamo,R,50 anni e più,256
+16,Bergamo,S,50 anni e più,748
+17,Brescia,B,15-29 anni,23
+17,Brescia,C,15-29 anni,17003
+17,Brescia,D,15-29 anni,173
+17,Brescia,E,15-29 anni,413
+17,Brescia,F,15-29 anni,3398
+17,Brescia,G,15-29 anni,10064
+17,Brescia,H,15-29 anni,1530
+17,Brescia,I,15-29 anni,8545
+17,Brescia,J,15-29 anni,1129
+17,Brescia,K,15-29 anni,725
+17,Brescia,L,15-29 anni,238
+17,Brescia,M,15-29 anni,1886
+17,Brescia,N,15-29 anni,7767
+17,Brescia,P,15-29 anni,270
+17,Brescia,Q,15-29 anni,2035
+17,Brescia,R,15-29 anni,591
+17,Brescia,S,15-29 anni,2052
+17,Brescia,B,30-49 anni,335
+17,Brescia,C,30-49 anni,72903
+17,Brescia,D,30-49 anni,953
+17,Brescia,E,30-49 anni,2326
+17,Brescia,F,30-49 anni,12146
+17,Brescia,G,30-49 anni,26484
+17,Brescia,H,30-49 anni,6869
+17,Brescia,I,30-49 anni,10844
+17,Brescia,J,30-49 anni,3817
+17,Brescia,K,30-49 anni,5682
+17,Brescia,L,30-49 anni,729
+17,Brescia,M,30-49 anni,6004
+17,Brescia,N,30-49 anni,16357
+17,Brescia,P,30-49 anni,802
+17,Brescia,Q,30-49 anni,7058
+17,Brescia,R,30-49 anni,1095
+17,Brescia,S,30-49 anni,2615
+17,Brescia,B,50 anni e più,202
+17,Brescia,C,50 anni e più,37578
+17,Brescia,D,50 anni e più,840
+17,Brescia,E,50 anni e più,1666
+17,Brescia,F,50 anni e più,5127
+17,Brescia,G,50 anni e più,10924
+17,Brescia,H,50 anni e più,4587
+17,Brescia,I,50 anni e più,4275
+17,Brescia,J,50 anni e più,1572
+17,Brescia,K,50 anni e più,3237
+17,Brescia,L,50 anni e più,361
+17,Brescia,M,50 anni e più,2008
+17,Brescia,N,50 anni e più,7421
+17,Brescia,P,50 anni e più,256
+17,Brescia,Q,50 anni e più,3066
+17,Brescia,R,50 anni e più,339
+17,Brescia,S,50 anni e più,877
+18,Pavia,B,15-29 anni,3
+18,Pavia,C,15-29 anni,2540
+18,Pavia,D,15-29 anni,29
+18,Pavia,E,15-29 anni,70
+18,Pavia,F,15-29 anni,639
+18,Pavia,G,15-29 anni,2755
+18,Pavia,H,15-29 anni,772
+18,Pavia,I,15-29 anni,1958
+18,Pavia,J,15-29 anni,266
+18,Pavia,K,15-29 anni,89
+18,Pavia,L,15-29 anni,30
+18,Pavia,M,15-29 anni,409
+18,Pavia,N,15-29 anni,1657
+18,Pavia,P,15-29 anni,75
+18,Pavia,Q,15-29 anni,1163
+18,Pavia,R,15-29 anni,204
+18,Pavia,S,15-29 anni,596
+18,Pavia,B,30-49 anni,77
+18,Pavia,C,30-49 anni,14721
+18,Pavia,D,30-49 anni,335
+18,Pavia,E,30-49 anni,684
+18,Pavia,F,30-49 anni,3017
+18,Pavia,G,30-49 anni,8488
+18,Pavia,H,30-49 anni,3692
+18,Pavia,I,30-49 anni,2655
+18,Pavia,J,30-49 anni,870
+18,Pavia,K,30-49 anni,1171
+18,Pavia,L,30-49 anni,148
+18,Pavia,M,30-49 anni,1788
+18,Pavia,N,30-49 anni,3817
+18,Pavia,P,30-49 anni,273
+18,Pavia,Q,30-49 anni,5129
+18,Pavia,R,30-49 anni,447
+18,Pavia,S,30-49 anni,859
+18,Pavia,B,50 anni e più,37
+18,Pavia,C,50 anni e più,9671
+18,Pavia,D,50 anni e più,307
+18,Pavia,E,50 anni e più,533
+18,Pavia,F,50 anni e più,1506
+18,Pavia,G,50 anni e più,3576
+18,Pavia,H,50 anni e più,2932
+18,Pavia,I,50 anni e più,1122
+18,Pavia,J,50 anni e più,336
+18,Pavia,K,50 anni e più,1315
+18,Pavia,L,50 anni e più,73
+18,Pavia,M,50 anni e più,829
+18,Pavia,N,50 anni e più,1830
+18,Pavia,P,50 anni e più,94
+18,Pavia,Q,50 anni e più,2917
+18,Pavia,R,50 anni e più,140
+18,Pavia,S,50 anni e più,314
+19,Cremona,C,15-29 anni,3847
+19,Cremona,D,15-29 anni,32
+19,Cremona,E,15-29 anni,36
+19,Cremona,F,15-29 anni,442
+19,Cremona,G,15-29 anni,1976
+19,Cremona,H,15-29 anni,468
+19,Cremona,I,15-29 anni,1487
+19,Cremona,J,15-29 anni,248
+19,Cremona,K,15-29 anni,80
+19,Cremona,L,15-29 anni,26
+19,Cremona,M,15-29 anni,339
+19,Cremona,N,15-29 anni,2129
+19,Cremona,P,15-29 anni,40
+19,Cremona,Q,15-29 anni,426
+19,Cremona,R,15-29 anni,122
+19,Cremona,S,15-29 anni,386
+19,Cremona,B,30-49 anni,9
+19,Cremona,C,30-49 anni,17376
+19,Cremona,D,30-49 anni,215
+19,Cremona,E,30-49 anni,418
+19,Cremona,F,30-49 anni,1927
+19,Cremona,G,30-49 anni,6198
+19,Cremona,H,30-49 anni,2174
+19,Cremona,I,30-49 anni,1755
+19,Cremona,J,30-49 anni,752
+19,Cremona,K,30-49 anni,1163
+19,Cremona,L,30-49 anni,141
+19,Cremona,M,30-49 anni,1293
+19,Cremona,N,30-49 anni,3946
+19,Cremona,P,30-49 anni,202
+19,Cremona,Q,30-49 anni,1381
+19,Cremona,R,30-49 anni,199
+19,Cremona,S,30-49 anni,582
+19,Cremona,B,50 anni e più,10
+19,Cremona,C,50 anni e più,9051
+19,Cremona,D,50 anni e più,159
+19,Cremona,E,50 anni e più,319
+19,Cremona,F,50 anni e più,837
+19,Cremona,G,50 anni e più,2686
+19,Cremona,H,50 anni e più,1534
+19,Cremona,I,50 anni e più,705
+19,Cremona,J,50 anni e più,299
+19,Cremona,K,50 anni e più,995
+19,Cremona,L,50 anni e più,67
+19,Cremona,M,50 anni e più,578
+19,Cremona,N,50 anni e più,1475
+19,Cremona,P,50 anni e più,109
+19,Cremona,Q,50 anni e più,587
+19,Cremona,R,50 anni e più,82
+19,Cremona,S,50 anni e più,198
+20,Mantova,B,15-29 anni,2
+20,Mantova,C,15-29 anni,4442
+20,Mantova,D,15-29 anni,35
+20,Mantova,E,15-29 anni,55
+20,Mantova,F,15-29 anni,723
+20,Mantova,G,15-29 anni,2892
+20,Mantova,H,15-29 anni,719
+20,Mantova,I,15-29 anni,1670
+20,Mantova,J,15-29 anni,205
+20,Mantova,K,15-29 anni,140
+20,Mantova,L,15-29 anni,44
+20,Mantova,M,15-29 anni,817
+20,Mantova,N,15-29 anni,2127
+20,Mantova,P,15-29 anni,49
+20,Mantova,Q,15-29 anni,812
+20,Mantova,R,15-29 anni,135
+20,Mantova,S,15-29 anni,510
+20,Mantova,B,30-49 anni,39
+20,Mantova,C,30-49 anni,24409
+20,Mantova,D,30-49 anni,181
+20,Mantova,E,30-49 anni,546
+20,Mantova,F,30-49 anni,2566
+20,Mantova,G,30-49 anni,8128
+20,Mantova,H,30-49 anni,3546
+20,Mantova,I,30-49 anni,2141
+20,Mantova,J,30-49 anni,973
+20,Mantova,K,30-49 anni,1768
+20,Mantova,L,30-49 anni,142
+20,Mantova,M,30-49 anni,3037
+20,Mantova,N,30-49 anni,4620
+20,Mantova,P,30-49 anni,101
+20,Mantova,Q,30-49 anni,2687
+20,Mantova,R,30-49 anni,326
+20,Mantova,S,30-49 anni,653
+20,Mantova,B,50 anni e più,53
+20,Mantova,C,50 anni e più,12547
+20,Mantova,D,50 anni e più,310
+20,Mantova,E,50 anni e più,377
+20,Mantova,F,50 anni e più,1165
+20,Mantova,G,50 anni e più,3420
+20,Mantova,H,50 anni e più,2255
+20,Mantova,I,50 anni e più,910
+20,Mantova,J,50 anni e più,469
+20,Mantova,K,50 anni e più,1228
+20,Mantova,L,50 anni e più,63
+20,Mantova,M,50 anni e più,1463
+20,Mantova,N,50 anni e più,2082
+20,Mantova,P,50 anni e più,33
+20,Mantova,Q,50 anni e più,1207
+20,Mantova,R,50 anni e più,108
+20,Mantova,S,50 anni e più,215
+21,Bolzano,B,15-29 anni,26
+21,Bolzano,C,15-29 anni,7049
+21,Bolzano,D,15-29 anni,162
+21,Bolzano,E,15-29 anni,64
+21,Bolzano,F,15-29 anni,4189
+21,Bolzano,G,15-29 anni,6887
+21,Bolzano,H,15-29 anni,1018
+21,Bolzano,I,15-29 anni,8608
+21,Bolzano,J,15-29 anni,785
+21,Bolzano,K,15-29 anni,564
+21,Bolzano,L,15-29 anni,138
+21,Bolzano,M,15-29 anni,1326
+21,Bolzano,N,15-29 anni,1370
+21,Bolzano,P,15-29 anni,218
+21,Bolzano,Q,15-29 anni,598
+21,Bolzano,R,15-29 anni,307
+21,Bolzano,S,15-29 anni,761
+21,Bolzano,B,30-49 anni,163
+21,Bolzano,C,30-49 anni,15424
+21,Bolzano,D,30-49 anni,798
+21,Bolzano,E,30-49 anni,508
+21,Bolzano,F,30-49 anni,7501
+21,Bolzano,G,30-49 anni,16130
+21,Bolzano,H,30-49 anni,3827
+21,Bolzano,I,30-49 anni,13245
+21,Bolzano,J,30-49 anni,2028
+21,Bolzano,K,30-49 anni,2504
+21,Bolzano,L,30-49 anni,360
+21,Bolzano,M,30-49 anni,2940
+21,Bolzano,N,30-49 anni,3750
+21,Bolzano,P,30-49 anni,294
+21,Bolzano,Q,30-49 anni,1492
+21,Bolzano,R,30-49 anni,535
+21,Bolzano,S,30-49 anni,862
+21,Bolzano,B,50 anni e più,102
+21,Bolzano,C,50 anni e più,7811
+21,Bolzano,D,50 anni e più,596
+21,Bolzano,E,50 anni e più,389
+21,Bolzano,F,50 anni e più,3254
+21,Bolzano,G,50 anni e più,8327
+21,Bolzano,H,50 anni e più,3380
+21,Bolzano,I,50 anni e più,5826
+21,Bolzano,J,50 anni e più,804
+21,Bolzano,K,50 anni e più,1742
+21,Bolzano,L,50 anni e più,187
+21,Bolzano,M,50 anni e più,898
+21,Bolzano,N,50 anni e più,2130
+21,Bolzano,P,50 anni e più,145
+21,Bolzano,Q,50 anni e più,850
+21,Bolzano,R,50 anni e più,228
+21,Bolzano,S,50 anni e più,345
+22,Trento,B,15-29 anni,8
+22,Trento,C,15-29 anni,4233
+22,Trento,D,15-29 anni,129
+22,Trento,E,15-29 anni,141
+22,Trento,F,15-29 anni,1841
+22,Trento,G,15-29 anni,4167
+22,Trento,H,15-29 anni,897
+22,Trento,I,15-29 anni,5761
+22,Trento,J,15-29 anni,721
+22,Trento,K,15-29 anni,267
+22,Trento,L,15-29 anni,98
+22,Trento,M,15-29 anni,673
+22,Trento,N,15-29 anni,2111
+22,Trento,P,15-29 anni,144
+22,Trento,Q,15-29 anni,1157
+22,Trento,R,15-29 anni,188
+22,Trento,S,15-29 anni,763
+22,Trento,B,30-49 anni,133
+22,Trento,C,30-49 anni,15181
+22,Trento,D,30-49 anni,685
+22,Trento,E,30-49 anni,767
+22,Trento,F,30-49 anni,5511
+22,Trento,G,30-49 anni,11316
+22,Trento,H,30-49 anni,4052
+22,Trento,I,30-49 anni,7839
+22,Trento,J,30-49 anni,3258
+22,Trento,K,30-49 anni,2716
+22,Trento,L,30-49 anni,249
+22,Trento,M,30-49 anni,2369
+22,Trento,N,30-49 anni,6155
+22,Trento,P,30-49 anni,510
+22,Trento,Q,30-49 anni,4100
+22,Trento,R,30-49 anni,330
+22,Trento,S,30-49 anni,829
+22,Trento,B,50 anni e più,173
+22,Trento,C,50 anni e più,8099
+22,Trento,D,50 anni e più,593
+22,Trento,E,50 anni e più,738
+22,Trento,F,50 anni e più,2528
+22,Trento,G,50 anni e più,5444
+22,Trento,H,50 anni e più,3058
+22,Trento,I,50 anni e più,3199
+22,Trento,J,50 anni e più,1062
+22,Trento,K,50 anni e più,1767
+22,Trento,L,50 anni e più,106
+22,Trento,M,50 anni e più,765
+22,Trento,N,50 anni e più,4962
+22,Trento,P,50 anni e più,194
+22,Trento,Q,50 anni e più,2632
+22,Trento,R,50 anni e più,132
+22,Trento,S,50 anni e più,368
+23,Verona,B,15-29 anni,7
+23,Verona,C,15-29 anni,8654
+23,Verona,D,15-29 anni,85
+23,Verona,E,15-29 anni,143
+23,Verona,F,15-29 anni,2104
+23,Verona,G,15-29 anni,9901
+23,Verona,H,15-29 anni,3099
+23,Verona,I,15-29 anni,7927
+23,Verona,J,15-29 anni,1031
+23,Verona,K,15-29 anni,499
+23,Verona,L,15-29 anni,193
+23,Verona,M,15-29 anni,1523
+23,Verona,N,15-29 anni,4282
+23,Verona,P,15-29 anni,257
+23,Verona,Q,15-29 anni,1562
+23,Verona,R,15-29 anni,1012
+23,Verona,S,15-29 anni,1473
+23,Verona,B,30-49 anni,79
+23,Verona,C,30-49 anni,39676
+23,Verona,D,30-49 anni,588
+23,Verona,E,30-49 anni,1217
+23,Verona,F,30-49 anni,7705
+23,Verona,G,30-49 anni,25622
+23,Verona,H,30-49 anni,13152
+23,Verona,I,30-49 anni,9674
+23,Verona,J,30-49 anni,4799
+23,Verona,K,30-49 anni,5325
+23,Verona,L,30-49 anni,548
+23,Verona,M,30-49 anni,5368
+23,Verona,N,30-49 anni,10170
+23,Verona,P,30-49 anni,797
+23,Verona,Q,30-49 anni,5655
+23,Verona,R,30-49 anni,2000
+23,Verona,S,30-49 anni,1809
+23,Verona,B,50 anni e più,72
+23,Verona,C,50 anni e più,21717
+23,Verona,D,50 anni e più,485
+23,Verona,E,50 anni e più,1034
+23,Verona,F,50 anni e più,3207
+23,Verona,G,50 anni e più,10630
+23,Verona,H,50 anni e più,7342
+23,Verona,I,50 anni e più,3724
+23,Verona,J,50 anni e più,2129
+23,Verona,K,50 anni e più,3222
+23,Verona,L,50 anni e più,277
+23,Verona,M,50 anni e più,1929
+23,Verona,N,50 anni e più,4173
+23,Verona,P,50 anni e più,381
+23,Verona,Q,50 anni e più,2988
+23,Verona,R,50 anni e più,559
+23,Verona,S,50 anni e più,696
+24,Vicenza,B,15-29 anni,14
+24,Vicenza,C,15-29 anni,17306
+24,Vicenza,D,15-29 anni,56
+24,Vicenza,E,15-29 anni,134
+24,Vicenza,F,15-29 anni,1350
+24,Vicenza,G,15-29 anni,6919
+24,Vicenza,H,15-29 anni,1142
+24,Vicenza,I,15-29 anni,5935
+24,Vicenza,J,15-29 anni,800
+24,Vicenza,K,15-29 anni,334
+24,Vicenza,L,15-29 anni,143
+24,Vicenza,M,15-29 anni,1240
+24,Vicenza,N,15-29 anni,4292
+24,Vicenza,P,15-29 anni,142
+24,Vicenza,Q,15-29 anni,1029
+24,Vicenza,R,15-29 anni,371
+24,Vicenza,S,15-29 anni,1554
+24,Vicenza,B,30-49 anni,125
+24,Vicenza,C,30-49 anni,67546
+24,Vicenza,D,30-49 anni,327
+24,Vicenza,E,30-49 anni,1089
+24,Vicenza,F,30-49 anni,5741
+24,Vicenza,G,30-49 anni,17739
+24,Vicenza,H,30-49 anni,5464
+24,Vicenza,I,30-49 anni,5553
+24,Vicenza,J,30-49 anni,2523
+24,Vicenza,K,30-49 anni,3629
+24,Vicenza,L,30-49 anni,337
+24,Vicenza,M,30-49 anni,4665
+24,Vicenza,N,30-49 anni,7405
+24,Vicenza,P,30-49 anni,413
+24,Vicenza,Q,30-49 anni,3461
+24,Vicenza,R,30-49 anni,580
+24,Vicenza,S,30-49 anni,2005
+24,Vicenza,B,50 anni e più,108
+24,Vicenza,C,50 anni e più,36116
+24,Vicenza,D,50 anni e più,292
+24,Vicenza,E,50 anni e più,788
+24,Vicenza,F,50 anni e più,2877
+24,Vicenza,G,50 anni e più,8278
+24,Vicenza,H,50 anni e più,3496
+24,Vicenza,I,50 anni e più,2443
+24,Vicenza,J,50 anni e più,871
+24,Vicenza,K,50 anni e più,2235
+24,Vicenza,L,50 anni e più,208
+24,Vicenza,M,50 anni e più,1754
+24,Vicenza,N,50 anni e più,3133
+24,Vicenza,P,50 anni e più,153
+24,Vicenza,Q,50 anni e più,1676
+24,Vicenza,R,50 anni e più,206
+24,Vicenza,S,50 anni e più,820
+25,Belluno,B,15-29 anni,2
+25,Belluno,C,15-29 anni,2738
+25,Belluno,D,15-29 anni,41
+25,Belluno,E,15-29 anni,31
+25,Belluno,F,15-29 anni,378
+25,Belluno,G,15-29 anni,1217
+25,Belluno,H,15-29 anni,213
+25,Belluno,I,15-29 anni,1562
+25,Belluno,J,15-29 anni,44
+25,Belluno,K,15-29 anni,47
+25,Belluno,L,15-29 anni,28
+25,Belluno,M,15-29 anni,182
+25,Belluno,N,15-29 anni,1725
+25,Belluno,P,15-29 anni,26
+25,Belluno,Q,15-29 anni,347
+25,Belluno,R,15-29 anni,22
+25,Belluno,S,15-29 anni,237
+25,Belluno,B,30-49 anni,15
+25,Belluno,C,30-49 anni,13088
+25,Belluno,D,30-49 anni,150
+25,Belluno,E,30-49 anni,381
+25,Belluno,F,30-49 anni,1694
+25,Belluno,G,30-49 anni,4117
+25,Belluno,H,30-49 anni,987
+25,Belluno,I,30-49 anni,2006
+25,Belluno,J,30-49 anni,259
+25,Belluno,K,30-49 anni,719
+25,Belluno,L,30-49 anni,87
+25,Belluno,M,30-49 anni,837
+25,Belluno,N,30-49 anni,1938
+25,Belluno,P,30-49 anni,73
+25,Belluno,Q,30-49 anni,1039
+25,Belluno,R,30-49 anni,79
+25,Belluno,S,30-49 anni,304
+25,Belluno,B,50 anni e più,10
+25,Belluno,C,50 anni e più,7611
+25,Belluno,D,50 anni e più,152
+25,Belluno,E,50 anni e più,292
+25,Belluno,F,50 anni e più,966
+25,Belluno,G,50 anni e più,2014
+25,Belluno,H,50 anni e più,889
+25,Belluno,I,50 anni e più,1048
+25,Belluno,J,50 anni e più,185
+25,Belluno,K,50 anni e più,445
+25,Belluno,L,50 anni e più,42
+25,Belluno,M,50 anni e più,332
+25,Belluno,N,50 anni e più,907
+25,Belluno,P,50 anni e più,21
+25,Belluno,Q,50 anni e più,734
+25,Belluno,R,50 anni e più,51
+25,Belluno,S,50 anni e più,146
+26,Treviso,B,15-29 anni,9
+26,Treviso,C,15-29 anni,13588
+26,Treviso,D,15-29 anni,100
+26,Treviso,E,15-29 anni,160
+26,Treviso,F,15-29 anni,1985
+26,Treviso,G,15-29 anni,6106
+26,Treviso,H,15-29 anni,869
+26,Treviso,I,15-29 anni,5092
+26,Treviso,J,15-29 anni,971
+26,Treviso,K,15-29 anni,756
+26,Treviso,L,15-29 anni,117
+26,Treviso,M,15-29 anni,1601
+26,Treviso,N,15-29 anni,4375
+26,Treviso,P,15-29 anni,120
+26,Treviso,Q,15-29 anni,1157
+26,Treviso,R,15-29 anni,277
+26,Treviso,S,15-29 anni,1550
+26,Treviso,B,30-49 anni,160
+26,Treviso,C,30-49 anni,57484
+26,Treviso,D,30-49 anni,403
+26,Treviso,E,30-49 anni,1489
+26,Treviso,F,30-49 anni,7925
+26,Treviso,G,30-49 anni,18308
+26,Treviso,H,30-49 anni,5192
+26,Treviso,I,30-49 anni,5507
+26,Treviso,J,30-49 anni,2929
+26,Treviso,K,30-49 anni,6964
+26,Treviso,L,30-49 anni,440
+26,Treviso,M,30-49 anni,5239
+26,Treviso,N,30-49 anni,8348
+26,Treviso,P,30-49 anni,380
+26,Treviso,Q,30-49 anni,4078
+26,Treviso,R,30-49 anni,574
+26,Treviso,S,30-49 anni,2320
+26,Treviso,B,50 anni e più,107
+26,Treviso,C,50 anni e più,30207
+26,Treviso,D,50 anni e più,257
+26,Treviso,E,50 anni e più,975
+26,Treviso,F,50 anni e più,3443
+26,Treviso,G,50 anni e più,8763
+26,Treviso,H,50 anni e più,4143
+26,Treviso,I,50 anni e più,2465
+26,Treviso,J,50 anni e più,869
+26,Treviso,K,50 anni e più,3379
+26,Treviso,L,50 anni e più,247
+26,Treviso,M,50 anni e più,1694
+26,Treviso,N,50 anni e più,3756
+26,Treviso,P,50 anni e più,153
+26,Treviso,Q,50 anni e più,2084
+26,Treviso,R,50 anni e più,240
+26,Treviso,S,50 anni e più,899
+27,Venezia,B,15-29 anni,1
+27,Venezia,C,15-29 anni,5436
+27,Venezia,D,15-29 anni,176
+27,Venezia,E,15-29 anni,239
+27,Venezia,F,15-29 anni,1730
+27,Venezia,G,15-29 anni,7969
+27,Venezia,H,15-29 anni,2303
+27,Venezia,I,15-29 anni,9847
+27,Venezia,J,15-29 anni,735
+27,Venezia,K,15-29 anni,288
+27,Venezia,L,15-29 anni,245
+27,Venezia,M,15-29 anni,1076
+27,Venezia,N,15-29 anni,3772
+27,Venezia,P,15-29 anni,82
+27,Venezia,Q,15-29 anni,1016
+27,Venezia,R,15-29 anni,799
+27,Venezia,S,15-29 anni,1389
+27,Venezia,B,30-49 anni,9
+27,Venezia,C,30-49 anni,25060
+27,Venezia,D,30-49 anni,438
+27,Venezia,E,30-49 anni,2567
+27,Venezia,F,30-49 anni,8355
+27,Venezia,G,30-49 anni,19739
+27,Venezia,H,30-49 anni,10742
+27,Venezia,I,30-49 anni,15979
+27,Venezia,J,30-49 anni,3195
+27,Venezia,K,30-49 anni,2830
+27,Venezia,L,30-49 anni,865
+27,Venezia,M,30-49 anni,4347
+27,Venezia,N,30-49 anni,9823
+27,Venezia,P,30-49 anni,328
+27,Venezia,Q,30-49 anni,3818
+27,Venezia,R,30-49 anni,2280
+27,Venezia,S,30-49 anni,1964
+27,Venezia,B,50 anni e più,3
+27,Venezia,C,50 anni e più,14379
+27,Venezia,D,50 anni e più,925
+27,Venezia,E,50 anni e più,1928
+27,Venezia,F,50 anni e più,4164
+27,Venezia,G,50 anni e più,9159
+27,Venezia,H,50 anni e più,8147
+27,Venezia,I,50 anni e più,7511
+27,Venezia,J,50 anni e più,1658
+27,Venezia,K,50 anni e più,2104
+27,Venezia,L,50 anni e più,510
+27,Venezia,M,50 anni e più,1779
+27,Venezia,N,50 anni e più,5608
+27,Venezia,P,50 anni e più,164
+27,Venezia,Q,50 anni e più,2126
+27,Venezia,R,50 anni e più,952
+27,Venezia,S,50 anni e più,891
+28,Padova,B,15-29 anni,1
+28,Padova,C,15-29 anni,11302
+28,Padova,D,15-29 anni,76
+28,Padova,E,15-29 anni,149
+28,Padova,F,15-29 anni,1752
+28,Padova,G,15-29 anni,7798
+28,Padova,H,15-29 anni,1628
+28,Padova,I,15-29 anni,5623
+28,Padova,J,15-29 anni,1411
+28,Padova,K,15-29 anni,298
+28,Padova,L,15-29 anni,164
+28,Padova,M,15-29 anni,1653
+28,Padova,N,15-29 anni,4167
+28,Padova,P,15-29 anni,183
+28,Padova,Q,15-29 anni,1447
+28,Padova,R,15-29 anni,300
+28,Padova,S,15-29 anni,1383
+28,Padova,B,30-49 anni,30
+28,Padova,C,30-49 anni,48111
+28,Padova,D,30-49 anni,328
+28,Padova,E,30-49 anni,1283
+28,Padova,F,30-49 anni,7500
+28,Padova,G,30-49 anni,23920
+28,Padova,H,30-49 anni,8115
+28,Padova,I,30-49 anni,7577
+28,Padova,J,30-49 anni,6833
+28,Padova,K,30-49 anni,4504
+28,Padova,L,30-49 anni,538
+28,Padova,M,30-49 anni,5555
+28,Padova,N,30-49 anni,10778
+28,Padova,P,30-49 anni,699
+28,Padova,Q,30-49 anni,5035
+28,Padova,R,30-49 anni,559
+28,Padova,S,30-49 anni,2048
+28,Padova,B,50 anni e più,25
+28,Padova,C,50 anni e più,24178
+28,Padova,D,50 anni e più,304
+28,Padova,E,50 anni e più,965
+28,Padova,F,50 anni e più,3362
+28,Padova,G,50 anni e più,10466
+28,Padova,H,50 anni e più,5396
+28,Padova,I,50 anni e più,4099
+28,Padova,J,50 anni e più,2675
+28,Padova,K,50 anni e più,2996
+28,Padova,L,50 anni e più,295
+28,Padova,M,50 anni e più,1925
+28,Padova,N,50 anni e più,6365
+28,Padova,P,50 anni e più,246
+28,Padova,Q,50 anni e più,2494
+28,Padova,R,50 anni e più,234
+28,Padova,S,50 anni e più,754
+29,Rovigo,C,15-29 anni,1852
+29,Rovigo,D,15-29 anni,20
+29,Rovigo,E,15-29 anni,31
+29,Rovigo,F,15-29 anni,449
+29,Rovigo,G,15-29 anni,1257
+29,Rovigo,H,15-29 anni,274
+29,Rovigo,I,15-29 anni,1216
+29,Rovigo,J,15-29 anni,88
+29,Rovigo,K,15-29 anni,41
+29,Rovigo,L,15-29 anni,17
+29,Rovigo,M,15-29 anni,212
+29,Rovigo,N,15-29 anni,620
+29,Rovigo,P,15-29 anni,24
+29,Rovigo,Q,15-29 anni,404
+29,Rovigo,R,15-29 anni,127
+29,Rovigo,S,15-29 anni,329
+29,Rovigo,C,30-49 anni,9612
+29,Rovigo,D,30-49 anni,90
+29,Rovigo,E,30-49 anni,354
+29,Rovigo,F,30-49 anni,2150
+29,Rovigo,G,30-49 anni,4357
+29,Rovigo,H,30-49 anni,1527
+29,Rovigo,I,30-49 anni,1353
+29,Rovigo,J,30-49 anni,316
+29,Rovigo,K,30-49 anni,733
+29,Rovigo,L,30-49 anni,72
+29,Rovigo,M,30-49 anni,957
+29,Rovigo,N,30-49 anni,1620
+29,Rovigo,P,30-49 anni,73
+29,Rovigo,Q,30-49 anni,1426
+29,Rovigo,R,30-49 anni,233
+29,Rovigo,S,30-49 anni,418
+29,Rovigo,C,50 anni e più,4961
+29,Rovigo,D,50 anni e più,214
+29,Rovigo,E,50 anni e più,352
+29,Rovigo,F,50 anni e più,1171
+29,Rovigo,G,50 anni e più,1987
+29,Rovigo,H,50 anni e più,1167
+29,Rovigo,I,50 anni e più,544
+29,Rovigo,J,50 anni e più,154
+29,Rovigo,K,50 anni e più,501
+29,Rovigo,L,50 anni e più,32
+29,Rovigo,M,50 anni e più,375
+29,Rovigo,N,50 anni e più,1046
+29,Rovigo,P,50 anni e più,31
+29,Rovigo,Q,50 anni e più,824
+29,Rovigo,R,50 anni e più,65
+29,Rovigo,S,50 anni e più,166
+30,Udine,B,15-29 anni,10
+30,Udine,C,15-29 anni,4197
+30,Udine,D,15-29 anni,81
+30,Udine,E,15-29 anni,108
+30,Udine,F,15-29 anni,881
+30,Udine,G,15-29 anni,3099
+30,Udine,H,15-29 anni,693
+30,Udine,I,15-29 anni,3493
+30,Udine,J,15-29 anni,430
+30,Udine,K,15-29 anni,175
+30,Udine,L,15-29 anni,77
+30,Udine,M,15-29 anni,508
+30,Udine,N,15-29 anni,2057
+30,Udine,P,15-29 anni,120
+30,Udine,Q,15-29 anni,643
+30,Udine,R,15-29 anni,267
+30,Udine,S,15-29 anni,619
+30,Udine,B,30-49 anni,24
+30,Udine,C,30-49 anni,22552
+30,Udine,D,30-49 anni,296
+30,Udine,E,30-49 anni,914
+30,Udine,F,30-49 anni,4128
+30,Udine,G,30-49 anni,10862
+30,Udine,H,30-49 anni,4128
+30,Udine,I,30-49 anni,5020
+30,Udine,J,30-49 anni,1677
+30,Udine,K,30-49 anni,2361
+30,Udine,L,30-49 anni,347
+30,Udine,M,30-49 anni,2448
+30,Udine,N,30-49 anni,6303
+30,Udine,P,30-49 anni,455
+30,Udine,Q,30-49 anni,2315
+30,Udine,R,30-49 anni,473
+30,Udine,S,30-49 anni,1053
+30,Udine,B,50 anni e più,22
+30,Udine,C,50 anni e più,12371
+30,Udine,D,50 anni e più,346
+30,Udine,E,50 anni e più,608
+30,Udine,F,50 anni e più,2237
+30,Udine,G,50 anni e più,5176
+30,Udine,H,50 anni e più,3368
+30,Udine,I,50 anni e più,2399
+30,Udine,J,50 anni e più,744
+30,Udine,K,50 anni e più,1852
+30,Udine,L,50 anni e più,180
+30,Udine,M,50 anni e più,1111
+30,Udine,N,50 anni e più,3432
+30,Udine,P,50 anni e più,202
+30,Udine,Q,50 anni e più,1270
+30,Udine,R,50 anni e più,254
+30,Udine,S,50 anni e più,467
+31,Gorizia,C,15-29 anni,1147
+31,Gorizia,D,15-29 anni,17
+31,Gorizia,E,15-29 anni,18
+31,Gorizia,F,15-29 anni,355
+31,Gorizia,G,15-29 anni,779
+31,Gorizia,H,15-29 anni,123
+31,Gorizia,I,15-29 anni,824
+31,Gorizia,J,15-29 anni,42
+31,Gorizia,K,15-29 anni,17
+31,Gorizia,L,15-29 anni,17
+31,Gorizia,M,15-29 anni,78
+31,Gorizia,N,15-29 anni,399
+31,Gorizia,P,15-29 anni,7
+31,Gorizia,Q,15-29 anni,187
+31,Gorizia,R,15-29 anni,55
+31,Gorizia,S,15-29 anni,128
+31,Gorizia,B,30-49 anni,23
+31,Gorizia,C,30-49 anni,6663
+31,Gorizia,D,30-49 anni,116
+31,Gorizia,E,30-49 anni,213
+31,Gorizia,F,30-49 anni,1271
+31,Gorizia,G,30-49 anni,2547
+31,Gorizia,H,30-49 anni,970
+31,Gorizia,I,30-49 anni,1173
+31,Gorizia,J,30-49 anni,210
+31,Gorizia,K,30-49 anni,352
+31,Gorizia,L,30-49 anni,46
+31,Gorizia,M,30-49 anni,478
+31,Gorizia,N,30-49 anni,1090
+31,Gorizia,P,30-49 anni,66
+31,Gorizia,Q,30-49 anni,812
+31,Gorizia,R,30-49 anni,112
+31,Gorizia,S,30-49 anni,227
+31,Gorizia,B,50 anni e più,18
+31,Gorizia,C,50 anni e più,3311
+31,Gorizia,D,50 anni e più,177
+31,Gorizia,E,50 anni e più,166
+31,Gorizia,F,50 anni e più,544
+31,Gorizia,G,50 anni e più,1182
+31,Gorizia,H,50 anni e più,801
+31,Gorizia,I,50 anni e più,681
+31,Gorizia,J,50 anni e più,140
+31,Gorizia,K,50 anni e più,351
+31,Gorizia,L,50 anni e più,35
+31,Gorizia,M,50 anni e più,224
+31,Gorizia,N,50 anni e più,499
+31,Gorizia,P,50 anni e più,34
+31,Gorizia,Q,50 anni e più,486
+31,Gorizia,R,50 anni e più,75
+31,Gorizia,S,50 anni e più,85
+32,Trieste,C,15-29 anni,769
+32,Trieste,D,15-29 anni,18
+32,Trieste,E,15-29 anni,67
+32,Trieste,F,15-29 anni,403
+32,Trieste,G,15-29 anni,1308
+32,Trieste,H,15-29 anni,519
+32,Trieste,I,15-29 anni,1591
+32,Trieste,J,15-29 anni,201
+32,Trieste,K,15-29 anni,256
+32,Trieste,L,15-29 anni,61
+32,Trieste,M,15-29 anni,283
+32,Trieste,N,15-29 anni,683
+32,Trieste,P,15-29 anni,46
+32,Trieste,Q,15-29 anni,453
+32,Trieste,R,15-29 anni,94
+32,Trieste,S,15-29 anni,263
+32,Trieste,B,30-49 anni,8
+32,Trieste,C,30-49 anni,5456
+32,Trieste,D,30-49 anni,215
+32,Trieste,E,30-49 anni,490
+32,Trieste,F,30-49 anni,1403
+32,Trieste,G,30-49 anni,3958
+32,Trieste,H,30-49 anni,3251
+32,Trieste,I,30-49 anni,2082
+32,Trieste,J,30-49 anni,1270
+32,Trieste,K,30-49 anni,2749
+32,Trieste,L,30-49 anni,257
+32,Trieste,M,30-49 anni,1182
+32,Trieste,N,30-49 anni,2209
+32,Trieste,P,30-49 anni,194
+32,Trieste,Q,30-49 anni,1984
+32,Trieste,R,30-49 anni,177
+32,Trieste,S,30-49 anni,480
+32,Trieste,B,50 anni e più,4
+32,Trieste,C,50 anni e più,2464
+32,Trieste,D,50 anni e più,170
+32,Trieste,E,50 anni e più,445
+32,Trieste,F,50 anni e più,745
+32,Trieste,G,50 anni e più,2064
+32,Trieste,H,50 anni e più,2850
+32,Trieste,I,50 anni e più,876
+32,Trieste,J,50 anni e più,764
+32,Trieste,K,50 anni e più,1534
+32,Trieste,L,50 anni e più,102
+32,Trieste,M,50 anni e più,583
+32,Trieste,N,50 anni e più,1479
+32,Trieste,P,50 anni e più,96
+32,Trieste,Q,50 anni e più,1214
+32,Trieste,R,50 anni e più,60
+32,Trieste,S,50 anni e più,210
+33,Piacenza,B,15-29 anni,7
+33,Piacenza,C,15-29 anni,2824
+33,Piacenza,D,15-29 anni,55
+33,Piacenza,E,15-29 anni,47
+33,Piacenza,F,15-29 anni,413
+33,Piacenza,G,15-29 anni,1956
+33,Piacenza,H,15-29 anni,1793
+33,Piacenza,I,15-29 anni,1604
+33,Piacenza,J,15-29 anni,220
+33,Piacenza,K,15-29 anni,94
+33,Piacenza,L,15-29 anni,26
+33,Piacenza,M,15-29 anni,344
+33,Piacenza,N,15-29 anni,1604
+33,Piacenza,P,15-29 anni,71
+33,Piacenza,Q,15-29 anni,375
+33,Piacenza,R,15-29 anni,190
+33,Piacenza,S,15-29 anni,394
+33,Piacenza,B,30-49 anni,61
+33,Piacenza,C,30-49 anni,11744
+33,Piacenza,D,30-49 anni,190
+33,Piacenza,E,30-49 anni,390
+33,Piacenza,F,30-49 anni,1672
+33,Piacenza,G,30-49 anni,6384
+33,Piacenza,H,30-49 anni,5467
+33,Piacenza,I,30-49 anni,2057
+33,Piacenza,J,30-49 anni,775
+33,Piacenza,K,30-49 anni,1096
+33,Piacenza,L,30-49 anni,107
+33,Piacenza,M,30-49 anni,1359
+33,Piacenza,N,30-49 anni,2927
+33,Piacenza,P,30-49 anni,211
+33,Piacenza,Q,30-49 anni,1543
+33,Piacenza,R,30-49 anni,315
+33,Piacenza,S,30-49 anni,573
+33,Piacenza,B,50 anni e più,59
+33,Piacenza,C,50 anni e più,6647
+33,Piacenza,D,50 anni e più,287
+33,Piacenza,E,50 anni e più,313
+33,Piacenza,F,50 anni e più,852
+33,Piacenza,G,50 anni e più,2839
+33,Piacenza,H,50 anni e più,3242
+33,Piacenza,I,50 anni e più,962
+33,Piacenza,J,50 anni e più,367
+33,Piacenza,K,50 anni e più,928
+33,Piacenza,L,50 anni e più,54
+33,Piacenza,M,50 anni e più,646
+33,Piacenza,N,50 anni e più,1189
+33,Piacenza,P,50 anni e più,75
+33,Piacenza,Q,50 anni e più,819
+33,Piacenza,R,50 anni e più,108
+33,Piacenza,S,50 anni e più,223
+34,Parma,B,15-29 anni,9
+34,Parma,C,15-29 anni,5775
+34,Parma,D,15-29 anni,55
+34,Parma,E,15-29 anni,128
+34,Parma,F,15-29 anni,812
+34,Parma,G,15-29 anni,3271
+34,Parma,H,15-29 anni,978
+34,Parma,I,15-29 anni,2730
+34,Parma,J,15-29 anni,537
+34,Parma,K,15-29 anni,200
+34,Parma,L,15-29 anni,59
+34,Parma,M,15-29 anni,675
+34,Parma,N,15-29 anni,2872
+34,Parma,P,15-29 anni,116
+34,Parma,Q,15-29 anni,851
+34,Parma,R,15-29 anni,166
+34,Parma,S,15-29 anni,581
+34,Parma,B,30-49 anni,58
+34,Parma,C,30-49 anni,25292
+34,Parma,D,30-49 anni,215
+34,Parma,E,30-49 anni,806
+34,Parma,F,30-49 anni,3943
+34,Parma,G,30-49 anni,9879
+34,Parma,H,30-49 anni,4926
+34,Parma,I,30-49 anni,4511
+34,Parma,J,30-49 anni,2296
+34,Parma,K,30-49 anni,2252
+34,Parma,L,30-49 anni,182
+34,Parma,M,30-49 anni,2462
+34,Parma,N,30-49 anni,6948
+34,Parma,P,30-49 anni,471
+34,Parma,Q,30-49 anni,4197
+34,Parma,R,30-49 anni,342
+34,Parma,S,30-49 anni,1134
+34,Parma,B,50 anni e più,48
+34,Parma,C,50 anni e più,13825
+34,Parma,D,50 anni e più,141
+34,Parma,E,50 anni e più,716
+34,Parma,F,50 anni e più,2412
+34,Parma,G,50 anni e più,4385
+34,Parma,H,50 anni e più,3140
+34,Parma,I,50 anni e più,2282
+34,Parma,J,50 anni e più,927
+34,Parma,K,50 anni e più,1564
+34,Parma,L,50 anni e più,102
+34,Parma,M,50 anni e più,1068
+34,Parma,N,50 anni e più,3077
+34,Parma,P,50 anni e più,134
+34,Parma,Q,50 anni e più,2246
+34,Parma,R,50 anni e più,107
+34,Parma,S,50 anni e più,504
+35,Reggio nell'Emilia,B,15-29 anni,9
+35,Reggio nell'Emilia,C,15-29 anni,6896
+35,Reggio nell'Emilia,D,15-29 anni,26
+35,Reggio nell'Emilia,E,15-29 anni,94
+35,Reggio nell'Emilia,F,15-29 anni,820
+35,Reggio nell'Emilia,G,15-29 anni,3271
+35,Reggio nell'Emilia,H,15-29 anni,956
+35,Reggio nell'Emilia,I,15-29 anni,2748
+35,Reggio nell'Emilia,J,15-29 anni,497
+35,Reggio nell'Emilia,K,15-29 anni,468
+35,Reggio nell'Emilia,L,15-29 anni,96
+35,Reggio nell'Emilia,M,15-29 anni,731
+35,Reggio nell'Emilia,N,15-29 anni,2925
+35,Reggio nell'Emilia,P,15-29 anni,113
+35,Reggio nell'Emilia,Q,15-29 anni,917
+35,Reggio nell'Emilia,R,15-29 anni,302
+35,Reggio nell'Emilia,S,15-29 anni,634
+35,Reggio nell'Emilia,B,30-49 anni,84
+35,Reggio nell'Emilia,C,30-49 anni,36362
+35,Reggio nell'Emilia,D,30-49 anni,161
+35,Reggio nell'Emilia,E,30-49 anni,662
+35,Reggio nell'Emilia,F,30-49 anni,3183
+35,Reggio nell'Emilia,G,30-49 anni,10701
+35,Reggio nell'Emilia,H,30-49 anni,4150
+35,Reggio nell'Emilia,I,30-49 anni,3819
+35,Reggio nell'Emilia,J,30-49 anni,1702
+35,Reggio nell'Emilia,K,30-49 anni,3280
+35,Reggio nell'Emilia,L,30-49 anni,277
+35,Reggio nell'Emilia,M,30-49 anni,3052
+35,Reggio nell'Emilia,N,30-49 anni,6133
+35,Reggio nell'Emilia,P,30-49 anni,483
+35,Reggio nell'Emilia,Q,30-49 anni,3399
+35,Reggio nell'Emilia,R,30-49 anni,519
+35,Reggio nell'Emilia,S,30-49 anni,915
+35,Reggio nell'Emilia,B,50 anni e più,67
+35,Reggio nell'Emilia,C,50 anni e più,19567
+35,Reggio nell'Emilia,D,50 anni e più,140
+35,Reggio nell'Emilia,E,50 anni e più,563
+35,Reggio nell'Emilia,F,50 anni e più,1468
+35,Reggio nell'Emilia,G,50 anni e più,5303
+35,Reggio nell'Emilia,H,50 anni e più,2492
+35,Reggio nell'Emilia,I,50 anni e più,1700
+35,Reggio nell'Emilia,J,50 anni e più,525
+35,Reggio nell'Emilia,K,50 anni e più,1935
+35,Reggio nell'Emilia,L,50 anni e più,126
+35,Reggio nell'Emilia,M,50 anni e più,1342
+35,Reggio nell'Emilia,N,50 anni e più,2634
+35,Reggio nell'Emilia,P,50 anni e più,151
+35,Reggio nell'Emilia,Q,50 anni e più,1631
+35,Reggio nell'Emilia,R,50 anni e più,176
+35,Reggio nell'Emilia,S,50 anni e più,331
+36,Modena,B,15-29 anni,3
+36,Modena,C,15-29 anni,9528
+36,Modena,D,15-29 anni,46
+36,Modena,E,15-29 anni,119
+36,Modena,F,15-29 anni,1615
+36,Modena,G,15-29 anni,5032
+36,Modena,H,15-29 anni,1607
+36,Modena,I,15-29 anni,3580
+36,Modena,J,15-29 anni,797
+36,Modena,K,15-29 anni,318
+36,Modena,L,15-29 anni,135
+36,Modena,M,15-29 anni,1202
+36,Modena,N,15-29 anni,3744
+36,Modena,P,15-29 anni,133
+36,Modena,Q,15-29 anni,1240
+36,Modena,R,15-29 anni,584
+36,Modena,S,15-29 anni,848
+36,Modena,B,30-49 anni,22
+36,Modena,C,30-49 anni,47787
+36,Modena,D,30-49 anni,298
+36,Modena,E,30-49 anni,872
+36,Modena,F,30-49 anni,6614
+36,Modena,G,30-49 anni,16148
+36,Modena,H,30-49 anni,7478
+36,Modena,I,30-49 anni,4879
+36,Modena,J,30-49 anni,3068
+36,Modena,K,30-49 anni,3860
+36,Modena,L,30-49 anni,466
+36,Modena,M,30-49 anni,4175
+36,Modena,N,30-49 anni,8554
+36,Modena,P,30-49 anni,498
+36,Modena,Q,30-49 anni,4797
+36,Modena,R,30-49 anni,1310
+36,Modena,S,30-49 anni,1442
+36,Modena,B,50 anni e più,21
+36,Modena,C,50 anni e più,25670
+36,Modena,D,50 anni e più,280
+36,Modena,E,50 anni e più,840
+36,Modena,F,50 anni e più,3190
+36,Modena,G,50 anni e più,7811
+36,Modena,H,50 anni e più,3976
+36,Modena,I,50 anni e più,2051
+36,Modena,J,50 anni e più,1288
+36,Modena,K,50 anni e più,2849
+36,Modena,L,50 anni e più,228
+36,Modena,M,50 anni e più,1653
+36,Modena,N,50 anni e più,4102
+36,Modena,P,50 anni e più,151
+36,Modena,Q,50 anni e più,2342
+36,Modena,R,50 anni e più,437
+36,Modena,S,50 anni e più,445
+37,Bologna,B,15-29 anni,8
+37,Bologna,C,15-29 anni,10111
+37,Bologna,D,15-29 anni,145
+37,Bologna,E,15-29 anni,101
+37,Bologna,F,15-29 anni,1621
+37,Bologna,G,15-29 anni,8046
+37,Bologna,H,15-29 anni,2829
+37,Bologna,I,15-29 anni,6443
+37,Bologna,J,15-29 anni,1461
+37,Bologna,K,15-29 anni,584
+37,Bologna,L,15-29 anni,205
+37,Bologna,M,15-29 anni,2211
+37,Bologna,N,15-29 anni,6302
+37,Bologna,P,15-29 anni,254
+37,Bologna,Q,15-29 anni,2001
+37,Bologna,R,15-29 anni,464
+37,Bologna,S,15-29 anni,1392
+37,Bologna,B,30-49 anni,88
+37,Bologna,C,30-49 anni,49946
+37,Bologna,D,30-49 anni,1105
+37,Bologna,E,30-49 anni,1011
+37,Bologna,F,30-49 anni,7574
+37,Bologna,G,30-49 anni,27610
+37,Bologna,H,30-49 anni,13262
+37,Bologna,I,30-49 anni,10385
+37,Bologna,J,30-49 anni,8926
+37,Bologna,K,30-49 anni,7610
+37,Bologna,L,30-49 anni,840
+37,Bologna,M,30-49 anni,7980
+37,Bologna,N,30-49 anni,16875
+37,Bologna,P,30-49 anni,879
+37,Bologna,Q,30-49 anni,8565
+37,Bologna,R,30-49 anni,960
+37,Bologna,S,30-49 anni,2659
+37,Bologna,B,50 anni e più,86
+37,Bologna,C,50 anni e più,27009
+37,Bologna,D,50 anni e più,922
+37,Bologna,E,50 anni e più,879
+37,Bologna,F,50 anni e più,3928
+37,Bologna,G,50 anni e più,12698
+37,Bologna,H,50 anni e più,9007
+37,Bologna,I,50 anni e più,4002
+37,Bologna,J,50 anni e più,3394
+37,Bologna,K,50 anni e più,4712
+37,Bologna,L,50 anni e più,518
+37,Bologna,M,50 anni e più,3047
+37,Bologna,N,50 anni e più,8220
+37,Bologna,P,50 anni e più,338
+37,Bologna,Q,50 anni e più,3935
+37,Bologna,R,50 anni e più,326
+37,Bologna,S,50 anni e più,958
+38,Ferrara,B,15-29 anni,0
+38,Ferrara,C,15-29 anni,1790
+38,Ferrara,D,15-29 anni,35
+38,Ferrara,E,15-29 anni,58
+38,Ferrara,F,15-29 anni,373
+38,Ferrara,G,15-29 anni,1863
+38,Ferrara,H,15-29 anni,204
+38,Ferrara,I,15-29 anni,1955
+38,Ferrara,J,15-29 anni,101
+38,Ferrara,K,15-29 anni,70
+38,Ferrara,L,15-29 anni,32
+38,Ferrara,M,15-29 anni,221
+38,Ferrara,N,15-29 anni,900
+38,Ferrara,P,15-29 anni,45
+38,Ferrara,Q,15-29 anni,479
+38,Ferrara,R,15-29 anni,143
+38,Ferrara,S,15-29 anni,378
+38,Ferrara,B,30-49 anni,7
+38,Ferrara,C,30-49 anni,10986
+38,Ferrara,D,30-49 anni,296
+38,Ferrara,E,30-49 anni,593
+38,Ferrara,F,30-49 anni,1758
+38,Ferrara,G,30-49 anni,7220
+38,Ferrara,H,30-49 anni,1341
+38,Ferrara,I,30-49 anni,2779
+38,Ferrara,J,30-49 anni,674
+38,Ferrara,K,30-49 anni,1017
+38,Ferrara,L,30-49 anni,98
+38,Ferrara,M,30-49 anni,1103
+38,Ferrara,N,30-49 anni,2575
+38,Ferrara,P,30-49 anni,212
+38,Ferrara,Q,30-49 anni,2114
+38,Ferrara,R,30-49 anni,247
+38,Ferrara,S,30-49 anni,953
+38,Ferrara,B,50 anni e più,9
+38,Ferrara,C,50 anni e più,6215
+38,Ferrara,D,50 anni e più,209
+38,Ferrara,E,50 anni e più,567
+38,Ferrara,F,50 anni e più,912
+38,Ferrara,G,50 anni e più,3742
+38,Ferrara,H,50 anni e più,1364
+38,Ferrara,I,50 anni e più,1323
+38,Ferrara,J,50 anni e più,332
+38,Ferrara,K,50 anni e più,840
+38,Ferrara,L,50 anni e più,104
+38,Ferrara,M,50 anni e più,613
+38,Ferrara,N,50 anni e più,1607
+38,Ferrara,P,50 anni e più,72
+38,Ferrara,Q,50 anni e più,1301
+38,Ferrara,R,50 anni e più,99
+38,Ferrara,S,50 anni e più,459
+39,Ravenna,B,15-29 anni,58
+39,Ravenna,C,15-29 anni,2773
+39,Ravenna,D,15-29 anni,60
+39,Ravenna,E,15-29 anni,46
+39,Ravenna,F,15-29 anni,699
+39,Ravenna,G,15-29 anni,2501
+39,Ravenna,H,15-29 anni,625
+39,Ravenna,I,15-29 anni,3423
+39,Ravenna,J,15-29 anni,306
+39,Ravenna,K,15-29 anni,90
+39,Ravenna,L,15-29 anni,62
+39,Ravenna,M,15-29 anni,487
+39,Ravenna,N,15-29 anni,1613
+39,Ravenna,P,15-29 anni,30
+39,Ravenna,Q,15-29 anni,580
+39,Ravenna,R,15-29 anni,509
+39,Ravenna,S,15-29 anni,537
+39,Ravenna,B,30-49 anni,307
+39,Ravenna,C,30-49 anni,14958
+39,Ravenna,D,30-49 anni,175
+39,Ravenna,E,30-49 anni,461
+39,Ravenna,F,30-49 anni,3071
+39,Ravenna,G,30-49 anni,9144
+39,Ravenna,H,30-49 anni,3737
+39,Ravenna,I,30-49 anni,5416
+39,Ravenna,J,30-49 anni,1212
+39,Ravenna,K,30-49 anni,1599
+39,Ravenna,L,30-49 anni,331
+39,Ravenna,M,30-49 anni,2171
+39,Ravenna,N,30-49 anni,4058
+39,Ravenna,P,30-49 anni,173
+39,Ravenna,Q,30-49 anni,2991
+39,Ravenna,R,30-49 anni,934
+39,Ravenna,S,30-49 anni,910
+39,Ravenna,B,50 anni e più,455
+39,Ravenna,C,50 anni e più,7944
+39,Ravenna,D,50 anni e più,208
+39,Ravenna,E,50 anni e più,446
+39,Ravenna,F,50 anni e più,1735
+39,Ravenna,G,50 anni e più,4612
+39,Ravenna,H,50 anni e più,2793
+39,Ravenna,I,50 anni e più,2234
+39,Ravenna,J,50 anni e più,533
+39,Ravenna,K,50 anni e più,1240
+39,Ravenna,L,50 anni e più,140
+39,Ravenna,M,50 anni e più,1036
+39,Ravenna,N,50 anni e più,1972
+39,Ravenna,P,50 anni e più,75
+39,Ravenna,Q,50 anni e più,1704
+39,Ravenna,R,50 anni e più,329
+39,Ravenna,S,50 anni e più,338
+40,Forli'-Cesena,B,15-29 anni,1
+40,Forli'-Cesena,C,15-29 anni,3965
+40,Forli'-Cesena,D,15-29 anni,45
+40,Forli'-Cesena,E,15-29 anni,99
+40,Forli'-Cesena,F,15-29 anni,824
+40,Forli'-Cesena,G,15-29 anni,3343
+40,Forli'-Cesena,H,15-29 anni,370
+40,Forli'-Cesena,I,15-29 anni,2821
+40,Forli'-Cesena,J,15-29 anni,295
+40,Forli'-Cesena,K,15-29 anni,121
+40,Forli'-Cesena,L,15-29 anni,35
+40,Forli'-Cesena,M,15-29 anni,453
+40,Forli'-Cesena,N,15-29 anni,1171
+40,Forli'-Cesena,P,15-29 anni,39
+40,Forli'-Cesena,Q,15-29 anni,666
+40,Forli'-Cesena,R,15-29 anni,284
+40,Forli'-Cesena,S,15-29 anni,483
+40,Forli'-Cesena,B,30-49 anni,4
+40,Forli'-Cesena,C,30-49 anni,19131
+40,Forli'-Cesena,D,30-49 anni,180
+40,Forli'-Cesena,E,30-49 anni,744
+40,Forli'-Cesena,F,30-49 anni,3407
+40,Forli'-Cesena,G,30-49 anni,11088
+40,Forli'-Cesena,H,30-49 anni,2168
+40,Forli'-Cesena,I,30-49 anni,3718
+40,Forli'-Cesena,J,30-49 anni,1146
+40,Forli'-Cesena,K,30-49 anni,1882
+40,Forli'-Cesena,L,30-49 anni,188
+40,Forli'-Cesena,M,30-49 anni,1982
+40,Forli'-Cesena,N,30-49 anni,3681
+40,Forli'-Cesena,P,30-49 anni,228
+40,Forli'-Cesena,Q,30-49 anni,3091
+40,Forli'-Cesena,R,30-49 anni,418
+40,Forli'-Cesena,S,30-49 anni,1188
+40,Forli'-Cesena,B,50 anni e più,15
+40,Forli'-Cesena,C,50 anni e più,9320
+40,Forli'-Cesena,D,50 anni e più,123
+40,Forli'-Cesena,E,50 anni e più,715
+40,Forli'-Cesena,F,50 anni e più,1692
+40,Forli'-Cesena,G,50 anni e più,5258
+40,Forli'-Cesena,H,50 anni e più,1700
+40,Forli'-Cesena,I,50 anni e più,1464
+40,Forli'-Cesena,J,50 anni e più,449
+40,Forli'-Cesena,K,50 anni e più,1356
+40,Forli'-Cesena,L,50 anni e più,99
+40,Forli'-Cesena,M,50 anni e più,1066
+40,Forli'-Cesena,N,50 anni e più,2249
+40,Forli'-Cesena,P,50 anni e più,81
+40,Forli'-Cesena,Q,50 anni e più,1541
+40,Forli'-Cesena,R,50 anni e più,178
+40,Forli'-Cesena,S,50 anni e più,469
+41,Pesaro e Urbino,B,15-29 anni,1
+41,Pesaro e Urbino,C,15-29 anni,4480
+41,Pesaro e Urbino,D,15-29 anni,14
+41,Pesaro e Urbino,E,15-29 anni,53
+41,Pesaro e Urbino,F,15-29 anni,563
+41,Pesaro e Urbino,G,15-29 anni,1962
+41,Pesaro e Urbino,H,15-29 anni,348
+41,Pesaro e Urbino,I,15-29 anni,2550
+41,Pesaro e Urbino,J,15-29 anni,157
+41,Pesaro e Urbino,K,15-29 anni,82
+41,Pesaro e Urbino,L,15-29 anni,35
+41,Pesaro e Urbino,M,15-29 anni,488
+41,Pesaro e Urbino,N,15-29 anni,838
+41,Pesaro e Urbino,P,15-29 anni,53
+41,Pesaro e Urbino,Q,15-29 anni,518
+41,Pesaro e Urbino,R,15-29 anni,305
+41,Pesaro e Urbino,S,15-29 anni,423
+41,Pesaro e Urbino,B,30-49 anni,28
+41,Pesaro e Urbino,C,30-49 anni,19116
+41,Pesaro e Urbino,D,30-49 anni,61
+41,Pesaro e Urbino,E,30-49 anni,572
+41,Pesaro e Urbino,F,30-49 anni,2208
+41,Pesaro e Urbino,G,30-49 anni,6394
+41,Pesaro e Urbino,H,30-49 anni,1589
+41,Pesaro e Urbino,I,30-49 anni,3130
+41,Pesaro e Urbino,J,30-49 anni,950
+41,Pesaro e Urbino,K,30-49 anni,1470
+41,Pesaro e Urbino,L,30-49 anni,146
+41,Pesaro e Urbino,M,30-49 anni,3105
+41,Pesaro e Urbino,N,30-49 anni,2234
+41,Pesaro e Urbino,P,30-49 anni,161
+41,Pesaro e Urbino,Q,30-49 anni,2190
+41,Pesaro e Urbino,R,30-49 anni,280
+41,Pesaro e Urbino,S,30-49 anni,698
+41,Pesaro e Urbino,B,50 anni e più,40
+41,Pesaro e Urbino,C,50 anni e più,9431
+41,Pesaro e Urbino,D,50 anni e più,58
+41,Pesaro e Urbino,E,50 anni e più,558
+41,Pesaro e Urbino,F,50 anni e più,1087
+41,Pesaro e Urbino,G,50 anni e più,2935
+41,Pesaro e Urbino,H,50 anni e più,1306
+41,Pesaro e Urbino,I,50 anni e più,1297
+41,Pesaro e Urbino,J,50 anni e più,423
+41,Pesaro e Urbino,K,50 anni e più,1163
+41,Pesaro e Urbino,L,50 anni e più,92
+41,Pesaro e Urbino,M,50 anni e più,1300
+41,Pesaro e Urbino,N,50 anni e più,1169
+41,Pesaro e Urbino,P,50 anni e più,43
+41,Pesaro e Urbino,Q,50 anni e più,990
+41,Pesaro e Urbino,R,50 anni e più,96
+41,Pesaro e Urbino,S,50 anni e più,248
+42,Ancona,B,15-29 anni,3
+42,Ancona,C,15-29 anni,4114
+42,Ancona,D,15-29 anni,58
+42,Ancona,E,15-29 anni,42
+42,Ancona,F,15-29 anni,751
+42,Ancona,G,15-29 anni,2882
+42,Ancona,H,15-29 anni,559
+42,Ancona,I,15-29 anni,2867
+42,Ancona,J,15-29 anni,366
+42,Ancona,K,15-29 anni,93
+42,Ancona,L,15-29 anni,46
+42,Ancona,M,15-29 anni,443
+42,Ancona,N,15-29 anni,2036
+42,Ancona,P,15-29 anni,54
+42,Ancona,Q,15-29 anni,694
+42,Ancona,R,15-29 anni,310
+42,Ancona,S,15-29 anni,587
+42,Ancona,B,30-49 anni,64
+42,Ancona,C,30-49 anni,24342
+42,Ancona,D,30-49 anni,290
+42,Ancona,E,30-49 anni,799
+42,Ancona,F,30-49 anni,3052
+42,Ancona,G,30-49 anni,9991
+42,Ancona,H,30-49 anni,3543
+42,Ancona,I,30-49 anni,3550
+42,Ancona,J,30-49 anni,2321
+42,Ancona,K,30-49 anni,2139
+42,Ancona,L,30-49 anni,234
+42,Ancona,M,30-49 anni,2233
+42,Ancona,N,30-49 anni,5439
+42,Ancona,P,30-49 anni,218
+42,Ancona,Q,30-49 anni,3485
+42,Ancona,R,30-49 anni,403
+42,Ancona,S,30-49 anni,949
+42,Ancona,B,50 anni e più,75
+42,Ancona,C,50 anni e più,12980
+42,Ancona,D,50 anni e più,199
+42,Ancona,E,50 anni e più,620
+42,Ancona,F,50 anni e più,1505
+42,Ancona,G,50 anni e più,4357
+42,Ancona,H,50 anni e più,2910
+42,Ancona,I,50 anni e più,1420
+42,Ancona,J,50 anni e più,1277
+42,Ancona,K,50 anni e più,1686
+42,Ancona,L,50 anni e più,126
+42,Ancona,M,50 anni e più,829
+42,Ancona,N,50 anni e più,2611
+42,Ancona,P,50 anni e più,75
+42,Ancona,Q,50 anni e più,1962
+42,Ancona,R,50 anni e più,123
+42,Ancona,S,50 anni e più,314
+43,Macerata,B,15-29 anni,4
+43,Macerata,C,15-29 anni,3551
+43,Macerata,D,15-29 anni,25
+43,Macerata,E,15-29 anni,57
+43,Macerata,F,15-29 anni,574
+43,Macerata,G,15-29 anni,2047
+43,Macerata,H,15-29 anni,237
+43,Macerata,I,15-29 anni,1866
+43,Macerata,J,15-29 anni,191
+43,Macerata,K,15-29 anni,73
+43,Macerata,L,15-29 anni,39
+43,Macerata,M,15-29 anni,193
+43,Macerata,N,15-29 anni,874
+43,Macerata,P,15-29 anni,51
+43,Macerata,Q,15-29 anni,358
+43,Macerata,R,15-29 anni,259
+43,Macerata,S,15-29 anni,506
+43,Macerata,B,30-49 anni,38
+43,Macerata,C,30-49 anni,14790
+43,Macerata,D,30-49 anni,216
+43,Macerata,E,30-49 anni,560
+43,Macerata,F,30-49 anni,1998
+43,Macerata,G,30-49 anni,6097
+43,Macerata,H,30-49 anni,1817
+43,Macerata,I,30-49 anni,1936
+43,Macerata,J,30-49 anni,955
+43,Macerata,K,30-49 anni,1202
+43,Macerata,L,30-49 anni,126
+43,Macerata,M,30-49 anni,1039
+43,Macerata,N,30-49 anni,2068
+43,Macerata,P,30-49 anni,203
+43,Macerata,Q,30-49 anni,1387
+43,Macerata,R,30-49 anni,351
+43,Macerata,S,30-49 anni,778
+43,Macerata,B,50 anni e più,32
+43,Macerata,C,50 anni e più,8817
+43,Macerata,D,50 anni e più,148
+43,Macerata,E,50 anni e più,451
+43,Macerata,F,50 anni e più,912
+43,Macerata,G,50 anni e più,2567
+43,Macerata,H,50 anni e più,1279
+43,Macerata,I,50 anni e più,881
+43,Macerata,J,50 anni e più,353
+43,Macerata,K,50 anni e più,850
+43,Macerata,L,50 anni e più,57
+43,Macerata,M,50 anni e più,441
+43,Macerata,N,50 anni e più,886
+43,Macerata,P,50 anni e più,28
+43,Macerata,Q,50 anni e più,743
+43,Macerata,R,50 anni e più,123
+43,Macerata,S,50 anni e più,289
+44,Ascoli Piceno,B,15-29 anni,0
+44,Ascoli Piceno,C,15-29 anni,1388
+44,Ascoli Piceno,D,15-29 anni,16
+44,Ascoli Piceno,E,15-29 anni,26
+44,Ascoli Piceno,F,15-29 anni,388
+44,Ascoli Piceno,G,15-29 anni,1237
+44,Ascoli Piceno,H,15-29 anni,208
+44,Ascoli Piceno,I,15-29 anni,1378
+44,Ascoli Piceno,J,15-29 anni,86
+44,Ascoli Piceno,K,15-29 anni,43
+44,Ascoli Piceno,L,15-29 anni,21
+44,Ascoli Piceno,M,15-29 anni,129
+44,Ascoli Piceno,N,15-29 anni,681
+44,Ascoli Piceno,P,15-29 anni,20
+44,Ascoli Piceno,Q,15-29 anni,230
+44,Ascoli Piceno,R,15-29 anni,242
+44,Ascoli Piceno,S,15-29 anni,364
+44,Ascoli Piceno,B,30-49 anni,17
+44,Ascoli Piceno,C,30-49 anni,6386
+44,Ascoli Piceno,D,30-49 anni,116
+44,Ascoli Piceno,E,30-49 anni,300
+44,Ascoli Piceno,F,30-49 anni,1447
+44,Ascoli Piceno,G,30-49 anni,4416
+44,Ascoli Piceno,H,30-49 anni,1303
+44,Ascoli Piceno,I,30-49 anni,1688
+44,Ascoli Piceno,J,30-49 anni,524
+44,Ascoli Piceno,K,30-49 anni,748
+44,Ascoli Piceno,L,30-49 anni,92
+44,Ascoli Piceno,M,30-49 anni,797
+44,Ascoli Piceno,N,30-49 anni,1780
+44,Ascoli Piceno,P,30-49 anni,82
+44,Ascoli Piceno,Q,30-49 anni,1140
+44,Ascoli Piceno,R,30-49 anni,349
+44,Ascoli Piceno,S,30-49 anni,505
+44,Ascoli Piceno,B,50 anni e più,5
+44,Ascoli Piceno,C,50 anni e più,4081
+44,Ascoli Piceno,D,50 anni e più,88
+44,Ascoli Piceno,E,50 anni e più,410
+44,Ascoli Piceno,F,50 anni e più,750
+44,Ascoli Piceno,G,50 anni e più,1768
+44,Ascoli Piceno,H,50 anni e più,1004
+44,Ascoli Piceno,I,50 anni e più,797
+44,Ascoli Piceno,J,50 anni e più,252
+44,Ascoli Piceno,K,50 anni e più,638
+44,Ascoli Piceno,L,50 anni e più,31
+44,Ascoli Piceno,M,50 anni e più,250
+44,Ascoli Piceno,N,50 anni e più,1022
+44,Ascoli Piceno,P,50 anni e più,22
+44,Ascoli Piceno,Q,50 anni e più,729
+44,Ascoli Piceno,R,50 anni e più,123
+44,Ascoli Piceno,S,50 anni e più,191
+45,Massa Carrara,B,15-29 anni,56
+45,Massa Carrara,C,15-29 anni,751
+45,Massa Carrara,D,15-29 anni,5
+45,Massa Carrara,E,15-29 anni,29
+45,Massa Carrara,F,15-29 anni,326
+45,Massa Carrara,G,15-29 anni,877
+45,Massa Carrara,H,15-29 anni,105
+45,Massa Carrara,I,15-29 anni,1000
+45,Massa Carrara,J,15-29 anni,67
+45,Massa Carrara,K,15-29 anni,21
+45,Massa Carrara,L,15-29 anni,24
+45,Massa Carrara,M,15-29 anni,137
+45,Massa Carrara,N,15-29 anni,190
+45,Massa Carrara,P,15-29 anni,8
+45,Massa Carrara,Q,15-29 anni,175
+45,Massa Carrara,R,15-29 anni,163
+45,Massa Carrara,S,15-29 anni,221
+45,Massa Carrara,B,30-49 anni,341
+45,Massa Carrara,C,30-49 anni,3901
+45,Massa Carrara,D,30-49 anni,61
+45,Massa Carrara,E,30-49 anni,429
+45,Massa Carrara,F,30-49 anni,1546
+45,Massa Carrara,G,30-49 anni,3722
+45,Massa Carrara,H,30-49 anni,941
+45,Massa Carrara,I,30-49 anni,1481
+45,Massa Carrara,J,30-49 anni,428
+45,Massa Carrara,K,30-49 anni,504
+45,Massa Carrara,L,30-49 anni,112
+45,Massa Carrara,M,30-49 anni,741
+45,Massa Carrara,N,30-49 anni,973
+45,Massa Carrara,P,30-49 anni,42
+45,Massa Carrara,Q,30-49 anni,1015
+45,Massa Carrara,R,30-49 anni,201
+45,Massa Carrara,S,30-49 anni,401
+45,Massa Carrara,B,50 anni e più,305
+45,Massa Carrara,C,50 anni e più,2387
+45,Massa Carrara,D,50 anni e più,119
+45,Massa Carrara,E,50 anni e più,490
+45,Massa Carrara,F,50 anni e più,777
+45,Massa Carrara,G,50 anni e più,1983
+45,Massa Carrara,H,50 anni e più,880
+45,Massa Carrara,I,50 anni e più,692
+45,Massa Carrara,J,50 anni e più,167
+45,Massa Carrara,K,50 anni e più,524
+45,Massa Carrara,L,50 anni e più,62
+45,Massa Carrara,M,50 anni e più,327
+45,Massa Carrara,N,50 anni e più,598
+45,Massa Carrara,P,50 anni e più,17
+45,Massa Carrara,Q,50 anni e più,591
+45,Massa Carrara,R,50 anni e più,90
+45,Massa Carrara,S,50 anni e più,128
+46,Lucca,B,15-29 anni,25
+46,Lucca,C,15-29 anni,2592
+46,Lucca,D,15-29 anni,36
+46,Lucca,E,15-29 anni,55
+46,Lucca,F,15-29 anni,861
+46,Lucca,G,15-29 anni,2438
+46,Lucca,H,15-29 anni,259
+46,Lucca,I,15-29 anni,3072
+46,Lucca,J,15-29 anni,214
+46,Lucca,K,15-29 anni,89
+46,Lucca,L,15-29 anni,58
+46,Lucca,M,15-29 anni,314
+46,Lucca,N,15-29 anni,893
+46,Lucca,P,15-29 anni,39
+46,Lucca,Q,15-29 anni,355
+46,Lucca,R,15-29 anni,474
+46,Lucca,S,15-29 anni,543
+46,Lucca,B,30-49 anni,131
+46,Lucca,C,30-49 anni,15111
+46,Lucca,D,30-49 anni,108
+46,Lucca,E,30-49 anni,740
+46,Lucca,F,30-49 anni,2918
+46,Lucca,G,30-49 anni,8480
+46,Lucca,H,30-49 anni,1883
+46,Lucca,I,30-49 anni,4660
+46,Lucca,J,30-49 anni,981
+46,Lucca,K,30-49 anni,1420
+46,Lucca,L,30-49 anni,229
+46,Lucca,M,30-49 anni,1660
+46,Lucca,N,30-49 anni,2832
+46,Lucca,P,30-49 anni,206
+46,Lucca,Q,30-49 anni,1962
+46,Lucca,R,30-49 anni,1098
+46,Lucca,S,30-49 anni,1034
+46,Lucca,B,50 anni e più,119
+46,Lucca,C,50 anni e più,7969
+46,Lucca,D,50 anni e più,170
+46,Lucca,E,50 anni e più,669
+46,Lucca,F,50 anni e più,1343
+46,Lucca,G,50 anni e più,4042
+46,Lucca,H,50 anni e più,1725
+46,Lucca,I,50 anni e più,2154
+46,Lucca,J,50 anni e più,378
+46,Lucca,K,50 anni e più,1249
+46,Lucca,L,50 anni e più,138
+46,Lucca,M,50 anni e più,661
+46,Lucca,N,50 anni e più,1747
+46,Lucca,P,50 anni e più,65
+46,Lucca,Q,50 anni e più,1050
+46,Lucca,R,50 anni e più,414
+46,Lucca,S,50 anni e più,386
+47,Pistoia,C,15-29 anni,1854
+47,Pistoia,D,15-29 anni,21
+47,Pistoia,E,15-29 anni,28
+47,Pistoia,F,15-29 anni,387
+47,Pistoia,G,15-29 anni,1549
+47,Pistoia,H,15-29 anni,310
+47,Pistoia,I,15-29 anni,1362
+47,Pistoia,J,15-29 anni,127
+47,Pistoia,K,15-29 anni,74
+47,Pistoia,L,15-29 anni,37
+47,Pistoia,M,15-29 anni,169
+47,Pistoia,N,15-29 anni,562
+47,Pistoia,P,15-29 anni,40
+47,Pistoia,Q,15-29 anni,241
+47,Pistoia,R,15-29 anni,91
+47,Pistoia,S,15-29 anni,402
+47,Pistoia,B,30-49 anni,2
+47,Pistoia,C,30-49 anni,8414
+47,Pistoia,D,30-49 anni,51
+47,Pistoia,E,30-49 anni,385
+47,Pistoia,F,30-49 anni,1702
+47,Pistoia,G,30-49 anni,5429
+47,Pistoia,H,30-49 anni,1608
+47,Pistoia,I,30-49 anni,2063
+47,Pistoia,J,30-49 anni,458
+47,Pistoia,K,30-49 anni,949
+47,Pistoia,L,30-49 anni,127
+47,Pistoia,M,30-49 anni,949
+47,Pistoia,N,30-49 anni,1768
+47,Pistoia,P,30-49 anni,171
+47,Pistoia,Q,30-49 anni,1093
+47,Pistoia,R,30-49 anni,259
+47,Pistoia,S,30-49 anni,794
+47,Pistoia,B,50 anni e più,3
+47,Pistoia,C,50 anni e più,5129
+47,Pistoia,D,50 anni e più,83
+47,Pistoia,E,50 anni e più,303
+47,Pistoia,F,50 anni e più,777
+47,Pistoia,G,50 anni e più,2691
+47,Pistoia,H,50 anni e più,1146
+47,Pistoia,I,50 anni e più,1062
+47,Pistoia,J,50 anni e più,265
+47,Pistoia,K,50 anni e più,800
+47,Pistoia,L,50 anni e più,89
+47,Pistoia,M,50 anni e più,457
+47,Pistoia,N,50 anni e più,863
+47,Pistoia,P,50 anni e più,55
+47,Pistoia,Q,50 anni e più,590
+47,Pistoia,R,50 anni e più,109
+47,Pistoia,S,50 anni e più,257
+48,Firenze,B,15-29 anni,1
+48,Firenze,C,15-29 anni,10568
+48,Firenze,D,15-29 anni,140
+48,Firenze,E,15-29 anni,122
+48,Firenze,F,15-29 anni,1649
+48,Firenze,G,15-29 anni,8424
+48,Firenze,H,15-29 anni,2058
+48,Firenze,I,15-29 anni,8841
+48,Firenze,J,15-29 anni,977
+48,Firenze,K,15-29 anni,566
+48,Firenze,L,15-29 anni,308
+48,Firenze,M,15-29 anni,1638
+48,Firenze,N,15-29 anni,4170
+48,Firenze,P,15-29 anni,357
+48,Firenze,Q,15-29 anni,1510
+48,Firenze,R,15-29 anni,450
+48,Firenze,S,15-29 anni,1527
+48,Firenze,B,30-49 anni,25
+48,Firenze,C,30-49 anni,41709
+48,Firenze,D,30-49 anni,468
+48,Firenze,E,30-49 anni,1509
+48,Firenze,F,30-49 anni,7689
+48,Firenze,G,30-49 anni,26024
+48,Firenze,H,30-49 anni,10483
+48,Firenze,I,30-49 anni,13964
+48,Firenze,J,30-49 anni,5630
+48,Firenze,K,30-49 anni,6131
+48,Firenze,L,30-49 anni,1053
+48,Firenze,M,30-49 anni,9534
+48,Firenze,N,30-49 anni,12474
+48,Firenze,P,30-49 anni,1577
+48,Firenze,Q,30-49 anni,7642
+48,Firenze,R,30-49 anni,1297
+48,Firenze,S,30-49 anni,2735
+48,Firenze,B,50 anni e più,33
+48,Firenze,C,50 anni e più,21924
+48,Firenze,D,50 anni e più,594
+48,Firenze,E,50 anni e più,1438
+48,Firenze,F,50 anni e più,3985
+48,Firenze,G,50 anni e più,12085
+48,Firenze,H,50 anni e più,7457
+48,Firenze,I,50 anni e più,5698
+48,Firenze,J,50 anni e più,2825
+48,Firenze,K,50 anni e più,4490
+48,Firenze,L,50 anni e più,726
+48,Firenze,M,50 anni e più,3360
+48,Firenze,N,50 anni e più,6150
+48,Firenze,P,50 anni e più,664
+48,Firenze,Q,50 anni e più,4038
+48,Firenze,R,50 anni e più,454
+48,Firenze,S,50 anni e più,1019
+49,Livorno,B,15-29 anni,3
+49,Livorno,C,15-29 anni,991
+49,Livorno,D,15-29 anni,26
+49,Livorno,E,15-29 anni,50
+49,Livorno,F,15-29 anni,434
+49,Livorno,G,15-29 anni,1781
+49,Livorno,H,15-29 anni,755
+49,Livorno,I,15-29 anni,2694
+49,Livorno,J,15-29 anni,82
+49,Livorno,K,15-29 anni,83
+49,Livorno,L,15-29 anni,53
+49,Livorno,M,15-29 anni,302
+49,Livorno,N,15-29 anni,739
+49,Livorno,P,15-29 anni,36
+49,Livorno,Q,15-29 anni,184
+49,Livorno,R,15-29 anni,210
+49,Livorno,S,15-29 anni,433
+49,Livorno,B,30-49 anni,50
+49,Livorno,C,30-49 anni,6445
+49,Livorno,D,30-49 anni,135
+49,Livorno,E,30-49 anni,796
+49,Livorno,F,30-49 anni,2131
+49,Livorno,G,30-49 anni,6419
+49,Livorno,H,30-49 anni,4754
+49,Livorno,I,30-49 anni,4161
+49,Livorno,J,30-49 anni,566
+49,Livorno,K,30-49 anni,1101
+49,Livorno,L,30-49 anni,254
+49,Livorno,M,30-49 anni,1787
+49,Livorno,N,30-49 anni,2781
+49,Livorno,P,30-49 anni,142
+49,Livorno,Q,30-49 anni,1010
+49,Livorno,R,30-49 anni,372
+49,Livorno,S,30-49 anni,967
+49,Livorno,B,50 anni e più,42
+49,Livorno,C,50 anni e più,3594
+49,Livorno,D,50 anni e più,184
+49,Livorno,E,50 anni e più,766
+49,Livorno,F,50 anni e più,1135
+49,Livorno,G,50 anni e più,3285
+49,Livorno,H,50 anni e più,3476
+49,Livorno,I,50 anni e più,1990
+49,Livorno,J,50 anni e più,314
+49,Livorno,K,50 anni e più,935
+49,Livorno,L,50 anni e più,143
+49,Livorno,M,50 anni e più,699
+49,Livorno,N,50 anni e più,1847
+49,Livorno,P,50 anni e più,53
+49,Livorno,Q,50 anni e più,700
+49,Livorno,R,50 anni e più,158
+49,Livorno,S,50 anni e più,392
+50,Pisa,B,15-29 anni,6
+50,Pisa,C,15-29 anni,2716
+50,Pisa,D,15-29 anni,124
+50,Pisa,E,15-29 anni,101
+50,Pisa,F,15-29 anni,758
+50,Pisa,G,15-29 anni,2283
+50,Pisa,H,15-29 anni,574
+50,Pisa,I,15-29 anni,2154
+50,Pisa,J,15-29 anni,389
+50,Pisa,K,15-29 anni,128
+50,Pisa,L,15-29 anni,60
+50,Pisa,M,15-29 anni,411
+50,Pisa,N,15-29 anni,1170
+50,Pisa,P,15-29 anni,73
+50,Pisa,Q,15-29 anni,399
+50,Pisa,R,15-29 anni,214
+50,Pisa,S,15-29 anni,509
+50,Pisa,B,30-49 anni,32
+50,Pisa,C,30-49 anni,14615
+50,Pisa,D,30-49 anni,477
+50,Pisa,E,30-49 anni,947
+50,Pisa,F,30-49 anni,3228
+50,Pisa,G,30-49 anni,8638
+50,Pisa,H,30-49 anni,3731
+50,Pisa,I,30-49 anni,3528
+50,Pisa,J,30-49 anni,2696
+50,Pisa,K,30-49 anni,1586
+50,Pisa,L,30-49 anni,161
+50,Pisa,M,30-49 anni,2057
+50,Pisa,N,30-49 anni,3659
+50,Pisa,P,30-49 anni,318
+50,Pisa,Q,30-49 anni,2123
+50,Pisa,R,30-49 anni,408
+50,Pisa,S,30-49 anni,887
+50,Pisa,B,50 anni e più,10
+50,Pisa,C,50 anni e più,8967
+50,Pisa,D,50 anni e più,707
+50,Pisa,E,50 anni e più,665
+50,Pisa,F,50 anni e più,1507
+50,Pisa,G,50 anni e più,3896
+50,Pisa,H,50 anni e più,2483
+50,Pisa,I,50 anni e più,1657
+50,Pisa,J,50 anni e più,829
+50,Pisa,K,50 anni e più,1400
+50,Pisa,L,50 anni e più,115
+50,Pisa,M,50 anni e più,793
+50,Pisa,N,50 anni e più,1917
+50,Pisa,P,50 anni e più,103
+50,Pisa,Q,50 anni e più,1067
+50,Pisa,R,50 anni e più,181
+50,Pisa,S,50 anni e più,353
+51,Arezzo,B,15-29 anni,2
+51,Arezzo,C,15-29 anni,4571
+51,Arezzo,D,15-29 anni,31
+51,Arezzo,E,15-29 anni,34
+51,Arezzo,F,15-29 anni,562
+51,Arezzo,G,15-29 anni,1932
+51,Arezzo,H,15-29 anni,168
+51,Arezzo,I,15-29 anni,1552
+51,Arezzo,J,15-29 anni,198
+51,Arezzo,K,15-29 anni,88
+51,Arezzo,L,15-29 anni,25
+51,Arezzo,M,15-29 anni,257
+51,Arezzo,N,15-29 anni,1154
+51,Arezzo,P,15-29 anni,40
+51,Arezzo,Q,15-29 anni,436
+51,Arezzo,R,15-29 anni,110
+51,Arezzo,S,15-29 anni,430
+51,Arezzo,B,30-49 anni,28
+51,Arezzo,C,30-49 anni,17907
+51,Arezzo,D,30-49 anni,134
+51,Arezzo,E,30-49 anni,522
+51,Arezzo,F,30-49 anni,2470
+51,Arezzo,G,30-49 anni,6209
+51,Arezzo,H,30-49 anni,1280
+51,Arezzo,I,30-49 anni,2210
+51,Arezzo,J,30-49 anni,1034
+51,Arezzo,K,30-49 anni,1373
+51,Arezzo,L,30-49 anni,106
+51,Arezzo,M,30-49 anni,1260
+51,Arezzo,N,30-49 anni,3081
+51,Arezzo,P,30-49 anni,244
+51,Arezzo,Q,30-49 anni,1646
+51,Arezzo,R,30-49 anni,231
+51,Arezzo,S,30-49 anni,639
+51,Arezzo,B,50 anni e più,25
+51,Arezzo,C,50 anni e più,8528
+51,Arezzo,D,50 anni e più,189
+51,Arezzo,E,50 anni e più,445
+51,Arezzo,F,50 anni e più,1255
+51,Arezzo,G,50 anni e più,3058
+51,Arezzo,H,50 anni e più,1309
+51,Arezzo,I,50 anni e più,1049
+51,Arezzo,J,50 anni e più,365
+51,Arezzo,K,50 anni e più,1088
+51,Arezzo,L,50 anni e più,60
+51,Arezzo,M,50 anni e più,482
+51,Arezzo,N,50 anni e più,1653
+51,Arezzo,P,50 anni e più,80
+51,Arezzo,Q,50 anni e più,971
+51,Arezzo,R,50 anni e più,76
+51,Arezzo,S,50 anni e più,206
+52,Siena,B,15-29 anni,6
+52,Siena,C,15-29 anni,1800
+52,Siena,D,15-29 anni,34
+52,Siena,E,15-29 anni,55
+52,Siena,F,15-29 anni,536
+52,Siena,G,15-29 anni,1488
+52,Siena,H,15-29 anni,146
+52,Siena,I,15-29 anni,2158
+52,Siena,J,15-29 anni,113
+52,Siena,K,15-29 anni,117
+52,Siena,L,15-29 anni,43
+52,Siena,M,15-29 anni,238
+52,Siena,N,15-29 anni,1099
+52,Siena,P,15-29 anni,34
+52,Siena,Q,15-29 anni,227
+52,Siena,R,15-29 anni,114
+52,Siena,S,15-29 anni,306
+52,Siena,B,30-49 anni,58
+52,Siena,C,30-49 anni,8591
+52,Siena,D,30-49 anni,133
+52,Siena,E,30-49 anni,500
+52,Siena,F,30-49 anni,2133
+52,Siena,G,30-49 anni,4718
+52,Siena,H,30-49 anni,1168
+52,Siena,I,30-49 anni,3690
+52,Siena,J,30-49 anni,1048
+52,Siena,K,30-49 anni,2205
+52,Siena,L,30-49 anni,188
+52,Siena,M,30-49 anni,1347
+52,Siena,N,30-49 anni,2724
+52,Siena,P,30-49 anni,205
+52,Siena,Q,30-49 anni,970
+52,Siena,R,30-49 anni,263
+52,Siena,S,30-49 anni,653
+52,Siena,B,50 anni e più,71
+52,Siena,C,50 anni e più,4402
+52,Siena,D,50 anni e più,184
+52,Siena,E,50 anni e più,335
+52,Siena,F,50 anni e più,956
+52,Siena,G,50 anni e più,2172
+52,Siena,H,50 anni e più,1000
+52,Siena,I,50 anni e più,1605
+52,Siena,J,50 anni e più,611
+52,Siena,K,50 anni e più,2162
+52,Siena,L,50 anni e più,106
+52,Siena,M,50 anni e più,521
+52,Siena,N,50 anni e più,1250
+52,Siena,P,50 anni e più,74
+52,Siena,Q,50 anni e più,562
+52,Siena,R,50 anni e più,95
+52,Siena,S,50 anni e più,255
+53,Grosseto,B,15-29 anni,1
+53,Grosseto,C,15-29 anni,555
+53,Grosseto,D,15-29 anni,57
+53,Grosseto,E,15-29 anni,38
+53,Grosseto,F,15-29 anni,391
+53,Grosseto,G,15-29 anni,1311
+53,Grosseto,H,15-29 anni,106
+53,Grosseto,I,15-29 anni,1805
+53,Grosseto,J,15-29 anni,65
+53,Grosseto,K,15-29 anni,41
+53,Grosseto,L,15-29 anni,39
+53,Grosseto,M,15-29 anni,149
+53,Grosseto,N,15-29 anni,309
+53,Grosseto,P,15-29 anni,12
+53,Grosseto,Q,15-29 anni,150
+53,Grosseto,R,15-29 anni,196
+53,Grosseto,S,15-29 anni,307
+53,Grosseto,B,30-49 anni,40
+53,Grosseto,C,30-49 anni,2383
+53,Grosseto,D,30-49 anni,186
+53,Grosseto,E,30-49 anni,414
+53,Grosseto,F,30-49 anni,1611
+53,Grosseto,G,30-49 anni,3733
+53,Grosseto,H,30-49 anni,1092
+53,Grosseto,I,30-49 anni,3053
+53,Grosseto,J,30-49 anni,391
+53,Grosseto,K,30-49 anni,705
+53,Grosseto,L,30-49 anni,171
+53,Grosseto,M,30-49 anni,769
+53,Grosseto,N,30-49 anni,1044
+53,Grosseto,P,30-49 anni,50
+53,Grosseto,Q,30-49 anni,758
+53,Grosseto,R,30-49 anni,216
+53,Grosseto,S,30-49 anni,502
+53,Grosseto,B,50 anni e più,52
+53,Grosseto,C,50 anni e più,1224
+53,Grosseto,D,50 anni e più,175
+53,Grosseto,E,50 anni e più,317
+53,Grosseto,F,50 anni e più,786
+53,Grosseto,G,50 anni e più,1791
+53,Grosseto,H,50 anni e più,979
+53,Grosseto,I,50 anni e più,1512
+53,Grosseto,J,50 anni e più,215
+53,Grosseto,K,50 anni e più,616
+53,Grosseto,L,50 anni e più,75
+53,Grosseto,M,50 anni e più,349
+53,Grosseto,N,50 anni e più,568
+53,Grosseto,P,50 anni e più,27
+53,Grosseto,Q,50 anni e più,450
+53,Grosseto,R,50 anni e più,77
+53,Grosseto,S,50 anni e più,192
+54,Perugia,B,15-29 anni,8
+54,Perugia,C,15-29 anni,4758
+54,Perugia,D,15-29 anni,91
+54,Perugia,E,15-29 anni,87
+54,Perugia,F,15-29 anni,1123
+54,Perugia,G,15-29 anni,4212
+54,Perugia,H,15-29 anni,680
+54,Perugia,I,15-29 anni,3720
+54,Perugia,J,15-29 anni,262
+54,Perugia,K,15-29 anni,144
+54,Perugia,L,15-29 anni,77
+54,Perugia,M,15-29 anni,563
+54,Perugia,N,15-29 anni,1839
+54,Perugia,P,15-29 anni,78
+54,Perugia,Q,15-29 anni,616
+54,Perugia,R,15-29 anni,270
+54,Perugia,S,15-29 anni,882
+54,Perugia,B,30-49 anni,74
+54,Perugia,C,30-49 anni,22076
+54,Perugia,D,30-49 anni,315
+54,Perugia,E,30-49 anni,980
+54,Perugia,F,30-49 anni,5177
+54,Perugia,G,30-49 anni,13737
+54,Perugia,H,30-49 anni,4839
+54,Perugia,I,30-49 anni,5161
+54,Perugia,J,30-49 anni,1872
+54,Perugia,K,30-49 anni,2093
+54,Perugia,L,30-49 anni,328
+54,Perugia,M,30-49 anni,2924
+54,Perugia,N,30-49 anni,5074
+54,Perugia,P,30-49 anni,445
+54,Perugia,Q,30-49 anni,3155
+54,Perugia,R,30-49 anni,587
+54,Perugia,S,30-49 anni,1857
+54,Perugia,B,50 anni e più,68
+54,Perugia,C,50 anni e più,11726
+54,Perugia,D,50 anni e più,337
+54,Perugia,E,50 anni e più,926
+54,Perugia,F,50 anni e più,2376
+54,Perugia,G,50 anni e più,5683
+54,Perugia,H,50 anni e più,3685
+54,Perugia,I,50 anni e più,2193
+54,Perugia,J,50 anni e più,879
+54,Perugia,K,50 anni e più,1701
+54,Perugia,L,50 anni e più,151
+54,Perugia,M,50 anni e più,1175
+54,Perugia,N,50 anni e più,2394
+54,Perugia,P,50 anni e più,158
+54,Perugia,Q,50 anni e più,1688
+54,Perugia,R,50 anni e più,244
+54,Perugia,S,50 anni e più,754
+55,Terni,B,15-29 anni,4
+55,Terni,C,15-29 anni,914
+55,Terni,D,15-29 anni,40
+55,Terni,E,15-29 anni,67
+55,Terni,F,15-29 anni,399
+55,Terni,G,15-29 anni,1054
+55,Terni,H,15-29 anni,245
+55,Terni,I,15-29 anni,1050
+55,Terni,J,15-29 anni,123
+55,Terni,K,15-29 anni,31
+55,Terni,L,15-29 anni,9
+55,Terni,M,15-29 anni,119
+55,Terni,N,15-29 anni,456
+55,Terni,P,15-29 anni,27
+55,Terni,Q,15-29 anni,216
+55,Terni,R,15-29 anni,90
+55,Terni,S,15-29 anni,285
+55,Terni,B,30-49 anni,47
+55,Terni,C,30-49 anni,6146
+55,Terni,D,30-49 anni,235
+55,Terni,E,30-49 anni,703
+55,Terni,F,30-49 anni,1880
+55,Terni,G,30-49 anni,3853
+55,Terni,H,30-49 anni,1549
+55,Terni,I,30-49 anni,1520
+55,Terni,J,30-49 anni,700
+55,Terni,K,30-49 anni,582
+55,Terni,L,30-49 anni,58
+55,Terni,M,30-49 anni,772
+55,Terni,N,30-49 anni,1672
+55,Terni,P,30-49 anni,157
+55,Terni,Q,30-49 anni,1311
+55,Terni,R,30-49 anni,216
+55,Terni,S,30-49 anni,637
+55,Terni,B,50 anni e più,36
+55,Terni,C,50 anni e più,2553
+55,Terni,D,50 anni e più,342
+55,Terni,E,50 anni e più,500
+55,Terni,F,50 anni e più,1063
+55,Terni,G,50 anni e più,1828
+55,Terni,H,50 anni e più,1323
+55,Terni,I,50 anni e più,722
+55,Terni,J,50 anni e più,206
+55,Terni,K,50 anni e più,486
+55,Terni,L,50 anni e più,43
+55,Terni,M,50 anni e più,370
+55,Terni,N,50 anni e più,960
+55,Terni,P,50 anni e più,120
+55,Terni,Q,50 anni e più,979
+55,Terni,R,50 anni e più,81
+55,Terni,S,50 anni e più,268
+56,Viterbo,B,15-29 anni,6
+56,Viterbo,C,15-29 anni,796
+56,Viterbo,D,15-29 anni,28
+56,Viterbo,E,15-29 anni,70
+56,Viterbo,F,15-29 anni,426
+56,Viterbo,G,15-29 anni,1558
+56,Viterbo,H,15-29 anni,126
+56,Viterbo,I,15-29 anni,1410
+56,Viterbo,J,15-29 anni,70
+56,Viterbo,K,15-29 anni,34
+56,Viterbo,L,15-29 anni,47
+56,Viterbo,M,15-29 anni,112
+56,Viterbo,N,15-29 anni,391
+56,Viterbo,P,15-29 anni,31
+56,Viterbo,Q,15-29 anni,321
+56,Viterbo,R,15-29 anni,130
+56,Viterbo,S,15-29 anni,339
+56,Viterbo,B,30-49 anni,97
+56,Viterbo,C,30-49 anni,3869
+56,Viterbo,D,30-49 anni,78
+56,Viterbo,E,30-49 anni,421
+56,Viterbo,F,30-49 anni,1568
+56,Viterbo,G,30-49 anni,5333
+56,Viterbo,H,30-49 anni,1232
+56,Viterbo,I,30-49 anni,1951
+56,Viterbo,J,30-49 anni,336
+56,Viterbo,K,30-49 anni,731
+56,Viterbo,L,30-49 anni,157
+56,Viterbo,M,30-49 anni,735
+56,Viterbo,N,30-49 anni,1418
+56,Viterbo,P,30-49 anni,138
+56,Viterbo,Q,30-49 anni,1266
+56,Viterbo,R,30-49 anni,233
+56,Viterbo,S,30-49 anni,785
+56,Viterbo,B,50 anni e più,67
+56,Viterbo,C,50 anni e più,2099
+56,Viterbo,D,50 anni e più,255
+56,Viterbo,E,50 anni e più,346
+56,Viterbo,F,50 anni e più,761
+56,Viterbo,G,50 anni e più,2154
+56,Viterbo,H,50 anni e più,1098
+56,Viterbo,I,50 anni e più,729
+56,Viterbo,J,50 anni e più,214
+56,Viterbo,K,50 anni e più,635
+56,Viterbo,L,50 anni e più,54
+56,Viterbo,M,50 anni e più,314
+56,Viterbo,N,50 anni e più,852
+56,Viterbo,P,50 anni e più,47
+56,Viterbo,Q,50 anni e più,650
+56,Viterbo,R,50 anni e più,82
+56,Viterbo,S,50 anni e più,323
+57,Rieti,B,15-29 anni,2
+57,Rieti,C,15-29 anni,265
+57,Rieti,D,15-29 anni,7
+57,Rieti,E,15-29 anni,9
+57,Rieti,F,15-29 anni,183
+57,Rieti,G,15-29 anni,561
+57,Rieti,H,15-29 anni,141
+57,Rieti,I,15-29 anni,398
+57,Rieti,J,15-29 anni,39
+57,Rieti,K,15-29 anni,23
+57,Rieti,L,15-29 anni,10
+57,Rieti,M,15-29 anni,42
+57,Rieti,N,15-29 anni,314
+57,Rieti,P,15-29 anni,8
+57,Rieti,Q,15-29 anni,125
+57,Rieti,R,15-29 anni,20
+57,Rieti,S,15-29 anni,103
+57,Rieti,B,30-49 anni,8
+57,Rieti,C,30-49 anni,1653
+57,Rieti,D,30-49 anni,33
+57,Rieti,E,30-49 anni,151
+57,Rieti,F,30-49 anni,755
+57,Rieti,G,30-49 anni,1625
+57,Rieti,H,30-49 anni,772
+57,Rieti,I,30-49 anni,610
+57,Rieti,J,30-49 anni,193
+57,Rieti,K,30-49 anni,248
+57,Rieti,L,30-49 anni,44
+57,Rieti,M,30-49 anni,260
+57,Rieti,N,30-49 anni,813
+57,Rieti,P,30-49 anni,27
+57,Rieti,Q,30-49 anni,499
+57,Rieti,R,30-49 anni,26
+57,Rieti,S,30-49 anni,167
+57,Rieti,B,50 anni e più,12
+57,Rieti,C,50 anni e più,718
+57,Rieti,D,50 anni e più,73
+57,Rieti,E,50 anni e più,124
+57,Rieti,F,50 anni e più,474
+57,Rieti,G,50 anni e più,696
+57,Rieti,H,50 anni e più,566
+57,Rieti,I,50 anni e più,317
+57,Rieti,J,50 anni e più,112
+57,Rieti,K,50 anni e più,313
+57,Rieti,L,50 anni e più,24
+57,Rieti,M,50 anni e più,80
+57,Rieti,N,50 anni e più,454
+57,Rieti,P,50 anni e più,11
+57,Rieti,Q,50 anni e più,229
+57,Rieti,R,50 anni e più,14
+57,Rieti,S,50 anni e più,61
+58,Roma,B,15-29 anni,25
+58,Roma,C,15-29 anni,6006
+58,Roma,D,15-29 anni,573
+58,Roma,E,15-29 anni,1081
+58,Roma,F,15-29 anni,6806
+58,Roma,G,15-29 anni,28017
+58,Roma,H,15-29 anni,13483
+58,Roma,I,15-29 anni,27933
+58,Roma,J,15-29 anni,8460
+58,Roma,K,15-29 anni,2207
+58,Roma,L,15-29 anni,1082
+58,Roma,M,15-29 anni,7425
+58,Roma,N,15-29 anni,23758
+58,Roma,P,15-29 anni,1272
+58,Roma,Q,15-29 anni,5479
+58,Roma,R,15-29 anni,2481
+58,Roma,S,15-29 anni,6590
+58,Roma,B,30-49 anni,683
+58,Roma,C,30-49 anni,35526
+58,Roma,D,30-49 anni,4913
+58,Roma,E,30-49 anni,7513
+58,Roma,F,30-49 anni,34732
+58,Roma,G,30-49 anni,94890
+58,Roma,H,30-49 anni,68167
+58,Roma,I,30-49 anni,52104
+58,Roma,J,30-49 anni,57372
+58,Roma,K,30-49 anni,27446
+58,Roma,L,30-49 anni,5044
+58,Roma,M,30-49 anni,39276
+58,Roma,N,30-49 anni,83957
+58,Roma,P,30-49 anni,5306
+58,Roma,Q,30-49 anni,27954
+58,Roma,R,30-49 anni,7665
+58,Roma,S,30-49 anni,11592
+58,Roma,B,50 anni e più,728
+58,Roma,C,50 anni e più,22441
+58,Roma,D,50 anni e più,4276
+58,Roma,E,50 anni e più,6735
+58,Roma,F,50 anni e più,18356
+58,Roma,G,50 anni e più,36559
+58,Roma,H,50 anni e più,40823
+58,Roma,I,50 anni e più,20759
+58,Roma,J,50 anni e più,28253
+58,Roma,K,50 anni e più,20549
+58,Roma,L,50 anni e più,3313
+58,Roma,M,50 anni e più,15187
+58,Roma,N,50 anni e più,44657
+58,Roma,P,50 anni e più,2057
+58,Roma,Q,50 anni e più,15734
+58,Roma,R,50 anni e più,2549
+58,Roma,S,50 anni e più,3778
+59,Latina,B,15-29 anni,2
+59,Latina,C,15-29 anni,2202
+59,Latina,D,15-29 anni,55
+59,Latina,E,15-29 anni,109
+59,Latina,F,15-29 anni,1052
+59,Latina,G,15-29 anni,3928
+59,Latina,H,15-29 anni,1475
+59,Latina,I,15-29 anni,3217
+59,Latina,J,15-29 anni,235
+59,Latina,K,15-29 anni,95
+59,Latina,L,15-29 anni,58
+59,Latina,M,15-29 anni,350
+59,Latina,N,15-29 anni,1572
+59,Latina,P,15-29 anni,100
+59,Latina,Q,15-29 anni,547
+59,Latina,R,15-29 anni,375
+59,Latina,S,15-29 anni,875
+59,Latina,B,30-49 anni,78
+59,Latina,C,30-49 anni,12471
+59,Latina,D,30-49 anni,139
+59,Latina,E,30-49 anni,868
+59,Latina,F,30-49 anni,4083
+59,Latina,G,30-49 anni,10783
+59,Latina,H,30-49 anni,5167
+59,Latina,I,30-49 anni,3908
+59,Latina,J,30-49 anni,995
+59,Latina,K,30-49 anni,1184
+59,Latina,L,30-49 anni,186
+59,Latina,M,30-49 anni,1604
+59,Latina,N,30-49 anni,3984
+59,Latina,P,30-49 anni,319
+59,Latina,Q,30-49 anni,2789
+59,Latina,R,30-49 anni,473
+59,Latina,S,30-49 anni,1155
+59,Latina,B,50 anni e più,72
+59,Latina,C,50 anni e più,6478
+59,Latina,D,50 anni e più,324
+59,Latina,E,50 anni e più,589
+59,Latina,F,50 anni e più,2184
+59,Latina,G,50 anni e più,3839
+59,Latina,H,50 anni e più,2933
+59,Latina,I,50 anni e più,1655
+59,Latina,J,50 anni e più,344
+59,Latina,K,50 anni e più,797
+59,Latina,L,50 anni e più,80
+59,Latina,M,50 anni e più,561
+59,Latina,N,50 anni e più,1667
+59,Latina,P,50 anni e più,141
+59,Latina,Q,50 anni e più,1635
+59,Latina,R,50 anni e più,140
+59,Latina,S,50 anni e più,301
+60,Frosinone,B,15-29 anni,5
+60,Frosinone,C,15-29 anni,2572
+60,Frosinone,D,15-29 anni,36
+60,Frosinone,E,15-29 anni,120
+60,Frosinone,F,15-29 anni,1099
+60,Frosinone,G,15-29 anni,2416
+60,Frosinone,H,15-29 anni,647
+60,Frosinone,I,15-29 anni,1615
+60,Frosinone,J,15-29 anni,154
+60,Frosinone,K,15-29 anni,69
+60,Frosinone,L,15-29 anni,47
+60,Frosinone,M,15-29 anni,282
+60,Frosinone,N,15-29 anni,1450
+60,Frosinone,P,15-29 anni,29
+60,Frosinone,Q,15-29 anni,418
+60,Frosinone,R,15-29 anni,131
+60,Frosinone,S,15-29 anni,556
+60,Frosinone,B,30-49 anni,62
+60,Frosinone,C,30-49 anni,15137
+60,Frosinone,D,30-49 anni,220
+60,Frosinone,E,30-49 anni,842
+60,Frosinone,F,30-49 anni,4183
+60,Frosinone,G,30-49 anni,7620
+60,Frosinone,H,30-49 anni,3909
+60,Frosinone,I,30-49 anni,2561
+60,Frosinone,J,30-49 anni,754
+60,Frosinone,K,30-49 anni,1048
+60,Frosinone,L,30-49 anni,348
+60,Frosinone,M,30-49 anni,1292
+60,Frosinone,N,30-49 anni,2988
+60,Frosinone,P,30-49 anni,169
+60,Frosinone,Q,30-49 anni,2233
+60,Frosinone,R,30-49 anni,294
+60,Frosinone,S,30-49 anni,786
+60,Frosinone,B,50 anni e più,78
+60,Frosinone,C,50 anni e più,9328
+60,Frosinone,D,50 anni e più,294
+60,Frosinone,E,50 anni e più,577
+60,Frosinone,F,50 anni e più,2404
+60,Frosinone,G,50 anni e più,2660
+60,Frosinone,H,50 anni e più,3228
+60,Frosinone,I,50 anni e più,1120
+60,Frosinone,J,50 anni e più,347
+60,Frosinone,K,50 anni e più,731
+60,Frosinone,L,50 anni e più,65
+60,Frosinone,M,50 anni e più,537
+60,Frosinone,N,50 anni e più,1457
+60,Frosinone,P,50 anni e più,57
+60,Frosinone,Q,50 anni e più,1064
+60,Frosinone,R,50 anni e più,110
+60,Frosinone,S,50 anni e più,282
+61,Caserta,B,15-29 anni,3
+61,Caserta,C,15-29 anni,2916
+61,Caserta,D,15-29 anni,72
+61,Caserta,E,15-29 anni,133
+61,Caserta,F,15-29 anni,1405
+61,Caserta,G,15-29 anni,6326
+61,Caserta,H,15-29 anni,1085
+61,Caserta,I,15-29 anni,3246
+61,Caserta,J,15-29 anni,231
+61,Caserta,K,15-29 anni,113
+61,Caserta,L,15-29 anni,57
+61,Caserta,M,15-29 anni,323
+61,Caserta,N,15-29 anni,1389
+61,Caserta,P,15-29 anni,536
+61,Caserta,Q,15-29 anni,764
+61,Caserta,R,15-29 anni,525
+61,Caserta,S,15-29 anni,1034
+61,Caserta,B,30-49 anni,52
+61,Caserta,C,30-49 anni,13777
+61,Caserta,D,30-49 anni,220
+61,Caserta,E,30-49 anni,869
+61,Caserta,F,30-49 anni,6013
+61,Caserta,G,30-49 anni,13966
+61,Caserta,H,30-49 anni,5839
+61,Caserta,I,30-49 anni,3750
+61,Caserta,J,30-49 anni,823
+61,Caserta,K,30-49 anni,1183
+61,Caserta,L,30-49 anni,165
+61,Caserta,M,30-49 anni,1703
+61,Caserta,N,30-49 anni,4055
+61,Caserta,P,30-49 anni,1156
+61,Caserta,Q,30-49 anni,3759
+61,Caserta,R,30-49 anni,581
+61,Caserta,S,30-49 anni,1249
+61,Caserta,B,50 anni e più,49
+61,Caserta,C,50 anni e più,5961
+61,Caserta,D,50 anni e più,355
+61,Caserta,E,50 anni e più,646
+61,Caserta,F,50 anni e più,3452
+61,Caserta,G,50 anni e più,3911
+61,Caserta,H,50 anni e più,3915
+61,Caserta,I,50 anni e più,1147
+61,Caserta,J,50 anni e più,321
+61,Caserta,K,50 anni e più,731
+61,Caserta,L,50 anni e più,67
+61,Caserta,M,50 anni e più,877
+61,Caserta,N,50 anni e più,2051
+61,Caserta,P,50 anni e più,199
+61,Caserta,Q,50 anni e più,1993
+61,Caserta,R,50 anni e più,140
+61,Caserta,S,50 anni e più,309
+62,Benevento,B,15-29 anni,2
+62,Benevento,C,15-29 anni,1166
+62,Benevento,D,15-29 anni,19
+62,Benevento,E,15-29 anni,66
+62,Benevento,F,15-29 anni,603
+62,Benevento,G,15-29 anni,1519
+62,Benevento,H,15-29 anni,223
+62,Benevento,I,15-29 anni,944
+62,Benevento,J,15-29 anni,86
+62,Benevento,K,15-29 anni,21
+62,Benevento,L,15-29 anni,24
+62,Benevento,M,15-29 anni,107
+62,Benevento,N,15-29 anni,502
+62,Benevento,P,15-29 anni,91
+62,Benevento,Q,15-29 anni,336
+62,Benevento,R,15-29 anni,139
+62,Benevento,S,15-29 anni,331
+62,Benevento,B,30-49 anni,9
+62,Benevento,C,30-49 anni,4719
+62,Benevento,D,30-49 anni,53
+62,Benevento,E,30-49 anni,404
+62,Benevento,F,30-49 anni,2040
+62,Benevento,G,30-49 anni,3608
+62,Benevento,H,30-49 anni,1237
+62,Benevento,I,30-49 anni,1086
+62,Benevento,J,30-49 anni,393
+62,Benevento,K,30-49 anni,470
+62,Benevento,L,30-49 anni,91
+62,Benevento,M,30-49 anni,608
+62,Benevento,N,30-49 anni,1132
+62,Benevento,P,30-49 anni,212
+62,Benevento,Q,30-49 anni,1752
+62,Benevento,R,30-49 anni,182
+62,Benevento,S,30-49 anni,479
+62,Benevento,B,50 anni e più,11
+62,Benevento,C,50 anni e più,1905
+62,Benevento,D,50 anni e più,105
+62,Benevento,E,50 anni e più,341
+62,Benevento,F,50 anni e più,1281
+62,Benevento,G,50 anni e più,1184
+62,Benevento,H,50 anni e più,1238
+62,Benevento,I,50 anni e più,414
+62,Benevento,J,50 anni e più,171
+62,Benevento,K,50 anni e più,377
+62,Benevento,L,50 anni e più,38
+62,Benevento,M,50 anni e più,227
+62,Benevento,N,50 anni e più,533
+62,Benevento,P,50 anni e più,44
+62,Benevento,Q,50 anni e più,974
+62,Benevento,R,50 anni e più,43
+62,Benevento,S,50 anni e più,193
+63,Napoli,B,15-29 anni,3
+63,Napoli,C,15-29 anni,11541
+63,Napoli,D,15-29 anni,263
+63,Napoli,E,15-29 anni,423
+63,Napoli,F,15-29 anni,4666
+63,Napoli,G,15-29 anni,21167
+63,Napoli,H,15-29 anni,5606
+63,Napoli,I,15-29 anni,13916
+63,Napoli,J,15-29 anni,2158
+63,Napoli,K,15-29 anni,469
+63,Napoli,L,15-29 anni,391
+63,Napoli,M,15-29 anni,1765
+63,Napoli,N,15-29 anni,5967
+63,Napoli,P,15-29 anni,1652
+63,Napoli,Q,15-29 anni,2117
+63,Napoli,R,15-29 anni,1903
+63,Napoli,S,15-29 anni,3731
+63,Napoli,B,30-49 anni,49
+63,Napoli,C,30-49 anni,47534
+63,Napoli,D,30-49 anni,826
+63,Napoli,E,30-49 anni,3822
+63,Napoli,F,30-49 anni,19128
+63,Napoli,G,30-49 anni,50510
+63,Napoli,H,30-49 anni,26247
+63,Napoli,I,30-49 anni,20212
+63,Napoli,J,30-49 anni,11341
+63,Napoli,K,30-49 anni,5890
+63,Napoli,L,30-49 anni,1219
+63,Napoli,M,30-49 anni,8697
+63,Napoli,N,30-49 anni,22557
+63,Napoli,P,30-49 anni,3979
+63,Napoli,Q,30-49 anni,11736
+63,Napoli,R,30-49 anni,2714
+63,Napoli,S,30-49 anni,4552
+63,Napoli,B,50 anni e più,49
+63,Napoli,C,50 anni e più,20333
+63,Napoli,D,50 anni e più,1788
+63,Napoli,E,50 anni e più,5634
+63,Napoli,F,50 anni e più,12552
+63,Napoli,G,50 anni e più,15495
+63,Napoli,H,50 anni e più,19118
+63,Napoli,I,50 anni e più,7861
+63,Napoli,J,50 anni e più,3878
+63,Napoli,K,50 anni e più,4564
+63,Napoli,L,50 anni e più,642
+63,Napoli,M,50 anni e più,3195
+63,Napoli,N,50 anni e più,16604
+63,Napoli,P,50 anni e più,783
+63,Napoli,Q,50 anni e più,6290
+63,Napoli,R,50 anni e più,746
+63,Napoli,S,50 anni e più,1482
+64,Avellino,B,15-29 anni,8
+64,Avellino,C,15-29 anni,1766
+64,Avellino,D,15-29 anni,37
+64,Avellino,E,15-29 anni,83
+64,Avellino,F,15-29 anni,669
+64,Avellino,G,15-29 anni,2069
+64,Avellino,H,15-29 anni,485
+64,Avellino,I,15-29 anni,1676
+64,Avellino,J,15-29 anni,225
+64,Avellino,K,15-29 anni,52
+64,Avellino,L,15-29 anni,31
+64,Avellino,M,15-29 anni,174
+64,Avellino,N,15-29 anni,881
+64,Avellino,P,15-29 anni,129
+64,Avellino,Q,15-29 anni,325
+64,Avellino,R,15-29 anni,193
+64,Avellino,S,15-29 anni,485
+64,Avellino,B,30-49 anni,62
+64,Avellino,C,30-49 anni,9638
+64,Avellino,D,30-49 anni,100
+64,Avellino,E,30-49 anni,819
+64,Avellino,F,30-49 anni,2174
+64,Avellino,G,30-49 anni,5473
+64,Avellino,H,30-49 anni,2187
+64,Avellino,I,30-49 anni,2119
+64,Avellino,J,30-49 anni,934
+64,Avellino,K,30-49 anni,643
+64,Avellino,L,30-49 anni,95
+64,Avellino,M,30-49 anni,736
+64,Avellino,N,30-49 anni,2802
+64,Avellino,P,30-49 anni,294
+64,Avellino,Q,30-49 anni,1765
+64,Avellino,R,30-49 anni,243
+64,Avellino,S,30-49 anni,692
+64,Avellino,B,50 anni e più,72
+64,Avellino,C,50 anni e più,4997
+64,Avellino,D,50 anni e più,180
+64,Avellino,E,50 anni e più,837
+64,Avellino,F,50 anni e più,1638
+64,Avellino,G,50 anni e più,1827
+64,Avellino,H,50 anni e più,1833
+64,Avellino,I,50 anni e più,847
+64,Avellino,J,50 anni e più,285
+64,Avellino,K,50 anni e più,646
+64,Avellino,L,50 anni e più,47
+64,Avellino,M,50 anni e più,375
+64,Avellino,N,50 anni e più,1344
+64,Avellino,P,50 anni e più,53
+64,Avellino,Q,50 anni e più,1083
+64,Avellino,R,50 anni e più,62
+64,Avellino,S,50 anni e più,338
+65,Salerno,B,15-29 anni,4
+65,Salerno,C,15-29 anni,4211
+65,Salerno,D,15-29 anni,93
+65,Salerno,E,15-29 anni,251
+65,Salerno,F,15-29 anni,1732
+65,Salerno,G,15-29 anni,7134
+65,Salerno,H,15-29 anni,2004
+65,Salerno,I,15-29 anni,5960
+65,Salerno,J,15-29 anni,339
+65,Salerno,K,15-29 anni,163
+65,Salerno,L,15-29 anni,70
+65,Salerno,M,15-29 anni,524
+65,Salerno,N,15-29 anni,1902
+65,Salerno,P,15-29 anni,401
+65,Salerno,Q,15-29 anni,945
+65,Salerno,R,15-29 anni,852
+65,Salerno,S,15-29 anni,1334
+65,Salerno,B,30-49 anni,80
+65,Salerno,C,30-49 anni,16453
+65,Salerno,D,30-49 anni,218
+65,Salerno,E,30-49 anni,1749
+65,Salerno,F,30-49 anni,6183
+65,Salerno,G,30-49 anni,17162
+65,Salerno,H,30-49 anni,9826
+65,Salerno,I,30-49 anni,7253
+65,Salerno,J,30-49 anni,1927
+65,Salerno,K,30-49 anni,1983
+65,Salerno,L,30-49 anni,249
+65,Salerno,M,30-49 anni,2341
+65,Salerno,N,30-49 anni,5529
+65,Salerno,P,30-49 anni,1114
+65,Salerno,Q,30-49 anni,4355
+65,Salerno,R,30-49 anni,960
+65,Salerno,S,30-49 anni,1883
+65,Salerno,B,50 anni e più,79
+65,Salerno,C,50 anni e più,8385
+65,Salerno,D,50 anni e più,398
+65,Salerno,E,50 anni e più,1751
+65,Salerno,F,50 anni e più,4082
+65,Salerno,G,50 anni e più,5783
+65,Salerno,H,50 anni e più,6578
+65,Salerno,I,50 anni e più,2973
+65,Salerno,J,50 anni e più,842
+65,Salerno,K,50 anni e più,1528
+65,Salerno,L,50 anni e più,113
+65,Salerno,M,50 anni e più,876
+65,Salerno,N,50 anni e più,2769
+65,Salerno,P,50 anni e più,207
+65,Salerno,Q,50 anni e più,2941
+65,Salerno,R,50 anni e più,244
+65,Salerno,S,50 anni e più,796
+66,L'Aquila,B,15-29 anni,2
+66,L'Aquila,C,15-29 anni,564
+66,L'Aquila,D,15-29 anni,36
+66,L'Aquila,E,15-29 anni,90
+66,L'Aquila,F,15-29 anni,836
+66,L'Aquila,G,15-29 anni,1279
+66,L'Aquila,H,15-29 anni,232
+66,L'Aquila,I,15-29 anni,1535
+66,L'Aquila,J,15-29 anni,64
+66,L'Aquila,K,15-29 anni,32
+66,L'Aquila,L,15-29 anni,30
+66,L'Aquila,M,15-29 anni,111
+66,L'Aquila,N,15-29 anni,831
+66,L'Aquila,P,15-29 anni,26
+66,L'Aquila,Q,15-29 anni,275
+66,L'Aquila,R,15-29 anni,148
+66,L'Aquila,S,15-29 anni,238
+66,L'Aquila,B,30-49 anni,54
+66,L'Aquila,C,30-49 anni,5077
+66,L'Aquila,D,30-49 anni,124
+66,L'Aquila,E,30-49 anni,882
+66,L'Aquila,F,30-49 anni,3265
+66,L'Aquila,G,30-49 anni,4485
+66,L'Aquila,H,30-49 anni,1392
+66,L'Aquila,I,30-49 anni,2257
+66,L'Aquila,J,30-49 anni,572
+66,L'Aquila,K,30-49 anni,626
+66,L'Aquila,L,30-49 anni,86
+66,L'Aquila,M,30-49 anni,728
+66,L'Aquila,N,30-49 anni,2673
+66,L'Aquila,P,30-49 anni,120
+66,L'Aquila,Q,30-49 anni,1554
+66,L'Aquila,R,30-49 anni,283
+66,L'Aquila,S,30-49 anni,526
+66,L'Aquila,B,50 anni e più,33
+66,L'Aquila,C,50 anni e più,3179
+66,L'Aquila,D,50 anni e più,211
+66,L'Aquila,E,50 anni e più,689
+66,L'Aquila,F,50 anni e più,1850
+66,L'Aquila,G,50 anni e più,1599
+66,L'Aquila,H,50 anni e più,1440
+66,L'Aquila,I,50 anni e più,1037
+66,L'Aquila,J,50 anni e più,436
+66,L'Aquila,K,50 anni e più,553
+66,L'Aquila,L,50 anni e più,34
+66,L'Aquila,M,50 anni e più,341
+66,L'Aquila,N,50 anni e più,1063
+66,L'Aquila,P,50 anni e più,66
+66,L'Aquila,Q,50 anni e più,799
+66,L'Aquila,R,50 anni e più,106
+66,L'Aquila,S,50 anni e più,159
+67,Teramo,B,15-29 anni,17
+67,Teramo,C,15-29 anni,2262
+67,Teramo,D,15-29 anni,41
+67,Teramo,E,15-29 anni,57
+67,Teramo,F,15-29 anni,788
+67,Teramo,G,15-29 anni,1561
+67,Teramo,H,15-29 anni,179
+67,Teramo,I,15-29 anni,2039
+67,Teramo,J,15-29 anni,91
+67,Teramo,K,15-29 anni,33
+67,Teramo,L,15-29 anni,37
+67,Teramo,M,15-29 anni,110
+67,Teramo,N,15-29 anni,1106
+67,Teramo,P,15-29 anni,13
+67,Teramo,Q,15-29 anni,247
+67,Teramo,R,15-29 anni,228
+67,Teramo,S,15-29 anni,475
+67,Teramo,B,30-49 anni,137
+67,Teramo,C,30-49 anni,12900
+67,Teramo,D,30-49 anni,85
+67,Teramo,E,30-49 anni,457
+67,Teramo,F,30-49 anni,2773
+67,Teramo,G,30-49 anni,5133
+67,Teramo,H,30-49 anni,1622
+67,Teramo,I,30-49 anni,2506
+67,Teramo,J,30-49 anni,601
+67,Teramo,K,30-49 anni,890
+67,Teramo,L,30-49 anni,143
+67,Teramo,M,30-49 anni,709
+67,Teramo,N,30-49 anni,2304
+67,Teramo,P,30-49 anni,66
+67,Teramo,Q,30-49 anni,999
+67,Teramo,R,30-49 anni,269
+67,Teramo,S,30-49 anni,837
+67,Teramo,B,50 anni e più,83
+67,Teramo,C,50 anni e più,6972
+67,Teramo,D,50 anni e più,159
+67,Teramo,E,50 anni e più,388
+67,Teramo,F,50 anni e più,1613
+67,Teramo,G,50 anni e più,1956
+67,Teramo,H,50 anni e più,1111
+67,Teramo,I,50 anni e più,1267
+67,Teramo,J,50 anni e più,190
+67,Teramo,K,50 anni e più,618
+67,Teramo,L,50 anni e più,69
+67,Teramo,M,50 anni e più,266
+67,Teramo,N,50 anni e più,1059
+67,Teramo,P,50 anni e più,13
+67,Teramo,Q,50 anni e più,542
+67,Teramo,R,50 anni e più,79
+67,Teramo,S,50 anni e più,310
+68,Pescara,B,15-29 anni,38
+68,Pescara,C,15-29 anni,1179
+68,Pescara,D,15-29 anni,40
+68,Pescara,E,15-29 anni,28
+68,Pescara,F,15-29 anni,551
+68,Pescara,G,15-29 anni,1769
+68,Pescara,H,15-29 anni,359
+68,Pescara,I,15-29 anni,2041
+68,Pescara,J,15-29 anni,131
+68,Pescara,K,15-29 anni,40
+68,Pescara,L,15-29 anni,15
+68,Pescara,M,15-29 anni,253
+68,Pescara,N,15-29 anni,1259
+68,Pescara,P,15-29 anni,46
+68,Pescara,Q,15-29 anni,241
+68,Pescara,R,15-29 anni,300
+68,Pescara,S,15-29 anni,429
+68,Pescara,B,30-49 anni,302
+68,Pescara,C,30-49 anni,6026
+68,Pescara,D,30-49 anni,98
+68,Pescara,E,30-49 anni,330
+68,Pescara,F,30-49 anni,2439
+68,Pescara,G,30-49 anni,6041
+68,Pescara,H,30-49 anni,2581
+68,Pescara,I,30-49 anni,2455
+68,Pescara,J,30-49 anni,765
+68,Pescara,K,30-49 anni,1064
+68,Pescara,L,30-49 anni,111
+68,Pescara,M,30-49 anni,1295
+68,Pescara,N,30-49 anni,3129
+68,Pescara,P,30-49 anni,198
+68,Pescara,Q,30-49 anni,1432
+68,Pescara,R,30-49 anni,391
+68,Pescara,S,30-49 anni,693
+68,Pescara,B,50 anni e più,89
+68,Pescara,C,50 anni e più,3061
+68,Pescara,D,50 anni e più,130
+68,Pescara,E,50 anni e più,306
+68,Pescara,F,50 anni e più,1360
+68,Pescara,G,50 anni e più,2079
+68,Pescara,H,50 anni e più,2102
+68,Pescara,I,50 anni e più,1047
+68,Pescara,J,50 anni e più,602
+68,Pescara,K,50 anni e più,735
+68,Pescara,L,50 anni e più,53
+68,Pescara,M,50 anni e più,471
+68,Pescara,N,50 anni e più,1441
+68,Pescara,P,50 anni e più,47
+68,Pescara,Q,50 anni e più,896
+68,Pescara,R,50 anni e più,124
+68,Pescara,S,50 anni e più,269
+69,Chieti,B,15-29 anni,23
+69,Chieti,C,15-29 anni,2354
+69,Chieti,D,15-29 anni,40
+69,Chieti,E,15-29 anni,79
+69,Chieti,F,15-29 anni,817
+69,Chieti,G,15-29 anni,2219
+69,Chieti,H,15-29 anni,385
+69,Chieti,I,15-29 anni,1861
+69,Chieti,J,15-29 anni,108
+69,Chieti,K,15-29 anni,57
+69,Chieti,L,15-29 anni,33
+69,Chieti,M,15-29 anni,253
+69,Chieti,N,15-29 anni,1893
+69,Chieti,P,15-29 anni,62
+69,Chieti,Q,15-29 anni,433
+69,Chieti,R,15-29 anni,205
+69,Chieti,S,15-29 anni,487
+69,Chieti,B,30-49 anni,205
+69,Chieti,C,30-49 anni,18359
+69,Chieti,D,30-49 anni,224
+69,Chieti,E,30-49 anni,636
+69,Chieti,F,30-49 anni,3248
+69,Chieti,G,30-49 anni,7546
+69,Chieti,H,30-49 anni,2628
+69,Chieti,I,30-49 anni,2375
+69,Chieti,J,30-49 anni,705
+69,Chieti,K,30-49 anni,965
+69,Chieti,L,30-49 anni,149
+69,Chieti,M,30-49 anni,1186
+69,Chieti,N,30-49 anni,4152
+69,Chieti,P,30-49 anni,245
+69,Chieti,Q,30-49 anni,1991
+69,Chieti,R,30-49 anni,247
+69,Chieti,S,30-49 anni,788
+69,Chieti,B,50 anni e più,145
+69,Chieti,C,50 anni e più,9721
+69,Chieti,D,50 anni e più,213
+69,Chieti,E,50 anni e più,524
+69,Chieti,F,50 anni e più,1951
+69,Chieti,G,50 anni e più,2667
+69,Chieti,H,50 anni e più,2138
+69,Chieti,I,50 anni e più,1149
+69,Chieti,J,50 anni e più,256
+69,Chieti,K,50 anni e più,689
+69,Chieti,L,50 anni e più,65
+69,Chieti,M,50 anni e più,445
+69,Chieti,N,50 anni e più,2036
+69,Chieti,P,50 anni e più,64
+69,Chieti,Q,50 anni e più,1197
+69,Chieti,R,50 anni e più,97
+69,Chieti,S,50 anni e più,260
+70,Campobasso,C,15-29 anni,692
+70,Campobasso,D,15-29 anni,20
+70,Campobasso,E,15-29 anni,24
+70,Campobasso,F,15-29 anni,338
+70,Campobasso,G,15-29 anni,957
+70,Campobasso,H,15-29 anni,228
+70,Campobasso,I,15-29 anni,848
+70,Campobasso,J,15-29 anni,61
+70,Campobasso,K,15-29 anni,36
+70,Campobasso,L,15-29 anni,38
+70,Campobasso,M,15-29 anni,80
+70,Campobasso,N,15-29 anni,483
+70,Campobasso,P,15-29 anni,11
+70,Campobasso,Q,15-29 anni,177
+70,Campobasso,R,15-29 anni,73
+70,Campobasso,S,15-29 anni,226
+70,Campobasso,B,30-49 anni,26
+70,Campobasso,C,30-49 anni,4549
+70,Campobasso,D,30-49 anni,146
+70,Campobasso,E,30-49 anni,137
+70,Campobasso,F,30-49 anni,1379
+70,Campobasso,G,30-49 anni,3018
+70,Campobasso,H,30-49 anni,1245
+70,Campobasso,I,30-49 anni,1050
+70,Campobasso,J,30-49 anni,452
+70,Campobasso,K,30-49 anni,492
+70,Campobasso,L,30-49 anni,63
+70,Campobasso,M,30-49 anni,467
+70,Campobasso,N,30-49 anni,1293
+70,Campobasso,P,30-49 anni,69
+70,Campobasso,Q,30-49 anni,1021
+70,Campobasso,R,30-49 anni,112
+70,Campobasso,S,30-49 anni,440
+70,Campobasso,B,50 anni e più,25
+70,Campobasso,C,50 anni e più,2375
+70,Campobasso,D,50 anni e più,169
+70,Campobasso,E,50 anni e più,154
+70,Campobasso,F,50 anni e più,895
+70,Campobasso,G,50 anni e più,987
+70,Campobasso,H,50 anni e più,968
+70,Campobasso,I,50 anni e più,498
+70,Campobasso,J,50 anni e più,259
+70,Campobasso,K,50 anni e più,345
+70,Campobasso,L,50 anni e più,17
+70,Campobasso,M,50 anni e più,210
+70,Campobasso,N,50 anni e più,706
+70,Campobasso,P,50 anni e più,43
+70,Campobasso,Q,50 anni e più,708
+70,Campobasso,R,50 anni e più,32
+70,Campobasso,S,50 anni e più,153
+71,Foggia,B,15-29 anni,14
+71,Foggia,C,15-29 anni,1672
+71,Foggia,D,15-29 anni,64
+71,Foggia,E,15-29 anni,104
+71,Foggia,F,15-29 anni,870
+71,Foggia,G,15-29 anni,3496
+71,Foggia,H,15-29 anni,952
+71,Foggia,I,15-29 anni,2563
+71,Foggia,J,15-29 anni,115
+71,Foggia,K,15-29 anni,75
+71,Foggia,L,15-29 anni,68
+71,Foggia,M,15-29 anni,254
+71,Foggia,N,15-29 anni,721
+71,Foggia,P,15-29 anni,113
+71,Foggia,Q,15-29 anni,625
+71,Foggia,R,15-29 anni,234
+71,Foggia,S,15-29 anni,533
+71,Foggia,B,30-49 anni,148
+71,Foggia,C,30-49 anni,6614
+71,Foggia,D,30-49 anni,331
+71,Foggia,E,30-49 anni,814
+71,Foggia,F,30-49 anni,2968
+71,Foggia,G,30-49 anni,7999
+71,Foggia,H,30-49 anni,4433
+71,Foggia,I,30-49 anni,3475
+71,Foggia,J,30-49 anni,488
+71,Foggia,K,30-49 anni,1069
+71,Foggia,L,30-49 anni,118
+71,Foggia,M,30-49 anni,1140
+71,Foggia,N,30-49 anni,2504
+71,Foggia,P,30-49 anni,322
+71,Foggia,Q,30-49 anni,2819
+71,Foggia,R,30-49 anni,250
+71,Foggia,S,30-49 anni,808
+71,Foggia,B,50 anni e più,101
+71,Foggia,C,50 anni e più,3345
+71,Foggia,D,50 anni e più,268
+71,Foggia,E,50 anni e più,985
+71,Foggia,F,50 anni e più,1700
+71,Foggia,G,50 anni e più,2531
+71,Foggia,H,50 anni e più,3222
+71,Foggia,I,50 anni e più,1494
+71,Foggia,J,50 anni e più,277
+71,Foggia,K,50 anni e più,939
+71,Foggia,L,50 anni e più,34
+71,Foggia,M,50 anni e più,466
+71,Foggia,N,50 anni e più,1778
+71,Foggia,P,50 anni e più,86
+71,Foggia,Q,50 anni e più,1422
+71,Foggia,R,50 anni e più,61
+71,Foggia,S,50 anni e più,321
+72,Bari,B,15-29 anni,11
+72,Bari,C,15-29 anni,5488
+72,Bari,D,15-29 anni,115
+72,Bari,E,15-29 anni,247
+72,Bari,F,15-29 anni,2929
+72,Bari,G,15-29 anni,9348
+72,Bari,H,15-29 anni,2592
+72,Bari,I,15-29 anni,6747
+72,Bari,J,15-29 anni,987
+72,Bari,K,15-29 anni,287
+72,Bari,L,15-29 anni,190
+72,Bari,M,15-29 anni,1024
+72,Bari,N,15-29 anni,4323
+72,Bari,P,15-29 anni,271
+72,Bari,Q,15-29 anni,1716
+72,Bari,R,15-29 anni,517
+72,Bari,S,15-29 anni,1660
+72,Bari,B,30-49 anni,65
+72,Bari,C,30-49 anni,25696
+72,Bari,D,30-49 anni,600
+72,Bari,E,30-49 anni,1985
+72,Bari,F,30-49 anni,9821
+72,Bari,G,30-49 anni,25341
+72,Bari,H,30-49 anni,11792
+72,Bari,I,30-49 anni,7567
+72,Bari,J,30-49 anni,5224
+72,Bari,K,30-49 anni,3370
+72,Bari,L,30-49 anni,444
+72,Bari,M,30-49 anni,4560
+72,Bari,N,30-49 anni,12908
+72,Bari,P,30-49 anni,871
+72,Bari,Q,30-49 anni,6998
+72,Bari,R,30-49 anni,996
+72,Bari,S,30-49 anni,2491
+72,Bari,B,50 anni e più,62
+72,Bari,C,50 anni e più,10158
+72,Bari,D,50 anni e più,472
+72,Bari,E,50 anni e più,2169
+72,Bari,F,50 anni e più,5886
+72,Bari,G,50 anni e più,9367
+72,Bari,H,50 anni e più,8169
+72,Bari,I,50 anni e più,2881
+72,Bari,J,50 anni e più,2222
+72,Bari,K,50 anni e più,3320
+72,Bari,L,50 anni e più,181
+72,Bari,M,50 anni e più,1853
+72,Bari,N,50 anni e più,6910
+72,Bari,P,50 anni e più,225
+72,Bari,Q,50 anni e più,3789
+72,Bari,R,50 anni e più,289
+72,Bari,S,50 anni e più,892
+73,Taranto,B,15-29 anni,14
+73,Taranto,C,15-29 anni,1789
+73,Taranto,D,15-29 anni,32
+73,Taranto,E,15-29 anni,112
+73,Taranto,F,15-29 anni,652
+73,Taranto,G,15-29 anni,3221
+73,Taranto,H,15-29 anni,366
+73,Taranto,I,15-29 anni,2582
+73,Taranto,J,15-29 anni,232
+73,Taranto,K,15-29 anni,77
+73,Taranto,L,15-29 anni,27
+73,Taranto,M,15-29 anni,289
+73,Taranto,N,15-29 anni,977
+73,Taranto,P,15-29 anni,79
+73,Taranto,Q,15-29 anni,696
+73,Taranto,R,15-29 anni,226
+73,Taranto,S,15-29 anni,577
+73,Taranto,B,30-49 anni,58
+73,Taranto,C,30-49 anni,17729
+73,Taranto,D,30-49 anni,340
+73,Taranto,E,30-49 anni,829
+73,Taranto,F,30-49 anni,2590
+73,Taranto,G,30-49 anni,8106
+73,Taranto,H,30-49 anni,2454
+73,Taranto,I,30-49 anni,2803
+73,Taranto,J,30-49 anni,920
+73,Taranto,K,30-49 anni,880
+73,Taranto,L,30-49 anni,81
+73,Taranto,M,30-49 anni,1154
+73,Taranto,N,30-49 anni,3870
+73,Taranto,P,30-49 anni,253
+73,Taranto,Q,30-49 anni,3401
+73,Taranto,R,30-49 anni,352
+73,Taranto,S,30-49 anni,867
+73,Taranto,B,50 anni e più,56
+73,Taranto,C,50 anni e più,4873
+73,Taranto,D,50 anni e più,225
+73,Taranto,E,50 anni e più,994
+73,Taranto,F,50 anni e più,1918
+73,Taranto,G,50 anni e più,2788
+73,Taranto,H,50 anni e più,1940
+73,Taranto,I,50 anni e più,1167
+73,Taranto,J,50 anni e più,392
+73,Taranto,K,50 anni e più,736
+73,Taranto,L,50 anni e più,47
+73,Taranto,M,50 anni e più,439
+73,Taranto,N,50 anni e più,1931
+73,Taranto,P,50 anni e più,107
+73,Taranto,Q,50 anni e più,1992
+73,Taranto,R,50 anni e più,125
+73,Taranto,S,50 anni e più,299
+74,Brindisi,B,15-29 anni,3
+74,Brindisi,C,15-29 anni,1283
+74,Brindisi,D,15-29 anni,119
+74,Brindisi,E,15-29 anni,77
+74,Brindisi,F,15-29 anni,677
+74,Brindisi,G,15-29 anni,2611
+74,Brindisi,H,15-29 anni,259
+74,Brindisi,I,15-29 anni,2428
+74,Brindisi,J,15-29 anni,80
+74,Brindisi,K,15-29 anni,47
+74,Brindisi,L,15-29 anni,22
+74,Brindisi,M,15-29 anni,171
+74,Brindisi,N,15-29 anni,631
+74,Brindisi,P,15-29 anni,40
+74,Brindisi,Q,15-29 anni,421
+74,Brindisi,R,15-29 anni,257
+74,Brindisi,S,15-29 anni,391
+74,Brindisi,B,30-49 anni,22
+74,Brindisi,C,30-49 anni,6021
+74,Brindisi,D,30-49 anni,282
+74,Brindisi,E,30-49 anni,405
+74,Brindisi,F,30-49 anni,2248
+74,Brindisi,G,30-49 anni,6334
+74,Brindisi,H,30-49 anni,1914
+74,Brindisi,I,30-49 anni,3187
+74,Brindisi,J,30-49 anni,403
+74,Brindisi,K,30-49 anni,602
+74,Brindisi,L,30-49 anni,79
+74,Brindisi,M,30-49 anni,838
+74,Brindisi,N,30-49 anni,1942
+74,Brindisi,P,30-49 anni,152
+74,Brindisi,Q,30-49 anni,2227
+74,Brindisi,R,30-49 anni,366
+74,Brindisi,S,30-49 anni,498
+74,Brindisi,B,50 anni e più,18
+74,Brindisi,C,50 anni e più,2884
+74,Brindisi,D,50 anni e più,467
+74,Brindisi,E,50 anni e più,412
+74,Brindisi,F,50 anni e più,1471
+74,Brindisi,G,50 anni e più,1942
+74,Brindisi,H,50 anni e più,1263
+74,Brindisi,I,50 anni e più,1296
+74,Brindisi,J,50 anni e più,153
+74,Brindisi,K,50 anni e più,523
+74,Brindisi,L,50 anni e più,23
+74,Brindisi,M,50 anni e più,274
+74,Brindisi,N,50 anni e più,1326
+74,Brindisi,P,50 anni e più,49
+74,Brindisi,Q,50 anni e più,1033
+74,Brindisi,R,50 anni e più,92
+74,Brindisi,S,50 anni e più,158
+75,Lecce,B,15-29 anni,8
+75,Lecce,C,15-29 anni,2429
+75,Lecce,D,15-29 anni,43
+75,Lecce,E,15-29 anni,182
+75,Lecce,F,15-29 anni,1231
+75,Lecce,G,15-29 anni,4660
+75,Lecce,H,15-29 anni,408
+75,Lecce,I,15-29 anni,5009
+75,Lecce,J,15-29 anni,231
+75,Lecce,K,15-29 anni,105
+75,Lecce,L,15-29 anni,71
+75,Lecce,M,15-29 anni,361
+75,Lecce,N,15-29 anni,1279
+75,Lecce,P,15-29 anni,66
+75,Lecce,Q,15-29 anni,836
+75,Lecce,R,15-29 anni,500
+75,Lecce,S,15-29 anni,957
+75,Lecce,B,30-49 anni,87
+75,Lecce,C,30-49 anni,10924
+75,Lecce,D,30-49 anni,202
+75,Lecce,E,30-49 anni,1340
+75,Lecce,F,30-49 anni,5171
+75,Lecce,G,30-49 anni,12092
+75,Lecce,H,30-49 anni,2200
+75,Lecce,I,30-49 anni,6163
+75,Lecce,J,30-49 anni,1310
+75,Lecce,K,30-49 anni,1539
+75,Lecce,L,30-49 anni,255
+75,Lecce,M,30-49 anni,1857
+75,Lecce,N,30-49 anni,4367
+75,Lecce,P,30-49 anni,297
+75,Lecce,Q,30-49 anni,3853
+75,Lecce,R,30-49 anni,744
+75,Lecce,S,30-49 anni,1318
+75,Lecce,B,50 anni e più,78
+75,Lecce,C,50 anni e più,4603
+75,Lecce,D,50 anni e più,250
+75,Lecce,E,50 anni e più,1168
+75,Lecce,F,50 anni e più,3320
+75,Lecce,G,50 anni e più,3989
+75,Lecce,H,50 anni e più,2264
+75,Lecce,I,50 anni e più,2304
+75,Lecce,J,50 anni e più,596
+75,Lecce,K,50 anni e più,1572
+75,Lecce,L,50 anni e più,98
+75,Lecce,M,50 anni e più,721
+75,Lecce,N,50 anni e più,2401
+75,Lecce,P,50 anni e più,92
+75,Lecce,Q,50 anni e più,1574
+75,Lecce,R,50 anni e più,180
+75,Lecce,S,50 anni e più,408
+76,Potenza,B,15-29 anni,99
+76,Potenza,C,15-29 anni,2294
+76,Potenza,D,15-29 anni,41
+76,Potenza,E,15-29 anni,105
+76,Potenza,F,15-29 anni,910
+76,Potenza,G,15-29 anni,1580
+76,Potenza,H,15-29 anni,509
+76,Potenza,I,15-29 anni,1295
+76,Potenza,J,15-29 anni,180
+76,Potenza,K,15-29 anni,58
+76,Potenza,L,15-29 anni,6
+76,Potenza,M,15-29 anni,205
+76,Potenza,N,15-29 anni,1066
+76,Potenza,P,15-29 anni,27
+76,Potenza,Q,15-29 anni,408
+76,Potenza,R,15-29 anni,102
+76,Potenza,S,15-29 anni,262
+76,Potenza,B,30-49 anni,430
+76,Potenza,C,30-49 anni,10342
+76,Potenza,D,30-49 anni,181
+76,Potenza,E,30-49 anni,731
+76,Potenza,F,30-49 anni,2968
+76,Potenza,G,30-49 anni,4111
+76,Potenza,H,30-49 anni,2401
+76,Potenza,I,30-49 anni,1725
+76,Potenza,J,30-49 anni,1172
+76,Potenza,K,30-49 anni,567
+76,Potenza,L,30-49 anni,44
+76,Potenza,M,30-49 anni,788
+76,Potenza,N,30-49 anni,2786
+76,Potenza,P,30-49 anni,107
+76,Potenza,Q,30-49 anni,1988
+76,Potenza,R,30-49 anni,119
+76,Potenza,S,30-49 anni,360
+76,Potenza,B,50 anni e più,141
+76,Potenza,C,50 anni e più,4962
+76,Potenza,D,50 anni e più,226
+76,Potenza,E,50 anni e più,728
+76,Potenza,F,50 anni e più,2181
+76,Potenza,G,50 anni e più,1334
+76,Potenza,H,50 anni e più,1825
+76,Potenza,I,50 anni e più,862
+76,Potenza,J,50 anni e più,428
+76,Potenza,K,50 anni e più,632
+76,Potenza,L,50 anni e più,20
+76,Potenza,M,50 anni e più,275
+76,Potenza,N,50 anni e più,1990
+76,Potenza,P,50 anni e più,39
+76,Potenza,Q,50 anni e più,775
+76,Potenza,R,50 anni e più,37
+76,Potenza,S,50 anni e più,115
+77,Matera,B,15-29 anni,6
+77,Matera,C,15-29 anni,745
+77,Matera,D,15-29 anni,7
+77,Matera,E,15-29 anni,59
+77,Matera,F,15-29 anni,374
+77,Matera,G,15-29 anni,1089
+77,Matera,H,15-29 anni,148
+77,Matera,I,15-29 anni,1027
+77,Matera,J,15-29 anni,59
+77,Matera,K,15-29 anni,20
+77,Matera,L,15-29 anni,8
+77,Matera,M,15-29 anni,94
+77,Matera,N,15-29 anni,359
+77,Matera,P,15-29 anni,15
+77,Matera,Q,15-29 anni,208
+77,Matera,R,15-29 anni,120
+77,Matera,S,15-29 anni,145
+77,Matera,B,30-49 anni,34
+77,Matera,C,30-49 anni,3151
+77,Matera,D,30-49 anni,146
+77,Matera,E,30-49 anni,368
+77,Matera,F,30-49 anni,1417
+77,Matera,G,30-49 anni,2944
+77,Matera,H,30-49 anni,1045
+77,Matera,I,30-49 anni,1284
+77,Matera,J,30-49 anni,312
+77,Matera,K,30-49 anni,328
+77,Matera,L,30-49 anni,22
+77,Matera,M,30-49 anni,495
+77,Matera,N,30-49 anni,1212
+77,Matera,P,30-49 anni,63
+77,Matera,Q,30-49 anni,1021
+77,Matera,R,30-49 anni,167
+77,Matera,S,30-49 anni,273
+77,Matera,B,50 anni e più,35
+77,Matera,C,50 anni e più,1144
+77,Matera,D,50 anni e più,127
+77,Matera,E,50 anni e più,281
+77,Matera,F,50 anni e più,1041
+77,Matera,G,50 anni e più,1031
+77,Matera,H,50 anni e più,821
+77,Matera,I,50 anni e più,472
+77,Matera,J,50 anni e più,170
+77,Matera,K,50 anni e più,294
+77,Matera,L,50 anni e più,4
+77,Matera,M,50 anni e più,208
+77,Matera,N,50 anni e più,637
+77,Matera,P,50 anni e più,15
+77,Matera,Q,50 anni e più,455
+77,Matera,R,50 anni e più,46
+77,Matera,S,50 anni e più,78
+78,Cosenza,B,15-29 anni,12
+78,Cosenza,C,15-29 anni,1011
+78,Cosenza,D,15-29 anni,69
+78,Cosenza,E,15-29 anni,113
+78,Cosenza,F,15-29 anni,796
+78,Cosenza,G,15-29 anni,3736
+78,Cosenza,H,15-29 anni,560
+78,Cosenza,I,15-29 anni,2458
+78,Cosenza,J,15-29 anni,271
+78,Cosenza,K,15-29 anni,89
+78,Cosenza,L,15-29 anni,52
+78,Cosenza,M,15-29 anni,237
+78,Cosenza,N,15-29 anni,927
+78,Cosenza,P,15-29 anni,84
+78,Cosenza,Q,15-29 anni,636
+78,Cosenza,R,15-29 anni,316
+78,Cosenza,S,15-29 anni,561
+78,Cosenza,B,30-49 anni,116
+78,Cosenza,C,30-49 anni,3862
+78,Cosenza,D,30-49 anni,291
+78,Cosenza,E,30-49 anni,906
+78,Cosenza,F,30-49 anni,3165
+78,Cosenza,G,30-49 anni,9854
+78,Cosenza,H,30-49 anni,3410
+78,Cosenza,I,30-49 anni,3225
+78,Cosenza,J,30-49 anni,1686
+78,Cosenza,K,30-49 anni,1143
+78,Cosenza,L,30-49 anni,178
+78,Cosenza,M,30-49 anni,1162
+78,Cosenza,N,30-49 anni,4007
+78,Cosenza,P,30-49 anni,315
+78,Cosenza,Q,30-49 anni,2914
+78,Cosenza,R,30-49 anni,323
+78,Cosenza,S,30-49 anni,885
+78,Cosenza,B,50 anni e più,60
+78,Cosenza,C,50 anni e più,1910
+78,Cosenza,D,50 anni e più,481
+78,Cosenza,E,50 anni e più,548
+78,Cosenza,F,50 anni e più,2130
+78,Cosenza,G,50 anni e più,3076
+78,Cosenza,H,50 anni e più,2546
+78,Cosenza,I,50 anni e più,1217
+78,Cosenza,J,50 anni e più,683
+78,Cosenza,K,50 anni e più,762
+78,Cosenza,L,50 anni e più,62
+78,Cosenza,M,50 anni e più,414
+78,Cosenza,N,50 anni e più,1654
+78,Cosenza,P,50 anni e più,80
+78,Cosenza,Q,50 anni e più,1496
+78,Cosenza,R,50 anni e più,93
+78,Cosenza,S,50 anni e più,274
+79,Catanzaro,B,15-29 anni,0
+79,Catanzaro,C,15-29 anni,564
+79,Catanzaro,D,15-29 anni,75
+79,Catanzaro,E,15-29 anni,100
+79,Catanzaro,F,15-29 anni,512
+79,Catanzaro,G,15-29 anni,1972
+79,Catanzaro,H,15-29 anni,329
+79,Catanzaro,I,15-29 anni,1324
+79,Catanzaro,J,15-29 anni,68
+79,Catanzaro,K,15-29 anni,51
+79,Catanzaro,L,15-29 anni,35
+79,Catanzaro,M,15-29 anni,117
+79,Catanzaro,N,15-29 anni,722
+79,Catanzaro,P,15-29 anni,39
+79,Catanzaro,Q,15-29 anni,308
+79,Catanzaro,R,15-29 anni,166
+79,Catanzaro,S,15-29 anni,297
+79,Catanzaro,B,30-49 anni,9
+79,Catanzaro,C,30-49 anni,2343
+79,Catanzaro,D,30-49 anni,174
+79,Catanzaro,E,30-49 anni,621
+79,Catanzaro,F,30-49 anni,2090
+79,Catanzaro,G,30-49 anni,5600
+79,Catanzaro,H,30-49 anni,1756
+79,Catanzaro,I,30-49 anni,1926
+79,Catanzaro,J,30-49 anni,626
+79,Catanzaro,K,30-49 anni,647
+79,Catanzaro,L,30-49 anni,88
+79,Catanzaro,M,30-49 anni,697
+79,Catanzaro,N,30-49 anni,3776
+79,Catanzaro,P,30-49 anni,159
+79,Catanzaro,Q,30-49 anni,1177
+79,Catanzaro,R,30-49 anni,206
+79,Catanzaro,S,30-49 anni,478
+79,Catanzaro,B,50 anni e più,8
+79,Catanzaro,C,50 anni e più,1064
+79,Catanzaro,D,50 anni e più,233
+79,Catanzaro,E,50 anni e più,572
+79,Catanzaro,F,50 anni e più,1392
+79,Catanzaro,G,50 anni e più,1914
+79,Catanzaro,H,50 anni e più,1603
+79,Catanzaro,I,50 anni e più,726
+79,Catanzaro,J,50 anni e più,567
+79,Catanzaro,K,50 anni e più,492
+79,Catanzaro,L,50 anni e più,36
+79,Catanzaro,M,50 anni e più,266
+79,Catanzaro,N,50 anni e più,1584
+79,Catanzaro,P,50 anni e più,50
+79,Catanzaro,Q,50 anni e più,504
+79,Catanzaro,R,50 anni e più,66
+79,Catanzaro,S,50 anni e più,182
+80,Reggio di Calabria,B,15-29 anni,2
+80,Reggio di Calabria,C,15-29 anni,678
+80,Reggio di Calabria,D,15-29 anni,32
+80,Reggio di Calabria,E,15-29 anni,84
+80,Reggio di Calabria,F,15-29 anni,582
+80,Reggio di Calabria,G,15-29 anni,3065
+80,Reggio di Calabria,H,15-29 anni,471
+80,Reggio di Calabria,I,15-29 anni,1834
+80,Reggio di Calabria,J,15-29 anni,71
+80,Reggio di Calabria,K,15-29 anni,55
+80,Reggio di Calabria,L,15-29 anni,21
+80,Reggio di Calabria,M,15-29 anni,172
+80,Reggio di Calabria,N,15-29 anni,523
+80,Reggio di Calabria,P,15-29 anni,151
+80,Reggio di Calabria,Q,15-29 anni,316
+80,Reggio di Calabria,R,15-29 anni,191
+80,Reggio di Calabria,S,15-29 anni,446
+80,Reggio di Calabria,B,30-49 anni,19
+80,Reggio di Calabria,C,30-49 anni,2666
+80,Reggio di Calabria,D,30-49 anni,75
+80,Reggio di Calabria,E,30-49 anni,519
+80,Reggio di Calabria,F,30-49 anni,2289
+80,Reggio di Calabria,G,30-49 anni,7471
+80,Reggio di Calabria,H,30-49 anni,3997
+80,Reggio di Calabria,I,30-49 anni,2417
+80,Reggio di Calabria,J,30-49 anni,383
+80,Reggio di Calabria,K,30-49 anni,813
+80,Reggio di Calabria,L,30-49 anni,86
+80,Reggio di Calabria,M,30-49 anni,707
+80,Reggio di Calabria,N,30-49 anni,2257
+80,Reggio di Calabria,P,30-49 anni,441
+80,Reggio di Calabria,Q,30-49 anni,1570
+80,Reggio di Calabria,R,30-49 anni,243
+80,Reggio di Calabria,S,30-49 anni,609
+80,Reggio di Calabria,B,50 anni e più,8
+80,Reggio di Calabria,C,50 anni e più,1151
+80,Reggio di Calabria,D,50 anni e più,157
+80,Reggio di Calabria,E,50 anni e più,278
+80,Reggio di Calabria,F,50 anni e più,1359
+80,Reggio di Calabria,G,50 anni e più,2336
+80,Reggio di Calabria,H,50 anni e più,3482
+80,Reggio di Calabria,I,50 anni e più,663
+80,Reggio di Calabria,J,50 anni e più,225
+80,Reggio di Calabria,K,50 anni e più,582
+80,Reggio di Calabria,L,50 anni e più,24
+80,Reggio di Calabria,M,50 anni e più,357
+80,Reggio di Calabria,N,50 anni e più,774
+80,Reggio di Calabria,P,50 anni e più,110
+80,Reggio di Calabria,Q,50 anni e più,1035
+80,Reggio di Calabria,R,50 anni e più,52
+80,Reggio di Calabria,S,50 anni e più,148
+81,Trapani,B,15-29 anni,21
+81,Trapani,C,15-29 anni,1026
+81,Trapani,D,15-29 anni,33
+81,Trapani,E,15-29 anni,59
+81,Trapani,F,15-29 anni,456
+81,Trapani,G,15-29 anni,2334
+81,Trapani,H,15-29 anni,314
+81,Trapani,I,15-29 anni,2278
+81,Trapani,J,15-29 anni,134
+81,Trapani,K,15-29 anni,56
+81,Trapani,L,15-29 anni,37
+81,Trapani,M,15-29 anni,154
+81,Trapani,N,15-29 anni,326
+81,Trapani,P,15-29 anni,61
+81,Trapani,Q,15-29 anni,533
+81,Trapani,R,15-29 anni,151
+81,Trapani,S,15-29 anni,423
+81,Trapani,B,30-49 anni,101
+81,Trapani,C,30-49 anni,3580
+81,Trapani,D,30-49 anni,131
+81,Trapani,E,30-49 anni,511
+81,Trapani,F,30-49 anni,1535
+81,Trapani,G,30-49 anni,5875
+81,Trapani,H,30-49 anni,1575
+81,Trapani,I,30-49 anni,3008
+81,Trapani,J,30-49 anni,348
+81,Trapani,K,30-49 anni,720
+81,Trapani,L,30-49 anni,88
+81,Trapani,M,30-49 anni,728
+81,Trapani,N,30-49 anni,1084
+81,Trapani,P,30-49 anni,231
+81,Trapani,Q,30-49 anni,2310
+81,Trapani,R,30-49 anni,211
+81,Trapani,S,30-49 anni,484
+81,Trapani,B,50 anni e più,79
+81,Trapani,C,50 anni e più,1534
+81,Trapani,D,50 anni e più,154
+81,Trapani,E,50 anni e più,405
+81,Trapani,F,50 anni e più,972
+81,Trapani,G,50 anni e più,1826
+81,Trapani,H,50 anni e più,1232
+81,Trapani,I,50 anni e più,1015
+81,Trapani,J,50 anni e più,166
+81,Trapani,K,50 anni e più,792
+81,Trapani,L,50 anni e più,30
+81,Trapani,M,50 anni e più,263
+81,Trapani,N,50 anni e più,621
+81,Trapani,P,50 anni e più,148
+81,Trapani,Q,50 anni e più,1011
+81,Trapani,R,50 anni e più,62
+81,Trapani,S,50 anni e più,101
+82,Palermo,B,15-29 anni,13
+82,Palermo,C,15-29 anni,1708
+82,Palermo,D,15-29 anni,133
+82,Palermo,E,15-29 anni,168
+82,Palermo,F,15-29 anni,1457
+82,Palermo,G,15-29 anni,6162
+82,Palermo,H,15-29 anni,1576
+82,Palermo,I,15-29 anni,3692
+82,Palermo,J,15-29 anni,307
+82,Palermo,K,15-29 anni,145
+82,Palermo,L,15-29 anni,127
+82,Palermo,M,15-29 anni,436
+82,Palermo,N,15-29 anni,1991
+82,Palermo,P,15-29 anni,324
+82,Palermo,Q,15-29 anni,1200
+82,Palermo,R,15-29 anni,456
+82,Palermo,S,15-29 anni,796
+82,Palermo,B,30-49 anni,134
+82,Palermo,C,30-49 anni,6303
+82,Palermo,D,30-49 anni,641
+82,Palermo,E,30-49 anni,1932
+82,Palermo,F,30-49 anni,5119
+82,Palermo,G,30-49 anni,17594
+82,Palermo,H,30-49 anni,6815
+82,Palermo,I,30-49 anni,6529
+82,Palermo,J,30-49 anni,3417
+82,Palermo,K,30-49 anni,2702
+82,Palermo,L,30-49 anni,362
+82,Palermo,M,30-49 anni,2543
+82,Palermo,N,30-49 anni,11151
+82,Palermo,P,30-49 anni,1299
+82,Palermo,Q,30-49 anni,7755
+82,Palermo,R,30-49 anni,1485
+82,Palermo,S,30-49 anni,1339
+82,Palermo,B,50 anni e più,131
+82,Palermo,C,50 anni e più,2781
+82,Palermo,D,50 anni e più,919
+82,Palermo,E,50 anni e più,2321
+82,Palermo,F,50 anni e più,2801
+82,Palermo,G,50 anni e più,5153
+82,Palermo,H,50 anni e più,4905
+82,Palermo,I,50 anni e più,2173
+82,Palermo,J,50 anni e più,1612
+82,Palermo,K,50 anni e più,2994
+82,Palermo,L,50 anni e più,165
+82,Palermo,M,50 anni e più,1091
+82,Palermo,N,50 anni e più,5201
+82,Palermo,P,50 anni e più,483
+82,Palermo,Q,50 anni e più,3443
+82,Palermo,R,50 anni e più,1623
+82,Palermo,S,50 anni e più,519
+83,Messina,B,15-29 anni,2
+83,Messina,C,15-29 anni,1433
+83,Messina,D,15-29 anni,51
+83,Messina,E,15-29 anni,76
+83,Messina,F,15-29 anni,1008
+83,Messina,G,15-29 anni,3469
+83,Messina,H,15-29 anni,521
+83,Messina,I,15-29 anni,3010
+83,Messina,J,15-29 anni,213
+83,Messina,K,15-29 anni,94
+83,Messina,L,15-29 anni,27
+83,Messina,M,15-29 anni,241
+83,Messina,N,15-29 anni,550
+83,Messina,P,15-29 anni,177
+83,Messina,Q,15-29 anni,582
+83,Messina,R,15-29 anni,258
+83,Messina,S,15-29 anni,618
+83,Messina,B,30-49 anni,28
+83,Messina,C,30-49 anni,5248
+83,Messina,D,30-49 anni,158
+83,Messina,E,30-49 anni,692
+83,Messina,F,30-49 anni,3622
+83,Messina,G,30-49 anni,9506
+83,Messina,H,30-49 anni,3008
+83,Messina,I,30-49 anni,4756
+83,Messina,J,30-49 anni,844
+83,Messina,K,30-49 anni,1131
+83,Messina,L,30-49 anni,163
+83,Messina,M,30-49 anni,1343
+83,Messina,N,30-49 anni,2473
+83,Messina,P,30-49 anni,585
+83,Messina,Q,30-49 anni,3564
+83,Messina,R,30-49 anni,393
+83,Messina,S,30-49 anni,862
+83,Messina,B,50 anni e più,28
+83,Messina,C,50 anni e più,2447
+83,Messina,D,50 anni e più,307
+83,Messina,E,50 anni e più,677
+83,Messina,F,50 anni e più,2143
+83,Messina,G,50 anni e più,2996
+83,Messina,H,50 anni e più,2971
+83,Messina,I,50 anni e più,1955
+83,Messina,J,50 anni e più,456
+83,Messina,K,50 anni e più,900
+83,Messina,L,50 anni e più,75
+83,Messina,M,50 anni e più,501
+83,Messina,N,50 anni e più,1396
+83,Messina,P,50 anni e più,111
+83,Messina,Q,50 anni e più,1831
+83,Messina,R,50 anni e più,84
+83,Messina,S,50 anni e più,243
+84,Agrigento,B,15-29 anni,14
+84,Agrigento,C,15-29 anni,571
+84,Agrigento,D,15-29 anni,39
+84,Agrigento,E,15-29 anni,99
+84,Agrigento,F,15-29 anni,372
+84,Agrigento,G,15-29 anni,2101
+84,Agrigento,H,15-29 anni,208
+84,Agrigento,I,15-29 anni,1106
+84,Agrigento,J,15-29 anni,49
+84,Agrigento,K,15-29 anni,64
+84,Agrigento,L,15-29 anni,12
+84,Agrigento,M,15-29 anni,107
+84,Agrigento,N,15-29 anni,174
+84,Agrigento,P,15-29 anni,116
+84,Agrigento,Q,15-29 anni,509
+84,Agrigento,R,15-29 anni,107
+84,Agrigento,S,15-29 anni,167
+84,Agrigento,B,30-49 anni,82
+84,Agrigento,C,30-49 anni,1896
+84,Agrigento,D,30-49 anni,124
+84,Agrigento,E,30-49 anni,574
+84,Agrigento,F,30-49 anni,1362
+84,Agrigento,G,30-49 anni,5150
+84,Agrigento,H,30-49 anni,1173
+84,Agrigento,I,30-49 anni,1761
+84,Agrigento,J,30-49 anni,262
+84,Agrigento,K,30-49 anni,669
+84,Agrigento,L,30-49 anni,33
+84,Agrigento,M,30-49 anni,571
+84,Agrigento,N,30-49 anni,868
+84,Agrigento,P,30-49 anni,344
+84,Agrigento,Q,30-49 anni,1833
+84,Agrigento,R,30-49 anni,160
+84,Agrigento,S,30-49 anni,239
+84,Agrigento,B,50 anni e più,63
+84,Agrigento,C,50 anni e più,816
+84,Agrigento,D,50 anni e più,215
+84,Agrigento,E,50 anni e più,433
+84,Agrigento,F,50 anni e più,817
+84,Agrigento,G,50 anni e più,1548
+84,Agrigento,H,50 anni e più,1043
+84,Agrigento,I,50 anni e più,490
+84,Agrigento,J,50 anni e più,165
+84,Agrigento,K,50 anni e più,659
+84,Agrigento,L,50 anni e più,20
+84,Agrigento,M,50 anni e più,172
+84,Agrigento,N,50 anni e più,601
+84,Agrigento,P,50 anni e più,65
+84,Agrigento,Q,50 anni e più,774
+84,Agrigento,R,50 anni e più,37
+84,Agrigento,S,50 anni e più,80
+85,Caltanissetta,B,15-29 anni,13
+85,Caltanissetta,C,15-29 anni,541
+85,Caltanissetta,D,15-29 anni,12
+85,Caltanissetta,E,15-29 anni,63
+85,Caltanissetta,F,15-29 anni,453
+85,Caltanissetta,G,15-29 anni,1421
+85,Caltanissetta,H,15-29 anni,166
+85,Caltanissetta,I,15-29 anni,644
+85,Caltanissetta,J,15-29 anni,69
+85,Caltanissetta,K,15-29 anni,26
+85,Caltanissetta,L,15-29 anni,7
+85,Caltanissetta,M,15-29 anni,94
+85,Caltanissetta,N,15-29 anni,317
+85,Caltanissetta,P,15-29 anni,29
+85,Caltanissetta,Q,15-29 anni,222
+85,Caltanissetta,R,15-29 anni,67
+85,Caltanissetta,S,15-29 anni,151
+85,Caltanissetta,B,30-49 anni,223
+85,Caltanissetta,C,30-49 anni,2096
+85,Caltanissetta,D,30-49 anni,35
+85,Caltanissetta,E,30-49 anni,586
+85,Caltanissetta,F,30-49 anni,1774
+85,Caltanissetta,G,30-49 anni,3127
+85,Caltanissetta,H,30-49 anni,877
+85,Caltanissetta,I,30-49 anni,788
+85,Caltanissetta,J,30-49 anni,255
+85,Caltanissetta,K,30-49 anni,418
+85,Caltanissetta,L,30-49 anni,28
+85,Caltanissetta,M,30-49 anni,599
+85,Caltanissetta,N,30-49 anni,2056
+85,Caltanissetta,P,30-49 anni,147
+85,Caltanissetta,Q,30-49 anni,769
+85,Caltanissetta,R,30-49 anni,89
+85,Caltanissetta,S,30-49 anni,257
+85,Caltanissetta,B,50 anni e più,152
+85,Caltanissetta,C,50 anni e più,883
+85,Caltanissetta,D,50 anni e più,77
+85,Caltanissetta,E,50 anni e più,301
+85,Caltanissetta,F,50 anni e più,1160
+85,Caltanissetta,G,50 anni e più,906
+85,Caltanissetta,H,50 anni e più,727
+85,Caltanissetta,I,50 anni e più,258
+85,Caltanissetta,J,50 anni e più,119
+85,Caltanissetta,K,50 anni e più,332
+85,Caltanissetta,L,50 anni e più,18
+85,Caltanissetta,M,50 anni e più,233
+85,Caltanissetta,N,50 anni e più,1361
+85,Caltanissetta,P,50 anni e più,25
+85,Caltanissetta,Q,50 anni e più,335
+85,Caltanissetta,R,50 anni e più,34
+85,Caltanissetta,S,50 anni e più,68
+86,Enna,B,15-29 anni,1
+86,Enna,C,15-29 anni,378
+86,Enna,D,15-29 anni,9
+86,Enna,E,15-29 anni,15
+86,Enna,F,15-29 anni,246
+86,Enna,G,15-29 anni,894
+86,Enna,H,15-29 anni,99
+86,Enna,I,15-29 anni,416
+86,Enna,J,15-29 anni,19
+86,Enna,K,15-29 anni,19
+86,Enna,L,15-29 anni,2
+86,Enna,M,15-29 anni,79
+86,Enna,N,15-29 anni,161
+86,Enna,P,15-29 anni,19
+86,Enna,Q,15-29 anni,187
+86,Enna,R,15-29 anni,22
+86,Enna,S,15-29 anni,111
+86,Enna,B,30-49 anni,25
+86,Enna,C,30-49 anni,948
+86,Enna,D,30-49 anni,51
+86,Enna,E,30-49 anni,266
+86,Enna,F,30-49 anni,746
+86,Enna,G,30-49 anni,1854
+86,Enna,H,30-49 anni,445
+86,Enna,I,30-49 anni,539
+86,Enna,J,30-49 anni,91
+86,Enna,K,30-49 anni,233
+86,Enna,L,30-49 anni,22
+86,Enna,M,30-49 anni,263
+86,Enna,N,30-49 anni,663
+86,Enna,P,30-49 anni,46
+86,Enna,Q,30-49 anni,596
+86,Enna,R,30-49 anni,34
+86,Enna,S,30-49 anni,93
+86,Enna,B,50 anni e più,19
+86,Enna,C,50 anni e più,326
+86,Enna,D,50 anni e più,72
+86,Enna,E,50 anni e più,217
+86,Enna,F,50 anni e più,390
+86,Enna,G,50 anni e più,447
+86,Enna,H,50 anni e più,369
+86,Enna,I,50 anni e più,181
+86,Enna,J,50 anni e più,43
+86,Enna,K,50 anni e più,171
+86,Enna,L,50 anni e più,36
+86,Enna,M,50 anni e più,71
+86,Enna,N,50 anni e più,382
+86,Enna,P,50 anni e più,4
+86,Enna,Q,50 anni e più,261
+86,Enna,R,50 anni e più,14
+86,Enna,S,50 anni e più,29
+87,Catania,B,15-29 anni,9
+87,Catania,C,15-29 anni,2628
+87,Catania,D,15-29 anni,89
+87,Catania,E,15-29 anni,307
+87,Catania,F,15-29 anni,1663
+87,Catania,G,15-29 anni,7194
+87,Catania,H,15-29 anni,1498
+87,Catania,I,15-29 anni,4078
+87,Catania,J,15-29 anni,362
+87,Catania,K,15-29 anni,180
+87,Catania,L,15-29 anni,89
+87,Catania,M,15-29 anni,491
+87,Catania,N,15-29 anni,2401
+87,Catania,P,15-29 anni,218
+87,Catania,Q,15-29 anni,1015
+87,Catania,R,15-29 anni,542
+87,Catania,S,15-29 anni,1055
+87,Catania,B,30-49 anni,76
+87,Catania,C,30-49 anni,11860
+87,Catania,D,30-49 anni,338
+87,Catania,E,30-49 anni,1947
+87,Catania,F,30-49 anni,5678
+87,Catania,G,30-49 anni,19483
+87,Catania,H,30-49 anni,7479
+87,Catania,I,30-49 anni,5738
+87,Catania,J,30-49 anni,2297
+87,Catania,K,30-49 anni,2261
+87,Catania,L,30-49 anni,311
+87,Catania,M,30-49 anni,2516
+87,Catania,N,30-49 anni,8303
+87,Catania,P,30-49 anni,904
+87,Catania,Q,30-49 anni,6003
+87,Catania,R,30-49 anni,840
+87,Catania,S,30-49 anni,1563
+87,Catania,B,50 anni e più,66
+87,Catania,C,50 anni e più,4422
+87,Catania,D,50 anni e più,446
+87,Catania,E,50 anni e più,1544
+87,Catania,F,50 anni e più,3091
+87,Catania,G,50 anni e più,6563
+87,Catania,H,50 anni e più,4737
+87,Catania,I,50 anni e più,1875
+87,Catania,J,50 anni e più,773
+87,Catania,K,50 anni e più,1832
+87,Catania,L,50 anni e più,167
+87,Catania,M,50 anni e più,729
+87,Catania,N,50 anni e più,3448
+87,Catania,P,50 anni e più,258
+87,Catania,Q,50 anni e più,3324
+87,Catania,R,50 anni e più,197
+87,Catania,S,50 anni e più,518
+88,Ragusa,B,15-29 anni,6
+88,Ragusa,C,15-29 anni,1143
+88,Ragusa,D,15-29 anni,35
+88,Ragusa,E,15-29 anni,60
+88,Ragusa,F,15-29 anni,686
+88,Ragusa,G,15-29 anni,2698
+88,Ragusa,H,15-29 anni,382
+88,Ragusa,I,15-29 anni,1551
+88,Ragusa,J,15-29 anni,131
+88,Ragusa,K,15-29 anni,56
+88,Ragusa,L,15-29 anni,17
+88,Ragusa,M,15-29 anni,170
+88,Ragusa,N,15-29 anni,320
+88,Ragusa,P,15-29 anni,104
+88,Ragusa,Q,15-29 anni,309
+88,Ragusa,R,15-29 anni,110
+88,Ragusa,S,15-29 anni,361
+88,Ragusa,B,30-49 anni,60
+88,Ragusa,C,30-49 anni,3307
+88,Ragusa,D,30-49 anni,83
+88,Ragusa,E,30-49 anni,397
+88,Ragusa,F,30-49 anni,1754
+88,Ragusa,G,30-49 anni,6080
+88,Ragusa,H,30-49 anni,1710
+88,Ragusa,I,30-49 anni,1680
+88,Ragusa,J,30-49 anni,606
+88,Ragusa,K,30-49 anni,754
+88,Ragusa,L,30-49 anni,61
+88,Ragusa,M,30-49 anni,716
+88,Ragusa,N,30-49 anni,994
+88,Ragusa,P,30-49 anni,287
+88,Ragusa,Q,30-49 anni,1404
+88,Ragusa,R,30-49 anni,153
+88,Ragusa,S,30-49 anni,405
+88,Ragusa,B,50 anni e più,26
+88,Ragusa,C,50 anni e più,1443
+88,Ragusa,D,50 anni e più,91
+88,Ragusa,E,50 anni e più,330
+88,Ragusa,F,50 anni e più,813
+88,Ragusa,G,50 anni e più,1761
+88,Ragusa,H,50 anni e più,1007
+88,Ragusa,I,50 anni e più,471
+88,Ragusa,J,50 anni e più,184
+88,Ragusa,K,50 anni e più,512
+88,Ragusa,L,50 anni e più,17
+88,Ragusa,M,50 anni e più,180
+88,Ragusa,N,50 anni e più,554
+88,Ragusa,P,50 anni e più,33
+88,Ragusa,Q,50 anni e più,720
+88,Ragusa,R,50 anni e più,30
+88,Ragusa,S,50 anni e più,154
+89,Siracusa,B,15-29 anni,2
+89,Siracusa,C,15-29 anni,970
+89,Siracusa,D,15-29 anni,37
+89,Siracusa,E,15-29 anni,114
+89,Siracusa,F,15-29 anni,677
+89,Siracusa,G,15-29 anni,1973
+89,Siracusa,H,15-29 anni,216
+89,Siracusa,I,15-29 anni,1787
+89,Siracusa,J,15-29 anni,90
+89,Siracusa,K,15-29 anni,29
+89,Siracusa,L,15-29 anni,46
+89,Siracusa,M,15-29 anni,173
+89,Siracusa,N,15-29 anni,374
+89,Siracusa,P,15-29 anni,79
+89,Siracusa,Q,15-29 anni,372
+89,Siracusa,R,15-29 anni,180
+89,Siracusa,S,15-29 anni,326
+89,Siracusa,B,30-49 anni,23
+89,Siracusa,C,30-49 anni,5143
+89,Siracusa,D,30-49 anni,255
+89,Siracusa,E,30-49 anni,631
+89,Siracusa,F,30-49 anni,2751
+89,Siracusa,G,30-49 anni,5299
+89,Siracusa,H,30-49 anni,1688
+89,Siracusa,I,30-49 anni,2454
+89,Siracusa,J,30-49 anni,483
+89,Siracusa,K,30-49 anni,741
+89,Siracusa,L,30-49 anni,164
+89,Siracusa,M,30-49 anni,1280
+89,Siracusa,N,30-49 anni,1734
+89,Siracusa,P,30-49 anni,372
+89,Siracusa,Q,30-49 anni,1899
+89,Siracusa,R,30-49 anni,192
+89,Siracusa,S,30-49 anni,513
+89,Siracusa,B,50 anni e più,37
+89,Siracusa,C,50 anni e più,3063
+89,Siracusa,D,50 anni e più,342
+89,Siracusa,E,50 anni e più,561
+89,Siracusa,F,50 anni e più,1535
+89,Siracusa,G,50 anni e più,1555
+89,Siracusa,H,50 anni e più,1378
+89,Siracusa,I,50 anni e più,759
+89,Siracusa,J,50 anni e più,216
+89,Siracusa,K,50 anni e più,554
+89,Siracusa,L,50 anni e più,41
+89,Siracusa,M,50 anni e più,441
+89,Siracusa,N,50 anni e più,1033
+89,Siracusa,P,50 anni e più,111
+89,Siracusa,Q,50 anni e più,870
+89,Siracusa,R,50 anni e più,45
+89,Siracusa,S,50 anni e più,171
+90,Sassari,B,15-29 anni,17
+90,Sassari,C,15-29 anni,725
+90,Sassari,D,15-29 anni,53
+90,Sassari,E,15-29 anni,67
+90,Sassari,F,15-29 anni,682
+90,Sassari,G,15-29 anni,2312
+90,Sassari,H,15-29 anni,450
+90,Sassari,I,15-29 anni,4021
+90,Sassari,J,15-29 anni,64
+90,Sassari,K,15-29 anni,51
+90,Sassari,L,15-29 anni,94
+90,Sassari,M,15-29 anni,160
+90,Sassari,N,15-29 anni,932
+90,Sassari,P,15-29 anni,29
+90,Sassari,Q,15-29 anni,639
+90,Sassari,R,15-29 anni,245
+90,Sassari,S,15-29 anni,500
+90,Sassari,B,30-49 anni,119
+90,Sassari,C,30-49 anni,4200
+90,Sassari,D,30-49 anni,207
+90,Sassari,E,30-49 anni,816
+90,Sassari,F,30-49 anni,3572
+90,Sassari,G,30-49 anni,8986
+90,Sassari,H,30-49 anni,3460
+90,Sassari,I,30-49 anni,6227
+90,Sassari,J,30-49 anni,593
+90,Sassari,K,30-49 anni,1055
+90,Sassari,L,30-49 anni,374
+90,Sassari,M,30-49 anni,1082
+90,Sassari,N,30-49 anni,3466
+90,Sassari,P,30-49 anni,183
+90,Sassari,Q,30-49 anni,3489
+90,Sassari,R,30-49 anni,541
+90,Sassari,S,30-49 anni,955
+90,Sassari,B,50 anni e più,83
+90,Sassari,C,50 anni e più,2306
+90,Sassari,D,50 anni e più,368
+90,Sassari,E,50 anni e più,807
+90,Sassari,F,50 anni e più,1961
+90,Sassari,G,50 anni e più,2959
+90,Sassari,H,50 anni e più,2604
+90,Sassari,I,50 anni e più,2210
+90,Sassari,J,50 anni e più,391
+90,Sassari,K,50 anni e più,1386
+90,Sassari,L,50 anni e più,161
+90,Sassari,M,50 anni e più,480
+90,Sassari,N,50 anni e più,1957
+90,Sassari,P,50 anni e più,68
+90,Sassari,Q,50 anni e più,1900
+90,Sassari,R,50 anni e più,188
+90,Sassari,S,50 anni e più,288
+91,Nuoro,B,15-29 anni,19
+91,Nuoro,C,15-29 anni,469
+91,Nuoro,D,15-29 anni,24
+91,Nuoro,E,15-29 anni,34
+91,Nuoro,F,15-29 anni,246
+91,Nuoro,G,15-29 anni,753
+91,Nuoro,H,15-29 anni,94
+91,Nuoro,I,15-29 anni,1128
+91,Nuoro,J,15-29 anni,15
+91,Nuoro,K,15-29 anni,22
+91,Nuoro,L,15-29 anni,8
+91,Nuoro,M,15-29 anni,38
+91,Nuoro,N,15-29 anni,122
+91,Nuoro,P,15-29 anni,7
+91,Nuoro,Q,15-29 anni,167
+91,Nuoro,R,15-29 anni,23
+91,Nuoro,S,15-29 anni,117
+91,Nuoro,B,30-49 anni,125
+91,Nuoro,C,30-49 anni,1588
+91,Nuoro,D,30-49 anni,123
+91,Nuoro,E,30-49 anni,312
+91,Nuoro,F,30-49 anni,1032
+91,Nuoro,G,30-49 anni,2555
+91,Nuoro,H,30-49 anni,625
+91,Nuoro,I,30-49 anni,1643
+91,Nuoro,J,30-49 anni,167
+91,Nuoro,K,30-49 anni,260
+91,Nuoro,L,30-49 anni,25
+91,Nuoro,M,30-49 anni,397
+91,Nuoro,N,30-49 anni,603
+91,Nuoro,P,30-49 anni,45
+91,Nuoro,Q,30-49 anni,939
+91,Nuoro,R,30-49 anni,82
+91,Nuoro,S,30-49 anni,325
+91,Nuoro,B,50 anni e più,77
+91,Nuoro,C,50 anni e più,766
+91,Nuoro,D,50 anni e più,93
+91,Nuoro,E,50 anni e più,341
+91,Nuoro,F,50 anni e più,611
+91,Nuoro,G,50 anni e più,887
+91,Nuoro,H,50 anni e più,706
+91,Nuoro,I,50 anni e più,671
+91,Nuoro,J,50 anni e più,97
+91,Nuoro,K,50 anni e più,302
+91,Nuoro,L,50 anni e più,11
+91,Nuoro,M,50 anni e più,185
+91,Nuoro,N,50 anni e più,444
+91,Nuoro,P,50 anni e più,12
+91,Nuoro,Q,50 anni e più,514
+91,Nuoro,R,50 anni e più,45
+91,Nuoro,S,50 anni e più,93
+92,Cagliari,B,15-29 anni,5
+92,Cagliari,C,15-29 anni,627
+92,Cagliari,D,15-29 anni,103
+92,Cagliari,E,15-29 anni,80
+92,Cagliari,F,15-29 anni,522
+92,Cagliari,G,15-29 anni,2240
+92,Cagliari,H,15-29 anni,494
+92,Cagliari,I,15-29 anni,2687
+92,Cagliari,J,15-29 anni,414
+92,Cagliari,K,15-29 anni,45
+92,Cagliari,L,15-29 anni,86
+92,Cagliari,M,15-29 anni,271
+92,Cagliari,N,15-29 anni,1194
+92,Cagliari,P,15-29 anni,94
+92,Cagliari,Q,15-29 anni,526
+92,Cagliari,R,15-29 anni,213
+92,Cagliari,S,15-29 anni,509
+92,Cagliari,B,30-49 anni,95
+92,Cagliari,C,30-49 anni,4019
+92,Cagliari,D,30-49 anni,1082
+92,Cagliari,E,30-49 anni,1277
+92,Cagliari,F,30-49 anni,3641
+92,Cagliari,G,30-49 anni,10056
+92,Cagliari,H,30-49 anni,3698
+92,Cagliari,I,30-49 anni,4686
+92,Cagliari,J,30-49 anni,3179
+92,Cagliari,K,30-49 anni,1176
+92,Cagliari,L,30-49 anni,247
+92,Cagliari,M,30-49 anni,2330
+92,Cagliari,N,30-49 anni,6256
+92,Cagliari,P,30-49 anni,567
+92,Cagliari,Q,30-49 anni,3031
+92,Cagliari,R,30-49 anni,730
+92,Cagliari,S,30-49 anni,1271
+92,Cagliari,B,50 anni e più,66
+92,Cagliari,C,50 anni e più,2130
+92,Cagliari,D,50 anni e più,713
+92,Cagliari,E,50 anni e più,1031
+92,Cagliari,F,50 anni e più,2503
+92,Cagliari,G,50 anni e più,3681
+92,Cagliari,H,50 anni e più,3499
+92,Cagliari,I,50 anni e più,1473
+92,Cagliari,J,50 anni e più,1026
+92,Cagliari,K,50 anni e più,1145
+92,Cagliari,L,50 anni e più,110
+92,Cagliari,M,50 anni e più,820
+92,Cagliari,N,50 anni e più,3109
+92,Cagliari,P,50 anni e più,182
+92,Cagliari,Q,50 anni e più,1555
+92,Cagliari,R,50 anni e più,223
+92,Cagliari,S,50 anni e più,427
+93,Pordenone,B,15-29 anni,3
+93,Pordenone,C,15-29 anni,3690
+93,Pordenone,D,15-29 anni,48
+93,Pordenone,E,15-29 anni,81
+93,Pordenone,F,15-29 anni,412
+93,Pordenone,G,15-29 anni,1718
+93,Pordenone,H,15-29 anni,185
+93,Pordenone,I,15-29 anni,1417
+93,Pordenone,J,15-29 anni,173
+93,Pordenone,K,15-29 anni,69
+93,Pordenone,L,15-29 anni,14
+93,Pordenone,M,15-29 anni,273
+93,Pordenone,N,15-29 anni,1744
+93,Pordenone,P,15-29 anni,48
+93,Pordenone,Q,15-29 anni,553
+93,Pordenone,R,15-29 anni,90
+93,Pordenone,S,15-29 anni,364
+93,Pordenone,B,30-49 anni,31
+93,Pordenone,C,30-49 anni,20725
+93,Pordenone,D,30-49 anni,80
+93,Pordenone,E,30-49 anni,665
+93,Pordenone,F,30-49 anni,1898
+93,Pordenone,G,30-49 anni,5780
+93,Pordenone,H,30-49 anni,1381
+93,Pordenone,I,30-49 anni,2040
+93,Pordenone,J,30-49 anni,781
+93,Pordenone,K,30-49 anni,1229
+93,Pordenone,L,30-49 anni,89
+93,Pordenone,M,30-49 anni,1364
+93,Pordenone,N,30-49 anni,3185
+93,Pordenone,P,30-49 anni,216
+93,Pordenone,Q,30-49 anni,2361
+93,Pordenone,R,30-49 anni,220
+93,Pordenone,S,30-49 anni,519
+93,Pordenone,B,50 anni e più,34
+93,Pordenone,C,50 anni e più,10978
+93,Pordenone,D,50 anni e più,116
+93,Pordenone,E,50 anni e più,521
+93,Pordenone,F,50 anni e più,935
+93,Pordenone,G,50 anni e più,2628
+93,Pordenone,H,50 anni e più,1091
+93,Pordenone,I,50 anni e più,859
+93,Pordenone,J,50 anni e più,319
+93,Pordenone,K,50 anni e più,954
+93,Pordenone,L,50 anni e più,53
+93,Pordenone,M,50 anni e più,595
+93,Pordenone,N,50 anni e più,1309
+93,Pordenone,P,50 anni e più,98
+93,Pordenone,Q,50 anni e più,1175
+93,Pordenone,R,50 anni e più,78
+93,Pordenone,S,50 anni e più,207
+94,Isernia,B,15-29 anni,0
+94,Isernia,C,15-29 anni,196
+94,Isernia,D,15-29 anni,8
+94,Isernia,E,15-29 anni,18
+94,Isernia,F,15-29 anni,185
+94,Isernia,G,15-29 anni,369
+94,Isernia,H,15-29 anni,68
+94,Isernia,I,15-29 anni,407
+94,Isernia,J,15-29 anni,24
+94,Isernia,K,15-29 anni,10
+94,Isernia,L,15-29 anni,6
+94,Isernia,M,15-29 anni,53
+94,Isernia,N,15-29 anni,81
+94,Isernia,P,15-29 anni,3
+94,Isernia,Q,15-29 anni,172
+94,Isernia,R,15-29 anni,29
+94,Isernia,S,15-29 anni,96
+94,Isernia,B,30-49 anni,11
+94,Isernia,C,30-49 anni,1345
+94,Isernia,D,30-49 anni,37
+94,Isernia,E,30-49 anni,112
+94,Isernia,F,30-49 anni,698
+94,Isernia,G,30-49 anni,1061
+94,Isernia,H,30-49 anni,498
+94,Isernia,I,30-49 anni,562
+94,Isernia,J,30-49 anni,100
+94,Isernia,K,30-49 anni,162
+94,Isernia,L,30-49 anni,37
+94,Isernia,M,30-49 anni,239
+94,Isernia,N,30-49 anni,422
+94,Isernia,P,30-49 anni,17
+94,Isernia,Q,30-49 anni,762
+94,Isernia,R,30-49 anni,34
+94,Isernia,S,30-49 anni,143
+94,Isernia,B,50 anni e più,33
+94,Isernia,C,50 anni e più,864
+94,Isernia,D,50 anni e più,63
+94,Isernia,E,50 anni e più,87
+94,Isernia,F,50 anni e più,492
+94,Isernia,G,50 anni e più,356
+94,Isernia,H,50 anni e più,376
+94,Isernia,I,50 anni e più,219
+94,Isernia,J,50 anni e più,50
+94,Isernia,K,50 anni e più,113
+94,Isernia,L,50 anni e più,18
+94,Isernia,M,50 anni e più,95
+94,Isernia,N,50 anni e più,237
+94,Isernia,P,50 anni e più,4
+94,Isernia,Q,50 anni e più,461
+94,Isernia,R,50 anni e più,8
+94,Isernia,S,50 anni e più,62
+95,Oristano,C,15-29 anni,196
+95,Oristano,D,15-29 anni,21
+95,Oristano,E,15-29 anni,28
+95,Oristano,F,15-29 anni,151
+95,Oristano,G,15-29 anni,641
+95,Oristano,H,15-29 anni,104
+95,Oristano,I,15-29 anni,631
+95,Oristano,J,15-29 anni,15
+95,Oristano,K,15-29 anni,11
+95,Oristano,L,15-29 anni,10
+95,Oristano,M,15-29 anni,39
+95,Oristano,N,15-29 anni,80
+95,Oristano,P,15-29 anni,6
+95,Oristano,Q,15-29 anni,160
+95,Oristano,R,15-29 anni,36
+95,Oristano,S,15-29 anni,89
+95,Oristano,B,30-49 anni,34
+95,Oristano,C,30-49 anni,1141
+95,Oristano,D,30-49 anni,33
+95,Oristano,E,30-49 anni,201
+95,Oristano,F,30-49 anni,791
+95,Oristano,G,30-49 anni,2369
+95,Oristano,H,30-49 anni,777
+95,Oristano,I,30-49 anni,1032
+95,Oristano,J,30-49 anni,137
+95,Oristano,K,30-49 anni,276
+95,Oristano,L,30-49 anni,29
+95,Oristano,M,30-49 anni,284
+95,Oristano,N,30-49 anni,468
+95,Oristano,P,30-49 anni,75
+95,Oristano,Q,30-49 anni,971
+95,Oristano,R,30-49 anni,155
+95,Oristano,S,30-49 anni,199
+95,Oristano,B,50 anni e più,32
+95,Oristano,C,50 anni e più,527
+95,Oristano,D,50 anni e più,54
+95,Oristano,E,50 anni e più,192
+95,Oristano,F,50 anni e più,417
+95,Oristano,G,50 anni e più,799
+95,Oristano,H,50 anni e più,689
+95,Oristano,I,50 anni e più,287
+95,Oristano,J,50 anni e più,78
+95,Oristano,K,50 anni e più,257
+95,Oristano,L,50 anni e più,14
+95,Oristano,M,50 anni e più,156
+95,Oristano,N,50 anni e più,345
+95,Oristano,P,50 anni e più,25
+95,Oristano,Q,50 anni e più,564
+95,Oristano,R,50 anni e più,70
+95,Oristano,S,50 anni e più,51
+96,Biella,B,15-29 anni,5
+96,Biella,C,15-29 anni,1338
+96,Biella,D,15-29 anni,11
+96,Biella,E,15-29 anni,22
+96,Biella,F,15-29 anni,258
+96,Biella,G,15-29 anni,1051
+96,Biella,H,15-29 anni,109
+96,Biella,I,15-29 anni,738
+96,Biella,J,15-29 anni,71
+96,Biella,K,15-29 anni,159
+96,Biella,L,15-29 anni,13
+96,Biella,M,15-29 anni,117
+96,Biella,N,15-29 anni,774
+96,Biella,P,15-29 anni,4
+96,Biella,Q,15-29 anni,584
+96,Biella,R,15-29 anni,55
+96,Biella,S,15-29 anni,221
+96,Biella,B,30-49 anni,67
+96,Biella,C,30-49 anni,7512
+96,Biella,D,30-49 anni,66
+96,Biella,E,30-49 anni,227
+96,Biella,F,30-49 anni,1004
+96,Biella,G,30-49 anni,3580
+96,Biella,H,30-49 anni,744
+96,Biella,I,30-49 anni,728
+96,Biella,J,30-49 anni,204
+96,Biella,K,30-49 anni,1693
+96,Biella,L,30-49 anni,36
+96,Biella,M,30-49 anni,533
+96,Biella,N,30-49 anni,1810
+96,Biella,P,30-49 anni,58
+96,Biella,Q,30-49 anni,2330
+96,Biella,R,30-49 anni,76
+96,Biella,S,30-49 anni,545
+96,Biella,B,50 anni e più,41
+96,Biella,C,50 anni e più,5953
+96,Biella,D,50 anni e più,65
+96,Biella,E,50 anni e più,182
+96,Biella,F,50 anni e più,469
+96,Biella,G,50 anni e più,1525
+96,Biella,H,50 anni e più,611
+96,Biella,I,50 anni e più,317
+96,Biella,J,50 anni e più,118
+96,Biella,K,50 anni e più,917
+96,Biella,L,50 anni e più,30
+96,Biella,M,50 anni e più,328
+96,Biella,N,50 anni e più,992
+96,Biella,P,50 anni e più,18
+96,Biella,Q,50 anni e più,1418
+96,Biella,R,50 anni e più,28
+96,Biella,S,50 anni e più,218
+97,Lecco,C,15-29 anni,4466
+97,Lecco,D,15-29 anni,21
+97,Lecco,E,15-29 anni,35
+97,Lecco,F,15-29 anni,634
+97,Lecco,G,15-29 anni,2057
+97,Lecco,H,15-29 anni,191
+97,Lecco,I,15-29 anni,1617
+97,Lecco,J,15-29 anni,170
+97,Lecco,K,15-29 anni,153
+97,Lecco,L,15-29 anni,50
+97,Lecco,M,15-29 anni,386
+97,Lecco,N,15-29 anni,1760
+97,Lecco,P,15-29 anni,56
+97,Lecco,Q,15-29 anni,529
+97,Lecco,R,15-29 anni,108
+97,Lecco,S,15-29 anni,379
+97,Lecco,B,30-49 anni,3
+97,Lecco,C,30-49 anni,20728
+97,Lecco,D,30-49 anni,140
+97,Lecco,E,30-49 anni,269
+97,Lecco,F,30-49 anni,2582
+97,Lecco,G,30-49 anni,6266
+97,Lecco,H,30-49 anni,1207
+97,Lecco,I,30-49 anni,2044
+97,Lecco,J,30-49 anni,588
+97,Lecco,K,30-49 anni,1123
+97,Lecco,L,30-49 anni,171
+97,Lecco,M,30-49 anni,1486
+97,Lecco,N,30-49 anni,3182
+97,Lecco,P,30-49 anni,268
+97,Lecco,Q,30-49 anni,1704
+97,Lecco,R,30-49 anni,303
+97,Lecco,S,30-49 anni,510
+97,Lecco,B,50 anni e più,2
+97,Lecco,C,50 anni e più,11947
+97,Lecco,D,50 anni e più,120
+97,Lecco,E,50 anni e più,185
+97,Lecco,F,50 anni e più,1147
+97,Lecco,G,50 anni e più,2630
+97,Lecco,H,50 anni e più,1126
+97,Lecco,I,50 anni e più,957
+97,Lecco,J,50 anni e più,190
+97,Lecco,K,50 anni e più,768
+97,Lecco,L,50 anni e più,71
+97,Lecco,M,50 anni e più,578
+97,Lecco,N,50 anni e più,1367
+97,Lecco,P,50 anni e più,138
+97,Lecco,Q,50 anni e più,780
+97,Lecco,R,50 anni e più,94
+97,Lecco,S,50 anni e più,179
+98,Lodi,B,15-29 anni,1
+98,Lodi,C,15-29 anni,1431
+98,Lodi,D,15-29 anni,29
+98,Lodi,E,15-29 anni,12
+98,Lodi,F,15-29 anni,285
+98,Lodi,G,15-29 anni,1216
+98,Lodi,H,15-29 anni,371
+98,Lodi,I,15-29 anni,803
+98,Lodi,J,15-29 anni,356
+98,Lodi,K,15-29 anni,66
+98,Lodi,L,15-29 anni,21
+98,Lodi,M,15-29 anni,133
+98,Lodi,N,15-29 anni,1248
+98,Lodi,P,15-29 anni,17
+98,Lodi,Q,15-29 anni,323
+98,Lodi,R,15-29 anni,48
+98,Lodi,S,15-29 anni,273
+98,Lodi,B,30-49 anni,18
+98,Lodi,C,30-49 anni,7605
+98,Lodi,D,30-49 anni,132
+98,Lodi,E,30-49 anni,188
+98,Lodi,F,30-49 anni,1399
+98,Lodi,G,30-49 anni,3914
+98,Lodi,H,30-49 anni,2153
+98,Lodi,I,30-49 anni,1016
+98,Lodi,J,30-49 anni,1201
+98,Lodi,K,30-49 anni,738
+98,Lodi,L,30-49 anni,71
+98,Lodi,M,30-49 anni,614
+98,Lodi,N,30-49 anni,2176
+98,Lodi,P,30-49 anni,72
+98,Lodi,Q,30-49 anni,989
+98,Lodi,R,30-49 anni,86
+98,Lodi,S,30-49 anni,519
+98,Lodi,B,50 anni e più,12
+98,Lodi,C,50 anni e più,4331
+98,Lodi,D,50 anni e più,161
+98,Lodi,E,50 anni e più,147
+98,Lodi,F,50 anni e più,739
+98,Lodi,G,50 anni e più,1630
+98,Lodi,H,50 anni e più,1355
+98,Lodi,I,50 anni e più,464
+98,Lodi,J,50 anni e più,386
+98,Lodi,K,50 anni e più,523
+98,Lodi,L,50 anni e più,55
+98,Lodi,M,50 anni e più,275
+98,Lodi,N,50 anni e più,716
+98,Lodi,P,50 anni e più,25
+98,Lodi,Q,50 anni e più,395
+98,Lodi,R,50 anni e più,18
+98,Lodi,S,50 anni e più,207
+99,Rimini,B,15-29 anni,1
+99,Rimini,C,15-29 anni,1906
+99,Rimini,D,15-29 anni,49
+99,Rimini,E,15-29 anni,46
+99,Rimini,F,15-29 anni,611
+99,Rimini,G,15-29 anni,2643
+99,Rimini,H,15-29 anni,546
+99,Rimini,I,15-29 anni,4923
+99,Rimini,J,15-29 anni,312
+99,Rimini,K,15-29 anni,184
+99,Rimini,L,15-29 anni,65
+99,Rimini,M,15-29 anni,411
+99,Rimini,N,15-29 anni,790
+99,Rimini,P,15-29 anni,34
+99,Rimini,Q,15-29 anni,512
+99,Rimini,R,15-29 anni,650
+99,Rimini,S,15-29 anni,452
+99,Rimini,B,30-49 anni,1
+99,Rimini,C,30-49 anni,8940
+99,Rimini,D,30-49 anni,180
+99,Rimini,E,30-49 anni,630
+99,Rimini,F,30-49 anni,2419
+99,Rimini,G,30-49 anni,8477
+99,Rimini,H,30-49 anni,2570
+99,Rimini,I,30-49 anni,7474
+99,Rimini,J,30-49 anni,1260
+99,Rimini,K,30-49 anni,1518
+99,Rimini,L,30-49 anni,247
+99,Rimini,M,30-49 anni,1827
+99,Rimini,N,30-49 anni,2873
+99,Rimini,P,30-49 anni,264
+99,Rimini,Q,30-49 anni,2563
+99,Rimini,R,30-49 anni,955
+99,Rimini,S,30-49 anni,890
+99,Rimini,B,50 anni e più,6
+99,Rimini,C,50 anni e più,4546
+99,Rimini,D,50 anni e più,115
+99,Rimini,E,50 anni e più,487
+99,Rimini,F,50 anni e più,1137
+99,Rimini,G,50 anni e più,3719
+99,Rimini,H,50 anni e più,1522
+99,Rimini,I,50 anni e più,3297
+99,Rimini,J,50 anni e più,563
+99,Rimini,K,50 anni e più,914
+99,Rimini,L,50 anni e più,101
+99,Rimini,M,50 anni e più,697
+99,Rimini,N,50 anni e più,1371
+99,Rimini,P,50 anni e più,155
+99,Rimini,Q,50 anni e più,1438
+99,Rimini,R,50 anni e più,369
+99,Rimini,S,50 anni e più,439
+100,Prato,C,15-29 anni,4929
+100,Prato,D,15-29 anni,25
+100,Prato,E,15-29 anni,29
+100,Prato,F,15-29 anni,368
+100,Prato,G,15-29 anni,2004
+100,Prato,H,15-29 anni,469
+100,Prato,I,15-29 anni,1222
+100,Prato,J,15-29 anni,175
+100,Prato,K,15-29 anni,95
+100,Prato,L,15-29 anni,52
+100,Prato,M,15-29 anni,291
+100,Prato,N,15-29 anni,680
+100,Prato,P,15-29 anni,128
+100,Prato,Q,15-29 anni,233
+100,Prato,R,15-29 anni,85
+100,Prato,S,15-29 anni,382
+100,Prato,C,30-49 anni,22116
+100,Prato,D,30-49 anni,185
+100,Prato,E,30-49 anni,453
+100,Prato,F,30-49 anni,1579
+100,Prato,G,30-49 anni,5888
+100,Prato,H,30-49 anni,2401
+100,Prato,I,30-49 anni,1688
+100,Prato,J,30-49 anni,813
+100,Prato,K,30-49 anni,1014
+100,Prato,L,30-49 anni,206
+100,Prato,M,30-49 anni,1389
+100,Prato,N,30-49 anni,1941
+100,Prato,P,30-49 anni,473
+100,Prato,Q,30-49 anni,1047
+100,Prato,R,30-49 anni,189
+100,Prato,S,30-49 anni,854
+100,Prato,C,50 anni e più,9270
+100,Prato,D,50 anni e più,81
+100,Prato,E,50 anni e più,363
+100,Prato,F,50 anni e più,708
+100,Prato,G,50 anni e più,2729
+100,Prato,H,50 anni e più,1476
+100,Prato,I,50 anni e più,686
+100,Prato,J,50 anni e più,361
+100,Prato,K,50 anni e più,817
+100,Prato,L,50 anni e più,166
+100,Prato,M,50 anni e più,512
+100,Prato,N,50 anni e più,1162
+100,Prato,P,50 anni e più,166
+100,Prato,Q,50 anni e più,540
+100,Prato,R,50 anni e più,88
+100,Prato,S,50 anni e più,218
+101,Crotone,B,15-29 anni,1
+101,Crotone,C,15-29 anni,243
+101,Crotone,D,15-29 anni,15
+101,Crotone,E,15-29 anni,34
+101,Crotone,F,15-29 anni,227
+101,Crotone,G,15-29 anni,763
+101,Crotone,H,15-29 anni,121
+101,Crotone,I,15-29 anni,557
+101,Crotone,J,15-29 anni,36
+101,Crotone,K,15-29 anni,14
+101,Crotone,L,15-29 anni,9
+101,Crotone,M,15-29 anni,46
+101,Crotone,N,15-29 anni,283
+101,Crotone,P,15-29 anni,37
+101,Crotone,Q,15-29 anni,215
+101,Crotone,R,15-29 anni,81
+101,Crotone,S,15-29 anni,99
+101,Crotone,B,30-49 anni,21
+101,Crotone,C,30-49 anni,931
+101,Crotone,D,30-49 anni,138
+101,Crotone,E,30-49 anni,314
+101,Crotone,F,30-49 anni,956
+101,Crotone,G,30-49 anni,1834
+101,Crotone,H,30-49 anni,775
+101,Crotone,I,30-49 anni,766
+101,Crotone,J,30-49 anni,93
+101,Crotone,K,30-49 anni,212
+101,Crotone,L,30-49 anni,28
+101,Crotone,M,30-49 anni,199
+101,Crotone,N,30-49 anni,1564
+101,Crotone,P,30-49 anni,87
+101,Crotone,Q,30-49 anni,992
+101,Crotone,R,30-49 anni,81
+101,Crotone,S,30-49 anni,103
+101,Crotone,B,50 anni e più,19
+101,Crotone,C,50 anni e più,466
+101,Crotone,D,50 anni e più,119
+101,Crotone,E,50 anni e più,247
+101,Crotone,F,50 anni e più,582
+101,Crotone,G,50 anni e più,581
+101,Crotone,H,50 anni e più,601
+101,Crotone,I,50 anni e più,341
+101,Crotone,J,50 anni e più,58
+101,Crotone,K,50 anni e più,158
+101,Crotone,L,50 anni e più,16
+101,Crotone,M,50 anni e più,88
+101,Crotone,N,50 anni e più,319
+101,Crotone,P,50 anni e più,11
+101,Crotone,Q,50 anni e più,420
+101,Crotone,R,50 anni e più,17
+101,Crotone,S,50 anni e più,28
+102,Vibo Valentia,B,15-29 anni,3
+102,Vibo Valentia,C,15-29 anni,402
+102,Vibo Valentia,D,15-29 anni,5
+102,Vibo Valentia,E,15-29 anni,21
+102,Vibo Valentia,F,15-29 anni,213
+102,Vibo Valentia,G,15-29 anni,744
+102,Vibo Valentia,H,15-29 anni,101
+102,Vibo Valentia,I,15-29 anni,720
+102,Vibo Valentia,J,15-29 anni,15
+102,Vibo Valentia,K,15-29 anni,17
+102,Vibo Valentia,L,15-29 anni,10
+102,Vibo Valentia,M,15-29 anni,74
+102,Vibo Valentia,N,15-29 anni,67
+102,Vibo Valentia,P,15-29 anni,63
+102,Vibo Valentia,Q,15-29 anni,90
+102,Vibo Valentia,R,15-29 anni,43
+102,Vibo Valentia,S,15-29 anni,109
+102,Vibo Valentia,B,30-49 anni,6
+102,Vibo Valentia,C,30-49 anni,1326
+102,Vibo Valentia,D,30-49 anni,30
+102,Vibo Valentia,E,30-49 anni,106
+102,Vibo Valentia,F,30-49 anni,650
+102,Vibo Valentia,G,30-49 anni,1737
+102,Vibo Valentia,H,30-49 anni,528
+102,Vibo Valentia,I,30-49 anni,1024
+102,Vibo Valentia,J,30-49 anni,98
+102,Vibo Valentia,K,30-49 anni,200
+102,Vibo Valentia,L,30-49 anni,28
+102,Vibo Valentia,M,30-49 anni,370
+102,Vibo Valentia,N,30-49 anni,267
+102,Vibo Valentia,P,30-49 anni,155
+102,Vibo Valentia,Q,30-49 anni,306
+102,Vibo Valentia,R,30-49 anni,47
+102,Vibo Valentia,S,30-49 anni,102
+102,Vibo Valentia,B,50 anni e più,14
+102,Vibo Valentia,C,50 anni e più,524
+102,Vibo Valentia,D,50 anni e più,62
+102,Vibo Valentia,E,50 anni e più,93
+102,Vibo Valentia,F,50 anni e più,392
+102,Vibo Valentia,G,50 anni e più,560
+102,Vibo Valentia,H,50 anni e più,475
+102,Vibo Valentia,I,50 anni e più,396
+102,Vibo Valentia,J,50 anni e più,46
+102,Vibo Valentia,K,50 anni e più,102
+102,Vibo Valentia,L,50 anni e più,14
+102,Vibo Valentia,M,50 anni e più,153
+102,Vibo Valentia,N,50 anni e più,154
+102,Vibo Valentia,P,50 anni e più,36
+102,Vibo Valentia,Q,50 anni e più,140
+102,Vibo Valentia,R,50 anni e più,19
+102,Vibo Valentia,S,50 anni e più,48
+103,Verbano-Cusio-Ossola,B,15-29 anni,19
+103,Verbano-Cusio-Ossola,C,15-29 anni,720
+103,Verbano-Cusio-Ossola,D,15-29 anni,60
+103,Verbano-Cusio-Ossola,E,15-29 anni,22
+103,Verbano-Cusio-Ossola,F,15-29 anni,315
+103,Verbano-Cusio-Ossola,G,15-29 anni,924
+103,Verbano-Cusio-Ossola,H,15-29 anni,179
+103,Verbano-Cusio-Ossola,I,15-29 anni,1288
+103,Verbano-Cusio-Ossola,J,15-29 anni,63
+103,Verbano-Cusio-Ossola,K,15-29 anni,46
+103,Verbano-Cusio-Ossola,L,15-29 anni,30
+103,Verbano-Cusio-Ossola,M,15-29 anni,137
+103,Verbano-Cusio-Ossola,N,15-29 anni,197
+103,Verbano-Cusio-Ossola,P,15-29 anni,12
+103,Verbano-Cusio-Ossola,Q,15-29 anni,146
+103,Verbano-Cusio-Ossola,R,15-29 anni,61
+103,Verbano-Cusio-Ossola,S,15-29 anni,212
+103,Verbano-Cusio-Ossola,B,30-49 anni,99
+103,Verbano-Cusio-Ossola,C,30-49 anni,3823
+103,Verbano-Cusio-Ossola,D,30-49 anni,140
+103,Verbano-Cusio-Ossola,E,30-49 anni,310
+103,Verbano-Cusio-Ossola,F,30-49 anni,1223
+103,Verbano-Cusio-Ossola,G,30-49 anni,2796
+103,Verbano-Cusio-Ossola,H,30-49 anni,855
+103,Verbano-Cusio-Ossola,I,30-49 anni,1817
+103,Verbano-Cusio-Ossola,J,30-49 anni,242
+103,Verbano-Cusio-Ossola,K,30-49 anni,591
+103,Verbano-Cusio-Ossola,L,30-49 anni,72
+103,Verbano-Cusio-Ossola,M,30-49 anni,545
+103,Verbano-Cusio-Ossola,N,30-49 anni,664
+103,Verbano-Cusio-Ossola,P,30-49 anni,70
+103,Verbano-Cusio-Ossola,Q,30-49 anni,612
+103,Verbano-Cusio-Ossola,R,30-49 anni,138
+103,Verbano-Cusio-Ossola,S,30-49 anni,328
+103,Verbano-Cusio-Ossola,B,50 anni e più,72
+103,Verbano-Cusio-Ossola,C,50 anni e più,2186
+103,Verbano-Cusio-Ossola,D,50 anni e più,141
+103,Verbano-Cusio-Ossola,E,50 anni e più,262
+103,Verbano-Cusio-Ossola,F,50 anni e più,774
+103,Verbano-Cusio-Ossola,G,50 anni e più,1263
+103,Verbano-Cusio-Ossola,H,50 anni e più,822
+103,Verbano-Cusio-Ossola,I,50 anni e più,910
+103,Verbano-Cusio-Ossola,J,50 anni e più,107
+103,Verbano-Cusio-Ossola,K,50 anni e più,377
+103,Verbano-Cusio-Ossola,L,50 anni e più,42
+103,Verbano-Cusio-Ossola,M,50 anni e più,228
+103,Verbano-Cusio-Ossola,N,50 anni e più,411
+103,Verbano-Cusio-Ossola,P,50 anni e più,62
+103,Verbano-Cusio-Ossola,Q,50 anni e più,386
+103,Verbano-Cusio-Ossola,R,50 anni e più,46
+103,Verbano-Cusio-Ossola,S,50 anni e più,110
+108,Monza e della Brianza,B,15-29 anni,6
+108,Monza e della Brianza,C,15-29 anni,6694
+108,Monza e della Brianza,D,15-29 anni,75
+108,Monza e della Brianza,E,15-29 anni,136
+108,Monza e della Brianza,F,15-29 anni,1404
+108,Monza e della Brianza,G,15-29 anni,5973
+108,Monza e della Brianza,H,15-29 anni,1161
+108,Monza e della Brianza,I,15-29 anni,3893
+108,Monza e della Brianza,J,15-29 anni,870
+108,Monza e della Brianza,K,15-29 anni,237
+108,Monza e della Brianza,L,15-29 anni,146
+108,Monza e della Brianza,M,15-29 anni,1130
+108,Monza e della Brianza,N,15-29 anni,3328
+108,Monza e della Brianza,P,15-29 anni,165
+108,Monza e della Brianza,Q,15-29 anni,1284
+108,Monza e della Brianza,R,15-29 anni,329
+108,Monza e della Brianza,S,15-29 anni,1159
+108,Monza e della Brianza,B,30-49 anni,32
+108,Monza e della Brianza,C,30-49 anni,40423
+108,Monza e della Brianza,D,30-49 anni,279
+108,Monza e della Brianza,E,30-49 anni,1181
+108,Monza e della Brianza,F,30-49 anni,6296
+108,Monza e della Brianza,G,30-49 anni,22521
+108,Monza e della Brianza,H,30-49 anni,4734
+108,Monza e della Brianza,I,30-49 anni,5011
+108,Monza e della Brianza,J,30-49 anni,3440
+108,Monza e della Brianza,K,30-49 anni,2976
+108,Monza e della Brianza,L,30-49 anni,631
+108,Monza e della Brianza,M,30-49 anni,5354
+108,Monza e della Brianza,N,30-49 anni,8048
+108,Monza e della Brianza,P,30-49 anni,581
+108,Monza e della Brianza,Q,30-49 anni,5099
+108,Monza e della Brianza,R,30-49 anni,528
+108,Monza e della Brianza,S,30-49 anni,1974
+108,Monza e della Brianza,B,50 anni e più,41
+108,Monza e della Brianza,C,50 anni e più,24449
+108,Monza e della Brianza,D,50 anni e più,271
+108,Monza e della Brianza,E,50 anni e più,1012
+108,Monza e della Brianza,F,50 anni e più,3054
+108,Monza e della Brianza,G,50 anni e più,9797
+108,Monza e della Brianza,H,50 anni e più,2854
+108,Monza e della Brianza,I,50 anni e più,2218
+108,Monza e della Brianza,J,50 anni e più,1449
+108,Monza e della Brianza,K,50 anni e più,2302
+108,Monza e della Brianza,L,50 anni e più,267
+108,Monza e della Brianza,M,50 anni e più,2290
+108,Monza e della Brianza,N,50 anni e più,3080
+108,Monza e della Brianza,P,50 anni e più,269
+108,Monza e della Brianza,Q,50 anni e più,2574
+108,Monza e della Brianza,R,50 anni e più,173
+108,Monza e della Brianza,S,50 anni e più,690
+109,Fermo,B,15-29 anni,1
+109,Fermo,C,15-29 anni,2334
+109,Fermo,D,15-29 anni,16
+109,Fermo,E,15-29 anni,33
+109,Fermo,F,15-29 anni,202
+109,Fermo,G,15-29 anni,760
+109,Fermo,H,15-29 anni,66
+109,Fermo,I,15-29 anni,914
+109,Fermo,J,15-29 anni,52
+109,Fermo,K,15-29 anni,38
+109,Fermo,L,15-29 anni,10
+109,Fermo,M,15-29 anni,109
+109,Fermo,N,15-29 anni,192
+109,Fermo,P,15-29 anni,5
+109,Fermo,Q,15-29 anni,161
+109,Fermo,R,15-29 anni,97
+109,Fermo,S,15-29 anni,202
+109,Fermo,B,30-49 anni,2
+109,Fermo,C,30-49 anni,10101
+109,Fermo,D,30-49 anni,33
+109,Fermo,E,30-49 anni,279
+109,Fermo,F,30-49 anni,700
+109,Fermo,G,30-49 anni,3022
+109,Fermo,H,30-49 anni,767
+109,Fermo,I,30-49 anni,1096
+109,Fermo,J,30-49 anni,304
+109,Fermo,K,30-49 anni,471
+109,Fermo,L,30-49 anni,40
+109,Fermo,M,30-49 anni,587
+109,Fermo,N,30-49 anni,397
+109,Fermo,P,30-49 anni,41
+109,Fermo,Q,30-49 anni,518
+109,Fermo,R,30-49 anni,124
+109,Fermo,S,30-49 anni,239
+109,Fermo,B,50 anni e più,1
+109,Fermo,C,50 anni e più,6675
+109,Fermo,D,50 anni e più,28
+109,Fermo,E,50 anni e più,238
+109,Fermo,F,50 anni e più,290
+109,Fermo,G,50 anni e più,1257
+109,Fermo,H,50 anni e più,538
+109,Fermo,I,50 anni e più,513
+109,Fermo,J,50 anni e più,117
+109,Fermo,K,50 anni e più,401
+109,Fermo,L,50 anni e più,31
+109,Fermo,M,50 anni e più,252
+109,Fermo,N,50 anni e più,192
+109,Fermo,P,50 anni e più,18
+109,Fermo,Q,50 anni e più,261
+109,Fermo,R,50 anni e più,46
+109,Fermo,S,50 anni e più,90
+110,Barletta-Andria-Trani,B,15-29 anni,9
+110,Barletta-Andria-Trani,C,15-29 anni,2411
+110,Barletta-Andria-Trani,D,15-29 anni,12
+110,Barletta-Andria-Trani,E,15-29 anni,69
+110,Barletta-Andria-Trani,F,15-29 anni,468
+110,Barletta-Andria-Trani,G,15-29 anni,2903
+110,Barletta-Andria-Trani,H,15-29 anni,226
+110,Barletta-Andria-Trani,I,15-29 anni,2210
+110,Barletta-Andria-Trani,J,15-29 anni,102
+110,Barletta-Andria-Trani,K,15-29 anni,67
+110,Barletta-Andria-Trani,L,15-29 anni,51
+110,Barletta-Andria-Trani,M,15-29 anni,275
+110,Barletta-Andria-Trani,N,15-29 anni,271
+110,Barletta-Andria-Trani,P,15-29 anni,60
+110,Barletta-Andria-Trani,Q,15-29 anni,417
+110,Barletta-Andria-Trani,R,15-29 anni,255
+110,Barletta-Andria-Trani,S,15-29 anni,349
+110,Barletta-Andria-Trani,B,30-49 anni,144
+110,Barletta-Andria-Trani,C,30-49 anni,7706
+110,Barletta-Andria-Trani,D,30-49 anni,78
+110,Barletta-Andria-Trani,E,30-49 anni,480
+110,Barletta-Andria-Trani,F,30-49 anni,1757
+110,Barletta-Andria-Trani,G,30-49 anni,6781
+110,Barletta-Andria-Trani,H,30-49 anni,1344
+110,Barletta-Andria-Trani,I,30-49 anni,1896
+110,Barletta-Andria-Trani,J,30-49 anni,348
+110,Barletta-Andria-Trani,K,30-49 anni,671
+110,Barletta-Andria-Trani,L,30-49 anni,89
+110,Barletta-Andria-Trani,M,30-49 anni,916
+110,Barletta-Andria-Trani,N,30-49 anni,1117
+110,Barletta-Andria-Trani,P,30-49 anni,167
+110,Barletta-Andria-Trani,Q,30-49 anni,1613
+110,Barletta-Andria-Trani,R,30-49 anni,301
+110,Barletta-Andria-Trani,S,30-49 anni,367
+110,Barletta-Andria-Trani,B,50 anni e più,59
+110,Barletta-Andria-Trani,C,50 anni e più,3400
+110,Barletta-Andria-Trani,D,50 anni e più,139
+110,Barletta-Andria-Trani,E,50 anni e più,503
+110,Barletta-Andria-Trani,F,50 anni e più,1063
+110,Barletta-Andria-Trani,G,50 anni e più,2592
+110,Barletta-Andria-Trani,H,50 anni e più,880
+110,Barletta-Andria-Trani,I,50 anni e più,705
+110,Barletta-Andria-Trani,J,50 anni e più,137
+110,Barletta-Andria-Trani,K,50 anni e più,537
+110,Barletta-Andria-Trani,L,50 anni e più,32
+110,Barletta-Andria-Trani,M,50 anni e più,302
+110,Barletta-Andria-Trani,N,50 anni e più,596
+110,Barletta-Andria-Trani,P,50 anni e più,38
+110,Barletta-Andria-Trani,Q,50 anni e più,923
+110,Barletta-Andria-Trani,R,50 anni e più,68
+110,Barletta-Andria-Trani,S,50 anni e più,142
+111,Sud Sardegna,B,15-29 anni,5
+111,Sud Sardegna,C,15-29 anni,489
+111,Sud Sardegna,D,15-29 anni,81
+111,Sud Sardegna,E,15-29 anni,42
+111,Sud Sardegna,F,15-29 anni,374
+111,Sud Sardegna,G,15-29 anni,957
+111,Sud Sardegna,H,15-29 anni,242
+111,Sud Sardegna,I,15-29 anni,1507
+111,Sud Sardegna,J,15-29 anni,14
+111,Sud Sardegna,K,15-29 anni,24
+111,Sud Sardegna,L,15-29 anni,13
+111,Sud Sardegna,M,15-29 anni,74
+111,Sud Sardegna,N,15-29 anni,156
+111,Sud Sardegna,P,15-29 anni,16
+111,Sud Sardegna,Q,15-29 anni,288
+111,Sud Sardegna,R,15-29 anni,40
+111,Sud Sardegna,S,15-29 anni,128
+111,Sud Sardegna,B,30-49 anni,34
+111,Sud Sardegna,C,30-49 anni,2870
+111,Sud Sardegna,D,30-49 anni,127
+111,Sud Sardegna,E,30-49 anni,525
+111,Sud Sardegna,F,30-49 anni,1672
+111,Sud Sardegna,G,30-49 anni,4069
+111,Sud Sardegna,H,30-49 anni,1485
+111,Sud Sardegna,I,30-49 anni,2107
+111,Sud Sardegna,J,30-49 anni,139
+111,Sud Sardegna,K,30-49 anni,307
+111,Sud Sardegna,L,30-49 anni,40
+111,Sud Sardegna,M,30-49 anni,488
+111,Sud Sardegna,N,30-49 anni,914
+111,Sud Sardegna,P,30-49 anni,99
+111,Sud Sardegna,Q,30-49 anni,2054
+111,Sud Sardegna,R,30-49 anni,203
+111,Sud Sardegna,S,30-49 anni,287
+111,Sud Sardegna,B,50 anni e più,50
+111,Sud Sardegna,C,50 anni e più,1620
+111,Sud Sardegna,D,50 anni e più,205
+111,Sud Sardegna,E,50 anni e più,471
+111,Sud Sardegna,F,50 anni e più,977
+111,Sud Sardegna,G,50 anni e più,1262
+111,Sud Sardegna,H,50 anni e più,1081
+111,Sud Sardegna,I,50 anni e più,696
+111,Sud Sardegna,J,50 anni e più,67
+111,Sud Sardegna,K,50 anni e più,298
+111,Sud Sardegna,L,50 anni e più,9
+111,Sud Sardegna,M,50 anni e più,272
+111,Sud Sardegna,N,50 anni e più,589
+111,Sud Sardegna,P,50 anni e più,40
+111,Sud Sardegna,Q,50 anni e più,1124
+111,Sud Sardegna,R,50 anni e più,125
+111,Sud Sardegna,S,50 anni e più,62

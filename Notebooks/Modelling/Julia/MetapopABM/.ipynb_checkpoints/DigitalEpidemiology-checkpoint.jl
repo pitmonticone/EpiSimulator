@@ -443,7 +443,7 @@ function InitializeHousehold(agent, model)
         end
     end
     agent.household=[(agent.household...)...] 
-    household_ids=vcat(agent.household, agent.id) 
+    household_ids=[i for i in vcat(agent.household, agent.id)]
     household_agents=[a for a in allagents(model) if a.id in household_ids]
     for member in household_agents
         member.household=[id for id in household_ids if id != member.id]
@@ -840,7 +840,7 @@ function contact!(agent, model, location)
     neighbors=[n for n in agents if n != agent && n.status !=:D] 
 	### @ Home
     if location=="home" 
-        possible_contacted_agents=[a for a in allagents(model) if a.id in model.agents_at_home && a.residence==agent.residence && a.id in agent.household]
+        possible_contacted_agents=[a for a in allagents(model) if a.id in model.agents_at_home && a.id in agent.household]
         effective_contacted_agents=[]
         if model.phase == 3
             amplification=1.3
@@ -938,18 +938,16 @@ function migrate!(agent, model)
             agent.pos = target #move_agent!(agent, target, model)
         end
     end
-    if agent.id in model.agents_at_home
-        deleteat!(model.agents_at_home, findfirst(isequal(agent.id), model.agents_at_home))
-    end
+    setdiff(model.agents_at_home, agent.id)
 end
-### In-residence flow
+### In-household flow
 function move_back_home!(agent, model)
-    agent.pos == agent.residence && return
+    agent.id in model.agents_at_home && return
     if rand() ≤ model.h 
         agent.pos = agent.residence 
+        union(model.agents_at_home, agent.id)
     end
 end
-
 # EXPOSURE
 function get_exposed!(agent, model, contacted_agents)
 	agent.status!=:S && return

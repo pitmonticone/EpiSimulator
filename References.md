@@ -1,6 +1,6 @@
 <!-- Title -->
 <h1 align="center">
-  Readings 
+  References 
 </h1>
 
 ### Data

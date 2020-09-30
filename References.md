@@ -47,6 +47,7 @@
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020.
 #### Policy 
 * Desvars-Larrive, A., Dervic, E., Haug, N. et al. [A structured open dataset of government interventions in response to COVID-19](https://doi.org/10.1038/s41597-020-00609-9). *Scientific Data* 7, 285 (2020).
+
 ### Modelling
 #### Conceptual
 * Vespignani, A., Tian, H., Dye, C. et al. [Modelling COVID-19](https://doi.org/10.1038/s42254-020-0178-4). Nat Rev Phys 2, 279–281 (2020)
@@ -68,7 +69,6 @@
 #### ABM 
 * Iozzi F, Trusiano F, Chinazzi M, Billari FC, Zagheni E, Merler S, et al. (2010) [Little Italy: An Agent-Based Approach to the Estimation of Contact Patterns- Fitting Predicted Matrices to Serological Data](https://doi.org/10.1371/journal.pcbi.1001021). *PLoS Comput Biol* 6(12): e1001021. 
 * Seyed M. Moghadas, Meagan C. Fitzpatrick, Pratha Sah, Abhishek Pandey, Affan Shoukat, Burton H. Singer, and Alison P. Galvani. [The implications of silent transmission for the control of COVID-19 outbreaks](https://doi.org/10.1073/pnas.2008373117). *PNAS* 117 (30) 17513-17515 (2020) 
-
 #### Calibration
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020.
@@ -108,12 +108,3 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
 #### Mortality 
 * WHO, [Estimating mortality from COVID-19](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19), *Scientific Brief* (2020)
-
-
-
-
-
-
-
-#### Mortality 
-

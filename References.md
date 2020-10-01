@@ -69,6 +69,7 @@
 #### ABM 
 * Iozzi F, Trusiano F, Chinazzi M, Billari FC, Zagheni E, Merler S, et al. (2010) [Little Italy: An Agent-Based Approach to the Estimation of Contact Patterns- Fitting Predicted Matrices to Serological Data](https://doi.org/10.1371/journal.pcbi.1001021). *PLoS Comput Biol* 6(12): e1001021. 
 * Seyed M. Moghadas, Meagan C. Fitzpatrick, Pratha Sah, Abhishek Pandey, Affan Shoukat, Burton H. Singer, and Alison P. Galvani. [The implications of silent transmission for the control of COVID-19 outbreaks](https://doi.org/10.1073/pnas.2008373117). *PNAS* 117 (30) 17513-17515 (2020) 
+* *Coronavirus Fraser Group*. [OpenABM-Covid19: Agent-based model for the COVID-19 epidemic](https://github.com/BDI-pathogens/OpenABM-Covid19). (2020)
 #### Calibration
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020.
@@ -78,6 +79,7 @@
 * Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
 #### Surveillance 
 * Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance](https://doi.org/10.1101/2020.06.22.20136309), *medRxiv* (2020)
+* Michael J. Mina, Roy Parker, Daniel B. Larremore [Rethinking Covid-19 Test Sensitivity — A Strategy for Containment](https://doi.org/10.1056/NEJMp2025631), *NEJM* (2020)
 * Yang Liu et al. [A Modelling Study for Designing a Multi-layered Surveillance Approach to Detect the Potential Resurgence of SARS-CoV-2](https://doi.org/10.1101/2020.06.27.20141440), *medRxiv* (2020)
 * Frank G Sandmann, Peter J White, Mary Ramsay, Mark Jit, [Optimizing Benefits of Testing Key Workers for Infection with SARS-CoV-2: A Mathematical Modeling Analysis](https://doi.org/10.1093/cid/ciaa901), *Clinical Infectious Diseases*,  ciaa901
 * Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillance strategies for preventing epidemics on networks](https://doi.org/10.1371/journal.pcbi.1007517). *PLoS Comput Biol* 15(11): e1007517. 

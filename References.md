@@ -3,6 +3,23 @@
   References 
 </h1>
 
+### Data 
+
+European Centre for Disease Prevention and Control. Increased transmission of COVID-19 in the EU/EEA and the UK – 24 September 2020. ECDC: Stockholm; 2020.
+European Centre for Disease Prevention and Control. Strategies for the surveillance of COVID-19. Stockholm: ECDC; 2020
+Guidelines for non-pharmaceutical interventions to reduce the impact of COVID-19 in the EU/EEA and the UK. 24 September 2020. ECDC: Stockholm; 2020.
+https://doi.org/10.1101/2020.04.16.20066787
+https://osf.io/jserd/
+
+Buitrago-Garcia D, Egli-Gany D, Counotte MJ, Hossmann S, Imeri H, Ipekci AM, et al. (2020) Occurrence and transmission potential of asymptomatic and presymptomatic SARS-CoV-2 infections: A living systematic review and meta-analysis. PLoS Med 17(9): e1003346. https://doi.org/10.1371/journal.pmed.1003346
+
+Daniel P. Oran, Eric J. Topol. Prevalence of Asymptomatic SARS-CoV-2 Infection: A Narrative Review https://doi.org/10.7326/M20-3012
+
+https://doi.org/10.1016/S1473-3099(20)30460-6
+
+https://www.nejm.org/doi/full/10.1056/NEJMc2013020
+
+
 ### Data
 #### Geospatial
 * ISTAT, [Confini delle unità amministrative a fini statistici al 1° Gennaio 2020](https://www.istat.it/it/archivio/222527). (2020)

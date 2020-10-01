@@ -67,6 +67,11 @@
 * Hassan S, Mughal BJ, Siwiak M, Yasin Z. [A modified SEIR meta-population transmission based Modeling and Forecasting of the COVID-19 pandemic in Pakistan](https://doi.org/10.1101/2020.06.03.20121517). *medRxiv*, 2020
 * Stephen J Beckett et al. [Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://doi.org/10.1101/2020.05.28.20115642). *medRxiv pre-print* (2020)
 #### ABM 
+* Ajelli, M., Gonçalves, B., Balcan, D. et al. [Comparing large-scale computational approaches to epidemic modeling: Agent-based versus structured metapopulation models](https://doi.org/10.1186/1471-2334-10-190). *BMC Infect Dis* 10, 190 (2010). 
+* Ferguson, N., Cummings, D., Cauchemez, S. et al. [Strategies for containing an emerging influenza pandemic in Southeast Asia](https://doi.org/10.1038/nature04017). *Nature* 437, 209–214 (2005). 
+* Ferguson, N., Cummings, D., Fraser, C. et al. [Strategies for mitigating an influenza pandemic](https://doi.org/10.1038/nature04795). *Nature* 442, 448–452 (2006).
+* Ciofi degli Atti ML, Merler S, Rizzo C, Ajelli M, Massari M, Manfredi P, et al. (2008) [Mitigation Measures for Pandemic Influenza in Italy: An Individual Based Model Considering Different Scenarios](https://doi.org/10.1371/journal.pone.0001790). *PLoS ONE* 3(3): e1790. 
+* Ajelli M, Merler S (2008) [The Impact of the Unstructured Contacts Component in Influenza Pandemic Modeling](https://doi.org/10.1371/journal.pone.0001519). *PLoS ONE* 3(1): e1519.
 * Iozzi F, Trusiano F, Chinazzi M, Billari FC, Zagheni E, Merler S, et al. (2010) [Little Italy: An Agent-Based Approach to the Estimation of Contact Patterns- Fitting Predicted Matrices to Serological Data](https://doi.org/10.1371/journal.pcbi.1001021). *PLoS Comput Biol* 6(12): e1001021. 
 * Seyed M. Moghadas, Meagan C. Fitzpatrick, Pratha Sah, Abhishek Pandey, Affan Shoukat, Burton H. Singer, and Alison P. Galvani. [The implications of silent transmission for the control of COVID-19 outbreaks](https://doi.org/10.1073/pnas.2008373117). *PNAS* 117 (30) 17513-17515 (2020) 
 * *Coronavirus Fraser Group*. [OpenABM-Covid19: Agent-based model for the COVID-19 epidemic](https://github.com/BDI-pathogens/OpenABM-Covid19). (2020)

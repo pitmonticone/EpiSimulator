@@ -82,7 +82,7 @@ We have collected and processed provincial-level geo-spatial data for Italy [@Is
 
 ![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Slides/figures/Mobility.png)
 
-The heterogeneous contact patterns among provincial sub-populations are governed by synthetic contact matrices [@Prem2017] whose components $C_{ij}^{L}$ represent the frequency of daily contacts that a given agent of age group $i$ has with any agent of age group $j$ in a given location $L \in$ {Home, School, Work, Other}.
+The heterogeneous contact patterns among provincial sub-populations are governed by synthetic contact matrices [@Prem2017] whose components $C_{ij}^{L}$ represent the daily contacts that a given agent of age group $i$ has with any agent of age group $j$ in a given location $L \in$ {Home, School, Work, Other}.
 
 ![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Slides/figures/Contact.png)
 
@@ -98,14 +98,14 @@ The number of agents in each provincial node and each age group is determined by
 * infection state $x \in \{S,E,I_a,I_p,I_s,R,D\}$
 * diagnostic state $d \in \{O,N,P,W,R\}$
 
-In order to initialize the workplace locations we let each agent migrate from its residence node according to the probability vector defined by the mobility weights. The workplace community is populated by the agents who have been contacted according to $C_{ij}^{\text{Work}}$ sharing the workplace location, while the household community is populated by the agents who have been contacted according to $C_{ij}^{\text{Home}}$.
+In order to initialize the workplace locations we let each agent migrate from its residence node according to the probability vector defined by the mobility weights $M_{ij}$. The workplace community is populated by the agents who have been contacted according to $C_{ij}^{\text{Work}}$ sharing the workplace location, while the household community is populated by the agents who have been contacted according to $C_{ij}^{\text{Home}}$.
 
 ## Model 
 
 The model is composed of two main (extendable) components: the epidemic module governing the micro, individual-level dynamics and the surveillance module depicting the macro, system-level dynamics.
 
 
-### Epidemic module
+### Infectious disease transmission dynamics
 
 The state space of the epidemic compartmental module developed to describe the natural history of the disease is defined by the following states: susceptible ($S$), exposed or latent ($E$), asymptomatic infected ($I_a$), pre-symptomatic infected ($I_p$), symptomatic infected ($I_s$), recovered ($R$), died ($D$). All the relevant epidemiological parameters and timing distributions are reported in the [Appendix](#appendix).
 
@@ -120,19 +120,19 @@ The scheduled behaviors of the patient is structured as follows:
 5. contact a sample of the population in the current nodal location determined by $C_{ij}^{\text{Other}}$;
 6. move back home with probability $p_h$;
 
-### Public health surveillance module
+### Public health surveillance dynamics
 
-The state space of the surveillance compartmental module developed to describe the diagnostic protocol is defined by the following states: untested ($O$), tested negative ($N$), tested positive and not yet negative ($P$), tested negative after being tested positive at least once waiting for second negative test confirming recovery ($W$), tested negative twice consecutively after being positive ($R$). All the relevant diagnostic performance parameters are taken into account and reported in the appendix. All patients diagnosed as $P$ or $W$ are quarantined at home so that all the contacts in alternative locations are prevented.  
+The state space of the surveillance compartmental module developed to describe the diagnostic protocol is defined by the following states: untested ($O$), tested negative ($N$), tested positive and not yet negative ($P$), tested negative after being tested positive at least once waiting for second negative test confirming recovery ($W$), tested negative twice consecutively after being positive ($R$). All the relevant diagnostic performance parameters are taken into account and reported in the [Appendix](#Appendix). All patients diagnosed as $P$ or $W$ are quarantined at home so that all the contacts in other locations are prevented.  
 
 <p align="center">
 <img src="/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Surveillance/SurveillanceModelDiagram.png" alt="" width="555"/>
 </p>
 
-The surveillance module controls all the policy interventions such as inter- and intra-provincial mobility restrictions: we have aggregated the mobility dataset into three distinct phases by building with the graphs and integrating information about the timing and stringency of national and sub-national policy interventions [@Hale2020; @DesvarsLarrive2020]. In particular in *phase 3* we modeled the national lockdown enforcement modulating the contact matrices by an amplification factor [@Prem2020].
+The surveillance module controls all the policy interventions such as inter- and intra-provincial mobility restrictions: we have aggregated the mobility dataset into three distinct phases by integrating information about the timing and stringency of national and sub-national policy interventions [@Hale2020; @DesvarsLarrive2020]. In particular in *phase 3* we modeled the national lockdown enforcement modulating the contact matrices by an amplification factor [@Prem2020].
 
 ## Appendix 
 
-#### Epidemiological Parameters & Timing Distributions
+#### Epidemiological parameters & timing distributions 
 
 | Name | Value | Description | References | 
 | :---- | :---- | :---- | :---- | 

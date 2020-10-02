@@ -15,6 +15,11 @@
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020).
 
+### Contact 
+
+* Arregui S, Aleta A, Sanz J, Moreno Y (2018) Projecting social contact matrices to different demographic structures. PLoS Comput Biol 14(12): e1006638. https://doi.org/10.1371/journal.pcbi.1006638
+* Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread. PLoS Comput Biol 8(9): e1002673. https://doi.org/10.1371/journal.pcbi.1002673
+
 ## Approaches
 
 ### Metapopulation

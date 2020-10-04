@@ -30,6 +30,7 @@
 * Lisboa Bastos Mayara, Tavaziva Gamuchirai, Abidi Syed Kunal, Campbell Jonathon R, Haraoui Louis-Patrick, Johnston James C et al. [Diagnostic accuracy of serological tests for covid-19: systematic review and meta-analysis](https://doi.org/10.1136/bmj.m2516) *BMJ* 2020; 370 :m2516
 * Kucirka, Lauren M., et al. [Variation in false-negative rate of reverse transcriptase polymerase chain reaction–based SARS-CoV-2 tests by time since exposure](https://doi.org/10.7326/M20-1495). *Annals of Internal Medicine* (2020).
 * ISTAT, [First results of the SARS-CoV-2 seroprevalence study](https://www.istat.it/it/files//2020/08/ReportPrimiRisultatiIndagineSiero.pdf) (2020)
+* Amy E Benefield et al. [SARS-CoV-2 viral load peaks prior to symptom onset: a systematic review and individual-pooled analysis of coronavirus viral load from 66 studies](https://doi.org/10.1101/2020.09.28.20202028). *medRxiv pre-print* (2020).
 
 ## Epidemiological
 * Our World in Data, [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data).

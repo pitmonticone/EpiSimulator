@@ -21,3 +21,12 @@
 
 ## Computing
 * [GoogleCloudPlatform/covid-19-open-data](https://github.com/GoogleCloudPlatform/covid-19-open-data)
+
+## Packages 
+
+### Julia
+
+### Python 
+
+### R 
+https://github.com/reconhub/incidence

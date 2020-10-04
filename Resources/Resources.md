@@ -42,11 +42,3 @@ Frazão, T., Camilo, D., Cabral, E. et al. Multicriteria decision analysis (MCDA
 
 ### Economics 
 https://www.localopportunitieslab.it/wp-content/uploads/2020/08/The-heterogenous-impact-of-Covid19-Evidence-from-Italian-municipalities-Armillei-and-Filippucci.pdf
-
-## GitHub
-
-https://github.com/bwilder0/covid_abm_release
-https://github.com/ABM-Lab/covid19abm.jl
-
-https://github.com/LarremoreLab/covid_surveillance_testing/blob/master/SEIR_viral_load.py
-https://github.com/GoogleCloudPlatform/covid-19-open-data

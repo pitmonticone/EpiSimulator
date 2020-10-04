@@ -3,13 +3,15 @@
   Modelling 
 </h1>
 
-## Conceptual
+## Conceptualization & Ethics 
 
 * Vespignani, A., Tian, H., Dye, C. et al. [Modelling COVID-19](https://doi.org/10.1038/s42254-020-0178-4). Nat Rev Phys 2, 279–281 (2020)
 * Metcalf et al. [Mathematical models to guide pandemic response](https://doi.org/10.1126/science.abd1668). *Science Perspective* (2020).
 * Ernesto Estrada. [COVID-19 and SARS-CoV-2. Modeling the present, looking at the future](https://doi.org/10.1016/j.physrep.2020.07.005). *Physics Reports* (2020).
 * Bjørnstad, O.N., Shea, K., Krzywinski, M. et al. [The SEIRS model for infectious disease dynamics](https://doi.org/10.1038/s41592-020-0856-2). *Nature Methods* 17, 557–558 (2020). 
 * Grantz, K.H., Meredith, H.R., Cummings, D.A.T. et al. [The use of mobile phone data to inform analysis of COVID-19 pandemic epidemiology](https://doi.org/10.1038/s41467-020-18190-5). *Nat Commun* 11, 4961 (2020). 
+* Joel Hellewell, [When are models “just a model”?](https://jhellewell14.github.io/2020/09/28/models-just-model.html)
+* Grimm, V., Johnston, A.S.A., Thulke, H. et al. [Three questions to ask before using model outputs for decision support](https://doi.org/10.1038/s41467-020-17785-2). Nat Commun 11, 4959 (2020).
 
 ## Calibration
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
@@ -39,6 +41,7 @@
 * Stephen J Beckett et al. [Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://doi.org/10.1101/2020.05.28.20115642). *medRxiv pre-print* (2020)
 
 ### Agent-Based  
+* Willem, L., Verelst, F., Bilcke, J. et al. [Lessons from a decade of individual-based models for infectious disease transmission: a systematic review (2006-2015)](https://doi.org/10.1186/s12879-017-2699-8). BMC Infect Dis 17, 612 (2017). 
 * Ajelli, M., Gonçalves, B., Balcan, D. et al. [Comparing large-scale computational approaches to epidemic modeling: Agent-based versus structured metapopulation models](https://doi.org/10.1186/1471-2334-10-190). *BMC Infect Dis* 10, 190 (2010). 
 * Ferguson, N., Cummings, D., Cauchemez, S. et al. [Strategies for containing an emerging influenza pandemic in Southeast Asia](https://doi.org/10.1038/nature04017). *Nature* 437, 209–214 (2005). 
 * Ferguson, N., Cummings, D., Fraser, C. et al. [Strategies for mitigating an influenza pandemic](https://doi.org/10.1038/nature04795). *Nature* 442, 448–452 (2006).
@@ -47,6 +50,7 @@
 * Iozzi F, Trusiano F, Chinazzi M, Billari FC, Zagheni E, Merler S, et al. (2010) [Little Italy: An Agent-Based Approach to the Estimation of Contact Patterns- Fitting Predicted Matrices to Serological Data](https://doi.org/10.1371/journal.pcbi.1001021). *PLoS Comput Biol* 6(12): e1001021. 
 * Seyed M. Moghadas, Meagan C. Fitzpatrick, Pratha Sah, Abhishek Pandey, Affan Shoukat, Burton H. Singer, and Alison P. Galvani. [The implications of silent transmission for the control of COVID-19 outbreaks](https://doi.org/10.1073/pnas.2008373117). *PNAS* 117 (30) 17513-17515 (2020) 
 * *Coronavirus Fraser Group*. [OpenABM-Covid19: Agent-based model for the COVID-19 epidemic](https://github.com/BDI-pathogens/OpenABM-Covid19). (2020)
+* Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
 
 ## Modules
 
@@ -57,6 +61,7 @@
 * Marino Gatto et al. [Spread and dynamics of the COVID-19 epidemic in Italy: Effects of emergency containment measures](https://doi.org/10.1073/pnas.2004978117). *PNAS* (2020)
 * Bertuzzo, E., Mari, L., Pasetto, D. et al. [The geography of COVID-19 spread in Italy and implications for the relaxation of confinement measures](https://doi.org/10.1038/s41467-020-18050-2). Nat Commun 11, 4264 (2020)
 * Aleta, A., Martín-Corral, D., Pastore y Piontti, A. et al. [Modelling the impact of testing, contact tracing and household quarantine on second waves of COVID-19](https://doi.org/10.1038/s41562-020-0931-9). Nat Hum Behav (2020)
+* Mario Castro, Saúl Ares, José A. Cuesta, Susanna Manrubia. [The turning point and end of an expanding epidemic cannot be precisely forecast](https://doi.org/10.1073/pnas.2007868117). *Proceedings of the National Academy of Sciences* 2020, 202007868
 
 ### Surveillance 
 * Daniel B Larremore et al. [Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance](https://doi.org/10.1101/2020.06.22.20136309), *medRxiv* (2020)

@@ -22,6 +22,9 @@
 
 ## Approaches
 
+### EBM 
+* Pernice S, Castagno P, Marcotulli L, et al. (2020). [Undetected Cases of Covid-19 and Effects of Social Distancing Strategies: a Modeling Study in Piedmont Region](https://repo.epiprev.it/929). *E&P Repository* 
+
 ### Metapopulation
 * Alun Lloyd, Vincent Jansenc. [Spatiotemporal dynamics of epidemics: synchrony in metapopulation models](https://doi.org/10.1016/j.mbs.2003.09.003). *Mathematical Biosciences* (2004).
 * Duncan J. Watts et al. [Multiscale, resurgent epidemics in a hierarchical metapopulation model](https://doi.org/10.1073/pnas.0501226102). *PNAS* (2005)

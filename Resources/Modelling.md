@@ -25,7 +25,10 @@
 ## Approaches
 
 ### EBM 
-* Pernice S, Castagno P, Marcotulli L, et al. (2020). [Undetected Cases of Covid-19 and Effects of Social Distancing Strategies: a Modeling Study in Piedmont Region](https://repo.epiprev.it/929). *E&P Repository* 
+* Pernice S, Castagno P, Marcotulli L, et al. (2020). [Undetected Cases of Covid-19 and Effects of Social Distancing Strategies: a Modeling Study in Piedmont Region](https://repo.epiprev.it/929). *E&P Repository*
+* Castagno, P., Pernice, S., Ghetti, G. et al. [A computational framework for modeling and studying pertussis epidemiology and vaccination](https://doi.org/10.1186/s12859-020-03648-6). *BMC Bioinformatics* 21, 344 (2020). 
+
+
 
 ### Metapopulation
 * Alun Lloyd, Vincent Jansenc. [Spatiotemporal dynamics of epidemics: synchrony in metapopulation models](https://doi.org/10.1016/j.mbs.2003.09.003). *Mathematical Biosciences* (2004).

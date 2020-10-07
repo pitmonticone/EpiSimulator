@@ -17,6 +17,7 @@
 ### Bruno Kessler Foundation (FBK)
 * Piero Poletti | [Mail](poletti@fbk.eu) 
 * Stefano Merler | [Mail](merler@fbk.eu)
+* Manlio De Domenico | [Mail](mdedomenico@fbk.eu) | [Twitter](https://twitter.com/manlius84)
 
 ### INSERM
 * Eugenio Valdano | [Mail](eugenio.valdano@gmail.com) | [GitHub](https://github.com/eugenio-valdano) | [Twitter](https://twitter.com/eugeValdano)

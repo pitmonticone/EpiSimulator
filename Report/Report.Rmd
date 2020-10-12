@@ -1,7 +1,7 @@
 ---
 title: "Computational Epidemiology Project<br>"
 subtitle: '<em>A data-driven stochastic hybrid model for Italy</em> <br>'
-author: 'Pietro Monticone | [`r icon::fa("at", color="white")`](pietro.monticone@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/pitmonticone) [`r icon::fa("twitter", color="white")`](https://twitter.com/PietroMonticone)<br>&nbsp;Davide Orsenigo &nbsp;| [`r icon::fa("at", color="white")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/daorse) [`r icon::fa("twitter", color="white")`](https://twitter.com/DavideOrsenigo)<br>'
+author: 'Pietro Monticone | [`r icon::fa("at", color="white")`](pietro.monticone@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/pitmonticone) [`r icon::fa("twitter", color="white")`](https://twitter.com/PietroMonticone)<br>Davide Orsenigo &nbsp;| [`r icon::fa("at", color="white")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github", color="white")`](https://github.com/daorse) [`r icon::fa("twitter", color="white")`](https://twitter.com/DavideOrsenigo)<br>'
 date: "`r Sys.Date()`, *University of Turin*"
 output: 
   prettydoc::html_pretty:
@@ -76,15 +76,15 @@ library(tidyverse)
 ### Apply SciML to ABMs 
 ```
 
-## Data 
+## Data {#data}
 
-We have collected and processed provincial-level geo-spatial data for Italy [@IstatGeo2020] in order to construct the mobility graph, whose nodes represent provinces which are populated according to age-stratified census data [@IstatPop2020] (16 equi-spaced age groups from 0 to 80) and whose normalized weighted directed edges encode inter-provincial traffic flows [@Pepe2020].
+We have collected and processed provincial-level geo-spatial data for Italy [@IstatGeo2020] in order to construct the mobility graph, whose nodes represent provinces which are populated according to age-stratified census data [@IstatPop2020] and whose normalized weighted directed edges encode inter-provincial traffic flows [@Pepe2020].
 
-![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Slides/figures/Mobility.png)
+![](Images/Mobility.png)
 
-The heterogeneous contact patterns among provincial sub-populations are governed by synthetic contact matrices [@Prem2017] whose components $C_{ij}^{L}$ represent the daily contacts that a given agent of age group $i$ has with any agent of age group $j$ in a given location $L \in$ {Home, School, Work, Other}.
+The heterogeneous contact patterns among provincial sub-populations are governed by synthetic contact matrices [@Prem2017] whose components $C_{ij}^{L}$ represent the daily contacts that a given agent belonging to age group $i$ has with any agent of age group $j$ in a given location $L \in$ {Home, School, Work, Other}.
 
-![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Slides/figures/Contact.png)
+![](Images/Contact.png)
 
 The number of agents in each provincial node and each age group is determined by the actual provincial population adjusted by a scale factor. The internal structure of the agent is completely specified by the following attributes: 
 
@@ -100,16 +100,17 @@ The number of agents in each provincial node and each age group is determined by
 
 In order to initialize the workplace locations we let each agent migrate from its residence node according to the probability vector defined by the mobility weights $M_{ij}$. The workplace community is populated by the agents who have been contacted according to $C_{ij}^{\text{Work}}$ sharing the workplace location, while the household community is populated by the agents who have been contacted according to $C_{ij}^{\text{Home}}$.
 
-## Model 
+## Model {#model}
 
-The model is composed of two main (extendable) components: the epidemic module governing the micro, individual-level dynamics and the surveillance module depicting the macro, system-level dynamics.
+The model consists of two main (extendable) components: the infectious disease transmission module governing the micro, individual-level dynamics and the public health surveillance module driving the macro, system-level dynamics.
 
+### Transmission dynamics {#transmission-module}
 
-### Infectious disease transmission dynamics
+The state space of the transmission compartmental module developed to describe the natural history of the disease is defined by the following states: susceptible ($S$), exposed or latent ($E$), asymptomatic infected ($I_a$), pre-symptomatic infected ($I_p$), symptomatic infected ($I_s$), recovered ($R$), died ($D$). All the relevant epidemiological parameters and timing distributions are reported in the [Appendix](#parameters).
 
-The state space of the epidemic compartmental module developed to describe the natural history of the disease is defined by the following states: susceptible ($S$), exposed or latent ($E$), asymptomatic infected ($I_a$), pre-symptomatic infected ($I_p$), symptomatic infected ($I_s$), recovered ($R$), died ($D$). All the relevant epidemiological parameters and timing distributions are reported in the [Appendix](#appendix).
-
-![](/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Epidemiology/EpidemicModelDiagram.png)
+<p align="center">
+<img src="Images/EpidemicModelDiagram.png" alt="" width="650"/>
+</p>
 
 The scheduled behaviors of the patient is structured as follows:
 
@@ -120,19 +121,109 @@ The scheduled behaviors of the patient is structured as follows:
 5. contact a sample of the population in the current nodal location determined by $C_{ij}^{\text{Other}}$;
 6. move back home with probability $p_h$;
 
-### Public health surveillance dynamics
+### Surveillance dynamics {#surveillance-module}
 
-The state space of the surveillance compartmental module developed to describe the diagnostic protocol is defined by the following states: untested ($O$), tested negative ($N$), tested positive and not yet negative ($P$), tested negative after being tested positive at least once waiting for second negative test confirming recovery ($W$), tested negative twice consecutively after being positive ($R$). All the relevant diagnostic performance parameters are taken into account and reported in the [Appendix](#Appendix). All patients diagnosed as $P$ or $W$ are quarantined at home so that all the contacts in other locations are prevented.  
+The state space of the surveillance compartmental module developed to describe the diagnostic protocol is defined by the following states: untested ($O$), tested negative ($N$), tested positive and not yet negative ($P$), tested negative after being tested positive at least once waiting for second negative test confirming recovery ($W$), tested negative twice consecutively after being positive ($R$). All the relevant diagnostic performance parameters are taken into account and reported in the [Appendix](#parameters). All patients diagnosed as $P$ or $W$ are quarantined at home so that all the contacts in other locations are prevented.  
 
 <p align="center">
-<img src="/Users/Pit/GitHub/DigitalEpidemiologyProject/Images/Surveillance/SurveillanceModelDiagram.png" alt="" width="555"/>
+<img src="Images/SurveillanceModelDiagram.png" alt="" width="525"/>
 </p>
 
-The surveillance module controls all the policy interventions such as inter- and intra-provincial mobility restrictions: we have aggregated the mobility dataset into three distinct phases by integrating information about the timing and stringency of national and sub-national policy interventions [@Hale2020; @DesvarsLarrive2020]. In particular in *phase 3* we modeled the national lockdown enforcement modulating the contact matrices by an amplification factor [@Prem2020].
+The surveillance module controls all the policy interventions such as inter- and intra-provincial mobility restrictions: we have aggregated the mobility dataset into four distinct phases by integrating information about the timing and stringency of national and sub-national policy interventions [@Hale2020; @DesvarsLarrive2020]. In particular in *phase 3* we modeled the national lockdown enforcement by modulating the contact matrices by an amplification factor [@Prem2020].
+
+## Objectives {#objectives}
+
+1. Model calibration on national and sub-national epidemiological data for Italy
+1. Scenario analysis to explore the impact of exogenous/policy-driven and endogenous/behavior-driven social distancing
+1. Sensitivity analysis to test the robustness of the model to changes in timing distributions, behavioral and mobility patterns, household and workplace structures,  geo-spatial and temporal resolutions, digital contact-tracing coverage
+1. Multi-objective assessment (e.g. public health vs. epistemic, clinical vs. epidemiological value) of the [portfolio of diagnostic strategies](#diagnostic-strategies) implemented by the surveillance module
+
+## Current limitations {#limitations}
+
+* All typical limitations of agent-based and metapopulation models are inherited [@Ajelli2010]
+* Geospatial and temporal resolutions
+* Conservation of global population size
+* Large uncertainty in the initial condition (date, location and number of infected patients)
+* Lack of realistic regional-level heterogeneity in [diagnostic protocols](#diagnostic-strategies)
+* Absence of severity levels (*mild*, *severe*, *critical*) sub-compartments for symptomatic patients in [transmission module](#transmission-module)
+* Absence of hospitalization ($H$, $ICU$) compartments in [transmission module](#transmission-module)
+* Absence of behavioral module 
+* Absence of diagnostic performance of medical doctors (in absence of laboratory resources)
+
+## Future developments {#future-developments}
+
+1. Implementation of severity levels (*mild*, *severe*, *critical*) sub-compartments for symptomatic patients in [transmission module](#transmission-module)
+1. Implementation of hospitalization ($H$, $ICU$) compartments in [transmission module](#transmission-module)
+1. Implementation of global and local, prevalence-based and opinion-based behavioral module 
+1. Violation of conservation of global population size with airport mobility 
+1. Fine-graining of household and workplace structures
+1. Model calibration on a given region with municipal-level mobility and epidemiological data
+
+<p align="center">
+<iframe width="600" height="315" src="https://www.youtube.com/embed/dQT0gO4TQK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="600" height="315" src="https://www.youtube.com/embed/L1peXUQZLAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 ## Appendix 
 
-#### Epidemiological parameters & timing distributions 
+### Computational framework
+
+| Language  | Activity |
+| :---- | :---- |
+| [Python](https://www.python.org/) | Data collection | 
+| | Data wrangling | 
+|  | Data visualization | 
+| [Julia](https://julialang.org) | Modelling | 
+|  | Scenario analysis | 
+|  | Multi-objective assessment | 
+
+### Diagnostic strategies {#diagnostic-strategies}
+
+| Role | Scale | Priority | Distribution | Digital Contact-Tracing | 
+| :---- | :---- | :---- | :---- | :----: |
+| Passive | National | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Regional | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Provincial | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+| Active | National | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Regional | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+|  | Provincial | Random | Uniform | No |
+|  |  |  |  | Yes |
+|  |  | Targeted | Centrality-based | Yes |
+|  |  | Targeted | Age-based / Ex-Ante IFR | No |
+|  |  |  | | Yes |
+|  |  |  | Symptom-based / Ex-Post IFR | No |
+|  |  |  | | Yes |
+
+### Parameters & distributions {#parameters}
 
 | Name | Value | Description | References | 
 | :---- | :---- | :---- | :---- | 

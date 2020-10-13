@@ -6,7 +6,7 @@
 * [GoogleCloudPlatform/covid-19-open-data](https://github.com/GoogleCloudPlatform/covid-19-open-data): 
 This repository contains datasets of daily time-series data related to COVID-19 for 50+ countries around the world. 
 
-### Symptomatology
+### Symptoms
 * [PAIR-code/covid19_symptom_dataset](https://github.com/PAIR-code/covid19_symptom_dataset)
 
 ### Contact 
@@ -31,13 +31,17 @@ doi: https://doi.org/10.1038/s41591-020-1104-0
 * [bwilder0/covid_abm_release](https://github.com/bwilder0/covid_abm_release)
 * [ABM-Lab/covid19abm.jl](https://github.com/ABM-Lab/covid19abm.jl)
 * [BDI-pathogens/OpenABM-Covid19](https://github.com/BDI-pathogens/OpenABM-Covid19): OpenABM-Covid19 is an ABM developed to simulate the spread of Covid-19 in a city and to analyse the effect of both passive and active intervention strategies. 
-
+* [](https://github.com/institutefordiseasemodeling/covasim)
 ### Contact 
 * [InstituteforDiseaseModeling/synthpops](https://github.com/InstituteforDiseaseModeling/synthpops): [`SynthPops](https://docs.idmod.org/projects/synthpops)` can create generic populations with different network characteristics, as well as synthetic populations that interact in different layers of a multilayer contact network.
 
 ### Surveillance
 * [LarremoreLab/covid_surveillance_testing](https://github.com/LarremoreLab/covid_surveillance_testing/blob/master/SEIR_viral_load.py)
+* [InstituteforDiseaseModeling/covid-health-systems](https://github.com/InstituteforDiseaseModeling/covid-health-systems): Simulate various COVID-19 health system capacity scenarios.
 
+## Visualization 
+
+* [InstituteforDiseaseModeling/vis-tools](https://github.com/InstituteforDiseaseModeling/vis-tools): [`Vis-Tools`](https://idmod.org/docs/vis-tools/) is a collection of software tools that aids in the visualization of geospatial simulation data.
 
 ## Computing
 

@@ -20,8 +20,9 @@
 ### Contact 
 * Arregui S, Aleta A, Sanz J, Moreno Y (2018) Projecting social contact matrices to different demographic structures. PLoS Comput Biol 14(12): e1006638. https://doi.org/10.1371/journal.pcbi.1006638
 * Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread. PLoS Comput Biol 8(9): e1002673. https://doi.org/10.1371/journal.pcbi.1002673
+* Jarvis, C.I., Van Zandvoort, K., Gimma, A. et al. Quantifying the impact of physical distance measures on the transmission of COVID-19 in the UK. BMC Med 18, 124 (2020). https://doi.org/10.1186/s12916-020-01597-8
 
-## Approaches
+## Approach
 
 ### EBM 
 * Pernice S, Castagno P, Marcotulli L, et al. (2020). [Undetected Cases of Covid-19 and Effects of Social Distancing Strategies: a Modeling Study in Piedmont Region](https://repo.epiprev.it/929). *E&P Repository*
@@ -39,8 +40,9 @@
 * Daniela Calvetti et al. [Metapopulation Network Models for Understanding, Predicting, and Managing the Coronavirus Disease COVID-19](https://doi.org/10.3389/fphy.2020.00261). *Front. Phys.*, 2020
 * Hassan S, Mughal BJ, Siwiak M, Yasin Z. [A modified SEIR meta-population transmission based Modeling and Forecasting of the COVID-19 pandemic in Pakistan](https://doi.org/10.1101/2020.06.03.20121517). *medRxiv*, 2020
 * Stephen J Beckett et al. [Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://doi.org/10.1101/2020.05.28.20115642). *medRxiv pre-print* (2020)
+* Rader, B., Scarpino, S.V., Nande, A. et al. [Crowding and the shape of COVID-19 epidemics](https://doi.org/10.1038/s41591-020-1104-0). Nat Med (2020). 
 
-### Agent-Based  
+### ABM
 * Willem, L., Verelst, F., Bilcke, J. et al. [Lessons from a decade of individual-based models for infectious disease transmission: a systematic review (2006-2015)](https://doi.org/10.1186/s12879-017-2699-8). BMC Infect Dis 17, 612 (2017). 
 * Ajelli, M., Gonçalves, B., Balcan, D. et al. [Comparing large-scale computational approaches to epidemic modeling: Agent-based versus structured metapopulation models](https://doi.org/10.1186/1471-2334-10-190). *BMC Infect Dis* 10, 190 (2010). 
 * Ferguson, N., Cummings, D., Cauchemez, S. et al. [Strategies for containing an emerging influenza pandemic in Southeast Asia](https://doi.org/10.1038/nature04017). *Nature* 437, 209–214 (2005). 
@@ -51,6 +53,7 @@
 * Seyed M. Moghadas, Meagan C. Fitzpatrick, Pratha Sah, Abhishek Pandey, Affan Shoukat, Burton H. Singer, and Alison P. Galvani. [The implications of silent transmission for the control of COVID-19 outbreaks](https://doi.org/10.1073/pnas.2008373117). *PNAS* 117 (30) 17513-17515 (2020) 
 * *Coronavirus Fraser Group*. [OpenABM-Covid19: Agent-based model for the COVID-19 epidemic](https://github.com/BDI-pathogens/OpenABM-Covid19). (2020)
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
+* Bryan Wilder et al. [Modeling between-population variation in COVID-19 dynamics in Hubei, Lombardy, and New York City](https://doi.org/10.1073/pnas.2010651117). *PNAS* Sep 2020, 202010651
 
 ## Modules
 
@@ -72,6 +75,9 @@
 * Grassly NC, Pons-Salort M, Parker EPK, et al. [Comparison of molecular testing strategies for COVID-19 control: a mathematical modelling study](https://doi.org/10.1016/S1473-3099(20)30630-7). *Lancet Infect Dis* 2020
 * Ted Bergstrom, Carl Bergstrom, Haoran Li [Frequency and accuracy of proactive testing for COVID-19](https://doi.org/10.1101/2020.09.05.20188839), *medRxiv* (2020)
 Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillance strategies for preventing epidemics on networks](https://doi.org/10.1371/journal.pcbi.1007517). *PLoS Comput Biol* 15(11): e1007517.
+* Virginia E. Pitzer et al. [The impact of changes in diagnostic testing practices on estimates of COVID-19 transmission in the United States](https://doi.org/10.1101/2020.04.20.20073338)
+* Brian Cleary et al. [Using viral load and epidemic dynamics to optimize pooled testing in resource constrained settings](https://doi.org/10.1101/2020.05.01.20086801)
+* Billy J Quilty et al. [Quarantine and testing strategies in contact tracing for SARS-CoV-2](https://cmmid.github.io/topics/covid19/quar-test-contact-tracing.html). *CMMID COVID-19 Working Group*.
 
 ### Behavioral 
 * Ferguson, N. [Capturing human behaviour](https://doi.org/10.1038/446733a). *Nature* 446, 733 (2007).
@@ -93,6 +99,6 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) [Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread](https://doi.org/10.1371/journal.pcbi.1002673). *PLOS Computational Biology* 8(9): e1002673. 
 * Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214), *arXiv*:2003.01214 [q-bio.PE] (2020).
 * Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
-
+* Marco Mancastroppa et al. [Stochastic sampling effects favor manual over digital contact tracing](https://arxiv.org/abs/2010.03399). 
 ## Mortality 
 * WHO, [Estimating mortality from COVID-19](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19), *Scientific Brief* (2020)

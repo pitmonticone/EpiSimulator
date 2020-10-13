@@ -9,6 +9,10 @@ This repository contains datasets of daily time-series data related to COVID-19 
 ### Symptomatology
 * [PAIR-code/covid19_symptom_dataset](https://github.com/PAIR-code/covid19_symptom_dataset)
 
+### Contact 
+
+* [jarvisc1/comix_covid-19-first_wave](https://github.com/jarvisc1/comix_covid-19-first_wave): Code and data from the analysis of the 1st wave of the CoMix 2020 contacts survey
+
 ### Mortality 
 * [mbevand/covid19-age-stratified-ifr](https://github.com/mbevand/covid19-age-stratified-ifr): This project studies the age-stratified infection fatality ratio (IFR) of COVID-19 comparing COVID-19 to seasonal influenza (flu), calculating the expected overall IFR based on countries' population pyramids and calculating the age-stratified IFR of COVID-19 from the Spanish ENE-COVID serosurvey. 
 

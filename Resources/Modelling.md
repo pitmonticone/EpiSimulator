@@ -57,6 +57,8 @@
 * *Coronavirus Fraser Group*. [OpenABM-Covid19: Agent-based model for the COVID-19 epidemic](https://github.com/BDI-pathogens/OpenABM-Covid19). (2020)
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
 * Bryan Wilder et al. [Modeling between-population variation in COVID-19 dynamics in Hubei, Lombardy, and New York City](https://doi.org/10.1073/pnas.2010651117). *PNAS* Sep 2020, 202010651
+* Kerr CC, Stuart RM, Mistry D, Abeysuriya RG, Hart G, Rosenfeld R, Selvaraj P, Núñez RC, Hagedorn B, George L, Izzo A, Palmer A, Delport D, Bennette C, Wagner B, Chang S, Cohen JA, Panovska-Griffiths J, Jastrzębski M, Oron AP, Wenger E, Famulare M, Klein DJ (2020). [Covasim: an agent-based model of COVID-19 dynamics and interventions](https://doi.org/10.1101/2020.05.10.20097469). *medRxiv* 2020.05.10.20097469
+* Panovska-Griffiths J, Kerr CC, Stuart RM, Mistry D, Klein DJ, Viner R, Bonnell C (2020). [Determining the optimal strategy for reopening schools, the impact of test and trace interventions, and the risk of occurrence of a second COVID-19 epidemic wave in the UK: a modelling study](https://doi.org/10.1016/S2352-4642(20)30250-9). Lancet Child and Adolescent Health S2352-4642(20) 30250-9.
 
 ## Modules
 

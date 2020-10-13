@@ -43,6 +43,9 @@
 * Rader, B., Scarpino, S.V., Nande, A. et al. [Crowding and the shape of COVID-19 epidemics](https://doi.org/10.1038/s41591-020-1104-0). Nat Med (2020). 
 
 ### ABM
+* Elizabeth Hunter, Brian Mac Namee and John D. Kelleher. [A Taxonomy for Agent-Based Models in Human Infectious Disease Epidemiology](http://jasss.soc.surrey.ac.uk/20/3/2.html#sect2) *Journal of Artificial Societies and Social Simulation* 20 (3) 2
+* Stefano Merler et al. [Spatiotemporal spread of the 2014 outbreak of Ebola virus disease in Liberia and the effectiveness of non-pharmaceutical interventions: a computational modelling analysis](https://doi.org/10.1016/S1473-3099(14)71074-6). *The Lancet Infectious Diseases* (2015).
+* Andrew T.Crooks et al. [An agent-based modeling approach applied to the spread of cholera](https://doi.org/10.1016/j.envsoft.2014.08.027)
 * Willem, L., Verelst, F., Bilcke, J. et al. [Lessons from a decade of individual-based models for infectious disease transmission: a systematic review (2006-2015)](https://doi.org/10.1186/s12879-017-2699-8). BMC Infect Dis 17, 612 (2017). 
 * Ajelli, M., Gonçalves, B., Balcan, D. et al. [Comparing large-scale computational approaches to epidemic modeling: Agent-based versus structured metapopulation models](https://doi.org/10.1186/1471-2334-10-190). *BMC Infect Dis* 10, 190 (2010). 
 * Ferguson, N., Cummings, D., Cauchemez, S. et al. [Strategies for containing an emerging influenza pandemic in Southeast Asia](https://doi.org/10.1038/nature04017). *Nature* 437, 209–214 (2005). 
@@ -94,6 +97,7 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Massaro E, Bagnoli F. (2014) [Epidemic spreading and risk perception in multiplex networks: A self-organized percolation method](https://doi.org/10.1103/PhysRevE.90.052817). *Phys Rev E—Stat Nonlinear, Soft Matter Phys.* 2014;90: 53–64. 
 * Abdulkareem SA, Augustijn E-W, Filatova T, Musial K, Mustafa YT (2020) [Risk perception and behavioral change during epidemics: Comparing models of individual and collective learning](https://doi.org/10.1371/journal.pone.0226483). *PLoS ONE* 15(1): e0226483.
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
+
 
 ### Contact-Tracing
 * Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) [Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread](https://doi.org/10.1371/journal.pcbi.1002673). *PLOS Computational Biology* 8(9): e1002673. 

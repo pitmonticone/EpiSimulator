@@ -32,6 +32,9 @@ doi: https://doi.org/10.1038/s41591-020-1104-0
 * [ABM-Lab/covid19abm.jl](https://github.com/ABM-Lab/covid19abm.jl)
 * [BDI-pathogens/OpenABM-Covid19](https://github.com/BDI-pathogens/OpenABM-Covid19): OpenABM-Covid19 is an ABM developed to simulate the spread of Covid-19 in a city and to analyse the effect of both passive and active intervention strategies. 
 
+### Contact 
+* [InstituteforDiseaseModeling/synthpops](https://github.com/InstituteforDiseaseModeling/synthpops): [`SynthPops](https://docs.idmod.org/projects/synthpops)` can create generic populations with different network characteristics, as well as synthetic populations that interact in different layers of a multilayer contact network.
+
 ### Surveillance
 * [LarremoreLab/covid_surveillance_testing](https://github.com/LarremoreLab/covid_surveillance_testing/blob/master/SEIR_viral_load.py)
 

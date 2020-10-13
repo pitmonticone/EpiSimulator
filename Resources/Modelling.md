@@ -18,7 +18,6 @@
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020).
 
 ### Contact 
-
 * Arregui S, Aleta A, Sanz J, Moreno Y (2018) Projecting social contact matrices to different demographic structures. PLoS Comput Biol 14(12): e1006638. https://doi.org/10.1371/journal.pcbi.1006638
 * Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread. PLoS Comput Biol 8(9): e1002673. https://doi.org/10.1371/journal.pcbi.1002673
 
@@ -27,8 +26,6 @@
 ### EBM 
 * Pernice S, Castagno P, Marcotulli L, et al. (2020). [Undetected Cases of Covid-19 and Effects of Social Distancing Strategies: a Modeling Study in Piedmont Region](https://repo.epiprev.it/929). *E&P Repository*
 * Castagno, P., Pernice, S., Ghetti, G. et al. [A computational framework for modeling and studying pertussis epidemiology and vaccination](https://doi.org/10.1186/s12859-020-03648-6). *BMC Bioinformatics* 21, 344 (2020). 
-
-
 
 ### Metapopulation
 * Alun Lloyd, Vincent Jansenc. [Spatiotemporal dynamics of epidemics: synchrony in metapopulation models](https://doi.org/10.1016/j.mbs.2003.09.003). *Mathematical Biosciences* (2004).
@@ -97,5 +94,5 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214), *arXiv*:2003.01214 [q-bio.PE] (2020).
 * Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
 
-### Mortality 
+## Mortality 
 * WHO, [Estimating mortality from COVID-19](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19), *Scientific Brief* (2020)

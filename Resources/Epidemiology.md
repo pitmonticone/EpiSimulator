@@ -10,6 +10,9 @@
 
 * Nguyen Van Vinh Chau et al. The Natural History and Transmission Potential of Asymptomatic Severe Acute Respiratory Syndrome Coronavirus 2 Infection, Clinical Infectious Diseases, , ciaa711, https://doi.org/10.1093/cid/ciaa711
 
+* Ramanan Laxminarayan et al. Epidemiology and transmission dynamics of COVID-19 in two Indian states https://doi.org/10.1126/science.abd7672
+
+
 ## Clinical 
 
 * del Rio C, Collins LF, Malani P. [Long-term Health Consequences of COVID-19](https://doi.org/10.1001/jama.2020.19719). *JAMA*. Published online October 05, 2020. 

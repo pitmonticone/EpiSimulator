@@ -35,6 +35,7 @@
 * Kucirka, Lauren M., et al. [Variation in false-negative rate of reverse transcriptase polymerase chain reaction–based SARS-CoV-2 tests by time since exposure](https://doi.org/10.7326/M20-1495). *Annals of Internal Medicine* (2020).
 * ISTAT, [First results of the SARS-CoV-2 seroprevalence study](https://www.istat.it/it/files//2020/08/ReportPrimiRisultatiIndagineSiero.pdf) (2020)
 * Amy E Benefield et al. [SARS-CoV-2 viral load peaks prior to symptom onset: a systematic review and individual-pooled analysis of coronavirus viral load from 66 studies](https://doi.org/10.1101/2020.09.28.20202028). *medRxiv pre-print* (2020).
+* Xinhua Chen et al. [Serological evidence of human infection with SARS-CoV-2: a systematic review and meta-analysis](https://doi.org/10.1101/2020.09.11.20192773). *medRxiv pre-print* (2020)
 
 ## Epidemiological
 * Our World in Data, [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data).
@@ -55,8 +56,7 @@
 * Buitrago-Garcia D, Egli-Gany D, Counotte MJ, Hossmann S, Imeri H, Ipekci AM, et al. (2020) [Occurrence and transmission potential of asymptomatic and presymptomatic SARS-CoV-2 infections: A living systematic review and meta-analysis](https://doi.org/10.1371/journal.pmed.1003346). PLoS Med 17(9): e1003346.
 * Daniel P. Oran, Eric J. Topol. [Prevalence of Asymptomatic SARS-CoV-2 Infection: A Narrative Review](https://doi.org/10.7326/M20-3012) (2020).
 * Ashcroft Petera et al. [COVID-19 infectivity profile correction](https://doi.org/10.4414/smw.2020.20336), *Swiss Med Wkly*. 2020;150:w20336
-
- 
+* [Data and Information for COVID-19 Modeling](https://midasnetwork.us/covid-19/): Published estimates of epidemiological characteristics that have been peer-reviewed, encoded by community members and approved by authors.
 
 ## Policy 
 * ECDC, [Guidelines for the implementation of non-pharmaceutical interventions against COVID-19](https://www.ecdc.europa.eu/en/publications-data/covid-19-guidelines-non-pharmaceutical-interventions), 2020.

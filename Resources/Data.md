@@ -1,5 +1,9 @@
 # Data 
 
+## Quality 
+
+* Lorenzo Ruffino. [Perché i dati di “oggi” sull’epidemia non sono davvero... di oggi](https://www.pagellapolitica.it/blog/show/792/perché-i-dati-di-oggi-sullepidemia-non-sono-davvero-di-oggi). *Pagella Politica*
+
 ## Geospatial
 * ISTAT, [Confini delle unità amministrative a fini statistici al 1° Gennaio 2020](https://www.istat.it/it/archivio/222527). (2020)
 * OpenPolis. [Limits of Italian Provinces](https://github.com/openpolis/geojson-italy/blob/master/geojson/limits_IT_provinces.geojson). *GitHub* (2019)
@@ -50,6 +54,9 @@
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020).
 * Buitrago-Garcia D, Egli-Gany D, Counotte MJ, Hossmann S, Imeri H, Ipekci AM, et al. (2020) [Occurrence and transmission potential of asymptomatic and presymptomatic SARS-CoV-2 infections: A living systematic review and meta-analysis](https://doi.org/10.1371/journal.pmed.1003346). PLoS Med 17(9): e1003346.
 * Daniel P. Oran, Eric J. Topol. [Prevalence of Asymptomatic SARS-CoV-2 Infection: A Narrative Review](https://doi.org/10.7326/M20-3012) (2020).
+* Ashcroft Petera et al. [COVID-19 infectivity profile correction](https://doi.org/10.4414/smw.2020.20336), *Swiss Med Wkly*. 2020;150:w20336
+
+ 
 
 ## Policy 
 * ECDC, [Guidelines for the implementation of non-pharmaceutical interventions against COVID-19](https://www.ecdc.europa.eu/en/publications-data/covid-19-guidelines-non-pharmaceutical-interventions), 2020.

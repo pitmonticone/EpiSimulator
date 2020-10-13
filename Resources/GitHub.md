@@ -1,10 +1,23 @@
 # GitHub
 
 ## Data
-* https://github.com/PAIR-code/covid19_symptom_dataset
-* https://github.com/GoogleCloudPlatform/covid-19-open-data
+
+### General 
+* [GoogleCloudPlatform/covid-19-open-data](https://github.com/GoogleCloudPlatform/covid-19-open-data): 
+This repository contains datasets of daily time-series data related to COVID-19 for 50+ countries around the world. 
+
+### Symptomatology
+* [PAIR-code/covid19_symptom_dataset](https://github.com/PAIR-code/covid19_symptom_dataset)
+
+### Mortality 
+* [mbevand/covid19-age-stratified-ifr](https://github.com/mbevand/covid19-age-stratified-ifr): This project studies the age-stratified infection fatality ratio (IFR) of COVID-19 comparing COVID-19 to seasonal influenza (flu), calculating the expected overall IFR based on countries' population pyramids and calculating the age-stratified IFR of COVID-19 from the Spanish ENE-COVID serosurvey. 
 
 ## Modelling 
+
+### General 
+* [Emergent-Epidemics/COVID_crowding](https://github.com/Emergent-Epidemics/COVID_crowding): Code and data for Rader, B., Scarpino, S.V., Nande, A. et al. [Crowding and the shape of COVID-19 epidemics](https://doi.org/10.1038/s41591-020-1104-0). *Nature Medicine* (2020). 
+
+doi: https://doi.org/10.1038/s41591-020-1104-0
 
 ### EBM 
 * [qBioTurin/epimod](https://github.com/qBioTurin/epimod): Modeling framework for the analysis of epidemiological systems, which exploits Petri Net graphical formalism, R environment, and Docker containerization to derive a tool easily accessible by any researcher even without advanced mathematical and computational skills.
@@ -20,7 +33,6 @@
 
 
 ## Computing
-* [GoogleCloudPlatform/covid-19-open-data](https://github.com/GoogleCloudPlatform/covid-19-open-data)
 
 ## Packages 
 

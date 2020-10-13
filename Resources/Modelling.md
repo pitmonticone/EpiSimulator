@@ -12,15 +12,12 @@
 * Grantz, K.H., Meredith, H.R., Cummings, D.A.T. et al. [The use of mobile phone data to inform analysis of COVID-19 pandemic epidemiology](https://doi.org/10.1038/s41467-020-18190-5). *Nat Commun* 11, 4961 (2020). 
 * Joel Hellewell, [When are models “just a model”?](https://jhellewell14.github.io/2020/09/28/models-just-model.html)
 * Grimm, V., Johnston, A.S.A., Thulke, H. et al. [Three questions to ask before using model outputs for decision support](https://doi.org/10.1038/s41467-020-17785-2). Nat Commun 11, 4959 (2020).
+* Jessie K Edwards, Justin Lessler, [What Now? Epidemiology in the Wake of a Pandemic](https://doi.org/10.1093/aje/kwaa159), American Journal of Epidemiology, , kwaa159
+
 
 ## Calibration
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020).
-
-### Contact 
-* Arregui S, Aleta A, Sanz J, Moreno Y (2018) Projecting social contact matrices to different demographic structures. PLoS Comput Biol 14(12): e1006638. https://doi.org/10.1371/journal.pcbi.1006638
-* Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread. PLoS Comput Biol 8(9): e1002673. https://doi.org/10.1371/journal.pcbi.1002673
-* Jarvis, C.I., Van Zandvoort, K., Gimma, A. et al. Quantifying the impact of physical distance measures on the transmission of COVID-19 in the UK. BMC Med 18, 124 (2020). https://doi.org/10.1186/s12916-020-01597-8
 
 ## Approach
 
@@ -59,8 +56,22 @@
 * Bryan Wilder et al. [Modeling between-population variation in COVID-19 dynamics in Hubei, Lombardy, and New York City](https://doi.org/10.1073/pnas.2010651117). *PNAS* Sep 2020, 202010651
 * Kerr CC, Stuart RM, Mistry D, Abeysuriya RG, Hart G, Rosenfeld R, Selvaraj P, Núñez RC, Hagedorn B, George L, Izzo A, Palmer A, Delport D, Bennette C, Wagner B, Chang S, Cohen JA, Panovska-Griffiths J, Jastrzębski M, Oron AP, Wenger E, Famulare M, Klein DJ (2020). [Covasim: an agent-based model of COVID-19 dynamics and interventions](https://doi.org/10.1101/2020.05.10.20097469). *medRxiv* 2020.05.10.20097469
 * Panovska-Griffiths J, Kerr CC, Stuart RM, Mistry D, Klein DJ, Viner R, Bonnell C (2020). [Determining the optimal strategy for reopening schools, the impact of test and trace interventions, and the risk of occurrence of a second COVID-19 epidemic wave in the UK: a modelling study](https://doi.org/10.1016/S2352-4642(20)30250-9). Lancet Child and Adolescent Health S2352-4642(20) 30250-9.
+* Ken Rice et al. [Effect of school closures on mortality from coronavirus disease 2019: old and new predictions](https://doi.org/10.1136/bmj.m3588). *BMJ* 2020;371:m3588
+
 
 ## Modules
+
+### Contact 
+* Arregui S, Aleta A, Sanz J, Moreno Y (2018) Projecting social contact matrices to different demographic structures. PLoS Comput Biol 14(12): e1006638. https://doi.org/10.1371/journal.pcbi.1006638
+* Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread. PLoS Comput Biol 8(9): e1002673. https://doi.org/10.1371/journal.pcbi.1002673
+* Jarvis, C.I., Van Zandvoort, K., Gimma, A. et al. Quantifying the impact of physical distance measures on the transmission of COVID-19 in the UK. BMC Med 18, 124 (2020). https://doi.org/10.1186/s12916-020-01597-8
+* [RAPID: The effect of contact network structure on the spread of COVID-19: balacing disease mitigation and socio-economic wellbeing](https://midasnetwork.us/projects/2030509-2/)
+
+### Contact-Tracing
+* Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) [Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread](https://doi.org/10.1371/journal.pcbi.1002673). *PLOS Computational Biology* 8(9): e1002673. 
+* Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214), *arXiv*:2003.01214 [q-bio.PE] (2020).
+* Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
+* Marco Mancastroppa et al. [Stochastic sampling effects favor manual over digital contact tracing](https://arxiv.org/abs/2010.03399). 
 
 ### Interventions
 * Josh A Firth, Joel Hellewell, Petra Klepac, Stephen M Kissler et al. [Combining fine-scale social contact data with epidemic modelling reveals interactions between contact tracing, quarantine, testing and physical distancing for controlling COVID-19](https://cmmid.github.io/topics/covid19/tracing-network-local.html), *CMMID pre-print* (2020)
@@ -83,6 +94,7 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Virginia E. Pitzer et al. [The impact of changes in diagnostic testing practices on estimates of COVID-19 transmission in the United States](https://doi.org/10.1101/2020.04.20.20073338)
 * Brian Cleary et al. [Using viral load and epidemic dynamics to optimize pooled testing in resource constrained settings](https://doi.org/10.1101/2020.05.01.20086801)
 * Billy J Quilty et al. [Quarantine and testing strategies in contact tracing for SARS-CoV-2](https://cmmid.github.io/topics/covid19/quar-test-contact-tracing.html). *CMMID COVID-19 Working Group*.
+* [RAPID: Optimal allocation of COVID-19 testing based on context-specific outbreak control objectives](https://midasnetwork.us/projects/2037885-2/): The purpose of this project is to design a framework for objective-driven, context dependent disease surveillance strategies, designed to deal with sampling errors and biases.
 
 ### Behavioral 
 * Ferguson, N. [Capturing human behaviour](https://doi.org/10.1038/446733a). *Nature* 446, 733 (2007).
@@ -99,12 +111,7 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Massaro E, Bagnoli F. (2014) [Epidemic spreading and risk perception in multiplex networks: A self-organized percolation method](https://doi.org/10.1103/PhysRevE.90.052817). *Phys Rev E—Stat Nonlinear, Soft Matter Phys.* 2014;90: 53–64. 
 * Abdulkareem SA, Augustijn E-W, Filatova T, Musial K, Mustafa YT (2020) [Risk perception and behavioral change during epidemics: Comparing models of individual and collective learning](https://doi.org/10.1371/journal.pone.0226483). *PLoS ONE* 15(1): e0226483.
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
+* [RAPID: COVID-19 behavior perception and control across geographic and economic gradients](https://midasnetwork.us/projects/2037885-2/): This project will advance fundamental understanding of the impacts of control efforts via a new risk perception-driven infectious disease model, and predict which drivers of public demand for community-level control efforts might lead to potentially harmful long-term decisions.
 
-
-### Contact-Tracing
-* Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) [Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread](https://doi.org/10.1371/journal.pcbi.1002673). *PLOS Computational Biology* 8(9): e1002673. 
-* Mistry D., Litvinova M, Pastore y Piontti A., et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214), *arXiv*:2003.01214 [q-bio.PE] (2020).
-* Bucur D, Holme P (2020) [Beyond ranking nodes: Predicting epidemic outbreak sizes by network centralities](https://doi.org/10.1371/journal.pcbi.1008052). *PLoS Computational Biology* 16(7): e1008052. 
-* Marco Mancastroppa et al. [Stochastic sampling effects favor manual over digital contact tracing](https://arxiv.org/abs/2010.03399). 
 ## Mortality 
 * WHO, [Estimating mortality from COVID-19](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19), *Scientific Brief* (2020)

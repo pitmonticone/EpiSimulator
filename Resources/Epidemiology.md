@@ -12,6 +12,7 @@
 
 * Ramanan Laxminarayan et al. Epidemiology and transmission dynamics of COVID-19 in two Indian states https://doi.org/10.1126/science.abd7672
 
+* Nicolò Gozzi et al. [Estimating the effect of social inequalities in the mitigation of COVID-19 across communities in Santiago de Chile](https://doi.org/10.1101/2020.10.08.20204750). *medRxiv pre-print* (2020).
 
 ## Clinical 
 

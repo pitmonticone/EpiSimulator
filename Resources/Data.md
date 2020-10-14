@@ -57,6 +57,7 @@
 * Daniel P. Oran, Eric J. Topol. [Prevalence of Asymptomatic SARS-CoV-2 Infection: A Narrative Review](https://doi.org/10.7326/M20-3012) (2020).
 * Ashcroft Petera et al. [COVID-19 infectivity profile correction](https://doi.org/10.4414/smw.2020.20336), *Swiss Med Wkly*. 2020;150:w20336
 * [Data and Information for COVID-19 Modeling](https://midasnetwork.us/covid-19/): Published estimates of epidemiological characteristics that have been peer-reviewed, encoded by community members and approved by authors.
+*  Lu Qing-Bin et al. [Epidemiological parameters of COVID-19 and its implication for infectivity among patients in China, 1 January to 11 February 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.40.2000250). *Euro Surveill.* 2020;25(40):pii=2000250. 
 
 ## Policy 
 * ECDC, [Guidelines for the implementation of non-pharmaceutical interventions against COVID-19](https://www.ecdc.europa.eu/en/publications-data/covid-19-guidelines-non-pharmaceutical-interventions), 2020.

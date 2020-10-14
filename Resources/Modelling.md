@@ -13,11 +13,12 @@
 * Joel Hellewell, [When are models “just a model”?](https://jhellewell14.github.io/2020/09/28/models-just-model.html)
 * Grimm, V., Johnston, A.S.A., Thulke, H. et al. [Three questions to ask before using model outputs for decision support](https://doi.org/10.1038/s41467-020-17785-2). Nat Commun 11, 4959 (2020).
 * Jessie K Edwards, Justin Lessler, [What Now? Epidemiology in the Wake of a Pandemic](https://doi.org/10.1093/aje/kwaa159), American Journal of Epidemiology, , kwaa159
-
+* Cornelia Betsch et al. [A vision for actionable science in a pandemic](https://doi.org/10.1038/s41467-020-18056-w). *Nature Communications* 11, 4960 (2020).
 
 ## Calibration
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020).
+* Simon Cauchemez, Nathanaël Hoze, Anthony Cousien, Birgit Nikolay, Quirine ten Bosch. [How modelling can enhance the analysis of imperfect epidemic data](https://doi.org/10.1016/j.pt.2019.01.009 ). *Trends in Parasitology*, Elsevier, 2019, 35 (5), pp.369-379. 
 
 ## Approach
 
@@ -38,6 +39,7 @@
 * Hassan S, Mughal BJ, Siwiak M, Yasin Z. [A modified SEIR meta-population transmission based Modeling and Forecasting of the COVID-19 pandemic in Pakistan](https://doi.org/10.1101/2020.06.03.20121517). *medRxiv*, 2020
 * Stephen J Beckett et al. [Spread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model](https://doi.org/10.1101/2020.05.28.20115642). *medRxiv pre-print* (2020)
 * Rader, B., Scarpino, S.V., Nande, A. et al. [Crowding and the shape of COVID-19 epidemics](https://doi.org/10.1038/s41591-020-1104-0). Nat Med (2020). 
+* Nicolò Gozzi et al. [Estimating the effect of social inequalities in the mitigation of COVID-19 across communities in Santiago de Chile](https://doi.org/10.1101/2020.10.08.20204750). *medRxiv pre-print* (2020).
 
 ### ABM
 * Elizabeth Hunter, Brian Mac Namee and John D. Kelleher. [A Taxonomy for Agent-Based Models in Human Infectious Disease Epidemiology](http://jasss.soc.surrey.ac.uk/20/3/2.html#sect2) *Journal of Artificial Societies and Social Simulation* 20 (3) 2
@@ -103,6 +105,10 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Brian Cleary et al. [Using viral load and epidemic dynamics to optimize pooled testing in resource constrained settings](https://doi.org/10.1101/2020.05.01.20086801)
 * Billy J Quilty et al. [Quarantine and testing strategies in contact tracing for SARS-CoV-2](https://cmmid.github.io/topics/covid19/quar-test-contact-tracing.html). *CMMID COVID-19 Working Group*.
 * [RAPID: Optimal allocation of COVID-19 testing based on context-specific outbreak control objectives](https://midasnetwork.us/projects/2037885-2/): The purpose of this project is to design a framework for objective-driven, context dependent disease surveillance strategies, designed to deal with sampling errors and biases.
+* Justin Lessler et al. [Maximizing and evaluating the impact of test-trace-isolate programs](https://doi.org/10.1101/2020.09.02.20186916). *medRxiv pre-print* (2020).
+*  Kerr CC et al. [Controlling COVID-19 via test-trace-quarantine](https://doi.org/10.1101/2020.07.15.20154765). *medRxiv pre-print* (2020).
+* [Developing infectious disease surveillance systems](https://doi.org/10.1038/s41467-020-18798-7). Nat Commun 11, 4962 (2020). 
+
 
 ### Behavioral 
 * Ferguson, N. [Capturing human behaviour](https://doi.org/10.1038/446733a). *Nature* 446, 733 (2007).

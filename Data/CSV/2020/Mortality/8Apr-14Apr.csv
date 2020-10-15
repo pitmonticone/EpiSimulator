@@ -1,0 +1,1927 @@
+,Province,Region,Area,Sex,Age,Deaths,Excess,Excess95eCIlow,Excess95eCIhigh,ExcessPer,ExcessPer95eCIlow,ExcessPer95eCIhigh
+0,Torino,Piemonte,North,Total,All ages,896,401,362,439,81.2,67.9,95.9
+1,Torino,Piemonte,North,Total,Less than 60,42,4,-2,10,11.9,-5.1,31.3
+2,Torino,Piemonte,North,Total,60-69,84,24,15,32,40.4,22.0,61.1
+3,Torino,Piemonte,North,Total,70-79,182,75,61,87,70.4,50.2,91.6
+4,Torino,Piemonte,North,Total,80-89,358,172,152,189,92.2,73.4,112.0
+5,Torino,Piemonte,North,Total,90 and older,246,121,106,134,95.9,75.7,118.7
+6,Torino,Piemonte,North,Males,All ages,427,182,157,203,74.2,58.1,90.4
+7,Torino,Piemonte,North,Males,Less than 60,24,3,-1,7,14.4,-4.8,39.1
+8,Torino,Piemonte,North,Males,60-69,54,16,9,21,41.2,18.9,65.7
+9,Torino,Piemonte,North,Males,70-79,115,49,39,58,75.7,51.3,102.6
+10,Torino,Piemonte,North,Males,80-89,174,79,67,90,83.9,62.5,108.1
+11,Torino,Piemonte,North,Males,90 and older,68,30,24,36,79.8,53.2,111.4
+12,Torino,Piemonte,North,Females,All ages,469,216,193,238,85.2,70.1,102.8
+13,Torino,Piemonte,North,Females,Less than 60,17,2,-2,5,14.6,-9.1,46.1
+14,Torino,Piemonte,North,Females,60-69,30,7,2,11,30.8,8.9,56.5
+15,Torino,Piemonte,North,Females,70-79,67,25,17,31,59.4,33.2,87.1
+16,Torino,Piemonte,North,Females,80-89,184,91,79,103,98.2,75.0,125.4
+17,Torino,Piemonte,North,Females,90 and older,178,89,78,99,99.6,77.9,126.0
+18,Vercelli,Piemonte,North,Total,All ages,80,38,32,44,90.5,65.2,120.1
+19,Vercelli,Piemonte,North,Total,Less than 60,3,0,-1,1,8.1,-18.2,40.3
+20,Vercelli,Piemonte,North,Total,60-69,14,4,1,6,43.2,10.8,86.6
+21,Vercelli,Piemonte,North,Total,70-79,19,9,7,11,96.2,55.7,146.9
+22,Vercelli,Piemonte,North,Total,80-89,24,13,10,14,111.3,75.1,155.2
+23,Vercelli,Piemonte,North,Total,90 and older,20,8,5,11,75.5,38.0,119.5
+24,Vercelli,Piemonte,North,Males,All ages,33,15,11,18,82.9,52.3,118.1
+25,Vercelli,Piemonte,North,Males,Less than 60,1,0,0,0,22.8,-13.4,75.1
+26,Vercelli,Piemonte,North,Males,60-69,6,2,1,3,58.3,16.9,118.5
+27,Vercelli,Piemonte,North,Males,70-79,11,5,4,7,89.2,48.0,143.3
+28,Vercelli,Piemonte,North,Males,80-89,9,4,3,5,89.5,45.9,145.9
+29,Vercelli,Piemonte,North,Males,90 and older,4,1,0,2,55.1,10.0,117.8
+30,Vercelli,Piemonte,North,Females,All ages,48,23,18,27,94.8,62.5,131.3
+31,Vercelli,Piemonte,North,Females,Less than 60,2,0,-1,1,5.6,-23.4,45.2
+32,Vercelli,Piemonte,North,Females,60-69,8,2,-1,3,25.8,-7.6,65.6
+33,Vercelli,Piemonte,North,Females,70-79,8,4,2,5,82.8,29.6,153.9
+34,Vercelli,Piemonte,North,Females,80-89,15,8,7,10,126.0,75.9,188.9
+35,Vercelli,Piemonte,North,Females,90 and older,16,7,5,9,87.6,43.0,142.0
+36,Novara,Piemonte,North,Total,All ages,146,68,58,77,88.4,66.4,111.0
+37,Novara,Piemonte,North,Total,Less than 60,5,1,0,2,26.6,-0.1,57.7
+38,Novara,Piemonte,North,Total,60-69,11,4,2,5,47.5,18.6,83.5
+39,Novara,Piemonte,North,Total,70-79,19,8,5,10,63.9,32.7,100.5
+40,Novara,Piemonte,North,Total,80-89,62,32,26,36,105.8,74.7,144.2
+41,Novara,Piemonte,North,Total,90 and older,47,24,19,28,103.7,67.8,144.4
+42,Novara,Piemonte,North,Males,All ages,62,27,21,32,78.9,51.4,108.2
+43,Novara,Piemonte,North,Males,Less than 60,2,1,0,1,35.4,0.8,75.3
+44,Novara,Piemonte,North,Males,60-69,9,3,2,5,57.1,21.2,103.8
+45,Novara,Piemonte,North,Males,70-79,10,4,3,5,81.5,46.3,123.9
+46,Novara,Piemonte,North,Males,80-89,29,13,9,16,80.1,42.2,124.2
+47,Novara,Piemonte,North,Males,90 and older,12,5,2,6,65.2,22.2,115.5
+48,Novara,Piemonte,North,Females,All ages,84,42,34,48,97.8,68.2,130.0
+49,Novara,Piemonte,North,Females,Less than 60,3,0,-1,1,15.1,-14.6,53.3
+50,Novara,Piemonte,North,Females,60-69,2,0,0,1,27.4,0.0,60.6
+51,Novara,Piemonte,North,Females,70-79,10,3,0,5,40.7,4.5,93.7
+52,Novara,Piemonte,North,Females,80-89,33,18,15,21,126.5,80.3,179.2
+53,Novara,Piemonte,North,Females,90 and older,35,17,13,21,97.0,58.3,142.7
+54,Cuneo,Piemonte,North,Total,All ages,198,69,53,82,53.0,36.3,70.8
+55,Cuneo,Piemonte,North,Total,Less than 60,5,0,-1,1,8.7,-12.8,35.5
+56,Cuneo,Piemonte,North,Total,60-69,20,4,1,7,26.3,2.6,53.7
+57,Cuneo,Piemonte,North,Total,70-79,31,10,5,14,45.8,19.7,76.1
+58,Cuneo,Piemonte,North,Total,80-89,76,26,18,33,52.5,31.0,75.7
+59,Cuneo,Piemonte,North,Total,90 and older,66,25,17,31,62.0,35.3,90.1
+60,Cuneo,Piemonte,North,Males,All ages,91,24,14,33,36.0,17.7,57.4
+61,Cuneo,Piemonte,North,Males,Less than 60,5,0,-1,1,5.2,-18.9,37.6
+62,Cuneo,Piemonte,North,Males,60-69,17,4,1,7,33.7,4.6,71.2
+63,Cuneo,Piemonte,North,Males,70-79,20,5,2,8,32.7,8.6,62.3
+64,Cuneo,Piemonte,North,Males,80-89,29,6,0,10,26.0,1.6,53.8
+65,Cuneo,Piemonte,North,Males,90 and older,21,7,3,10,51.5,14.3,97.9
+66,Cuneo,Piemonte,North,Females,All ages,107,43,33,51,66.6,44.9,91.7
+67,Cuneo,Piemonte,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+68,Cuneo,Piemonte,North,Females,60-69,3,0,0,1,15.6,-8.2,48.9
+69,Cuneo,Piemonte,North,Females,70-79,12,4,2,6,58.5,20.2,107.4
+70,Cuneo,Piemonte,North,Females,80-89,47,21,15,25,80.1,48.3,118.2
+71,Cuneo,Piemonte,North,Females,90 and older,45,17,11,22,63.6,34.3,99.9
+72,Asti,Piemonte,North,Total,All ages,94,42,35,49,82.4,58.3,108.7
+73,Asti,Piemonte,North,Total,Less than 60,3,0,-1,1,0.1,-22.7,27.1
+74,Asti,Piemonte,North,Total,60-69,7,1,0,3,25.5,-2.4,63.6
+75,Asti,Piemonte,North,Total,70-79,15,7,4,8,76.0,37.8,120.4
+76,Asti,Piemonte,North,Total,80-89,34,15,11,18,78.4,47.3,115.2
+77,Asti,Piemonte,North,Total,90 and older,32,15,11,18,88.6,52.3,132.9
+78,Asti,Piemonte,North,Males,All ages,47,20,15,24,76.4,47.4,107.2
+79,Asti,Piemonte,North,Males,Less than 60,2,0,-1,1,-2.4,-28.6,35.7
+80,Asti,Piemonte,North,Males,60-69,5,1,0,2,26.1,-8.0,75.2
+81,Asti,Piemonte,North,Males,70-79,13,5,3,7,68.1,30.0,116.7
+82,Asti,Piemonte,North,Males,80-89,12,5,3,7,69.9,31.5,119.4
+83,Asti,Piemonte,North,Males,90 and older,14,7,4,8,88.7,38.3,154.8
+84,Asti,Piemonte,North,Females,All ages,47,20,15,24,73.5,46.1,105.1
+85,Asti,Piemonte,North,Females,Less than 60,1,0,0,0,5.1,-21.6,41.6
+86,Asti,Piemonte,North,Females,60-69,2,0,0,1,19.4,-8.1,59.4
+87,Asti,Piemonte,North,Females,70-79,2,1,0,1,64.4,13.8,131.0
+88,Asti,Piemonte,North,Females,80-89,22,9,6,12,73.0,32.7,124.6
+89,Asti,Piemonte,North,Females,90 and older,18,8,5,10,76.1,34.7,123.6
+90,Alessandria,Piemonte,North,Total,All ages,248,126,112,138,104.0,82.6,126.1
+91,Alessandria,Piemonte,North,Total,Less than 60,9,1,-1,3,17.0,-6.2,45.2
+92,Alessandria,Piemonte,North,Total,60-69,25,10,7,13,65.2,36.0,99.9
+93,Alessandria,Piemonte,North,Total,70-79,49,24,19,28,92.1,61.8,127.1
+94,Alessandria,Piemonte,North,Total,80-89,106,56,48,62,112.5,83.9,143.3
+95,Alessandria,Piemonte,North,Total,90 and older,59,30,25,34,104.5,72.7,136.1
+96,Alessandria,Piemonte,North,Males,All ages,125,64,55,71,104.3,79.4,131.6
+97,Alessandria,Piemonte,North,Males,Less than 60,6,2,0,3,34.0,5.5,73.0
+98,Alessandria,Piemonte,North,Males,60-69,19,8,6,10,79.3,42.3,120.8
+99,Alessandria,Piemonte,North,Males,70-79,32,16,13,19,98.8,65.3,142.4
+100,Alessandria,Piemonte,North,Males,80-89,50,25,19,29,98.2,63.6,138.5
+101,Alessandria,Piemonte,North,Males,90 and older,20,9,6,12,86.3,46.7,135.4
+102,Alessandria,Piemonte,North,Females,All ages,123,61,53,69,99.1,76.1,127.1
+103,Alessandria,Piemonte,North,Females,Less than 60,3,0,-1,1,3.8,-22.9,40.2
+104,Alessandria,Piemonte,North,Females,60-69,6,1,0,2,26.0,-0.8,59.1
+105,Alessandria,Piemonte,North,Females,70-79,17,7,4,9,69.5,29.5,116.7
+106,Alessandria,Piemonte,North,Females,80-89,56,30,25,34,117.1,79.9,157.6
+107,Alessandria,Piemonte,North,Females,90 and older,39,20,16,23,105.0,68.2,146.9
+108,Biella,Piemonte,North,Total,All ages,100,50,42,57,99.9,71.2,132.2
+109,Biella,Piemonte,North,Total,Less than 60,3,0,-1,1,2.9,-21.4,34.1
+110,Biella,Piemonte,North,Total,60-69,8,2,-1,3,23.3,-7.4,65.7
+111,Biella,Piemonte,North,Total,70-79,12,4,2,6,56.5,20.9,100.4
+112,Biella,Piemonte,North,Total,80-89,43,23,19,27,117.5,74.3,166.8
+113,Biella,Piemonte,North,Total,90 and older,33,18,14,22,121.6,71.3,188.0
+114,Biella,Piemonte,North,Males,All ages,44,21,17,25,94.0,60.9,131.6
+115,Biella,Piemonte,North,Males,Less than 60,3,0,-1,1,12.5,-18.8,56.4
+116,Biella,Piemonte,North,Males,60-69,6,2,0,3,48.5,5.6,111.8
+117,Biella,Piemonte,North,Males,70-79,10,4,2,5,65.3,27.6,113.7
+118,Biella,Piemonte,North,Males,80-89,16,7,5,9,82.9,40.0,141.8
+119,Biella,Piemonte,North,Males,90 and older,9,5,4,6,139.9,71.4,227.2
+120,Biella,Piemonte,North,Females,All ages,56,28,21,33,96.6,60.3,139.6
+121,Biella,Piemonte,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+122,Biella,Piemonte,North,Females,60-69,2,0,-1,1,4.7,-21.6,43.5
+123,Biella,Piemonte,North,Females,70-79,2,1,0,1,33.4,-9.9,92.3
+124,Biella,Piemonte,North,Females,80-89,27,16,12,19,137.2,81.6,212.2
+125,Biella,Piemonte,North,Females,90 and older,24,12,7,15,91.6,42.2,163.2
+126,Verbano-Cusio-Ossola,Piemonte,North,Total,All ages,69,33,27,38,90.2,62.9,123.9
+127,Verbano-Cusio-Ossola,Piemonte,North,Total,Less than 60,3,0,-1,1,7.4,-18.7,39.3
+128,Verbano-Cusio-Ossola,Piemonte,North,Total,60-69,7,1,-1,3,25.3,-7.2,70.3
+129,Verbano-Cusio-Ossola,Piemonte,North,Total,70-79,11,4,1,5,47.5,11.3,88.1
+130,Verbano-Cusio-Ossola,Piemonte,North,Total,80-89,36,21,17,24,132.0,88.1,191.5
+131,Verbano-Cusio-Ossola,Piemonte,North,Total,90 and older,12,6,4,7,88.8,44.9,147.0
+132,Verbano-Cusio-Ossola,Piemonte,North,Males,All ages,35,13,9,17,63.3,33.7,96.7
+133,Verbano-Cusio-Ossola,Piemonte,North,Males,Less than 60,2,0,-1,1,3.9,-25.9,46.9
+134,Verbano-Cusio-Ossola,Piemonte,North,Males,60-69,5,1,0,2,35.1,-4.6,94.5
+135,Verbano-Cusio-Ossola,Piemonte,North,Males,70-79,8,3,1,4,45.5,10.6,88.9
+136,Verbano-Cusio-Ossola,Piemonte,North,Males,80-89,18,9,6,11,97.9,50.1,161.3
+137,Verbano-Cusio-Ossola,Piemonte,North,Males,90 and older,2,1,0,1,51.3,3.7,123.5
+138,Verbano-Cusio-Ossola,Piemonte,North,Females,All ages,35,18,15,21,113.5,73.3,159.7
+139,Verbano-Cusio-Ossola,Piemonte,North,Females,Less than 60,1,0,0,0,20.2,-13.4,63.7
+140,Verbano-Cusio-Ossola,Piemonte,North,Females,60-69,2,0,0,1,16.2,-15.3,66.7
+141,Verbano-Cusio-Ossola,Piemonte,North,Females,70-79,3,1,0,2,57.2,7.4,125.5
+142,Verbano-Cusio-Ossola,Piemonte,North,Females,80-89,19,11,8,13,143.9,83.6,223.4
+143,Verbano-Cusio-Ossola,Piemonte,North,Females,90 and older,10,5,3,6,93.2,41.3,167.2
+144,Valle d'Aosta,Valle d'Aosta,North,Total,All ages,50,24,20,28,96.5,66.9,134.1
+145,Valle d'Aosta,Valle d'Aosta,North,Total,Less than 60,1,0,0,0,6.6,-19.4,45.1
+146,Valle d'Aosta,Valle d'Aosta,North,Total,60-69,3,1,1,2,61.0,23.4,109.4
+147,Valle d'Aosta,Valle d'Aosta,North,Total,70-79,9,3,1,4,52.3,16.1,98.0
+148,Valle d'Aosta,Valle d'Aosta,North,Total,80-89,24,12,8,14,94.1,51.9,141.9
+149,Valle d'Aosta,Valle d'Aosta,North,Total,90 and older,12,7,6,8,142.8,84.1,215.1
+150,Valle d'Aosta,Valle d'Aosta,North,Males,All ages,18,7,5,9,66.0,34.3,104.3
+151,Valle d'Aosta,Valle d'Aosta,North,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+152,Valle d'Aosta,Valle d'Aosta,North,Males,60-69,2,1,0,1,72.1,26.8,142.5
+153,Valle d'Aosta,Valle d'Aosta,North,Males,70-79,5,2,1,3,57.0,20.2,105.4
+154,Valle d'Aosta,Valle d'Aosta,North,Males,80-89,6,2,1,3,54.8,13.5,108.2
+155,Valle d'Aosta,Valle d'Aosta,North,Males,90 and older,4,2,1,3,97.9,34.9,183.0
+156,Valle d'Aosta,Valle d'Aosta,North,Females,All ages,32,17,14,20,121.3,76.9,171.3
+157,Valle d'Aosta,Valle d'Aosta,North,Females,Less than 60,1,0,0,0,16.7,-16.0,60.4
+158,Valle d'Aosta,Valle d'Aosta,North,Females,60-69,1,0,0,0,25.3,-7.1,77.1
+159,Valle d'Aosta,Valle d'Aosta,North,Females,70-79,3,1,0,2,44.5,-3.2,110.3
+160,Valle d'Aosta,Valle d'Aosta,North,Females,80-89,18,10,7,12,117.6,63.0,191.7
+161,Valle d'Aosta,Valle d'Aosta,North,Females,90 and older,8,5,4,6,143.7,80.1,227.4
+162,Varese,Lombardia,North,Total,All ages,346,152,131,170,78.3,60.9,96.1
+163,Varese,Lombardia,North,Total,Less than 60,18,1,-3,4,3.2,-15.7,25.3
+164,Varese,Lombardia,North,Total,60-69,37,12,7,15,44.6,22.0,70.1
+165,Varese,Lombardia,North,Total,70-79,52,19,13,24,58.4,34.5,86.3
+166,Varese,Lombardia,North,Total,80-89,136,62,52,71,83.5,61.2,109.1
+167,Varese,Lombardia,North,Total,90 and older,105,50,40,57,89.6,62.1,118.1
+168,Varese,Lombardia,North,Males,All ages,165,63,51,74,62.3,44.6,81.4
+169,Varese,Lombardia,North,Males,Less than 60,15,2,-1,5,13.8,-8.8,43.7
+170,Varese,Lombardia,North,Males,60-69,26,9,5,12,50.3,21.5,83.4
+171,Varese,Lombardia,North,Males,70-79,32,11,7,15,55.5,30.3,88.3
+172,Varese,Lombardia,North,Males,80-89,59,23,16,29,64.4,37.5,95.2
+173,Varese,Lombardia,North,Males,90 and older,37,15,9,19,66.1,32.7,104.1
+174,Varese,Lombardia,North,Females,All ages,181,85,74,96,88.9,68.9,113.0
+175,Varese,Lombardia,North,Females,Less than 60,3,0,-1,1,-6.8,-30.0,23.4
+176,Varese,Lombardia,North,Females,60-69,11,2,0,4,22.2,-0.7,52.7
+177,Varese,Lombardia,North,Females,70-79,20,7,3,10,50.2,18.3,88.7
+178,Varese,Lombardia,North,Females,80-89,77,38,32,43,97.7,70.1,130.4
+179,Varese,Lombardia,North,Females,90 and older,68,34,27,39,96.8,65.0,132.9
+180,Como,Lombardia,North,Total,All ages,242,114,99,127,88.8,68.8,109.6
+181,Como,Lombardia,North,Total,Less than 60,17,5,2,7,41.2,14.4,73.0
+182,Como,Lombardia,North,Total,60-69,23,8,5,11,53.8,26.6,87.2
+183,Como,Lombardia,North,Total,70-79,41,16,11,20,62.2,35.1,94.2
+184,Como,Lombardia,North,Total,80-89,98,48,40,54,96.6,68.9,125.6
+185,Como,Lombardia,North,Total,90 and older,66,31,24,36,88.4,57.5,119.6
+186,Como,Lombardia,North,Males,All ages,111,49,40,56,78.2,56.1,101.7
+187,Como,Lombardia,North,Males,Less than 60,10,3,1,5,45.4,15.3,88.7
+188,Como,Lombardia,North,Males,60-69,16,7,5,9,80.0,43.9,124.9
+189,Como,Lombardia,North,Males,70-79,24,8,4,11,45.7,20.0,78.5
+190,Como,Lombardia,North,Males,80-89,43,20,15,24,87.7,54.1,125.9
+191,Como,Lombardia,North,Males,90 and older,19,7,3,10,61.1,21.3,108.3
+192,Como,Lombardia,North,Females,All ages,131,63,53,72,93.5,68.8,120.4
+193,Como,Lombardia,North,Females,Less than 60,7,1,-1,3,19.1,-10.6,56.1
+194,Como,Lombardia,North,Females,60-69,7,1,0,2,21.8,-2.6,53.0
+195,Como,Lombardia,North,Females,70-79,17,7,5,9,77.6,36.9,125.2
+196,Como,Lombardia,North,Females,80-89,55,27,22,32,98.5,65.6,135.7
+197,Como,Lombardia,North,Females,90 and older,47,23,18,27,96.0,64.2,135.0
+198,Sondrio,Lombardia,North,Total,All ages,84,40,33,46,91.4,65.9,119.7
+199,Sondrio,Lombardia,North,Total,Less than 60,3,1,0,1,30.6,-0.3,68.6
+200,Sondrio,Lombardia,North,Total,60-69,12,5,3,6,69.4,32.9,113.6
+201,Sondrio,Lombardia,North,Total,70-79,13,5,3,7,66.7,33.9,107.8
+202,Sondrio,Lombardia,North,Total,80-89,42,22,18,25,110.6,72.7,152.9
+203,Sondrio,Lombardia,North,Total,90 and older,17,8,5,10,81.8,44.4,131.6
+204,Sondrio,Lombardia,North,Males,All ages,38,16,12,20,75.6,44.5,109.7
+205,Sondrio,Lombardia,North,Males,Less than 60,3,1,0,1,33.7,-3.5,88.5
+206,Sondrio,Lombardia,North,Males,60-69,10,4,2,6,78.0,33.1,137.0
+207,Sondrio,Lombardia,North,Males,70-79,8,3,2,4,74.9,37.9,121.4
+208,Sondrio,Lombardia,North,Males,80-89,18,8,5,10,82.9,41.0,137.3
+209,Sondrio,Lombardia,North,Males,90 and older,2,1,0,1,39.3,-3.3,94.8
+210,Sondrio,Lombardia,North,Females,All ages,46,23,19,27,104.0,70.6,142.2
+211,Sondrio,Lombardia,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+212,Sondrio,Lombardia,North,Females,60-69,2,1,0,1,39.7,7.0,87.8
+213,Sondrio,Lombardia,North,Females,70-79,5,1,0,2,38.2,-3.4,95.3
+214,Sondrio,Lombardia,North,Females,80-89,24,13,10,16,125.5,72.4,187.1
+215,Sondrio,Lombardia,North,Females,90 and older,15,8,6,9,101.5,58.0,155.8
+216,Milano,Lombardia,North,Total,All ages,1343,722,679,764,116.5,102.2,131.9
+217,Milano,Lombardia,North,Total,Less than 60,48,3,-4,8,5.7,-8.5,21.4
+218,Milano,Lombardia,North,Total,60-69,99,38,30,45,62.1,42.6,82.3
+219,Milano,Lombardia,North,Total,70-79,208,94,81,105,81.7,64.2,101.8
+220,Milano,Lombardia,North,Total,80-89,596,341,318,361,133.5,114.0,153.8
+221,Milano,Lombardia,North,Total,90 and older,407,250,233,264,158.6,134.1,184.0
+222,Milano,Lombardia,North,Males,All ages,596,299,274,322,100.8,85.2,117.1
+223,Milano,Lombardia,North,Males,Less than 60,37,7,1,12,23.8,3.5,47.7
+224,Milano,Lombardia,North,Males,60-69,70,30,24,35,73.7,51.0,99.8
+225,Milano,Lombardia,North,Males,70-79,130,58,48,67,81.2,58.6,105.3
+226,Milano,Lombardia,North,Males,80-89,276,154,139,166,125.4,101.0,151.0
+227,Milano,Lombardia,North,Males,90 and older,99,52,46,58,112.3,85.0,143.9
+228,Milano,Lombardia,North,Females,All ages,746,424,397,448,131.4,113.6,150.2
+229,Milano,Lombardia,North,Females,Less than 60,11,0,-3,2,-2.8,-21.8,21.2
+230,Milano,Lombardia,North,Females,60-69,29,8,4,11,38.2,17.3,63.5
+231,Milano,Lombardia,North,Females,70-79,78,36,29,42,84.0,59.0,114.6
+232,Milano,Lombardia,North,Females,80-89,320,185,170,199,137.1,113.7,164.1
+233,Milano,Lombardia,North,Females,90 and older,308,196,185,208,175.3,149.0,206.3
+234,Bergamo,Lombardia,North,Total,All ages,435,223,202,242,105.0,86.5,125.8
+235,Bergamo,Lombardia,North,Total,Less than 60,31,13,10,16,74.8,45.8,109.5
+236,Bergamo,Lombardia,North,Total,60-69,67,40,36,44,152.2,117.4,193.3
+237,Bergamo,Lombardia,North,Total,70-79,98,48,41,55,96.4,71.5,125.6
+238,Bergamo,Lombardia,North,Total,80-89,157,85,75,93,117.3,90.5,145.3
+239,Bergamo,Lombardia,North,Total,90 and older,96,47,40,53,96.8,71.8,125.5
+240,Bergamo,Lombardia,North,Males,All ages,223,116,103,126,108.1,86.6,130.5
+241,Bergamo,Lombardia,North,Males,Less than 60,26,13,10,16,107.1,67.5,154.7
+242,Bergamo,Lombardia,North,Males,60-69,56,38,35,41,211.3,162.8,274.8
+243,Bergamo,Lombardia,North,Males,70-79,60,32,27,36,115.6,83.6,151.4
+244,Bergamo,Lombardia,North,Males,80-89,70,36,30,41,103.6,73.3,140.2
+245,Bergamo,Lombardia,North,Males,90 and older,24,11,8,14,85.6,50.8,128.8
+246,Bergamo,Lombardia,North,Females,All ages,213,110,99,121,108.0,87.6,132.5
+247,Bergamo,Lombardia,North,Females,Less than 60,5,1,0,2,38.0,7.6,79.8
+248,Bergamo,Lombardia,North,Females,60-69,11,5,4,6,83.1,50.4,125.9
+249,Bergamo,Lombardia,North,Females,70-79,38,19,15,23,99.6,64.3,149.1
+250,Bergamo,Lombardia,North,Females,80-89,87,50,44,55,133.4,99.9,167.8
+251,Bergamo,Lombardia,North,Females,90 and older,72,37,31,42,105.8,76.6,139.7
+252,Brescia,Lombardia,North,Total,All ages,616,365,342,384,145.2,124.6,166.1
+253,Brescia,Lombardia,North,Total,Less than 60,26,8,5,11,48.5,23.9,79.0
+254,Brescia,Lombardia,North,Total,60-69,61,36,33,40,147.9,114.5,186.9
+255,Brescia,Lombardia,North,Total,70-79,105,60,53,65,132.0,99.9,165.0
+256,Brescia,Lombardia,North,Total,80-89,244,150,138,160,158.7,129.7,190.4
+257,Brescia,Lombardia,North,Total,90 and older,192,122,113,130,173.0,143.7,206.9
+258,Brescia,Lombardia,North,Males,All ages,265,150,137,161,129.8,107.4,153.4
+259,Brescia,Lombardia,North,Males,Less than 60,16,6,4,8,63.0,31.4,99.1
+260,Brescia,Lombardia,North,Males,60-69,45,28,25,31,171.3,129.2,222.4
+261,Brescia,Lombardia,North,Males,70-79,64,36,31,40,128.1,93.3,166.5
+262,Brescia,Lombardia,North,Males,80-89,107,64,57,70,147.6,114.7,186.0
+263,Brescia,Lombardia,North,Males,90 and older,42,24,21,27,134.8,95.6,185.4
+264,Brescia,Lombardia,North,Females,All ages,350,216,202,230,161.5,136.0,190.5
+265,Brescia,Lombardia,North,Females,Less than 60,10,3,0,4,35.6,4.1,74.2
+266,Brescia,Lombardia,North,Females,60-69,16,7,5,9,81.5,49.6,121.3
+267,Brescia,Lombardia,North,Females,70-79,41,24,21,27,146.7,104.0,197.0
+268,Brescia,Lombardia,North,Females,80-89,137,88,81,94,177.2,142.7,218.1
+269,Brescia,Lombardia,North,Females,90 and older,150,98,91,105,190.1,154.7,230.0
+270,Pavia,Lombardia,North,Total,All ages,347,210,196,223,154.0,129.9,179.3
+271,Pavia,Lombardia,North,Total,Less than 60,15,3,0,5,20.8,-2.6,50.3
+272,Pavia,Lombardia,North,Total,60-69,33,17,14,19,100.4,68.3,137.1
+273,Pavia,Lombardia,North,Total,70-79,70,44,40,48,167.9,131.2,212.0
+274,Pavia,Lombardia,North,Total,80-89,135,79,71,86,142.5,112.4,175.4
+275,Pavia,Lombardia,North,Total,90 and older,98,62,56,67,173.6,134.0,216.7
+276,Pavia,Lombardia,North,Males,All ages,158,91,83,99,136.2,110.3,167.8
+277,Pavia,Lombardia,North,Males,Less than 60,10,2,0,4,21.0,-3.8,54.4
+278,Pavia,Lombardia,North,Males,60-69,22,12,9,14,111.7,71.1,159.8
+279,Pavia,Lombardia,North,Males,70-79,41,25,21,27,151.7,110.3,196.0
+280,Pavia,Lombardia,North,Males,80-89,59,32,27,37,119.0,82.9,160.6
+281,Pavia,Lombardia,North,Males,90 and older,29,17,14,20,140.5,91.4,202.3
+282,Pavia,Lombardia,North,Females,All ages,189,117,108,125,162.7,135.4,196.5
+283,Pavia,Lombardia,North,Females,Less than 60,5,1,0,2,21.9,-8.3,62.2
+284,Pavia,Lombardia,North,Females,60-69,11,4,2,5,57.6,27.3,96.1
+285,Pavia,Lombardia,North,Females,70-79,29,17,14,20,141.9,88.2,202.6
+286,Pavia,Lombardia,North,Females,80-89,76,46,41,50,158.4,118.1,200.8
+287,Pavia,Lombardia,North,Females,90 and older,68,43,39,47,174.2,133.6,221.2
+288,Cremona,Lombardia,North,Total,All ages,216,134,125,142,162.3,136.8,191.8
+289,Cremona,Lombardia,North,Total,Less than 60,13,4,2,6,51.0,20.5,86.5
+290,Cremona,Lombardia,North,Total,60-69,22,13,11,15,146.4,103.9,195.3
+291,Cremona,Lombardia,North,Total,70-79,39,23,20,26,147.7,106.2,192.1
+292,Cremona,Lombardia,North,Total,80-89,98,63,57,68,179.6,141.5,225.6
+293,Cremona,Lombardia,North,Total,90 and older,53,34,31,37,178.4,136.4,226.9
+294,Cremona,Lombardia,North,Males,All ages,107,68,63,73,177.2,142.5,215.5
+295,Cremona,Lombardia,North,Males,Less than 60,9,4,2,5,73.0,36.8,123.3
+296,Cremona,Lombardia,North,Males,60-69,17,11,10,12,192.9,136.2,264.1
+297,Cremona,Lombardia,North,Males,70-79,24,15,13,17,166.5,121.6,222.6
+298,Cremona,Lombardia,North,Males,80-89,47,30,26,33,179.2,127.7,241.5
+299,Cremona,Lombardia,North,Males,90 and older,17,10,8,12,155.2,95.6,229.0
+300,Cremona,Lombardia,North,Females,All ages,109,66,59,71,151.2,120.0,183.5
+301,Cremona,Lombardia,North,Females,Less than 60,4,0,-1,1,12.0,-16.2,47.5
+302,Cremona,Lombardia,North,Females,60-69,5,2,1,2,57.3,24.9,98.7
+303,Cremona,Lombardia,North,Females,70-79,15,8,6,10,111.2,61.7,174.0
+304,Cremona,Lombardia,North,Females,80-89,51,32,28,35,171.0,124.6,223.5
+305,Cremona,Lombardia,North,Females,90 and older,36,23,21,25,183.8,135.6,238.6
+306,Mantova,Lombardia,North,Total,All ages,203,106,94,116,108.5,85.4,132.8
+307,Mantova,Lombardia,North,Total,Less than 60,9,2,0,3,27.8,1.0,60.6
+308,Mantova,Lombardia,North,Total,60-69,15,5,3,7,51.0,25.1,85.4
+309,Mantova,Lombardia,North,Total,70-79,32,16,13,19,101.1,65.8,142.4
+310,Mantova,Lombardia,North,Total,80-89,95,57,50,62,149.4,113.3,188.4
+311,Mantova,Lombardia,North,Total,90 and older,53,25,20,29,89.2,59.6,124.3
+312,Mantova,Lombardia,North,Males,All ages,91,42,34,48,85.1,59.3,113.0
+313,Mantova,Lombardia,North,Males,Less than 60,7,2,1,3,45.0,13.4,89.4
+314,Mantova,Lombardia,North,Males,60-69,8,3,2,4,63.0,24.5,106.0
+315,Mantova,Lombardia,North,Males,70-79,19,9,7,11,97.5,59.5,139.4
+316,Mantova,Lombardia,North,Males,80-89,40,21,17,25,115.5,78.1,160.7
+317,Mantova,Lombardia,North,Males,90 and older,17,6,2,9,52.3,15.6,98.2
+318,Mantova,Lombardia,North,Females,All ages,112,63,55,69,126.2,96.6,159.7
+319,Mantova,Lombardia,North,Females,Less than 60,2,0,-1,1,7.7,-20.3,46.0
+320,Mantova,Lombardia,North,Females,60-69,7,1,0,3,24.1,-3.3,57.2
+321,Mantova,Lombardia,North,Females,70-79,13,7,4,8,98.0,48.7,160.7
+322,Mantova,Lombardia,North,Females,80-89,55,35,30,38,170.0,119.2,226.7
+323,Mantova,Lombardia,North,Females,90 and older,35,18,14,21,105.0,68.1,148.3
+324,Lecco,Lombardia,North,Total,All ages,164,100,93,107,157.6,130.7,189.0
+325,Lecco,Lombardia,North,Total,Less than 60,5,1,0,2,38.1,9.4,75.3
+326,Lecco,Lombardia,North,Total,60-69,12,6,5,7,106.3,66.4,155.5
+327,Lecco,Lombardia,North,Total,70-79,34,20,17,23,145.7,102.7,197.4
+328,Lecco,Lombardia,North,Total,80-89,66,41,36,45,159.2,120.9,205.4
+329,Lecco,Lombardia,North,Total,90 and older,47,31,27,33,186.2,135.0,246.8
+330,Lecco,Lombardia,North,Males,All ages,81,47,42,52,140.2,107.6,177.2
+331,Lecco,Lombardia,North,Males,Less than 60,4,1,0,2,37.1,4.7,82.8
+332,Lecco,Lombardia,North,Males,60-69,8,5,3,5,127.5,74.4,188.6
+333,Lecco,Lombardia,North,Males,70-79,22,13,10,14,133.0,90.7,188.3
+334,Lecco,Lombardia,North,Males,80-89,35,20,17,23,135.2,90.9,190.7
+335,Lecco,Lombardia,North,Males,90 and older,12,7,5,8,126.9,72.0,197.6
+336,Lecco,Lombardia,North,Females,All ages,84,53,48,57,171.5,132.0,214.4
+337,Lecco,Lombardia,North,Females,Less than 60,1,0,0,0,21.5,-12.5,66.3
+338,Lecco,Lombardia,North,Females,60-69,4,1,1,2,51.6,16.0,103.1
+339,Lecco,Lombardia,North,Females,70-79,12,7,5,8,137.4,77.6,212.5
+340,Lecco,Lombardia,North,Females,80-89,31,20,17,22,173.3,119.4,235.5
+341,Lecco,Lombardia,North,Females,90 and older,35,23,20,25,194.4,137.9,262.7
+342,Lodi,Lombardia,North,Total,All ages,83,35,28,41,73.4,50.7,99.6
+343,Lodi,Lombardia,North,Total,Less than 60,2,1,0,1,49.1,17.2,88.7
+344,Lodi,Lombardia,North,Total,60-69,9,5,4,6,113.3,71.1,166.0
+345,Lodi,Lombardia,North,Total,70-79,19,9,6,11,83.1,48.8,127.8
+346,Lodi,Lombardia,North,Total,80-89,34,14,10,18,71.2,40.4,108.3
+347,Lodi,Lombardia,North,Total,90 and older,19,8,5,10,67.6,32.2,114.4
+348,Lodi,Lombardia,North,Males,All ages,44,20,15,24,80.3,51.6,114.6
+349,Lodi,Lombardia,North,Males,Less than 60,2,1,0,1,56.1,19.4,108.6
+350,Lodi,Lombardia,North,Males,60-69,7,4,4,5,165.5,102.9,238.0
+351,Lodi,Lombardia,North,Males,70-79,14,7,5,8,91.7,55.7,139.7
+352,Lodi,Lombardia,North,Males,80-89,17,7,4,9,66.2,28.4,116.2
+353,Lodi,Lombardia,North,Males,90 and older,5,2,0,3,52.7,6.4,120.3
+354,Lodi,Lombardia,North,Females,All ages,38,15,10,18,61.5,34.6,91.5
+355,Lodi,Lombardia,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+356,Lodi,Lombardia,North,Females,60-69,2,1,0,1,51.6,18.0,93.9
+357,Lodi,Lombardia,North,Females,70-79,5,2,1,3,63.9,21.7,120.9
+358,Lodi,Lombardia,North,Females,80-89,17,7,4,9,70.2,32.0,117.9
+359,Lodi,Lombardia,North,Females,90 and older,14,6,4,8,84.5,41.5,137.3
+360,Monza e della Brianza,Lombardia,North,Total,All ages,324,170,154,183,110.4,90.6,130.7
+361,Monza e della Brianza,Lombardia,North,Total,Less than 60,14,2,0,5,20.4,-2.0,48.5
+362,Monza e della Brianza,Lombardia,North,Total,60-69,29,10,6,13,51.7,27.8,79.1
+363,Monza e della Brianza,Lombardia,North,Total,70-79,58,29,24,33,102.6,73.0,136.6
+364,Monza e della Brianza,Lombardia,North,Total,80-89,132,73,66,81,125.1,98.3,156.3
+365,Monza e della Brianza,Lombardia,North,Total,90 and older,92,52,46,58,131.6,98.3,167.2
+366,Monza e della Brianza,Lombardia,North,Males,All ages,151,71,61,80,90.1,68.7,114.2
+367,Monza e della Brianza,Lombardia,North,Males,Less than 60,5,1,-1,2,11.1,-11.8,42.5
+368,Monza e della Brianza,Lombardia,North,Males,60-69,16,6,3,8,53.2,23.1,87.9
+369,Monza e della Brianza,Lombardia,North,Males,70-79,36,18,15,21,103.6,72.2,144.8
+370,Monza e della Brianza,Lombardia,North,Males,80-89,72,39,32,43,114.6,81.8,150.8
+371,Monza e della Brianza,Lombardia,North,Males,90 and older,21,8,5,11,60.2,28.1,100.5
+372,Monza e della Brianza,Lombardia,North,Females,All ages,173,97,88,106,127.9,103.8,156.1
+373,Monza e della Brianza,Lombardia,North,Females,Less than 60,9,2,0,4,33.3,1.3,76.2
+374,Monza e della Brianza,Lombardia,North,Females,60-69,12,4,1,5,40.2,13.9,76.0
+375,Monza e della Brianza,Lombardia,North,Females,70-79,22,11,8,13,94.0,52.9,141.6
+376,Monza e della Brianza,Lombardia,North,Females,80-89,60,33,29,37,125.4,90.9,163.6
+377,Monza e della Brianza,Lombardia,North,Females,90 and older,71,44,39,48,163.9,124.4,212.4
+378,Bolzano,Trentino-Alto Adige,North,Total,All ages,141,60,49,70,74.0,52.5,97.3
+379,Bolzano,Trentino-Alto Adige,North,Total,Less than 60,7,1,-1,2,10.3,-12.4,39.3
+380,Bolzano,Trentino-Alto Adige,North,Total,60-69,18,7,4,9,57.7,28.9,98.9
+381,Bolzano,Trentino-Alto Adige,North,Total,70-79,25,9,5,12,55.9,28.4,89.8
+382,Bolzano,Trentino-Alto Adige,North,Total,80-89,49,23,18,27,86.9,56.9,122.5
+383,Bolzano,Trentino-Alto Adige,North,Total,90 and older,41,17,12,22,73.9,41.2,110.3
+384,Bolzano,Trentino-Alto Adige,North,Males,All ages,60,18,10,23,41.0,20.3,63.6
+385,Bolzano,Trentino-Alto Adige,North,Males,Less than 60,6,0,-1,2,6.2,-18.8,40.7
+386,Bolzano,Trentino-Alto Adige,North,Males,60-69,9,3,1,5,49.3,13.8,95.0
+387,Bolzano,Trentino-Alto Adige,North,Males,70-79,11,3,1,5,41.3,13.9,77.6
+388,Bolzano,Trentino-Alto Adige,North,Males,80-89,22,7,3,10,45.2,14.3,81.5
+389,Bolzano,Trentino-Alto Adige,North,Males,90 and older,12,4,2,6,53.0,15.0,104.8
+390,Bolzano,Trentino-Alto Adige,North,Females,All ages,81,42,36,48,109.8,80.4,145.0
+391,Bolzano,Trentino-Alto Adige,North,Females,Less than 60,1,0,0,0,10.0,-19.1,49.5
+392,Bolzano,Trentino-Alto Adige,North,Females,60-69,9,3,1,4,46.3,15.9,88.8
+393,Bolzano,Trentino-Alto Adige,North,Females,70-79,13,6,4,8,84.1,37.5,144.8
+394,Bolzano,Trentino-Alto Adige,North,Females,80-89,27,15,13,18,134.9,88.8,190.4
+395,Bolzano,Trentino-Alto Adige,North,Females,90 and older,29,13,9,16,84.9,46.4,130.4
+396,Trento,Trentino-Alto Adige,North,Total,All ages,231,113,98,126,95.4,73.7,118.9
+397,Trento,Trentino-Alto Adige,North,Total,Less than 60,8,1,-1,2,7.2,-15.2,35.4
+398,Trento,Trentino-Alto Adige,North,Total,60-69,14,4,2,6,46.8,20.2,81.8
+399,Trento,Trentino-Alto Adige,North,Total,70-79,39,14,8,18,52.8,25.4,86.0
+400,Trento,Trentino-Alto Adige,North,Total,80-89,96,53,45,59,121.4,88.4,158.0
+401,Trento,Trentino-Alto Adige,North,Total,90 and older,77,40,34,46,108.1,76.9,146.0
+402,Trento,Trentino-Alto Adige,North,Males,All ages,101,46,37,53,81.9,58.1,108.4
+403,Trento,Trentino-Alto Adige,North,Males,Less than 60,6,0,-1,2,7.2,-17.8,41.8
+404,Trento,Trentino-Alto Adige,North,Males,60-69,11,4,1,5,45.9,12.3,89.5
+405,Trento,Trentino-Alto Adige,North,Males,70-79,28,11,7,14,62.1,32.1,98.4
+406,Trento,Trentino-Alto Adige,North,Males,80-89,49,25,20,30,108.3,68.7,154.9
+407,Trento,Trentino-Alto Adige,North,Males,90 and older,11,5,3,6,81.5,39.8,131.0
+408,Trento,Trentino-Alto Adige,North,Females,All ages,130,66,56,75,104.4,75.7,136.1
+409,Trento,Trentino-Alto Adige,North,Females,Less than 60,2,0,-1,1,4.5,-22.9,37.6
+410,Trento,Trentino-Alto Adige,North,Females,60-69,2,0,0,1,26.6,-3.6,71.6
+411,Trento,Trentino-Alto Adige,North,Females,70-79,12,3,0,5,32.0,-2.6,76.0
+412,Trento,Trentino-Alto Adige,North,Females,80-89,47,26,21,30,126.2,83.2,176.0
+413,Trento,Trentino-Alto Adige,North,Females,90 and older,67,35,29,41,111.8,75.2,155.8
+414,Verona,Veneto,North,Total,All ages,271,105,86,120,62.9,46.7,80.1
+415,Verona,Veneto,North,Total,Less than 60,14,1,-1,4,11.5,-9.4,35.5
+416,Verona,Veneto,North,Total,60-69,28,7,3,10,32.2,9.9,58.5
+417,Verona,Veneto,North,Total,70-79,43,13,7,17,40.5,19.6,65.4
+418,Verona,Veneto,North,Total,80-89,102,49,41,56,93.9,68.2,120.3
+419,Verona,Veneto,North,Total,90 and older,88,33,24,40,60.7,37.4,84.2
+420,Verona,Veneto,North,Males,All ages,130,48,37,58,59.6,39.8,80.1
+421,Verona,Veneto,North,Males,Less than 60,9,1,-1,2,7.7,-14.1,38.6
+422,Verona,Veneto,North,Males,60-69,18,4,0,7,25.2,1.5,54.6
+423,Verona,Veneto,North,Males,70-79,32,10,6,14,47.3,21.3,76.7
+424,Verona,Veneto,North,Males,80-89,54,28,23,32,108.4,76.5,143.9
+425,Verona,Veneto,North,Males,90 and older,18,4,0,7,32.4,1.9,68.7
+426,Verona,Veneto,North,Females,All ages,141,56,46,66,65.9,47.8,87.5
+427,Verona,Veneto,North,Females,Less than 60,5,1,-1,2,12.6,-14.8,49.0
+428,Verona,Veneto,North,Females,60-69,9,2,0,4,30.1,3.4,63.8
+429,Verona,Veneto,North,Females,70-79,11,3,0,5,29.6,-1.2,65.9
+430,Verona,Veneto,North,Females,80-89,48,21,16,25,76.4,50.3,106.8
+431,Verona,Veneto,North,Females,90 and older,70,29,22,36,73.3,46.2,104.8
+432,Vicenza,Veneto,North,Total,All ages,220,54,33,70,32.4,17.8,46.9
+433,Vicenza,Veneto,North,Total,Less than 60,17,-1,-5,3,-4.2,-22.9,17.8
+434,Vicenza,Veneto,North,Total,60-69,21,3,-1,6,16.9,-4.1,42.5
+435,Vicenza,Veneto,North,Total,70-79,30,2,-3,7,8.0,-10.5,29.1
+436,Vicenza,Veneto,North,Total,80-89,94,31,20,39,49.4,28.1,71.6
+437,Vicenza,Veneto,North,Total,90 and older,65,21,12,27,46.7,23.3,70.9
+438,Vicenza,Veneto,North,Males,All ages,105,26,15,35,33.2,17.1,50.0
+439,Vicenza,Veneto,North,Males,Less than 60,11,-2,-5,1,-13.4,-33.1,12.4
+440,Vicenza,Veneto,North,Males,60-69,16,3,0,6,24.3,-0.4,54.5
+441,Vicenza,Veneto,North,Males,70-79,19,2,-1,5,13.6,-6.6,39.4
+442,Vicenza,Veneto,North,Males,80-89,47,17,11,22,59.4,31.6,90.4
+443,Vicenza,Veneto,North,Males,90 and older,15,5,2,7,50.8,16.3,91.8
+444,Vicenza,Veneto,North,Females,All ages,115,28,15,39,31.9,15.2,50.5
+445,Vicenza,Veneto,North,Females,Less than 60,6,1,-1,2,12.1,-15.8,47.4
+446,Vicenza,Veneto,North,Females,60-69,4,0,-1,1,1.8,-20.2,28.9
+447,Vicenza,Veneto,North,Females,70-79,10,1,-2,3,9.5,-16.9,44.4
+448,Vicenza,Veneto,North,Females,80-89,47,13,6,19,37.9,13.5,69.7
+449,Vicenza,Veneto,North,Females,90 and older,50,15,8,21,43.9,19.1,72.9
+450,Belluno,Veneto,North,Total,All ages,71,13,2,22,22.5,3.3,43.8
+451,Belluno,Veneto,North,Total,Less than 60,1,0,0,0,-2.3,-26.3,28.0
+452,Belluno,Veneto,North,Total,60-69,5,0,-2,1,-9.6,-33.9,28.4
+453,Belluno,Veneto,North,Total,70-79,15,1,-3,5,10.4,-17.8,42.5
+454,Belluno,Veneto,North,Total,80-89,23,6,2,10,39.0,8.9,74.6
+455,Belluno,Veneto,North,Total,90 and older,28,8,2,13,43.3,8.4,84.8
+456,Belluno,Veneto,North,Males,All ages,35,4,-4,10,14.3,-9.6,39.9
+457,Belluno,Veneto,North,Males,Less than 60,1,0,0,0,-7.1,-33.0,31.8
+458,Belluno,Veneto,North,Males,60-69,4,0,-2,1,-1.7,-31.6,48.2
+459,Belluno,Veneto,North,Males,70-79,10,1,-2,3,8.1,-18.4,42.8
+460,Belluno,Veneto,North,Males,80-89,11,3,0,5,41.7,3.6,91.1
+461,Belluno,Veneto,North,Males,90 and older,8,2,0,4,44.5,0.3,110.4
+462,Belluno,Veneto,North,Females,All ages,37,9,3,15,33.7,7.4,66.7
+463,Belluno,Veneto,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+464,Belluno,Veneto,North,Females,60-69,0,0,0,0,0.0,0.0,0.0
+465,Belluno,Veneto,North,Females,70-79,5,1,-1,2,26.5,-13.2,83.8
+466,Belluno,Veneto,North,Females,80-89,12,3,0,6,36.8,1.0,88.5
+467,Belluno,Veneto,North,Females,90 and older,20,6,1,10,42.8,4.1,93.1
+468,Treviso,Veneto,North,Total,All ages,221,55,36,72,33.5,19.3,48.1
+469,Treviso,Veneto,North,Total,Less than 60,10,1,-2,2,6.3,-15.0,31.3
+470,Treviso,Veneto,North,Total,60-69,23,5,0,8,24.8,1.6,53.2
+471,Treviso,Veneto,North,Total,70-79,42,8,1,14,23.7,2.7,49.7
+472,Treviso,Veneto,North,Total,80-89,86,23,13,31,36.9,17.1,57.8
+473,Treviso,Veneto,North,Total,90 and older,65,20,12,27,43.6,23.1,68.5
+474,Treviso,Veneto,North,Males,All ages,106,26,14,35,31.8,15.1,49.5
+475,Treviso,Veneto,North,Males,Less than 60,10,2,0,4,23.7,-1.8,58.8
+476,Treviso,Veneto,North,Males,60-69,18,5,2,8,38.8,10.1,75.8
+477,Treviso,Veneto,North,Males,70-79,25,5,0,8,22.4,0.3,49.6
+478,Treviso,Veneto,North,Males,80-89,38,9,3,14,31.2,7.4,59.2
+479,Treviso,Veneto,North,Males,90 and older,21,6,3,10,46.2,14.5,88.5
+480,Treviso,Veneto,North,Females,All ages,115,30,17,40,34.7,17.9,54.1
+481,Treviso,Veneto,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+482,Treviso,Veneto,North,Females,60-69,5,1,-1,2,14.9,-9.2,44.6
+483,Treviso,Veneto,North,Females,70-79,17,4,0,7,32.5,0.5,71.1
+484,Treviso,Veneto,North,Females,80-89,48,14,6,20,40.9,15.6,71.0
+485,Treviso,Veneto,North,Females,90 and older,45,13,7,19,41.9,17.1,70.5
+486,Venezia,Veneto,North,Total,All ages,215,38,17,55,21.4,8.8,34.2
+487,Venezia,Veneto,North,Total,Less than 60,11,1,-2,3,6.8,-13.1,30.6
+488,Venezia,Veneto,North,Total,60-69,23,2,-3,5,7.6,-12.3,29.9
+489,Venezia,Veneto,North,Total,70-79,36,5,-1,10,15.4,-3.7,37.6
+490,Venezia,Veneto,North,Total,80-89,82,12,1,21,16.8,1.6,33.5
+491,Venezia,Veneto,North,Total,90 and older,64,18,11,25,39.7,20.5,64.4
+492,Venezia,Veneto,North,Males,All ages,103,16,5,27,18.5,4.8,34.9
+493,Venezia,Veneto,North,Males,Less than 60,6,0,-1,2,7.7,-13.7,37.2
+494,Venezia,Veneto,North,Males,60-69,18,3,0,6,22.1,-1.7,53.6
+495,Venezia,Veneto,North,Males,70-79,19,4,1,7,27.1,4.6,51.7
+496,Venezia,Veneto,North,Males,80-89,47,7,-2,13,16.7,-4.0,40.0
+497,Venezia,Veneto,North,Males,90 and older,14,2,-1,5,15.9,-8.5,48.7
+498,Venezia,Veneto,North,Females,All ages,112,21,9,31,23.1,8.8,39.0
+499,Venezia,Veneto,North,Females,Less than 60,5,0,-1,2,7.0,-19.5,42.7
+500,Venezia,Veneto,North,Females,60-69,5,0,-2,1,-1.9,-23.9,28.6
+501,Venezia,Veneto,North,Females,70-79,16,0,-5,3,-2.2,-24.5,25.0
+502,Venezia,Veneto,North,Females,80-89,35,5,-2,10,15.4,-5.0,37.8
+503,Venezia,Veneto,North,Females,90 and older,50,17,11,22,51.7,26.7,79.3
+504,Padova,Veneto,North,Total,All ages,216,47,27,64,27.7,14.0,41.8
+505,Padova,Veneto,North,Total,Less than 60,7,-1,-3,1,-12.5,-29.7,8.4
+506,Padova,Veneto,North,Total,60-69,14,1,-1,3,10.3,-9.8,34.3
+507,Padova,Veneto,North,Total,70-79,44,9,2,15,26.1,3.7,52.4
+508,Padova,Veneto,North,Total,80-89,80,20,10,28,32.3,13.6,52.5
+509,Padova,Veneto,North,Total,90 and older,74,22,13,29,42.0,20.9,63.5
+510,Padova,Veneto,North,Males,All ages,100,22,12,31,29.1,13.5,45.8
+511,Padova,Veneto,North,Males,Less than 60,5,-1,-2,1,-9.6,-29.5,18.0
+512,Padova,Veneto,North,Males,60-69,10,1,-2,3,9.1,-13.3,37.7
+513,Padova,Veneto,North,Males,70-79,26,5,0,9,24.5,1.6,51.0
+514,Padova,Veneto,North,Males,80-89,43,12,4,17,36.7,11.4,64.9
+515,Padova,Veneto,North,Males,90 and older,17,5,2,8,44.0,11.9,84.2
+516,Padova,Veneto,North,Females,All ages,117,24,12,36,26.3,11.0,43.8
+517,Padova,Veneto,North,Females,Less than 60,1,0,0,0,-3.5,-28.5,30.2
+518,Padova,Veneto,North,Females,60-69,3,0,0,1,15.1,-8.5,43.8
+519,Padova,Veneto,North,Females,70-79,18,3,-1,7,24.1,-4.9,60.9
+520,Padova,Veneto,North,Females,80-89,37,8,2,13,28.6,5.9,54.4
+521,Padova,Veneto,North,Females,90 and older,57,16,8,22,38.8,15.2,65.0
+522,Rovigo,Veneto,North,Total,All ages,75,14,5,22,22.5,6.7,42.3
+523,Rovigo,Veneto,North,Total,Less than 60,10,3,1,4,41.1,9.9,78.5
+524,Rovigo,Veneto,North,Total,60-69,15,4,1,7,39.5,9.2,80.4
+525,Rovigo,Veneto,North,Total,70-79,9,1,-2,2,9.2,-16.3,38.1
+526,Rovigo,Veneto,North,Total,80-89,19,3,0,6,20.9,-1.4,47.3
+527,Rovigo,Veneto,North,Total,90 and older,28,5,-1,10,23.6,-3.0,56.0
+528,Rovigo,Veneto,North,Males,All ages,33,7,2,11,26.8,5.0,52.4
+529,Rovigo,Veneto,North,Males,Less than 60,6,1,0,3,31.3,-2.4,77.2
+530,Rovigo,Veneto,North,Males,60-69,13,5,2,7,55.6,17.6,109.1
+531,Rovigo,Veneto,North,Males,70-79,5,1,-1,2,16.7,-10.0,51.0
+532,Rovigo,Veneto,North,Males,80-89,8,1,-1,3,19.1,-8.8,55.5
+533,Rovigo,Veneto,North,Males,90 and older,7,2,-1,3,30.9,-7.3,81.1
+534,Rovigo,Veneto,North,Females,All ages,42,6,-2,11,15.7,-4.2,37.3
+535,Rovigo,Veneto,North,Females,Less than 60,4,1,0,2,26.0,-6.8,71.4
+536,Rovigo,Veneto,North,Females,60-69,2,0,0,1,21.6,-7.4,64.3
+537,Rovigo,Veneto,North,Females,70-79,4,0,-2,1,-3.1,-32.8,37.1
+538,Rovigo,Veneto,North,Females,80-89,11,2,-1,4,24.0,-6.6,60.2
+539,Rovigo,Veneto,North,Females,90 and older,21,4,-1,8,25.6,-5.3,64.6
+540,Udine,Friuli-Venezia Giulia,North,Total,All ages,143,14,-4,29,11.1,-2.6,25.1
+541,Udine,Friuli-Venezia Giulia,North,Total,Less than 60,2,0,-1,0,-2.4,-23.4,23.2
+542,Udine,Friuli-Venezia Giulia,North,Total,60-69,7,0,-1,2,7.7,-15.2,37.8
+543,Udine,Friuli-Venezia Giulia,North,Total,70-79,38,10,3,15,34.3,8.7,63.6
+544,Udine,Friuli-Venezia Giulia,North,Total,80-89,56,6,-4,14,11.5,-6.3,33.0
+545,Udine,Friuli-Venezia Giulia,North,Total,90 and older,40,2,-7,8,5.3,-14.5,25.6
+546,Udine,Friuli-Venezia Giulia,North,Males,All ages,67,8,-3,17,14.2,-3.7,33.2
+547,Udine,Friuli-Venezia Giulia,North,Males,Less than 60,1,0,0,0,-4.6,-27.5,25.2
+548,Udine,Friuli-Venezia Giulia,North,Males,60-69,6,1,-1,2,16.3,-12.1,56.7
+549,Udine,Friuli-Venezia Giulia,North,Males,70-79,22,5,1,8,30.0,5.1,61.3
+550,Udine,Friuli-Venezia Giulia,North,Males,80-89,30,5,-2,10,19.0,-5.9,49.0
+551,Udine,Friuli-Venezia Giulia,North,Males,90 and older,8,0,-2,2,5.8,-21.3,39.7
+552,Udine,Friuli-Venezia Giulia,North,Females,All ages,76,7,-5,17,9.8,-6.1,27.8
+553,Udine,Friuli-Venezia Giulia,North,Females,Less than 60,1,0,0,0,7.2,-21.0,43.8
+554,Udine,Friuli-Venezia Giulia,North,Females,60-69,1,0,0,0,8.8,-22.5,46.8
+555,Udine,Friuli-Venezia Giulia,North,Females,70-79,16,4,1,7,37.3,3.4,81.6
+556,Udine,Friuli-Venezia Giulia,North,Females,80-89,26,1,-6,6,3.5,-18.4,30.5
+557,Udine,Friuli-Venezia Giulia,North,Females,90 and older,32,2,-5,8,6.3,-14.3,33.5
+558,Gorizia,Friuli-Venezia Giulia,North,Total,All ages,35,2,-5,7,6.0,-12.0,24.9
+559,Gorizia,Friuli-Venezia Giulia,North,Total,Less than 60,1,0,0,0,0.5,-25.0,33.7
+560,Gorizia,Friuli-Venezia Giulia,North,Total,60-69,1,0,0,0,16.8,-14.2,60.5
+561,Gorizia,Friuli-Venezia Giulia,North,Total,70-79,7,0,-2,2,7.1,-19.5,41.9
+562,Gorizia,Friuli-Venezia Giulia,North,Total,80-89,18,3,-1,6,21.5,-5.4,54.3
+563,Gorizia,Friuli-Venezia Giulia,North,Total,90 and older,8,0,-2,2,5.6,-20.7,42.3
+564,Gorizia,Friuli-Venezia Giulia,North,Males,All ages,18,1,-4,4,3.2,-18.5,26.3
+565,Gorizia,Friuli-Venezia Giulia,North,Males,Less than 60,1,0,0,0,2.4,-25.6,42.9
+566,Gorizia,Friuli-Venezia Giulia,North,Males,60-69,0,0,0,0,0.0,0.0,0.0
+567,Gorizia,Friuli-Venezia Giulia,North,Males,70-79,3,0,-1,1,-5.4,-32.4,34.3
+568,Gorizia,Friuli-Venezia Giulia,North,Males,80-89,10,2,-1,4,25.4,-8.2,66.0
+569,Gorizia,Friuli-Venezia Giulia,North,Males,90 and older,4,1,-1,2,17.0,-20.6,72.5
+570,Gorizia,Friuli-Venezia Giulia,North,Females,All ages,17,1,-3,5,9.3,-12.8,37.3
+571,Gorizia,Friuli-Venezia Giulia,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+572,Gorizia,Friuli-Venezia Giulia,North,Females,60-69,1,0,0,0,21.6,-10.9,67.1
+573,Gorizia,Friuli-Venezia Giulia,North,Females,70-79,4,1,0,2,34.1,-9.2,92.1
+574,Gorizia,Friuli-Venezia Giulia,North,Females,80-89,8,1,-1,3,20.4,-13.8,71.6
+575,Gorizia,Friuli-Venezia Giulia,North,Females,90 and older,4,0,-1,1,5.4,-24.4,49.9
+576,Trieste,Friuli-Venezia Giulia,North,Total,All ages,103,33,23,42,47.9,28.1,69.3
+577,Trieste,Friuli-Venezia Giulia,North,Total,Less than 60,1,0,0,0,0.0,-24.6,30.8
+578,Trieste,Friuli-Venezia Giulia,North,Total,60-69,8,1,-2,2,8.5,-15.9,40.5
+579,Trieste,Friuli-Venezia Giulia,North,Total,70-79,26,6,1,10,31.7,4.6,63.9
+580,Trieste,Friuli-Venezia Giulia,North,Total,80-89,38,14,9,18,59.5,32.3,94.3
+581,Trieste,Friuli-Venezia Giulia,North,Total,90 and older,30,11,7,15,57.9,28.9,97.0
+582,Trieste,Friuli-Venezia Giulia,North,Males,All ages,37,7,1,12,23.4,3.8,46.4
+583,Trieste,Friuli-Venezia Giulia,North,Males,Less than 60,1,0,0,0,3.2,-24.8,42.5
+584,Trieste,Friuli-Venezia Giulia,North,Males,60-69,4,0,-1,1,7.2,-20.6,46.9
+585,Trieste,Friuli-Venezia Giulia,North,Males,70-79,11,2,0,4,22.7,-3.8,56.8
+586,Trieste,Friuli-Venezia Giulia,North,Males,80-89,17,5,1,8,39.3,6.2,81.3
+587,Trieste,Friuli-Venezia Giulia,North,Males,90 and older,4,1,-1,2,14.4,-17.2,60.6
+588,Trieste,Friuli-Venezia Giulia,North,Females,All ages,66,27,20,33,69.4,43.7,98.2
+589,Trieste,Friuli-Venezia Giulia,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+590,Trieste,Friuli-Venezia Giulia,North,Females,60-69,4,1,0,1,14.8,-10.5,50.9
+591,Trieste,Friuli-Venezia Giulia,North,Females,70-79,15,5,1,7,46.8,8.7,97.6
+592,Trieste,Friuli-Venezia Giulia,North,Females,80-89,21,9,6,12,80.0,38.7,126.7
+593,Trieste,Friuli-Venezia Giulia,North,Females,90 and older,26,11,7,14,71.9,37.7,114.4
+594,Pordenone,Friuli-Venezia Giulia,North,Total,All ages,77,18,10,26,30.4,14.1,50.6
+595,Pordenone,Friuli-Venezia Giulia,North,Total,Less than 60,1,0,0,0,6.8,-18.0,37.6
+596,Pordenone,Friuli-Venezia Giulia,North,Total,60-69,6,1,-1,2,20.1,-8.1,59.6
+597,Pordenone,Friuli-Venezia Giulia,North,Total,70-79,15,3,-1,5,21.3,-6.6,52.8
+598,Pordenone,Friuli-Venezia Giulia,North,Total,80-89,26,6,1,9,26.7,3.4,54.4
+599,Pordenone,Friuli-Venezia Giulia,North,Total,90 and older,29,9,4,13,43.9,16.2,77.0
+600,Pordenone,Friuli-Venezia Giulia,North,Males,All ages,33,10,5,13,41.6,20.0,66.7
+601,Pordenone,Friuli-Venezia Giulia,North,Males,Less than 60,1,0,0,0,7.5,-22.4,48.4
+602,Pordenone,Friuli-Venezia Giulia,North,Males,60-69,5,1,0,2,35.9,1.0,90.3
+603,Pordenone,Friuli-Venezia Giulia,North,Males,70-79,8,2,1,4,38.7,7.1,79.8
+604,Pordenone,Friuli-Venezia Giulia,North,Males,80-89,12,2,0,5,26.5,-3.5,65.3
+605,Pordenone,Friuli-Venezia Giulia,North,Males,90 and older,7,3,2,4,73.6,26.7,131.7
+606,Pordenone,Friuli-Venezia Giulia,North,Females,All ages,44,6,-1,12,16.6,-2.7,39.1
+607,Pordenone,Friuli-Venezia Giulia,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+608,Pordenone,Friuli-Venezia Giulia,North,Females,60-69,1,0,0,0,15.2,-10.5,51.0
+609,Pordenone,Friuli-Venezia Giulia,North,Females,70-79,6,0,-3,2,-5.1,-34.7,35.1
+610,Pordenone,Friuli-Venezia Giulia,North,Females,80-89,15,3,-1,6,26.9,-3.4,66.7
+611,Pordenone,Friuli-Venezia Giulia,North,Females,90 and older,21,5,0,9,30.4,0.8,66.7
+612,Imperia,Liguria,North,Total,All ages,100,42,33,50,72.7,49.7,99.4
+613,Imperia,Liguria,North,Total,Less than 60,2,0,0,1,7.5,-18.0,39.2
+614,Imperia,Liguria,North,Total,60-69,6,1,0,2,26.9,-1.3,66.4
+615,Imperia,Liguria,North,Total,70-79,29,13,9,16,84.7,47.2,126.5
+616,Imperia,Liguria,North,Total,80-89,40,18,13,22,81.3,50.1,118.7
+617,Imperia,Liguria,North,Total,90 and older,22,10,6,12,77.1,37.7,124.4
+618,Imperia,Liguria,North,Males,All ages,44,16,11,21,56.9,31.1,89.0
+619,Imperia,Liguria,North,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+620,Imperia,Liguria,North,Males,60-69,4,1,0,2,27.8,-5.7,76.4
+621,Imperia,Liguria,North,Males,70-79,20,9,6,11,83.5,43.5,134.2
+622,Imperia,Liguria,North,Males,80-89,16,5,2,7,45.1,11.8,90.1
+623,Imperia,Liguria,North,Males,90 and older,4,2,1,2,79.4,31.2,147.1
+624,Imperia,Liguria,North,Females,All ages,56,26,20,31,87.5,55.7,124.0
+625,Imperia,Liguria,North,Females,Less than 60,2,0,0,1,17.2,-14.1,57.4
+626,Imperia,Liguria,North,Females,60-69,2,0,0,1,26.4,-5.1,65.4
+627,Imperia,Liguria,North,Females,70-79,9,3,1,5,59.9,14.5,118.9
+628,Imperia,Liguria,North,Females,80-89,24,13,10,15,121.4,73.2,177.6
+629,Imperia,Liguria,North,Females,90 and older,18,8,4,10,70.0,29.1,120.8
+630,Savona,Liguria,North,Total,All ages,114,38,27,47,49.6,31.0,69.5
+631,Savona,Liguria,North,Total,Less than 60,3,0,-1,1,1.8,-21.4,29.8
+632,Savona,Liguria,North,Total,60-69,9,2,-1,3,20.2,-5.7,51.5
+633,Savona,Liguria,North,Total,70-79,15,3,1,6,28.8,3.5,60.3
+634,Savona,Liguria,North,Total,80-89,49,18,13,23,59.5,34.4,90.3
+635,Savona,Liguria,North,Total,90 and older,40,16,11,20,68.6,37.4,100.8
+636,Savona,Liguria,North,Males,All ages,50,15,9,20,41.9,21.3,64.4
+637,Savona,Liguria,North,Males,Less than 60,2,0,0,1,13.9,-13.5,52.3
+638,Savona,Liguria,North,Males,60-69,6,1,0,2,22.6,-7.4,62.7
+639,Savona,Liguria,North,Males,70-79,7,1,0,2,17.5,-6.6,48.1
+640,Savona,Liguria,North,Males,80-89,26,11,6,14,68.4,31.8,111.2
+641,Savona,Liguria,North,Males,90 and older,11,4,1,5,51.8,12.4,98.6
+642,Savona,Liguria,North,Females,All ages,64,23,15,29,55.2,31.9,81.2
+643,Savona,Liguria,North,Females,Less than 60,1,0,0,0,-2.3,-30.3,35.4
+644,Savona,Liguria,North,Females,60-69,3,0,0,1,19.6,-8.3,60.2
+645,Savona,Liguria,North,Females,70-79,8,3,1,4,50.8,10.5,104.5
+646,Savona,Liguria,North,Females,80-89,23,8,4,11,50.2,19.6,85.8
+647,Savona,Liguria,North,Females,90 and older,29,12,8,16,72.2,38.0,116.8
+648,Genova,Liguria,North,Total,All ages,431,197,175,216,83.8,68.5,100.5
+649,Genova,Liguria,North,Total,Less than 60,18,2,-2,5,12.8,-8.2,37.4
+650,Genova,Liguria,North,Total,60-69,37,12,7,16,47.1,24.1,73.2
+651,Genova,Liguria,North,Total,70-79,86,37,29,44,74.8,50.7,102.1
+652,Genova,Liguria,North,Total,80-89,183,87,75,98,91.1,69.3,116.0
+653,Genova,Liguria,North,Total,90 and older,116,55,46,62,90.3,65.8,116.7
+654,Genova,Liguria,North,Males,All ages,184,77,64,88,71.4,53.1,91.2
+655,Genova,Liguria,North,Males,Less than 60,11,1,-1,3,10.3,-11.8,41.3
+656,Genova,Liguria,North,Males,60-69,21,7,3,9,47.7,19.9,79.8
+657,Genova,Liguria,North,Males,70-79,54,24,18,29,79.7,51.0,111.7
+658,Genova,Liguria,North,Males,80-89,82,38,30,44,84.5,57.5,117.4
+659,Genova,Liguria,North,Males,90 and older,21,7,3,9,43.7,16.1,78.3
+660,Genova,Liguria,North,Females,All ages,247,120,107,133,94.8,76.2,117.3
+661,Genova,Liguria,North,Females,Less than 60,7,1,-1,3,20.8,-7.8,56.9
+662,Genova,Liguria,North,Females,60-69,16,4,1,6,33.3,8.1,64.2
+663,Genova,Liguria,North,Females,70-79,32,13,8,16,64.6,32.0,100.5
+664,Genova,Liguria,North,Females,80-89,101,50,42,57,100.3,71.2,130.8
+665,Genova,Liguria,North,Females,90 and older,94,48,41,55,105.0,77.0,138.1
+666,La Spezia,Liguria,North,Total,All ages,80,27,19,33,49.8,31.3,69.6
+667,La Spezia,Liguria,North,Total,Less than 60,0,0,0,0,0.0,0.0,0.0
+668,La Spezia,Liguria,North,Total,60-69,8,2,1,4,44.7,11.7,90.0
+669,La Spezia,Liguria,North,Total,70-79,15,6,4,8,66.8,34.7,106.2
+670,La Spezia,Liguria,North,Total,80-89,36,15,11,18,69.5,41.8,105.1
+671,La Spezia,Liguria,North,Total,90 and older,21,5,1,8,31.3,4.9,62.3
+672,La Spezia,Liguria,North,Males,All ages,35,11,7,15,46.4,23.1,73.6
+673,La Spezia,Liguria,North,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+674,La Spezia,Liguria,North,Males,60-69,7,2,1,4,52.0,13.7,106.6
+675,La Spezia,Liguria,North,Males,70-79,10,4,3,6,77.8,41.4,122.9
+676,La Spezia,Liguria,North,Males,80-89,14,4,2,7,45.3,12.5,87.0
+677,La Spezia,Liguria,North,Males,90 and older,4,1,0,2,39.0,0.6,89.1
+678,La Spezia,Liguria,North,Females,All ages,45,15,9,20,51.0,26.6,77.8
+679,La Spezia,Liguria,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+680,La Spezia,Liguria,North,Females,60-69,1,0,0,0,23.8,-5.3,66.7
+681,La Spezia,Liguria,North,Females,70-79,5,1,0,2,39.8,0.8,91.2
+682,La Spezia,Liguria,North,Females,80-89,22,10,7,13,89.0,45.0,138.4
+683,La Spezia,Liguria,North,Females,90 and older,17,4,0,7,30.8,1.3,68.8
+684,Piacenza,Emilia-Romagna,North,Total,All ages,156,82,73,90,111.4,87.3,138.0
+685,Piacenza,Emilia-Romagna,North,Total,Less than 60,7,2,0,3,34.5,6.5,70.3
+686,Piacenza,Emilia-Romagna,North,Total,60-69,19,11,9,12,135.5,91.0,190.1
+687,Piacenza,Emilia-Romagna,North,Total,70-79,37,21,18,24,134.0,91.3,183.5
+688,Piacenza,Emilia-Romagna,North,Total,80-89,63,33,28,38,111.1,79.7,147.3
+689,Piacenza,Emilia-Romagna,North,Total,90 and older,36,19,15,22,112.3,73.9,154.4
+690,Piacenza,Emilia-Romagna,North,Males,All ages,79,42,37,47,115.8,86.3,148.5
+691,Piacenza,Emilia-Romagna,North,Males,Less than 60,6,2,1,3,54.5,18.9,102.8
+692,Piacenza,Emilia-Romagna,North,Males,60-69,16,10,9,12,188.6,128.7,264.4
+693,Piacenza,Emilia-Romagna,North,Males,70-79,24,14,12,16,141.2,95.5,191.0
+694,Piacenza,Emilia-Romagna,North,Males,80-89,29,16,12,18,117.1,75.3,169.5
+695,Piacenza,Emilia-Romagna,North,Males,90 and older,9,3,1,5,60.3,19.5,112.0
+696,Piacenza,Emilia-Romagna,North,Females,All ages,77,40,34,45,109.2,81.0,141.7
+697,Piacenza,Emilia-Romagna,North,Females,Less than 60,1,0,0,0,15.0,-18.2,58.4
+698,Piacenza,Emilia-Romagna,North,Females,60-69,3,1,1,2,59.8,23.2,104.2
+699,Piacenza,Emilia-Romagna,North,Females,70-79,13,7,5,8,116.8,60.8,188.1
+700,Piacenza,Emilia-Romagna,North,Females,80-89,34,17,13,20,101.6,59.9,149.8
+701,Piacenza,Emilia-Romagna,North,Females,90 and older,27,16,13,18,139.3,90.1,194.4
+702,Parma,Emilia-Romagna,North,Total,All ages,200,101,89,112,102.3,80.2,126.6
+703,Parma,Emilia-Romagna,North,Total,Less than 60,1,0,0,0,41.6,12.0,76.5
+704,Parma,Emilia-Romagna,North,Total,60-69,12,6,5,7,109.4,72.5,154.8
+705,Parma,Emilia-Romagna,North,Total,70-79,26,13,9,15,92.1,54.3,132.2
+706,Parma,Emilia-Romagna,North,Total,80-89,94,52,45,58,123.9,91.3,161.4
+707,Parma,Emilia-Romagna,North,Total,90 and older,67,35,28,40,106.0,72.6,142.2
+708,Parma,Emilia-Romagna,North,Males,All ages,90,44,37,50,96.8,68.7,126.9
+709,Parma,Emilia-Romagna,North,Males,Less than 60,1,0,0,1,57.6,21.5,101.5
+710,Parma,Emilia-Romagna,North,Males,60-69,7,4,3,5,127.7,78.0,188.2
+711,Parma,Emilia-Romagna,North,Males,70-79,19,10,8,11,102.2,66.1,150.0
+712,Parma,Emilia-Romagna,North,Males,80-89,45,25,20,29,121.5,81.2,173.5
+713,Parma,Emilia-Romagna,North,Males,90 and older,18,7,4,10,65.0,26.2,113.3
+714,Parma,Emilia-Romagna,North,Females,All ages,111,58,50,64,110.2,83.3,139.3
+715,Parma,Emilia-Romagna,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+716,Parma,Emilia-Romagna,North,Females,60-69,5,2,1,3,61.3,29.8,102.5
+717,Parma,Emilia-Romagna,North,Females,70-79,7,3,2,4,74.8,29.3,136.1
+718,Parma,Emilia-Romagna,North,Females,80-89,49,27,22,31,125.8,83.2,174.6
+719,Parma,Emilia-Romagna,North,Females,90 and older,49,27,22,31,118.9,79.0,163.1
+720,Reggio nell'Emilia,Emilia-Romagna,North,Total,All ages,213,99,85,111,86.8,66.0,108.4
+721,Reggio nell'Emilia,Emilia-Romagna,North,Total,Less than 60,9,0,-2,2,5.6,-16.0,31.5
+722,Reggio nell'Emilia,Emilia-Romagna,North,Total,60-69,16,5,2,7,46.5,18.8,78.3
+723,Reggio nell'Emilia,Emilia-Romagna,North,Total,70-79,39,17,13,21,80.5,50.0,115.8
+724,Reggio nell'Emilia,Emilia-Romagna,North,Total,80-89,76,36,29,41,89.5,61.0,120.2
+725,Reggio nell'Emilia,Emilia-Romagna,North,Total,90 and older,74,39,32,44,111.9,77.8,147.1
+726,Reggio nell'Emilia,Emilia-Romagna,North,Males,All ages,96,40,31,48,72.2,47.8,97.9
+727,Reggio nell'Emilia,Emilia-Romagna,North,Males,Less than 60,6,1,-1,2,11.8,-12.5,45.6
+728,Reggio nell'Emilia,Emilia-Romagna,North,Males,60-69,6,2,1,3,49.2,14.8,87.9
+729,Reggio nell'Emilia,Emilia-Romagna,North,Males,70-79,22,10,7,12,79.4,46.8,121.6
+730,Reggio nell'Emilia,Emilia-Romagna,North,Males,80-89,36,15,10,19,68.0,37.0,105.2
+731,Reggio nell'Emilia,Emilia-Romagna,North,Males,90 and older,26,13,10,16,106.5,60.3,164.6
+732,Reggio nell'Emilia,Emilia-Romagna,North,Females,All ages,117,58,50,66,99.6,73.9,128.8
+733,Reggio nell'Emilia,Emilia-Romagna,North,Females,Less than 60,3,0,-1,1,10.6,-17.5,49.3
+734,Reggio nell'Emilia,Emilia-Romagna,North,Females,60-69,9,2,0,4,28.6,1.7,66.8
+735,Reggio nell'Emilia,Emilia-Romagna,North,Females,70-79,17,7,3,9,68.2,26.1,119.9
+736,Reggio nell'Emilia,Emilia-Romagna,North,Females,80-89,39,21,16,24,113.7,70.9,161.9
+737,Reggio nell'Emilia,Emilia-Romagna,North,Females,90 and older,48,25,19,29,103.8,66.2,146.2
+738,Modena,Emilia-Romagna,North,Total,All ages,216,63,45,78,41.0,26.1,56.7
+739,Modena,Emilia-Romagna,North,Total,Less than 60,14,3,0,5,27.2,2.9,56.7
+740,Modena,Emilia-Romagna,North,Total,60-69,20,6,3,8,43.0,19.1,71.8
+741,Modena,Emilia-Romagna,North,Total,70-79,44,13,7,18,43.0,19.6,70.8
+742,Modena,Emilia-Romagna,North,Total,80-89,81,26,16,33,46.6,25.3,69.6
+743,Modena,Emilia-Romagna,North,Total,90 and older,60,18,11,24,43.5,21.7,66.2
+744,Modena,Emilia-Romagna,North,Males,All ages,112,37,27,47,49.5,31.2,70.9
+745,Modena,Emilia-Romagna,North,Males,Less than 60,9,2,0,3,24.4,-2.3,60.7
+746,Modena,Emilia-Romagna,North,Males,60-69,13,5,2,6,55.5,23.2,92.2
+747,Modena,Emilia-Romagna,North,Males,70-79,26,8,5,12,48.8,23.1,82.2
+748,Modena,Emilia-Romagna,North,Males,80-89,45,15,9,20,52.2,24.7,84.1
+749,Modena,Emilia-Romagna,North,Males,90 and older,23,8,4,11,55.9,22.6,97.1
+750,Modena,Emilia-Romagna,North,Females,All ages,103,27,15,36,34.7,17.6,54.1
+751,Modena,Emilia-Romagna,North,Females,Less than 60,5,1,0,2,30.1,-2.3,73.6
+752,Modena,Emilia-Romagna,North,Females,60-69,7,1,0,2,21.0,-3.6,52.2
+753,Modena,Emilia-Romagna,North,Females,70-79,18,5,1,8,35.6,3.2,74.5
+754,Modena,Emilia-Romagna,North,Females,80-89,37,11,5,15,42.2,15.1,73.0
+755,Modena,Emilia-Romagna,North,Females,90 and older,36,9,3,14,34.9,10.2,62.2
+756,Bologna,Emilia-Romagna,North,Total,All ages,365,133,108,154,57.4,42.2,72.9
+757,Bologna,Emilia-Romagna,North,Total,Less than 60,12,1,-1,3,14.2,-7.5,39.1
+758,Bologna,Emilia-Romagna,North,Total,60-69,29,5,1,9,22.9,3.3,48.7
+759,Bologna,Emilia-Romagna,North,Total,70-79,62,21,14,26,50.1,29.2,75.2
+760,Bologna,Emilia-Romagna,North,Total,80-89,147,54,40,64,57.3,37.7,77.3
+761,Bologna,Emilia-Romagna,North,Total,90 and older,117,43,31,52,58.4,36.6,80.5
+762,Bologna,Emilia-Romagna,North,Males,All ages,166,57,42,69,52.2,34.1,71.1
+763,Bologna,Emilia-Romagna,North,Males,Less than 60,7,1,0,3,21.6,-2.8,56.1
+764,Bologna,Emilia-Romagna,North,Males,60-69,22,5,1,9,33.0,7.1,67.6
+765,Bologna,Emilia-Romagna,North,Males,70-79,38,11,6,16,42.8,18.9,70.7
+766,Bologna,Emilia-Romagna,North,Males,80-89,62,20,12,26,46.1,23.8,70.6
+767,Bologna,Emilia-Romagna,North,Males,90 and older,40,14,8,19,52.2,23.4,88.9
+768,Bologna,Emilia-Romagna,North,Females,All ages,199,72,58,86,57.4,41.2,76.5
+769,Bologna,Emilia-Romagna,North,Females,Less than 60,4,0,-1,1,10.6,-16.4,46.9
+770,Bologna,Emilia-Romagna,North,Females,60-69,7,1,-1,2,13.7,-9.4,46.7
+771,Bologna,Emilia-Romagna,North,Females,70-79,24,8,4,11,50.2,18.6,87.2
+772,Bologna,Emilia-Romagna,North,Females,80-89,85,33,24,41,63.6,39.9,92.1
+773,Bologna,Emilia-Romagna,North,Females,90 and older,78,28,19,35,56.0,32.1,81.9
+774,Ferrara,Emilia-Romagna,North,Total,All ages,113,22,9,32,24.4,9.0,40.3
+775,Ferrara,Emilia-Romagna,North,Total,Less than 60,5,0,-1,1,0.2,-20.9,25.7
+776,Ferrara,Emilia-Romagna,North,Total,60-69,4,0,-1,1,7.6,-15.5,37.3
+777,Ferrara,Emilia-Romagna,North,Total,70-79,20,3,-2,6,15.5,-7.2,43.0
+778,Ferrara,Emilia-Romagna,North,Total,80-89,48,12,6,18,34.5,13.6,59.2
+779,Ferrara,Emilia-Romagna,North,Total,90 and older,36,8,2,13,29.7,6.1,59.9
+780,Ferrara,Emilia-Romagna,North,Males,All ages,59,10,1,17,20.5,2.5,40.9
+781,Ferrara,Emilia-Romagna,North,Males,Less than 60,3,0,-1,1,10.1,-15.3,44.7
+782,Ferrara,Emilia-Romagna,North,Males,60-69,3,0,-1,1,11.9,-16.1,51.6
+783,Ferrara,Emilia-Romagna,North,Males,70-79,12,1,-2,3,12.0,-12.7,40.6
+784,Ferrara,Emilia-Romagna,North,Males,80-89,25,6,1,10,32.2,4.4,65.0
+785,Ferrara,Emilia-Romagna,North,Males,90 and older,15,3,-2,6,22.5,-10.4,67.9
+786,Ferrara,Emilia-Romagna,North,Females,All ages,55,11,4,17,26.0,8.1,45.9
+787,Ferrara,Emilia-Romagna,North,Females,Less than 60,2,0,-1,1,1.6,-24.6,37.8
+788,Ferrara,Emilia-Romagna,North,Females,60-69,1,0,0,0,15.1,-11.3,52.9
+789,Ferrara,Emilia-Romagna,North,Females,70-79,8,1,-1,3,20.4,-10.7,61.0
+790,Ferrara,Emilia-Romagna,North,Females,80-89,23,6,1,9,32.5,5.1,63.8
+791,Ferrara,Emilia-Romagna,North,Females,90 and older,21,5,1,8,32.9,5.3,65.3
+792,Ravenna,Emilia-Romagna,North,Total,All ages,106,12,-1,23,12.3,-1.2,27.4
+793,Ravenna,Emilia-Romagna,North,Total,Less than 60,4,0,-1,1,0.7,-21.5,27.9
+794,Ravenna,Emilia-Romagna,North,Total,60-69,11,1,-3,3,4.8,-18.7,33.5
+795,Ravenna,Emilia-Romagna,North,Total,70-79,21,4,0,8,22.9,-2.0,54.7
+796,Ravenna,Emilia-Romagna,North,Total,80-89,35,3,-3,9,10.2,-8.1,32.7
+797,Ravenna,Emilia-Romagna,North,Total,90 and older,36,5,-2,10,15.7,-5.3,40.2
+798,Ravenna,Emilia-Romagna,North,Males,All ages,53,7,-1,14,14.6,-1.9,35.2
+799,Ravenna,Emilia-Romagna,North,Males,Less than 60,2,0,-1,1,-0.7,-25.5,33.7
+800,Ravenna,Emilia-Romagna,North,Males,60-69,7,1,-1,2,9.3,-17.5,47.9
+801,Ravenna,Emilia-Romagna,North,Males,70-79,13,2,-1,5,20.6,-6.2,55.7
+802,Ravenna,Emilia-Romagna,North,Males,80-89,20,4,-1,7,21.9,-4.1,53.4
+803,Ravenna,Emilia-Romagna,North,Males,90 and older,12,2,-1,5,19.2,-8.4,61.3
+804,Ravenna,Emilia-Romagna,North,Females,All ages,52,5,-4,12,9.6,-6.8,29.2
+805,Ravenna,Emilia-Romagna,North,Females,Less than 60,2,0,0,1,14.4,-16.3,53.2
+806,Ravenna,Emilia-Romagna,North,Females,60-69,4,0,-1,1,9.2,-17.2,39.5
+807,Ravenna,Emilia-Romagna,North,Females,70-79,8,2,-1,4,28.9,-6.3,76.6
+808,Ravenna,Emilia-Romagna,North,Females,80-89,15,0,-4,3,2.3,-21.0,29.5
+809,Ravenna,Emilia-Romagna,North,Females,90 and older,23,3,-3,7,13.6,-10.7,44.3
+810,Forlì-Cesena,Emilia-Romagna,North,Total,All ages,127,37,25,47,40.9,24.9,58.4
+811,Forlì-Cesena,Emilia-Romagna,North,Total,Less than 60,5,0,-2,1,-6.7,-26.7,18.1
+812,Forlì-Cesena,Emilia-Romagna,North,Total,60-69,12,3,0,5,28.9,2.2,62.1
+813,Forlì-Cesena,Emilia-Romagna,North,Total,70-79,28,7,2,11,34.1,7.5,65.2
+814,Forlì-Cesena,Emilia-Romagna,North,Total,80-89,47,16,10,21,51.5,27.9,80.3
+815,Forlì-Cesena,Emilia-Romagna,North,Total,90 and older,35,10,4,14,38.6,12.3,66.7
+816,Forlì-Cesena,Emilia-Romagna,North,Males,All ages,69,21,13,28,44.2,23.8,66.8
+817,Forlì-Cesena,Emilia-Romagna,North,Males,Less than 60,4,0,-2,1,-5.2,-28.3,27.5
+818,Forlì-Cesena,Emilia-Romagna,North,Males,60-69,7,1,0,3,24.6,-5.7,66.6
+819,Forlì-Cesena,Emilia-Romagna,North,Males,70-79,22,7,3,10,44.7,14.6,82.2
+820,Forlì-Cesena,Emilia-Romagna,North,Males,80-89,25,8,4,12,49.5,20.1,84.3
+821,Forlì-Cesena,Emilia-Romagna,North,Males,90 and older,11,2,-1,5,28.6,-5.4,71.2
+822,Forlì-Cesena,Emilia-Romagna,North,Females,All ages,57,16,9,22,37.3,17.6,63.0
+823,Forlì-Cesena,Emilia-Romagna,North,Females,Less than 60,1,0,0,0,3.6,-23.8,40.5
+824,Forlì-Cesena,Emilia-Romagna,North,Females,60-69,5,1,0,2,25.4,-4.4,61.9
+825,Forlì-Cesena,Emilia-Romagna,North,Females,70-79,6,1,-2,2,9.6,-20.1,49.5
+826,Forlì-Cesena,Emilia-Romagna,North,Females,80-89,22,8,4,11,51.6,20.4,90.0
+827,Forlì-Cesena,Emilia-Romagna,North,Females,90 and older,24,7,3,11,43.5,13.9,80.4
+828,Rimini,Emilia-Romagna,North,Total,All ages,89,24,14,33,36.3,18.6,57.4
+829,Rimini,Emilia-Romagna,North,Total,Less than 60,3,0,0,1,15.1,-9.9,45.0
+830,Rimini,Emilia-Romagna,North,Total,60-69,7,2,0,3,35.6,6.9,75.1
+831,Rimini,Emilia-Romagna,North,Total,70-79,14,5,2,7,52.7,19.8,92.0
+832,Rimini,Emilia-Romagna,North,Total,80-89,39,11,5,16,40.8,14.3,71.2
+833,Rimini,Emilia-Romagna,North,Total,90 and older,24,6,1,10,33.0,5.3,65.8
+834,Rimini,Emilia-Romagna,North,Males,All ages,43,11,5,17,35.6,12.4,63.2
+835,Rimini,Emilia-Romagna,North,Males,Less than 60,3,0,-1,1,14.7,-14.5,54.2
+836,Rimini,Emilia-Romagna,North,Males,60-69,5,2,0,3,47.3,9.8,101.5
+837,Rimini,Emilia-Romagna,North,Males,70-79,9,3,1,5,51.8,16.8,95.9
+838,Rimini,Emilia-Romagna,North,Males,80-89,18,5,1,8,35.4,3.0,76.5
+839,Rimini,Emilia-Romagna,North,Males,90 and older,6,2,0,3,41.6,3.4,99.6
+840,Rimini,Emilia-Romagna,North,Females,All ages,47,13,5,18,36.7,12.2,65.2
+841,Rimini,Emilia-Romagna,North,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+842,Rimini,Emilia-Romagna,North,Females,60-69,2,0,0,1,26.3,-4.1,71.3
+843,Rimini,Emilia-Romagna,North,Females,70-79,5,2,0,3,51.8,6.8,110.7
+844,Rimini,Emilia-Romagna,North,Females,80-89,20,7,2,10,47.5,9.6,92.4
+845,Rimini,Emilia-Romagna,North,Females,90 and older,18,4,0,8,27.6,-2.5,72.7
+846,Massa-Carrara,Toscana,Central,Total,All ages,70,20,11,26,38.7,19.4,59.7
+847,Massa-Carrara,Toscana,Central,Total,Less than 60,4,0,-1,1,11.0,-15.5,46.4
+848,Massa-Carrara,Toscana,Central,Total,60-69,11,4,1,5,46.2,14.3,90.4
+849,Massa-Carrara,Toscana,Central,Total,70-79,5,1,-1,2,16.3,-10.7,49.9
+850,Massa-Carrara,Toscana,Central,Total,80-89,23,8,4,11,51.2,22.2,85.6
+851,Massa-Carrara,Toscana,Central,Total,90 and older,26,7,2,11,39.5,10.0,75.8
+852,Massa-Carrara,Toscana,Central,Males,All ages,22,5,1,8,28.8,6.6,57.3
+853,Massa-Carrara,Toscana,Central,Males,Less than 60,1,0,0,0,15.1,-15.9,61.0
+854,Massa-Carrara,Toscana,Central,Males,60-69,8,4,2,5,73.9,28.3,139.3
+855,Massa-Carrara,Toscana,Central,Males,70-79,4,1,0,2,40.8,9.1,83.6
+856,Massa-Carrara,Toscana,Central,Males,80-89,6,1,0,3,28.4,-2.1,71.2
+857,Massa-Carrara,Toscana,Central,Males,90 and older,3,0,-1,1,18.4,-17.2,62.8
+858,Massa-Carrara,Toscana,Central,Females,All ages,48,15,8,21,47.7,21.2,78.2
+859,Massa-Carrara,Toscana,Central,Females,Less than 60,3,0,-1,1,12.2,-19.4,54.2
+860,Massa-Carrara,Toscana,Central,Females,60-69,3,0,-1,1,13.5,-15.7,58.6
+861,Massa-Carrara,Toscana,Central,Females,70-79,1,0,-1,0,-1.8,-34.3,49.3
+862,Massa-Carrara,Toscana,Central,Females,80-89,17,8,5,10,79.7,38.2,138.7
+863,Massa-Carrara,Toscana,Central,Females,90 and older,23,8,3,11,51.1,13.6,95.2
+864,Lucca,Toscana,Central,Total,All ages,115,13,-2,25,12.8,-1.5,28.2
+865,Lucca,Toscana,Central,Total,Less than 60,4,0,-1,1,3.4,-18.9,31.6
+866,Lucca,Toscana,Central,Total,60-69,9,1,-1,3,15.1,-8.8,47.6
+867,Lucca,Toscana,Central,Total,70-79,23,4,0,8,24.4,0.0,55.1
+868,Lucca,Toscana,Central,Total,80-89,50,10,2,17,25.1,4.5,50.0
+869,Lucca,Toscana,Central,Total,90 and older,31,0,-8,6,-0.4,-20.2,22.9
+870,Lucca,Toscana,Central,Males,All ages,53,8,0,14,17.2,-0.4,36.2
+871,Lucca,Toscana,Central,Males,Less than 60,3,0,-1,1,4.0,-23.0,40.6
+872,Lucca,Toscana,Central,Males,60-69,4,1,0,2,25.8,-6.1,71.0
+873,Lucca,Toscana,Central,Males,70-79,17,4,0,7,26.8,-0.1,60.9
+874,Lucca,Toscana,Central,Males,80-89,23,4,-1,8,24.3,-2.4,58.7
+875,Lucca,Toscana,Central,Males,90 and older,7,1,-1,2,12.9,-17.7,52.9
+876,Lucca,Toscana,Central,Females,All ages,62,5,-5,14,9.5,-7.7,29.8
+877,Lucca,Toscana,Central,Females,Less than 60,1,0,0,0,8.5,-20.6,48.6
+878,Lucca,Toscana,Central,Females,60-69,4,1,-1,2,16.3,-11.3,56.1
+879,Lucca,Toscana,Central,Females,70-79,5,1,0,2,27.2,-8.1,74.0
+880,Lucca,Toscana,Central,Females,80-89,27,5,0,10,24.7,-1.8,58.1
+881,Lucca,Toscana,Central,Females,90 and older,24,0,-7,5,-1.2,-22.8,27.5
+882,Pistoia,Toscana,Central,Total,All ages,74,14,5,22,22.9,7.3,41.7
+883,Pistoia,Toscana,Central,Total,Less than 60,5,1,0,2,18.9,-7.6,49.9
+884,Pistoia,Toscana,Central,Total,60-69,11,2,-1,4,22.3,-4.3,57.0
+885,Pistoia,Toscana,Central,Total,70-79,12,3,1,5,37.5,7.6,71.6
+886,Pistoia,Toscana,Central,Total,80-89,29,6,0,10,25.0,1.6,52.0
+887,Pistoia,Toscana,Central,Total,90 and older,18,2,-2,6,14.9,-9.7,44.7
+888,Pistoia,Toscana,Central,Males,All ages,33,5,-1,10,17.1,-2.1,41.2
+889,Pistoia,Toscana,Central,Males,Less than 60,3,0,-1,1,0.9,-26.3,33.7
+890,Pistoia,Toscana,Central,Males,60-69,7,1,0,3,25.3,-6.0,69.6
+891,Pistoia,Toscana,Central,Males,70-79,5,1,0,2,25.1,-2.6,59.1
+892,Pistoia,Toscana,Central,Males,80-89,15,3,0,6,29.6,-0.2,67.9
+893,Pistoia,Toscana,Central,Males,90 and older,4,0,-1,1,11.9,-20.4,56.8
+894,Pistoia,Toscana,Central,Females,All ages,41,9,2,14,29.0,6.2,53.7
+895,Pistoia,Toscana,Central,Females,Less than 60,2,1,0,1,36.2,1.1,83.2
+896,Pistoia,Toscana,Central,Females,60-69,4,1,0,2,20.8,-7.2,61.6
+897,Pistoia,Toscana,Central,Females,70-79,7,3,1,4,58.6,15.4,116.6
+898,Pistoia,Toscana,Central,Females,80-89,15,3,-1,6,24.3,-6.3,63.1
+899,Pistoia,Toscana,Central,Females,90 and older,14,2,-2,5,18.3,-10.3,54.5
+900,Firenze,Toscana,Central,Total,All ages,327,91,67,112,38.8,25.7,52.3
+901,Firenze,Toscana,Central,Total,Less than 60,14,1,-2,3,4.5,-14.8,28.6
+902,Firenze,Toscana,Central,Total,60-69,26,4,0,8,20.4,0.7,46.1
+903,Firenze,Toscana,Central,Total,70-79,53,13,5,19,31.3,10.8,53.3
+904,Firenze,Toscana,Central,Total,80-89,126,38,25,48,43.2,24.9,61.8
+905,Firenze,Toscana,Central,Total,90 and older,108,31,19,40,39.2,21.9,59.4
+906,Firenze,Toscana,Central,Males,All ages,161,52,39,63,47.8,32.0,64.5
+907,Firenze,Toscana,Central,Males,Less than 60,8,0,-2,2,3.1,-18.0,33.1
+908,Firenze,Toscana,Central,Males,60-69,21,6,2,9,37.8,12.2,69.6
+909,Firenze,Toscana,Central,Males,70-79,28,7,2,10,32.4,9.4,58.2
+910,Firenze,Toscana,Central,Males,80-89,72,26,19,33,57.9,35.1,85.8
+911,Firenze,Toscana,Central,Males,90 and older,33,12,7,16,53.6,24.7,89.1
+912,Firenze,Toscana,Central,Females,All ages,166,36,21,51,28.0,14.3,43.9
+913,Firenze,Toscana,Central,Females,Less than 60,6,1,-1,2,13.0,-14.3,46.8
+914,Firenze,Toscana,Central,Females,60-69,5,0,-2,1,-3.8,-23.7,25.5
+915,Firenze,Toscana,Central,Females,70-79,25,5,-1,9,23.5,-2.8,54.6
+916,Firenze,Toscana,Central,Females,80-89,54,11,3,18,24.7,5.7,49.3
+917,Firenze,Toscana,Central,Females,90 and older,75,20,9,28,36.7,13.9,60.6
+918,Livorno,Toscana,Central,Total,All ages,86,13,2,22,17.0,2.6,33.5
+919,Livorno,Toscana,Central,Total,Less than 60,9,1,-2,2,8.5,-15.4,36.5
+920,Livorno,Toscana,Central,Total,60-69,7,1,0,3,24.6,-1.1,58.6
+921,Livorno,Toscana,Central,Total,70-79,19,4,0,7,23.7,-0.6,54.0
+922,Livorno,Toscana,Central,Total,80-89,34,4,-2,10,14.0,-6.0,39.0
+923,Livorno,Toscana,Central,Total,90 and older,18,2,-2,5,14.0,-10.2,41.7
+924,Livorno,Toscana,Central,Males,All ages,36,4,-2,10,13.4,-4.7,35.9
+925,Livorno,Toscana,Central,Males,Less than 60,5,1,-1,2,11.2,-15.6,48.7
+926,Livorno,Toscana,Central,Males,60-69,5,1,0,2,29.3,-2.5,73.9
+927,Livorno,Toscana,Central,Males,70-79,5,1,0,2,18.0,-6.7,49.5
+928,Livorno,Toscana,Central,Males,80-89,16,2,-2,5,13.0,-13.4,46.7
+929,Livorno,Toscana,Central,Males,90 and older,6,1,-1,2,9.7,-19.5,52.7
+930,Livorno,Toscana,Central,Females,All ages,50,8,0,15,20.3,0.8,41.4
+931,Livorno,Toscana,Central,Females,Less than 60,4,0,-1,1,9.4,-18.9,45.9
+932,Livorno,Toscana,Central,Females,60-69,2,0,0,1,15.4,-11.1,53.6
+933,Livorno,Toscana,Central,Females,70-79,14,3,0,6,31.6,-2.7,77.5
+934,Livorno,Toscana,Central,Females,80-89,19,3,-2,6,17.4,-10.7,51.3
+935,Livorno,Toscana,Central,Females,90 and older,12,2,-1,4,20.8,-5.9,54.8
+936,Pisa,Toscana,Central,Total,All ages,112,21,10,31,23.4,9.4,38.3
+937,Pisa,Toscana,Central,Total,Less than 60,7,0,-1,2,6.7,-15.2,34.3
+938,Pisa,Toscana,Central,Total,60-69,13,2,-1,4,13.7,-9.0,43.0
+939,Pisa,Toscana,Central,Total,70-79,21,2,-3,5,9.0,-12.1,35.0
+940,Pisa,Toscana,Central,Total,80-89,41,10,4,15,31.5,11.3,56.4
+941,Pisa,Toscana,Central,Total,90 and older,34,7,1,11,25.2,1.6,50.8
+942,Pisa,Toscana,Central,Males,All ages,44,7,1,13,19.1,1.3,40.9
+943,Pisa,Toscana,Central,Males,Less than 60,5,0,-1,2,10.4,-14.9,46.2
+944,Pisa,Toscana,Central,Males,60-69,10,1,-2,3,14.1,-13.2,52.1
+945,Pisa,Toscana,Central,Males,70-79,9,1,-1,3,10.5,-12.1,40.9
+946,Pisa,Toscana,Central,Males,80-89,17,4,0,7,28.4,0.6,62.9
+947,Pisa,Toscana,Central,Males,90 and older,6,1,-1,2,13.5,-15.9,55.9
+948,Pisa,Toscana,Central,Females,All ages,68,16,7,24,30.4,11.8,53.9
+949,Pisa,Toscana,Central,Females,Less than 60,2,0,0,1,9.3,-19.7,48.1
+950,Pisa,Toscana,Central,Females,60-69,3,0,0,1,10.8,-13.6,45.6
+951,Pisa,Toscana,Central,Females,70-79,12,2,-2,4,18.3,-12.5,59.1
+952,Pisa,Toscana,Central,Females,80-89,24,7,2,10,37.1,9.1,70.3
+953,Pisa,Toscana,Central,Females,90 and older,28,6,0,10,28.1,1.5,58.4
+954,Arezzo,Toscana,Central,Total,All ages,104,12,-2,23,12.7,-1.8,28.9
+955,Arezzo,Toscana,Central,Total,Less than 60,3,0,-1,1,6.4,-17.7,37.0
+956,Arezzo,Toscana,Central,Total,60-69,9,2,0,4,30.6,3.7,66.2
+957,Arezzo,Toscana,Central,Total,70-79,17,0,-5,4,1.6,-21.9,28.0
+958,Arezzo,Toscana,Central,Total,80-89,50,6,-3,14,13.8,-6.2,37.6
+959,Arezzo,Toscana,Central,Total,90 and older,23,3,-2,6,13.7,-7.7,37.9
+960,Arezzo,Toscana,Central,Males,All ages,48,7,0,13,17.1,-1.0,37.8
+961,Arezzo,Toscana,Central,Males,Less than 60,1,0,0,0,6.3,-24.8,50.8
+962,Arezzo,Toscana,Central,Males,60-69,4,1,0,2,39.2,4.1,89.1
+963,Arezzo,Toscana,Central,Males,70-79,13,1,-2,4,10.2,-14.8,43.1
+964,Arezzo,Toscana,Central,Males,80-89,22,3,-3,7,14.9,-10.5,47.2
+965,Arezzo,Toscana,Central,Males,90 and older,7,1,-1,3,21.9,-11.3,63.7
+966,Arezzo,Toscana,Central,Females,All ages,56,4,-6,11,6.8,-10.4,25.6
+967,Arezzo,Toscana,Central,Females,Less than 60,2,0,-1,1,-0.8,-27.5,35.6
+968,Arezzo,Toscana,Central,Females,60-69,5,1,0,2,20.2,-7.9,59.9
+969,Arezzo,Toscana,Central,Females,70-79,4,0,-2,1,-4.1,-33.6,35.2
+970,Arezzo,Toscana,Central,Females,80-89,29,4,-4,9,14.2,-13.0,46.2
+971,Arezzo,Toscana,Central,Females,90 and older,16,2,-2,5,12.1,-11.7,41.6
+972,Siena,Toscana,Central,Total,All ages,65,1,-9,10,1.6,-12.3,18.6
+973,Siena,Toscana,Central,Total,Less than 60,2,0,-1,1,5.0,-20.9,37.3
+974,Siena,Toscana,Central,Total,60-69,3,0,0,1,15.1,-10.5,51.3
+975,Siena,Toscana,Central,Total,70-79,12,2,-2,4,17.4,-11.3,49.7
+976,Siena,Toscana,Central,Total,80-89,26,0,-6,5,0.8,-19.2,25.1
+977,Siena,Toscana,Central,Total,90 and older,21,-1,-7,4,-3.4,-24.5,21.6
+978,Siena,Toscana,Central,Males,All ages,28,1,-4,6,5.2,-12.7,27.0
+979,Siena,Toscana,Central,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+980,Siena,Toscana,Central,Males,60-69,2,0,0,1,22.1,-11.1,70.7
+981,Siena,Toscana,Central,Males,70-79,9,2,0,4,27.5,-1.8,67.4
+982,Siena,Toscana,Central,Males,80-89,12,1,-3,3,4.8,-20.2,37.8
+983,Siena,Toscana,Central,Males,90 and older,4,0,-2,1,2.5,-26.1,38.5
+984,Siena,Toscana,Central,Females,All ages,37,0,-8,6,-0.7,-18.6,20.2
+985,Siena,Toscana,Central,Females,Less than 60,2,0,0,1,14.9,-15.5,54.6
+986,Siena,Toscana,Central,Females,60-69,1,0,0,0,14.3,-13.5,54.3
+987,Siena,Toscana,Central,Females,70-79,3,0,-1,1,2.7,-28.8,51.8
+988,Siena,Toscana,Central,Females,80-89,14,0,-4,4,0.6,-24.2,34.6
+989,Siena,Toscana,Central,Females,90 and older,16,1,-4,4,3.2,-20.8,36.4
+990,Grosseto,Toscana,Central,Total,All ages,52,5,-2,12,11.0,-3.8,29.0
+991,Grosseto,Toscana,Central,Total,Less than 60,1,0,0,0,9.6,-17.8,43.9
+992,Grosseto,Toscana,Central,Total,60-69,6,1,-1,2,14.2,-12.7,51.4
+993,Grosseto,Toscana,Central,Total,70-79,9,1,-2,3,9.8,-17.0,40.5
+994,Grosseto,Toscana,Central,Total,80-89,21,2,-2,6,11.6,-10.2,37.2
+995,Grosseto,Toscana,Central,Total,90 and older,14,3,-1,5,21.9,-3.6,55.6
+996,Grosseto,Toscana,Central,Males,All ages,26,3,-2,7,11.7,-7.6,35.7
+997,Grosseto,Toscana,Central,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+998,Grosseto,Toscana,Central,Males,60-69,3,0,-1,1,15.4,-17.2,63.5
+999,Grosseto,Toscana,Central,Males,70-79,6,1,-1,2,13.8,-13.2,49.9
+1000,Grosseto,Toscana,Central,Males,80-89,9,1,-2,3,8.2,-18.1,43.2
+1001,Grosseto,Toscana,Central,Males,90 and older,7,2,0,3,28.5,-6.1,79.8
+1002,Grosseto,Toscana,Central,Females,All ages,26,3,-2,7,13.4,-6.0,35.0
+1003,Grosseto,Toscana,Central,Females,Less than 60,1,0,0,0,2.2,-26.6,39.6
+1004,Grosseto,Toscana,Central,Females,60-69,3,0,0,1,16.5,-12.5,60.6
+1005,Grosseto,Toscana,Central,Females,70-79,3,0,-1,1,15.0,-20.9,63.2
+1006,Grosseto,Toscana,Central,Females,80-89,12,2,-1,5,21.2,-8.1,61.2
+1007,Grosseto,Toscana,Central,Females,90 and older,7,1,-1,3,23.3,-6.7,63.8
+1008,Prato,Toscana,Central,Total,All ages,55,10,2,16,20.9,3.6,40.7
+1009,Prato,Toscana,Central,Total,Less than 60,2,0,-1,0,-0.4,-24.6,31.1
+1010,Prato,Toscana,Central,Total,60-69,8,2,0,3,28.8,-3.3,70.6
+1011,Prato,Toscana,Central,Total,70-79,8,0,-3,2,2.4,-24.3,34.5
+1012,Prato,Toscana,Central,Total,80-89,21,3,-2,7,18.0,-7.1,47.3
+1013,Prato,Toscana,Central,Total,90 and older,15,3,0,6,28.5,-0.3,61.6
+1014,Prato,Toscana,Central,Males,All ages,30,7,2,11,29.1,7.0,57.8
+1015,Prato,Toscana,Central,Males,Less than 60,1,0,0,0,14.5,-14.8,53.8
+1016,Prato,Toscana,Central,Males,60-69,5,1,0,2,35.5,-3.6,93.8
+1017,Prato,Toscana,Central,Males,70-79,6,0,-2,2,6.4,-21.1,44.3
+1018,Prato,Toscana,Central,Males,80-89,15,5,2,7,48.9,13.9,95.1
+1019,Prato,Toscana,Central,Males,90 and older,3,1,0,1,26.9,-11.9,84.8
+1020,Prato,Toscana,Central,Females,All ages,25,2,-3,6,10.3,-10.3,33.3
+1021,Prato,Toscana,Central,Females,Less than 60,1,0,0,0,1.1,-27.8,39.3
+1022,Prato,Toscana,Central,Females,60-69,3,1,0,1,21.8,-8.0,66.2
+1023,Prato,Toscana,Central,Females,70-79,2,0,-1,1,3.7,-30.9,50.1
+1024,Prato,Toscana,Central,Females,80-89,6,-1,-3,1,-9.2,-32.8,24.3
+1025,Prato,Toscana,Central,Females,90 and older,12,3,0,5,28.6,-3.0,68.5
+1026,Perugia,Umbria,Central,Total,All ages,145,-4,-22,12,-2.5,-13.0,9.1
+1027,Perugia,Umbria,Central,Total,Less than 60,7,1,-1,2,8.6,-12.5,33.2
+1028,Perugia,Umbria,Central,Total,60-69,9,0,-2,2,3.9,-15.6,31.2
+1029,Perugia,Umbria,Central,Total,70-79,21,0,-5,4,0.1,-18.7,23.8
+1030,Perugia,Umbria,Central,Total,80-89,51,-6,-16,2,-10.6,-24.4,4.3
+1031,Perugia,Umbria,Central,Total,90 and older,58,5,-5,13,9.3,-8.5,27.9
+1032,Perugia,Umbria,Central,Males,All ages,53,-2,-10,6,-2.9,-15.8,12.0
+1033,Perugia,Umbria,Central,Males,Less than 60,7,0,-2,2,6.8,-17.6,38.0
+1034,Perugia,Umbria,Central,Males,60-69,7,1,-1,2,10.8,-15.0,45.9
+1035,Perugia,Umbria,Central,Males,70-79,13,1,-2,4,10.0,-12.6,38.8
+1036,Perugia,Umbria,Central,Males,80-89,17,-1,-6,2,-8.0,-26.8,13.2
+1037,Perugia,Umbria,Central,Males,90 and older,12,-1,-4,2,-7.0,-27.4,19.9
+1038,Perugia,Umbria,Central,Females,All ages,92,-2,-17,11,-1.9,-15.3,13.5
+1039,Perugia,Umbria,Central,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1040,Perugia,Umbria,Central,Females,60-69,2,0,-1,1,2.5,-20.5,35.5
+1041,Perugia,Umbria,Central,Females,70-79,8,-1,-5,1,-12.9,-36.0,17.7
+1042,Perugia,Umbria,Central,Females,80-89,34,-4,-14,4,-9.4,-28.5,14.4
+1043,Perugia,Umbria,Central,Females,90 and older,47,8,0,15,21.8,0.4,47.4
+1044,Terni,Umbria,Central,Total,All ages,65,6,-4,14,9.6,-5.2,28.1
+1045,Terni,Umbria,Central,Total,Less than 60,3,0,-1,1,2.7,-20.7,31.3
+1046,Terni,Umbria,Central,Total,60-69,4,0,-1,1,3.2,-21.0,34.8
+1047,Terni,Umbria,Central,Total,70-79,14,1,-3,4,11.1,-16.2,41.7
+1048,Terni,Umbria,Central,Total,80-89,18,0,-4,4,2.1,-18.1,26.6
+1049,Terni,Umbria,Central,Total,90 and older,27,7,3,11,37.3,10.2,73.4
+1050,Terni,Umbria,Central,Males,All ages,24,0,-6,4,-1.6,-18.8,20.5
+1051,Terni,Umbria,Central,Males,Less than 60,2,0,-1,0,-2.1,-28.4,31.3
+1052,Terni,Umbria,Central,Males,60-69,2,0,-1,0,-15.3,-39.5,24.1
+1053,Terni,Umbria,Central,Males,70-79,8,1,-2,2,8.5,-17.1,43.5
+1054,Terni,Umbria,Central,Males,80-89,8,0,-2,2,2.2,-23.5,33.7
+1055,Terni,Umbria,Central,Males,90 and older,5,1,-1,2,22.3,-15.3,71.6
+1056,Terni,Umbria,Central,Females,All ages,41,9,2,14,26.7,4.9,51.0
+1057,Terni,Umbria,Central,Females,Less than 60,1,0,0,0,11.3,-18.2,49.6
+1058,Terni,Umbria,Central,Females,60-69,2,0,0,1,28.7,-2.4,74.1
+1059,Terni,Umbria,Central,Females,70-79,6,1,-1,3,27.2,-12.6,80.1
+1060,Terni,Umbria,Central,Females,80-89,10,1,-3,3,9.3,-20.0,47.1
+1061,Terni,Umbria,Central,Females,90 and older,22,7,3,11,49.5,15.3,95.4
+1062,Pesaro e Urbino,Marche,Central,Total,All ages,128,53,43,62,69.7,49.6,92.4
+1063,Pesaro e Urbino,Marche,Central,Total,Less than 60,2,0,0,1,21.1,-5.7,53.0
+1064,Pesaro e Urbino,Marche,Central,Total,60-69,10,5,4,6,95.3,58.8,146.1
+1065,Pesaro e Urbino,Marche,Central,Total,70-79,21,10,7,12,84.3,45.8,128.5
+1066,Pesaro e Urbino,Marche,Central,Total,80-89,47,19,13,23,68.0,40.5,100.8
+1067,Pesaro e Urbino,Marche,Central,Total,90 and older,47,16,10,22,53.3,25.9,89.0
+1068,Pesaro e Urbino,Marche,Central,Males,All ages,67,30,24,36,83.7,55.9,113.9
+1069,Pesaro e Urbino,Marche,Central,Males,Less than 60,2,1,0,1,41.2,7.7,87.3
+1070,Pesaro e Urbino,Marche,Central,Males,60-69,7,4,3,5,142.4,83.1,225.6
+1071,Pesaro e Urbino,Marche,Central,Males,70-79,15,8,6,9,105.6,62.5,157.2
+1072,Pesaro e Urbino,Marche,Central,Males,80-89,22,8,5,11,59.5,26.3,103.4
+1073,Pesaro e Urbino,Marche,Central,Males,90 and older,20,7,1,10,47.7,7.7,94.8
+1074,Pesaro e Urbino,Marche,Central,Females,All ages,61,23,16,29,58.9,34.7,87.7
+1075,Pesaro e Urbino,Marche,Central,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1076,Pesaro e Urbino,Marche,Central,Females,60-69,3,1,0,1,22.6,-8.3,60.6
+1077,Pesaro e Urbino,Marche,Central,Females,70-79,6,2,0,3,51.3,8.4,108.7
+1078,Pesaro e Urbino,Marche,Central,Females,80-89,25,11,7,14,81.3,38.9,134.0
+1079,Pesaro e Urbino,Marche,Central,Females,90 and older,27,10,5,14,58.3,25.2,102.9
+1080,Ancona,Marche,Central,Total,All ages,133,32,18,44,32.2,15.7,49.8
+1081,Ancona,Marche,Central,Total,Less than 60,4,0,-1,1,12.2,-11.8,41.4
+1082,Ancona,Marche,Central,Total,60-69,3,1,0,1,29.1,3.2,62.2
+1083,Ancona,Marche,Central,Total,70-79,22,5,1,8,30.2,4.1,62.1
+1084,Ancona,Marche,Central,Total,80-89,60,19,11,26,47.1,22.8,76.4
+1085,Ancona,Marche,Central,Total,90 and older,44,12,5,18,39.7,13.4,67.6
+1086,Ancona,Marche,Central,Males,All ages,57,15,6,21,34.4,12.5,57.8
+1087,Ancona,Marche,Central,Males,Less than 60,1,0,0,0,5.9,-20.0,42.8
+1088,Ancona,Marche,Central,Males,60-69,2,1,0,1,30.5,-0.5,73.3
+1089,Ancona,Marche,Central,Males,70-79,14,4,2,6,47.9,17.7,87.2
+1090,Ancona,Marche,Central,Males,80-89,27,10,5,13,57.1,25.2,95.4
+1091,Ancona,Marche,Central,Males,90 and older,13,4,1,6,44.9,6.9,91.2
+1092,Ancona,Marche,Central,Females,All ages,76,19,9,27,32.4,13.5,55.3
+1093,Ancona,Marche,Central,Females,Less than 60,3,0,-1,1,12.3,-16.8,50.4
+1094,Ancona,Marche,Central,Females,60-69,1,0,0,0,34.2,-3.0,78.7
+1095,Ancona,Marche,Central,Females,70-79,8,1,-2,3,14.6,-18.4,58.5
+1096,Ancona,Marche,Central,Females,80-89,33,9,2,13,36.8,7.2,70.4
+1097,Ancona,Marche,Central,Females,90 and older,31,9,3,13,39.9,11.6,74.1
+1098,Macerata,Marche,Central,Total,All ages,99,34,26,42,53.6,35.1,74.2
+1099,Macerata,Marche,Central,Total,Less than 60,3,1,0,1,25.8,-2.6,60.2
+1100,Macerata,Marche,Central,Total,60-69,8,2,1,4,43.6,13.4,82.3
+1101,Macerata,Marche,Central,Total,70-79,22,7,3,10,45.8,16.2,81.8
+1102,Macerata,Marche,Central,Total,80-89,33,10,6,14,45.1,19.8,74.1
+1103,Macerata,Marche,Central,Total,90 and older,32,12,8,16,62.5,30.9,96.9
+1104,Macerata,Marche,Central,Males,All ages,56,20,14,25,55.3,32.4,81.7
+1105,Macerata,Marche,Central,Males,Less than 60,1,0,0,0,17.3,-13.3,60.0
+1106,Macerata,Marche,Central,Males,60-69,7,2,0,3,36.0,1.7,84.8
+1107,Macerata,Marche,Central,Males,70-79,14,3,0,6,31.5,3.4,65.4
+1108,Macerata,Marche,Central,Males,80-89,19,6,3,9,46.4,15.7,84.0
+1109,Macerata,Marche,Central,Males,90 and older,14,7,4,8,87.5,41.3,145.6
+1110,Macerata,Marche,Central,Females,All ages,43,14,8,19,49.1,24.3,77.0
+1111,Macerata,Marche,Central,Females,Less than 60,2,0,0,1,14.4,-17.0,54.4
+1112,Macerata,Marche,Central,Females,60-69,1,0,0,0,48.2,9.7,97.2
+1113,Macerata,Marche,Central,Females,70-79,8,3,1,4,59.3,16.5,116.2
+1114,Macerata,Marche,Central,Females,80-89,14,4,1,6,39.4,6.2,81.2
+1115,Macerata,Marche,Central,Females,90 and older,18,5,2,8,41.8,11.8,78.9
+1116,Ascoli Piceno,Marche,Central,Total,All ages,55,8,0,15,16.6,-0.9,36.2
+1117,Ascoli Piceno,Marche,Central,Total,Less than 60,3,0,0,1,13.8,-13.3,51.1
+1118,Ascoli Piceno,Marche,Central,Total,60-69,6,1,-1,2,23.4,-9.0,66.3
+1119,Ascoli Piceno,Marche,Central,Total,70-79,8,0,-3,2,3.1,-24.1,36.5
+1120,Ascoli Piceno,Marche,Central,Total,80-89,20,3,-2,6,15.0,-7.7,42.3
+1121,Ascoli Piceno,Marche,Central,Total,90 and older,16,4,1,7,33.1,3.3,68.3
+1122,Ascoli Piceno,Marche,Central,Males,All ages,26,3,-3,7,10.9,-9.6,35.6
+1123,Ascoli Piceno,Marche,Central,Males,Less than 60,1,0,0,0,1.9,-27.6,45.7
+1124,Ascoli Piceno,Marche,Central,Males,60-69,4,1,-1,2,15.0,-18.7,70.6
+1125,Ascoli Piceno,Marche,Central,Males,70-79,2,0,-1,1,6.9,-20.7,46.3
+1126,Ascoli Piceno,Marche,Central,Males,80-89,11,0,-4,3,1.2,-25.0,31.9
+1127,Ascoli Piceno,Marche,Central,Males,90 and older,7,2,0,4,42.9,1.9,100.0
+1128,Ascoli Piceno,Marche,Central,Females,All ages,29,5,0,10,22.1,-0.7,49.5
+1129,Ascoli Piceno,Marche,Central,Females,Less than 60,2,0,0,1,14.9,-16.7,56.3
+1130,Ascoli Piceno,Marche,Central,Females,60-69,2,0,0,1,29.8,-3.8,82.1
+1131,Ascoli Piceno,Marche,Central,Females,70-79,6,0,-2,2,6.2,-27.7,58.3
+1132,Ascoli Piceno,Marche,Central,Females,80-89,10,2,0,4,32.9,-0.2,77.9
+1133,Ascoli Piceno,Marche,Central,Females,90 and older,9,2,-1,4,24.9,-7.2,68.5
+1134,Fermo,Marche,Central,Total,All ages,38,5,-1,10,15.6,-1.3,37.7
+1135,Fermo,Marche,Central,Total,Less than 60,1,0,0,0,11.4,-16.7,47.5
+1136,Fermo,Marche,Central,Total,60-69,3,0,-1,1,-0.5,-26.8,36.6
+1137,Fermo,Marche,Central,Total,70-79,6,1,-1,2,24.9,-7.7,62.8
+1138,Fermo,Marche,Central,Total,80-89,14,2,-1,5,17.6,-8.7,47.9
+1139,Fermo,Marche,Central,Total,90 and older,14,3,-1,5,23.4,-5.0,61.8
+1140,Fermo,Marche,Central,Males,All ages,16,2,-1,5,14.9,-6.5,39.1
+1141,Fermo,Marche,Central,Males,Less than 60,1,0,0,0,22.5,-12.8,73.8
+1142,Fermo,Marche,Central,Males,60-69,2,0,0,1,15.5,-17.9,68.0
+1143,Fermo,Marche,Central,Males,70-79,4,1,0,2,29.6,-1.1,73.3
+1144,Fermo,Marche,Central,Males,80-89,5,1,-1,2,15.7,-13.5,55.2
+1145,Fermo,Marche,Central,Males,90 and older,5,1,-1,2,18.8,-16.5,70.7
+1146,Fermo,Marche,Central,Females,All ages,21,3,-1,7,18.7,-5.6,47.5
+1147,Fermo,Marche,Central,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1148,Fermo,Marche,Central,Females,60-69,1,0,0,0,3.0,-24.1,45.4
+1149,Fermo,Marche,Central,Females,70-79,2,0,0,1,22.8,-17.2,84.3
+1150,Fermo,Marche,Central,Females,80-89,9,2,-1,4,26.3,-6.2,73.6
+1151,Fermo,Marche,Central,Females,90 and older,9,2,-1,4,27.0,-7.1,72.2
+1152,Viterbo,Lazio,Central,Total,All ages,72,-6,-19,5,-8.0,-20.9,7.6
+1153,Viterbo,Lazio,Central,Total,Less than 60,1,0,0,0,-5.7,-27.4,20.4
+1154,Viterbo,Lazio,Central,Total,60-69,8,1,-1,2,11.0,-13.3,42.8
+1155,Viterbo,Lazio,Central,Total,70-79,17,1,-5,4,3.9,-21.1,31.7
+1156,Viterbo,Lazio,Central,Total,80-89,27,-6,-14,0,-17.3,-33.9,1.8
+1157,Viterbo,Lazio,Central,Total,90 and older,18,1,-4,4,3.6,-19.1,30.6
+1158,Viterbo,Lazio,Central,Males,All ages,30,-2,-9,3,-7.3,-22.9,12.5
+1159,Viterbo,Lazio,Central,Males,Less than 60,1,0,0,0,0.1,-25.5,32.6
+1160,Viterbo,Lazio,Central,Males,60-69,3,0,-1,1,12.6,-15.5,53.0
+1161,Viterbo,Lazio,Central,Males,70-79,9,-1,-4,2,-6.7,-28.8,22.8
+1162,Viterbo,Lazio,Central,Males,80-89,10,-1,-5,2,-9.2,-31.3,21.7
+1163,Viterbo,Lazio,Central,Males,90 and older,5,1,0,3,36.3,-3.6,90.2
+1164,Viterbo,Lazio,Central,Females,All ages,42,-2,-11,6,-4.2,-21.3,16.2
+1165,Viterbo,Lazio,Central,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1166,Viterbo,Lazio,Central,Females,60-69,5,1,-1,2,13.7,-11.5,49.3
+1167,Viterbo,Lazio,Central,Females,70-79,8,2,0,4,40.7,-0.7,95.7
+1168,Viterbo,Lazio,Central,Females,80-89,16,-4,-10,2,-17.8,-38.0,10.8
+1169,Viterbo,Lazio,Central,Females,90 and older,12,0,-5,3,-3.7,-27.8,30.1
+1170,Rieti,Lazio,Central,Total,All ages,30,3,-4,9,13.0,-11.3,41.0
+1171,Rieti,Lazio,Central,Total,Less than 60,0,0,0,0,0.0,0.0,0.0
+1172,Rieti,Lazio,Central,Total,60-69,1,0,0,0,5.0,-23.7,47.0
+1173,Rieti,Lazio,Central,Total,70-79,5,1,-1,2,14.5,-18.1,54.6
+1174,Rieti,Lazio,Central,Total,80-89,14,2,-1,5,22.4,-5.5,57.6
+1175,Rieti,Lazio,Central,Total,90 and older,10,1,-2,3,12.9,-17.9,51.2
+1176,Rieti,Lazio,Central,Males,All ages,14,2,-2,4,16.3,-10.0,45.4
+1177,Rieti,Lazio,Central,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+1178,Rieti,Lazio,Central,Males,60-69,0,0,0,0,0.0,0.0,0.0
+1179,Rieti,Lazio,Central,Males,70-79,4,1,-1,2,18.2,-14.5,62.8
+1180,Rieti,Lazio,Central,Males,80-89,8,2,-1,3,28.0,-6.2,75.3
+1181,Rieti,Lazio,Central,Males,90 and older,1,0,0,0,11.7,-26.8,72.1
+1182,Rieti,Lazio,Central,Females,All ages,17,2,-2,6,14.9,-12.1,50.2
+1183,Rieti,Lazio,Central,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1184,Rieti,Lazio,Central,Females,60-69,1,0,0,0,8.9,-21.8,59.1
+1185,Rieti,Lazio,Central,Females,70-79,1,0,0,0,16.8,-21.4,78.6
+1186,Rieti,Lazio,Central,Females,80-89,6,1,-1,2,20.0,-12.0,66.2
+1187,Rieti,Lazio,Central,Females,90 and older,9,2,-1,4,23.2,-13.4,72.6
+1188,Roma,Lazio,Central,Total,All ages,787,-66,-135,0,-7.7,-14.6,0.0
+1189,Roma,Lazio,Central,Total,Less than 60,55,-4,-13,3,-7.2,-19.8,6.7
+1190,Roma,Lazio,Central,Total,60-69,90,-6,-20,5,-6.5,-18.1,6.1
+1191,Roma,Lazio,Central,Total,70-79,155,-20,-43,-1,-11.2,-21.7,-0.5
+1192,Roma,Lazio,Central,Total,80-89,315,-13,-49,19,-3.9,-13.5,6.3
+1193,Roma,Lazio,Central,Total,90 and older,192,-18,-41,6,-8.4,-17.8,3.3
+1194,Roma,Lazio,Central,Males,All ages,363,-43,-81,-7,-10.5,-18.2,-1.8
+1195,Roma,Lazio,Central,Males,Less than 60,35,-3,-10,3,-9.0,-22.7,7.8
+1196,Roma,Lazio,Central,Males,60-69,57,-5,-15,4,-7.4,-20.8,7.3
+1197,Roma,Lazio,Central,Males,70-79,89,-9,-24,4,-8.9,-21.4,5.2
+1198,Roma,Lazio,Central,Males,80-89,137,-14,-32,4,-9.4,-19.1,2.8
+1199,Roma,Lazio,Central,Males,90 and older,55,-4,-15,5,-7.0,-21.0,9.5
+1200,Roma,Lazio,Central,Females,All ages,424,-15,-57,22,-3.4,-11.8,5.5
+1201,Roma,Lazio,Central,Females,Less than 60,20,0,-4,4,1.2,-17.5,27.7
+1202,Roma,Lazio,Central,Females,60-69,33,0,-6,5,0.9,-14.7,19.2
+1203,Roma,Lazio,Central,Females,70-79,67,-8,-21,4,-10.5,-24.0,6.1
+1204,Roma,Lazio,Central,Females,80-89,178,7,-15,27,4.1,-7.6,18.0
+1205,Roma,Lazio,Central,Females,90 and older,137,-11,-31,7,-7.7,-18.4,5.1
+1206,Latina,Lazio,Central,Total,All ages,93,-14,-30,-2,-13.4,-24.3,-1.8
+1207,Latina,Lazio,Central,Total,Less than 60,4,0,-1,1,-6.3,-25.6,17.2
+1208,Latina,Lazio,Central,Total,60-69,14,-2,-5,1,-10.9,-27.9,12.4
+1209,Latina,Lazio,Central,Total,70-79,12,-2,-5,1,-11.7,-28.5,12.3
+1210,Latina,Lazio,Central,Total,80-89,35,-3,-11,4,-6.9,-23.3,12.4
+1211,Latina,Lazio,Central,Total,90 and older,28,-2,-10,4,-7.3,-26.9,15.4
+1212,Latina,Lazio,Central,Males,All ages,50,-5,-14,3,-9.0,-22.5,6.3
+1213,Latina,Lazio,Central,Males,Less than 60,3,0,-1,1,-7.6,-28.6,21.1
+1214,Latina,Lazio,Central,Males,60-69,9,-1,-5,1,-13.7,-34.0,14.6
+1215,Latina,Lazio,Central,Males,70-79,9,0,-3,2,-4.2,-25.2,20.4
+1216,Latina,Lazio,Central,Males,80-89,19,1,-4,5,5.5,-17.2,33.5
+1217,Latina,Lazio,Central,Males,90 and older,10,-1,-6,2,-10.1,-36.3,22.7
+1218,Latina,Lazio,Central,Females,All ages,43,-6,-16,1,-13.2,-27.1,2.7
+1219,Latina,Lazio,Central,Females,Less than 60,1,0,0,0,6.3,-22.5,43.7
+1220,Latina,Lazio,Central,Females,60-69,4,0,-1,1,7.0,-18.0,43.6
+1221,Latina,Lazio,Central,Females,70-79,3,0,-2,1,-11.5,-35.7,21.0
+1222,Latina,Lazio,Central,Females,80-89,16,-3,-9,1,-16.5,-36.8,8.6
+1223,Latina,Lazio,Central,Females,90 and older,17,1,-4,5,5.3,-18.8,36.7
+1224,Frosinone,Lazio,Central,Total,All ages,113,5,-9,17,4.5,-7.7,17.7
+1225,Frosinone,Lazio,Central,Total,Less than 60,8,0,-2,1,-2.8,-23.3,21.7
+1226,Frosinone,Lazio,Central,Total,60-69,15,1,-3,4,5.1,-14.3,31.0
+1227,Frosinone,Lazio,Central,Total,70-79,12,1,-1,4,12.8,-9.9,41.2
+1228,Frosinone,Lazio,Central,Total,80-89,46,2,-7,9,4.4,-12.7,24.7
+1229,Frosinone,Lazio,Central,Total,90 and older,34,5,-1,10,17.8,-3.3,43.3
+1230,Frosinone,Lazio,Central,Males,All ages,53,3,-6,10,5.3,-10.2,22.1
+1231,Frosinone,Lazio,Central,Males,Less than 60,5,-1,-2,1,-10.9,-33.1,19.4
+1232,Frosinone,Lazio,Central,Males,60-69,11,2,-1,4,23.2,-4.5,60.4
+1233,Frosinone,Lazio,Central,Males,70-79,7,1,0,2,19.5,-4.1,49.5
+1234,Frosinone,Lazio,Central,Males,80-89,19,0,-5,4,0.8,-21.1,28.0
+1235,Frosinone,Lazio,Central,Males,90 and older,12,2,-2,4,16.5,-13.4,56.4
+1236,Frosinone,Lazio,Central,Females,All ages,60,4,-6,12,6.7,-9.1,25.3
+1237,Frosinone,Lazio,Central,Females,Less than 60,3,0,-1,1,0.7,-25.2,35.6
+1238,Frosinone,Lazio,Central,Females,60-69,5,0,-2,1,-3.3,-29.1,27.5
+1239,Frosinone,Lazio,Central,Females,70-79,5,1,-1,2,11.8,-19.0,52.7
+1240,Frosinone,Lazio,Central,Females,80-89,27,3,-4,7,11.9,-11.9,39.0
+1241,Frosinone,Lazio,Central,Females,90 and older,22,4,-1,8,21.2,-3.1,54.4
+1242,L'Aquila,Abruzzo,South,Total,All ages,57,-1,-10,7,-1.5,-14.9,14.9
+1243,L'Aquila,Abruzzo,South,Total,Less than 60,4,-1,-2,1,-11.0,-32.5,15.0
+1244,L'Aquila,Abruzzo,South,Total,60-69,3,0,-1,1,2.1,-20.8,32.8
+1245,L'Aquila,Abruzzo,South,Total,70-79,15,0,-5,4,2.6,-22.9,31.7
+1246,L'Aquila,Abruzzo,South,Total,80-89,14,0,-4,3,1.1,-20.2,25.8
+1247,L'Aquila,Abruzzo,South,Total,90 and older,21,0,-6,4,-1.6,-23.3,23.2
+1248,L'Aquila,Abruzzo,South,Males,All ages,30,-2,-8,3,-5.6,-21.8,12.6
+1249,L'Aquila,Abruzzo,South,Males,Less than 60,3,0,-1,1,0.3,-26.6,38.4
+1250,L'Aquila,Abruzzo,South,Males,60-69,1,0,0,0,5.8,-24.1,48.8
+1251,L'Aquila,Abruzzo,South,Males,70-79,12,0,-3,3,3.9,-20.6,36.6
+1252,L'Aquila,Abruzzo,South,Males,80-89,6,0,-2,1,-7.0,-29.8,22.4
+1253,L'Aquila,Abruzzo,South,Males,90 and older,7,1,-2,3,11.3,-20.5,56.9
+1254,L'Aquila,Abruzzo,South,Females,All ages,27,1,-4,6,4.8,-13.7,26.4
+1255,L'Aquila,Abruzzo,South,Females,Less than 60,1,0,0,0,-4.1,-31.5,32.4
+1256,L'Aquila,Abruzzo,South,Females,60-69,2,0,0,1,6.3,-18.5,42.5
+1257,L'Aquila,Abruzzo,South,Females,70-79,3,0,-1,1,9.3,-26.7,58.0
+1258,L'Aquila,Abruzzo,South,Females,80-89,8,1,-2,3,13.6,-16.1,52.2
+1259,L'Aquila,Abruzzo,South,Females,90 and older,14,0,-4,3,-0.1,-23.8,30.6
+1260,Teramo,Abruzzo,South,Total,All ages,72,8,-2,17,12.1,-2.6,29.8
+1261,Teramo,Abruzzo,South,Total,Less than 60,2,0,0,1,13.4,-11.6,45.1
+1262,Teramo,Abruzzo,South,Total,60-69,6,0,-1,2,6.1,-17.5,36.2
+1263,Teramo,Abruzzo,South,Total,70-79,12,2,-1,4,14.5,-9.2,42.9
+1264,Teramo,Abruzzo,South,Total,80-89,28,4,-2,8,16.6,-5.3,43.0
+1265,Teramo,Abruzzo,South,Total,90 and older,24,6,1,9,30.3,2.9,62.2
+1266,Teramo,Abruzzo,South,Males,All ages,39,4,-3,10,11.4,-6.6,34.4
+1267,Teramo,Abruzzo,South,Males,Less than 60,1,0,0,0,25.2,-6.5,70.6
+1268,Teramo,Abruzzo,South,Males,60-69,4,0,-1,1,7.2,-20.7,47.7
+1269,Teramo,Abruzzo,South,Males,70-79,8,2,0,3,30.5,3.2,64.4
+1270,Teramo,Abruzzo,South,Males,80-89,11,0,-3,3,1.9,-21.6,32.7
+1271,Teramo,Abruzzo,South,Males,90 and older,15,3,-2,6,21.9,-10.8,64.8
+1272,Teramo,Abruzzo,South,Females,All ages,33,5,0,10,19.8,-1.5,43.0
+1273,Teramo,Abruzzo,South,Females,Less than 60,1,0,0,0,3.7,-24.9,42.4
+1274,Teramo,Abruzzo,South,Females,60-69,2,0,0,1,14.0,-12.4,52.7
+1275,Teramo,Abruzzo,South,Females,70-79,4,0,-2,1,1.0,-30.8,44.5
+1276,Teramo,Abruzzo,South,Females,80-89,17,5,1,8,39.0,7.1,78.9
+1277,Teramo,Abruzzo,South,Females,90 and older,9,2,0,4,33.2,0.2,74.6
+1278,Pescara,Abruzzo,South,Total,All ages,90,22,12,31,32.2,15.6,51.4
+1279,Pescara,Abruzzo,South,Total,Less than 60,10,1,-2,3,7.4,-16.6,38.0
+1280,Pescara,Abruzzo,South,Total,60-69,13,4,2,6,49.8,20.9,88.7
+1281,Pescara,Abruzzo,South,Total,70-79,7,2,0,3,31.5,4.1,65.8
+1282,Pescara,Abruzzo,South,Total,80-89,39,11,4,16,38.1,13.1,67.9
+1283,Pescara,Abruzzo,South,Total,90 and older,27,4,-1,9,19.4,-4.9,49.9
+1284,Pescara,Abruzzo,South,Males,All ages,51,15,8,21,40.4,17.9,67.8
+1285,Pescara,Abruzzo,South,Males,Less than 60,9,0,-3,3,5.0,-22.4,43.1
+1286,Pescara,Abruzzo,South,Males,60-69,10,4,2,5,57.3,19.2,108.6
+1287,Pescara,Abruzzo,South,Males,70-79,6,2,0,3,41.6,8.3,81.8
+1288,Pescara,Abruzzo,South,Males,80-89,24,6,1,10,34.0,4.3,71.9
+1289,Pescara,Abruzzo,South,Males,90 and older,7,2,0,4,41.8,3.9,99.0
+1290,Pescara,Abruzzo,South,Females,All ages,39,8,2,13,25.3,4.2,47.9
+1291,Pescara,Abruzzo,South,Females,Less than 60,1,0,0,0,3.0,-24.5,40.6
+1292,Pescara,Abruzzo,South,Females,60-69,3,1,0,1,29.4,-0.5,72.8
+1293,Pescara,Abruzzo,South,Females,70-79,1,0,0,0,27.3,-8.5,75.7
+1294,Pescara,Abruzzo,South,Females,80-89,14,4,1,6,39.5,6.1,80.7
+1295,Pescara,Abruzzo,South,Females,90 and older,20,3,-3,7,16.7,-11.5,53.6
+1296,Chieti,Abruzzo,South,Total,All ages,115,18,4,29,18.7,4.1,33.7
+1297,Chieti,Abruzzo,South,Total,Less than 60,7,1,-1,2,14.2,-10.1,43.5
+1298,Chieti,Abruzzo,South,Total,60-69,14,4,1,6,35.1,8.9,69.6
+1299,Chieti,Abruzzo,South,Total,70-79,11,2,-1,4,20.9,-5.5,50.6
+1300,Chieti,Abruzzo,South,Total,80-89,48,9,1,15,21.8,2.2,46.3
+1301,Chieti,Abruzzo,South,Total,90 and older,33,2,-5,8,7.9,-14.0,33.7
+1302,Chieti,Abruzzo,South,Males,All ages,68,14,4,22,25.4,5.7,47.9
+1303,Chieti,Abruzzo,South,Males,Less than 60,6,1,-1,2,14.6,-14.7,48.6
+1304,Chieti,Abruzzo,South,Males,60-69,9,3,1,4,45.2,10.0,94.6
+1305,Chieti,Abruzzo,South,Males,70-79,7,1,-1,2,14.5,-11.1,46.8
+1306,Chieti,Abruzzo,South,Males,80-89,29,8,2,12,36.7,7.7,71.8
+1307,Chieti,Abruzzo,South,Males,90 and older,16,2,-3,6,11.8,-17.0,50.5
+1308,Chieti,Abruzzo,South,Females,All ages,47,5,-3,11,11.6,-6.9,32.0
+1309,Chieti,Abruzzo,South,Females,Less than 60,1,0,0,0,9.8,-19.5,47.5
+1310,Chieti,Abruzzo,South,Females,60-69,5,1,-1,2,18.0,-9.8,57.9
+1311,Chieti,Abruzzo,South,Females,70-79,4,1,0,2,33.4,-4.8,83.4
+1312,Chieti,Abruzzo,South,Females,80-89,20,2,-3,5,8.7,-14.9,38.8
+1313,Chieti,Abruzzo,South,Females,90 and older,17,2,-2,5,13.0,-12.9,47.5
+1314,Campobasso,Molise,South,Total,All ages,47,-2,-12,6,-4.2,-19.8,15.4
+1315,Campobasso,Molise,South,Total,Less than 60,0,0,0,0,0.0,0.0,0.0
+1316,Campobasso,Molise,South,Total,60-69,3,0,-1,1,8.4,-20.7,49.8
+1317,Campobasso,Molise,South,Total,70-79,9,1,-2,3,7.5,-19.4,42.6
+1318,Campobasso,Molise,South,Total,80-89,20,2,-4,6,10.4,-15.4,41.4
+1319,Campobasso,Molise,South,Total,90 and older,12,-1,-6,2,-8.3,-32.2,24.9
+1320,Campobasso,Molise,South,Males,All ages,30,1,-7,6,2.0,-19.2,25.6
+1321,Campobasso,Molise,South,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+1322,Campobasso,Molise,South,Males,60-69,3,0,-1,1,5.6,-25.8,57.0
+1323,Campobasso,Molise,South,Males,70-79,4,0,-2,1,-2.5,-28.6,34.6
+1324,Campobasso,Molise,South,Males,80-89,15,3,-1,6,28.7,-5.3,74.4
+1325,Campobasso,Molise,South,Males,90 and older,6,0,-3,2,-1.1,-31.6,44.2
+1326,Campobasso,Molise,South,Females,All ages,18,-1,-6,3,-5.1,-25.3,20.1
+1327,Campobasso,Molise,South,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1328,Campobasso,Molise,South,Females,60-69,0,0,0,0,0.0,0.0,0.0
+1329,Campobasso,Molise,South,Females,70-79,5,1,-1,3,29.6,-11.7,93.0
+1330,Campobasso,Molise,South,Females,80-89,5,0,-2,2,0.4,-27.2,39.9
+1331,Campobasso,Molise,South,Females,90 and older,6,0,-2,2,2.0,-27.0,47.7
+1332,Isernia,Molise,South,Total,All ages,17,0,-4,3,2.3,-17.5,24.6
+1333,Isernia,Molise,South,Total,Less than 60,2,0,-1,1,5.1,-22.7,41.9
+1334,Isernia,Molise,South,Total,60-69,1,0,0,0,-1.7,-31.8,44.0
+1335,Isernia,Molise,South,Total,70-79,5,0,-2,2,5.4,-23.6,46.7
+1336,Isernia,Molise,South,Total,80-89,5,0,-2,1,1.9,-25.5,34.4
+1337,Isernia,Molise,South,Total,90 and older,5,1,-1,2,19.2,-15.2,69.8
+1338,Isernia,Molise,South,Males,All ages,9,0,-3,2,-2.8,-25.2,25.9
+1339,Isernia,Molise,South,Males,Less than 60,2,0,0,1,14.0,-17.4,60.1
+1340,Isernia,Molise,South,Males,60-69,1,0,-1,0,-3.0,-36.3,50.5
+1341,Isernia,Molise,South,Males,70-79,3,0,-1,1,9.9,-22.9,53.8
+1342,Isernia,Molise,South,Males,80-89,2,0,-1,1,-6.5,-35.5,36.7
+1343,Isernia,Molise,South,Males,90 and older,2,0,0,1,26.0,-16.3,97.8
+1344,Isernia,Molise,South,Females,All ages,8,1,-1,3,15.3,-10.6,49.8
+1345,Isernia,Molise,South,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1346,Isernia,Molise,South,Females,60-69,0,0,0,0,0.0,0.0,0.0
+1347,Isernia,Molise,South,Females,70-79,2,0,-1,1,12.2,-30.1,74.5
+1348,Isernia,Molise,South,Females,80-89,3,1,0,1,25.7,-10.0,77.6
+1349,Isernia,Molise,South,Females,90 and older,3,0,-1,1,17.1,-19.6,74.6
+1350,Caserta,Campania,South,Total,All ages,142,-18,-37,0,-11.2,-20.7,-0.3
+1351,Caserta,Campania,South,Total,Less than 60,14,-2,-6,0,-15.1,-30.9,3.3
+1352,Caserta,Campania,South,Total,60-69,22,1,-3,5,5.3,-12.2,27.7
+1353,Caserta,Campania,South,Total,70-79,36,-1,-8,6,-1.5,-18.6,18.4
+1354,Caserta,Campania,South,Total,80-89,45,-8,-18,-1,-15.7,-28.8,-1.2
+1355,Caserta,Campania,South,Total,90 and older,30,-2,-10,4,-7.1,-25.5,14.1
+1356,Caserta,Campania,South,Males,All ages,72,-6,-17,4,-7.7,-19.4,6.4
+1357,Caserta,Campania,South,Males,Less than 60,6,-1,-3,1,-11.4,-29.2,13.2
+1358,Caserta,Campania,South,Males,60-69,15,2,-1,5,15.9,-7.2,42.9
+1359,Caserta,Campania,South,Males,70-79,20,0,-4,4,0.9,-17.9,25.0
+1360,Caserta,Campania,South,Males,80-89,17,-3,-8,1,-13.4,-31.2,7.1
+1361,Caserta,Campania,South,Males,90 and older,15,2,-3,5,13.3,-16.6,51.0
+1362,Caserta,Campania,South,Females,All ages,70,-11,-25,-1,-13.9,-26.2,-0.8
+1363,Caserta,Campania,South,Females,Less than 60,8,0,-3,1,-5.5,-28.4,23.6
+1364,Caserta,Campania,South,Females,60-69,7,0,-2,1,-2.4,-21.5,23.9
+1365,Caserta,Campania,South,Females,70-79,16,0,-5,4,0.1,-24.0,29.8
+1366,Caserta,Campania,South,Females,80-89,28,-4,-12,1,-13.6,-30.6,5.6
+1367,Caserta,Campania,South,Females,90 and older,15,-2,-7,2,-12.7,-31.8,11.8
+1368,Benevento,Campania,South,Total,All ages,55,-6,-16,3,-9.5,-22.3,6.5
+1369,Benevento,Campania,South,Total,Less than 60,4,0,-2,1,-9.6,-30.4,16.2
+1370,Benevento,Campania,South,Total,60-69,5,-1,-3,1,-13.0,-32.9,13.8
+1371,Benevento,Campania,South,Total,70-79,14,2,-2,5,14.0,-14.0,46.5
+1372,Benevento,Campania,South,Total,80-89,20,-2,-7,2,-8.4,-26.4,12.9
+1373,Benevento,Campania,South,Total,90 and older,11,0,-2,3,4.5,-18.2,35.2
+1374,Benevento,Campania,South,Males,All ages,31,-2,-9,3,-6.7,-22.6,11.9
+1375,Benevento,Campania,South,Males,Less than 60,3,0,-2,1,-10.8,-34.5,22.0
+1376,Benevento,Campania,South,Males,60-69,3,0,-1,1,-0.6,-28.0,40.3
+1377,Benevento,Campania,South,Males,70-79,12,3,0,5,28.9,-0.2,66.6
+1378,Benevento,Campania,South,Males,80-89,9,-1,-3,2,-5.6,-28.2,25.3
+1379,Benevento,Campania,South,Males,90 and older,4,0,-2,1,6.0,-25.9,48.4
+1380,Benevento,Campania,South,Females,All ages,24,-2,-8,3,-8.5,-26.0,12.4
+1381,Benevento,Campania,South,Females,Less than 60,1,0,0,0,0.4,-26.7,35.7
+1382,Benevento,Campania,South,Females,60-69,2,0,-1,0,-0.6,-23.7,32.5
+1383,Benevento,Campania,South,Females,70-79,2,0,-1,1,-3.7,-33.3,43.2
+1384,Benevento,Campania,South,Females,80-89,12,-1,-5,2,-4.9,-30.0,26.3
+1385,Benevento,Campania,South,Females,90 and older,6,1,-2,2,8.5,-19.2,44.2
+1386,Napoli,Campania,South,Total,All ages,571,27,-16,71,5.0,-2.8,14.2
+1387,Napoli,Campania,South,Total,Less than 60,55,5,-2,11,10.1,-3.3,24.4
+1388,Napoli,Campania,South,Total,60-69,85,8,-2,17,10.2,-2.4,24.9
+1389,Napoli,Campania,South,Total,70-79,154,17,-2,32,12.0,-1.0,25.8
+1390,Napoli,Campania,South,Total,80-89,198,-4,-28,17,-2.1,-12.3,9.3
+1391,Napoli,Campania,South,Total,90 and older,98,6,-7,18,6.9,-6.7,22.3
+1392,Napoli,Campania,South,Males,All ages,278,24,1,47,9.6,0.3,20.1
+1393,Napoli,Campania,South,Males,Less than 60,42,5,-1,10,13.3,-2.6,32.4
+1394,Napoli,Campania,South,Males,60-69,57,10,2,16,21.7,4.5,40.4
+1395,Napoli,Campania,South,Males,70-79,83,10,-1,20,14.2,-0.8,32.5
+1396,Napoli,Campania,South,Males,80-89,85,-2,-16,9,-2.6,-15.4,11.3
+1397,Napoli,Campania,South,Males,90 and older,25,2,-3,7,10.6,-11.5,38.0
+1398,Napoli,Campania,South,Females,All ages,293,1,-29,27,0.2,-8.9,10.2
+1399,Napoli,Campania,South,Females,Less than 60,13,0,-3,2,-1.5,-20.0,21.9
+1400,Napoli,Campania,South,Females,60-69,28,0,-5,5,-0.1,-16.0,19.7
+1401,Napoli,Campania,South,Females,70-79,71,6,-5,16,8.6,-7.1,28.4
+1402,Napoli,Campania,South,Females,80-89,113,-1,-18,14,-1.0,-13.5,14.5
+1403,Napoli,Campania,South,Females,90 and older,73,5,-7,15,7.5,-8.4,25.6
+1404,Avellino,Campania,South,Total,All ages,122,6,-11,20,4.8,-8.6,19.3
+1405,Avellino,Campania,South,Total,Less than 60,13,3,1,5,32.5,5.2,65.2
+1406,Avellino,Campania,South,Total,60-69,20,4,0,8,27.4,2.3,61.4
+1407,Avellino,Campania,South,Total,70-79,11,-1,-4,2,-7.0,-27.3,17.3
+1408,Avellino,Campania,South,Total,80-89,48,3,-6,11,6.8,-11.8,29.6
+1409,Avellino,Campania,South,Total,90 and older,34,0,-10,7,-1.4,-22.7,24.6
+1410,Avellino,Campania,South,Males,All ages,58,5,-5,12,8.9,-7.6,26.5
+1411,Avellino,Campania,South,Males,Less than 60,9,2,0,4,35.9,5.1,77.3
+1412,Avellino,Campania,South,Males,60-69,16,4,1,7,40.1,8.0,83.8
+1413,Avellino,Campania,South,Males,70-79,3,0,-1,1,-4.4,-25.6,22.9
+1414,Avellino,Campania,South,Males,80-89,22,0,-6,5,-0.4,-22.2,26.9
+1415,Avellino,Campania,South,Males,90 and older,12,2,-2,4,16.5,-14.4,59.7
+1416,Avellino,Campania,South,Females,All ages,65,1,-11,11,2.2,-14.0,20.4
+1417,Avellino,Campania,South,Females,Less than 60,4,1,-1,1,15.2,-13.8,52.9
+1418,Avellino,Campania,South,Females,60-69,4,1,-1,2,16.5,-14.5,53.4
+1419,Avellino,Campania,South,Females,70-79,8,0,-3,2,3.6,-27.7,45.6
+1420,Avellino,Campania,South,Females,80-89,26,4,-3,9,19.0,-9.3,52.0
+1421,Avellino,Campania,South,Females,90 and older,22,-1,-8,5,-3.3,-27.1,25.7
+1422,Salerno,Campania,South,Total,All ages,222,-5,-31,17,-2.2,-12.3,8.2
+1423,Salerno,Campania,South,Total,Less than 60,13,0,-3,2,-2.3,-19.5,17.5
+1424,Salerno,Campania,South,Total,60-69,35,3,-4,8,8.0,-10.9,28.9
+1425,Salerno,Campania,South,Total,70-79,39,-1,-9,6,-2.2,-18.3,17.1
+1426,Salerno,Campania,South,Total,80-89,94,-2,-17,10,-2.0,-15.6,12.6
+1427,Salerno,Campania,South,Total,90 and older,46,0,-9,7,0.9,-15.8,18.8
+1428,Salerno,Campania,South,Males,All ages,120,8,-7,22,6.8,-5.6,21.9
+1429,Salerno,Campania,South,Males,Less than 60,10,0,-2,2,4.7,-15.4,29.5
+1430,Salerno,Campania,South,Males,60-69,20,2,-3,5,10.9,-11.0,36.3
+1431,Salerno,Campania,South,Males,70-79,29,4,-1,8,15.3,-4.7,39.3
+1432,Salerno,Campania,South,Males,80-89,44,2,-7,9,4.2,-13.5,24.7
+1433,Salerno,Campania,South,Males,90 and older,20,3,-2,7,15.2,-10.2,49.0
+1434,Salerno,Campania,South,Females,All ages,101,-11,-27,2,-10.0,-20.8,2.3
+1435,Salerno,Campania,South,Females,Less than 60,3,0,-1,1,2.7,-22.4,35.3
+1436,Salerno,Campania,South,Females,60-69,15,1,-2,4,10.1,-10.9,37.3
+1437,Salerno,Campania,South,Females,70-79,10,-2,-6,0,-18.7,-37.9,4.8
+1438,Salerno,Campania,South,Females,80-89,50,-4,-14,6,-7.3,-22.4,13.1
+1439,Salerno,Campania,South,Females,90 and older,26,-1,-8,4,-4.3,-22.7,16.9
+1440,Foggia,Puglia,South,Total,All ages,154,25,9,39,19.1,6.1,33.3
+1441,Foggia,Puglia,South,Total,Less than 60,18,1,-3,4,6.8,-13.7,32.0
+1442,Foggia,Puglia,South,Total,60-69,13,1,-2,3,10.6,-10.5,36.0
+1443,Foggia,Puglia,South,Total,70-79,29,3,-3,8,12.2,-8.8,36.5
+1444,Foggia,Puglia,South,Total,80-89,60,13,5,20,27.5,8.3,47.9
+1445,Foggia,Puglia,South,Total,90 and older,38,7,1,12,24.7,1.6,49.4
+1446,Foggia,Puglia,South,Males,All ages,74,13,3,20,20.9,4.9,37.6
+1447,Foggia,Puglia,South,Males,Less than 60,13,2,-1,4,15.4,-7.6,46.9
+1448,Foggia,Puglia,South,Males,60-69,8,1,-1,2,11.3,-12.9,41.6
+1449,Foggia,Puglia,South,Males,70-79,15,2,-1,5,14.3,-9.0,43.6
+1450,Foggia,Puglia,South,Males,80-89,31,7,2,12,31.9,5.8,62.1
+1451,Foggia,Puglia,South,Males,90 and older,11,3,0,5,36.0,2.9,75.4
+1452,Foggia,Puglia,South,Females,All ages,80,12,1,21,17.1,1.2,36.1
+1453,Foggia,Puglia,South,Females,Less than 60,5,0,-2,1,2.4,-24.4,38.7
+1454,Foggia,Puglia,South,Females,60-69,5,1,0,2,16.2,-7.8,49.3
+1455,Foggia,Puglia,South,Females,70-79,14,1,-3,4,9.0,-18.7,43.6
+1456,Foggia,Puglia,South,Females,80-89,30,5,0,10,22.6,-1.4,49.8
+1457,Foggia,Puglia,South,Females,90 and older,26,5,-1,9,22.0,-3.6,54.7
+1458,Bari,Puglia,South,Total,All ages,261,19,-9,42,7.9,-3.3,19.0
+1459,Bari,Puglia,South,Total,Less than 60,14,1,-2,3,6.0,-12.7,27.8
+1460,Bari,Puglia,South,Total,60-69,29,2,-4,6,7.0,-11.4,28.1
+1461,Bari,Puglia,South,Total,70-79,54,7,-2,14,14.5,-3.9,34.6
+1462,Bari,Puglia,South,Total,80-89,95,2,-12,14,2.6,-11.5,17.7
+1463,Bari,Puglia,South,Total,90 and older,73,8,-3,18,12.4,-3.6,31.8
+1464,Bari,Puglia,South,Males,All ages,132,7,-9,22,5.5,-6.6,19.6
+1465,Bari,Puglia,South,Males,Less than 60,12,0,-3,2,-1.6,-21.0,24.6
+1466,Bari,Puglia,South,Males,60-69,19,2,-2,5,11.0,-11.0,37.1
+1467,Bari,Puglia,South,Males,70-79,30,3,-3,8,11.4,-8.3,36.4
+1468,Bari,Puglia,South,Males,80-89,52,2,-8,11,4.2,-12.9,25.5
+1469,Bari,Puglia,South,Males,90 and older,23,2,-3,6,12.4,-10.9,40.3
+1470,Bari,Puglia,South,Females,All ages,129,12,-3,25,9.9,-2.2,23.9
+1471,Bari,Puglia,South,Females,Less than 60,2,0,0,1,7.3,-17.4,39.6
+1472,Bari,Puglia,South,Females,60-69,9,1,-1,3,14.5,-7.8,42.7
+1473,Bari,Puglia,South,Females,70-79,24,4,-2,8,18.9,-7.0,48.6
+1474,Bari,Puglia,South,Females,80-89,43,1,-8,8,2.0,-15.4,22.5
+1475,Bari,Puglia,South,Females,90 and older,50,7,-2,14,15.8,-4.1,39.6
+1476,Taranto,Puglia,South,Total,All ages,125,4,-11,18,3.7,-8.1,17.0
+1477,Taranto,Puglia,South,Total,Less than 60,12,0,-3,2,-0.2,-19.5,23.1
+1478,Taranto,Puglia,South,Total,60-69,20,3,-2,6,14.4,-7.5,40.3
+1479,Taranto,Puglia,South,Total,70-79,24,1,-4,5,4.5,-15.0,26.3
+1480,Taranto,Puglia,South,Total,80-89,52,1,-9,8,1.2,-15.3,18.6
+1481,Taranto,Puglia,South,Total,90 and older,21,0,-4,4,1.7,-17.5,23.6
+1482,Taranto,Puglia,South,Males,All ages,60,1,-9,9,1.9,-12.6,17.2
+1483,Taranto,Puglia,South,Males,Less than 60,6,0,-2,1,-4.2,-26.1,25.3
+1484,Taranto,Puglia,South,Males,60-69,9,2,-1,3,20.2,-6.5,54.2
+1485,Taranto,Puglia,South,Males,70-79,12,1,-2,3,7.0,-13.2,32.5
+1486,Taranto,Puglia,South,Males,80-89,26,-1,-8,5,-3.5,-23.8,21.6
+1487,Taranto,Puglia,South,Males,90 and older,9,1,-2,3,6.8,-18.2,44.7
+1488,Taranto,Puglia,South,Females,All ages,65,3,-7,11,4.8,-9.9,21.3
+1489,Taranto,Puglia,South,Females,Less than 60,6,1,-1,2,11.3,-16.7,47.2
+1490,Taranto,Puglia,South,Females,60-69,11,1,-2,3,11.2,-13.7,45.7
+1491,Taranto,Puglia,South,Females,70-79,12,1,-3,4,7.6,-19.3,43.2
+1492,Taranto,Puglia,South,Females,80-89,26,1,-5,6,5.9,-15.5,31.4
+1493,Taranto,Puglia,South,Females,90 and older,12,0,-3,3,-0.3,-22.4,26.8
+1494,Brindisi,Puglia,South,Total,All ages,102,17,5,27,20.0,5.4,35.4
+1495,Brindisi,Puglia,South,Total,Less than 60,8,0,-2,2,-1.4,-21.5,24.9
+1496,Brindisi,Puglia,South,Total,60-69,7,1,-1,2,14.0,-10.7,42.6
+1497,Brindisi,Puglia,South,Total,70-79,24,2,-3,7,11.2,-10.4,37.3
+1498,Brindisi,Puglia,South,Total,80-89,46,11,5,17,33.6,12.2,58.8
+1499,Brindisi,Puglia,South,Total,90 and older,20,2,-3,6,12.7,-11.5,42.0
+1500,Brindisi,Puglia,South,Males,All ages,46,7,0,12,18.5,0.9,37.4
+1501,Brindisi,Puglia,South,Males,Less than 60,6,0,-1,2,3.2,-19.6,35.1
+1502,Brindisi,Puglia,South,Males,60-69,6,1,0,2,26.3,-3.5,64.6
+1503,Brindisi,Puglia,South,Males,70-79,12,2,-1,4,14.5,-9.8,46.3
+1504,Brindisi,Puglia,South,Males,80-89,15,3,0,6,25.0,-2.1,60.0
+1505,Brindisi,Puglia,South,Males,90 and older,8,1,-1,3,18.3,-14.8,60.9
+1506,Brindisi,Puglia,South,Females,All ages,57,10,1,17,20.8,1.7,42.4
+1507,Brindisi,Puglia,South,Females,Less than 60,2,0,-1,1,8.3,-20.0,45.5
+1508,Brindisi,Puglia,South,Females,60-69,1,0,0,0,-0.6,-26.0,38.9
+1509,Brindisi,Puglia,South,Females,70-79,12,1,-3,4,9.5,-19.4,48.4
+1510,Brindisi,Puglia,South,Females,80-89,30,8,2,13,38.8,8.7,71.5
+1511,Brindisi,Puglia,South,Females,90 and older,12,2,-1,4,19.3,-8.8,54.9
+1512,Lecce,Puglia,South,Total,All ages,199,15,-6,33,8.1,-3.1,19.9
+1513,Lecce,Puglia,South,Total,Less than 60,8,1,-1,2,14.4,-7.6,41.7
+1514,Lecce,Puglia,South,Total,60-69,17,1,-3,4,6.1,-13.3,29.3
+1515,Lecce,Puglia,South,Total,70-79,48,5,-4,12,11.3,-7.4,33.0
+1516,Lecce,Puglia,South,Total,80-89,80,7,-5,17,9.9,-5.4,27.8
+1517,Lecce,Puglia,South,Total,90 and older,48,1,-8,8,3.0,-14.2,20.6
+1518,Lecce,Puglia,South,Males,All ages,107,12,-2,24,12.5,-2.1,28.3
+1519,Lecce,Puglia,South,Males,Less than 60,6,1,0,2,17.5,-7.0,50.7
+1520,Lecce,Puglia,South,Males,60-69,14,1,-2,4,10.0,-13.1,39.0
+1521,Lecce,Puglia,South,Males,70-79,33,4,-3,9,13.7,-7.9,38.0
+1522,Lecce,Puglia,South,Males,80-89,37,1,-8,7,2.9,-17.4,25.2
+1523,Lecce,Puglia,South,Males,90 and older,20,0,-6,4,-2.2,-23.6,24.2
+1524,Lecce,Puglia,South,Females,All ages,92,3,-10,15,3.9,-9.9,19.0
+1525,Lecce,Puglia,South,Females,Less than 60,2,0,0,1,14.1,-13.5,52.9
+1526,Lecce,Puglia,South,Females,60-69,3,0,-1,1,5.0,-19.2,33.3
+1527,Lecce,Puglia,South,Females,70-79,15,0,-5,4,1.7,-23.5,32.9
+1528,Lecce,Puglia,South,Females,80-89,43,7,-1,13,18.2,-2.4,43.0
+1529,Lecce,Puglia,South,Females,90 and older,29,0,-6,5,1.6,-17.8,22.8
+1530,Barletta-Andria-Trani,Puglia,South,Total,All ages,83,11,-1,22,15.9,-1.0,36.7
+1531,Barletta-Andria-Trani,Puglia,South,Total,Less than 60,6,1,-1,2,10.5,-14.3,42.3
+1532,Barletta-Andria-Trani,Puglia,South,Total,60-69,10,2,-1,4,20.2,-6.2,58.6
+1533,Barletta-Andria-Trani,Puglia,South,Total,70-79,11,1,-2,3,10.6,-14.7,44.4
+1534,Barletta-Andria-Trani,Puglia,South,Total,80-89,37,6,-1,12,21.3,-1.7,49.1
+1535,Barletta-Andria-Trani,Puglia,South,Total,90 and older,18,4,-1,7,24.5,-4.9,63.1
+1536,Barletta-Andria-Trani,Puglia,South,Males,All ages,49,6,-3,13,14.9,-5.1,37.4
+1537,Barletta-Andria-Trani,Puglia,South,Males,Less than 60,1,0,0,0,2.7,-23.4,37.4
+1538,Barletta-Andria-Trani,Puglia,South,Males,60-69,6,1,-1,2,23.3,-9.4,70.6
+1539,Barletta-Andria-Trani,Puglia,South,Males,70-79,10,1,-1,3,15.3,-11.3,52.0
+1540,Barletta-Andria-Trani,Puglia,South,Males,80-89,24,5,-1,10,25.5,-4.6,65.4
+1541,Barletta-Andria-Trani,Puglia,South,Males,90 and older,8,2,-1,4,28.3,-11.8,87.4
+1542,Barletta-Andria-Trani,Puglia,South,Females,All ages,34,4,-3,10,14.2,-7.3,42.8
+1543,Barletta-Andria-Trani,Puglia,South,Females,Less than 60,5,1,-1,2,14.4,-17.4,56.4
+1544,Barletta-Andria-Trani,Puglia,South,Females,60-69,5,1,0,2,23.3,-7.4,68.5
+1545,Barletta-Andria-Trani,Puglia,South,Females,70-79,1,0,-1,0,3.3,-28.3,52.0
+1546,Barletta-Andria-Trani,Puglia,South,Females,80-89,13,2,-2,5,17.3,-13.1,56.1
+1547,Barletta-Andria-Trani,Puglia,South,Females,90 and older,10,2,-1,4,25.4,-8.7,71.4
+1548,Potenza,Basilicata,South,Total,All ages,84,1,-12,12,1.4,-12.2,16.4
+1549,Potenza,Basilicata,South,Total,Less than 60,4,-1,-2,0,-12.7,-33.8,12.7
+1550,Potenza,Basilicata,South,Total,60-69,12,1,-2,3,10.4,-14.0,42.8
+1551,Potenza,Basilicata,South,Total,70-79,10,0,-3,3,4.5,-21.2,34.2
+1552,Potenza,Basilicata,South,Total,80-89,35,0,-8,6,-1.0,-18.7,20.9
+1553,Potenza,Basilicata,South,Total,90 and older,26,2,-5,7,8.6,-15.2,35.4
+1554,Potenza,Basilicata,South,Males,All ages,46,0,-9,7,-0.4,-16.3,17.0
+1555,Potenza,Basilicata,South,Males,Less than 60,4,0,-1,1,-0.8,-26.1,33.5
+1556,Potenza,Basilicata,South,Males,60-69,9,1,-2,3,7.1,-18.4,44.0
+1557,Potenza,Basilicata,South,Males,70-79,7,0,-2,2,2.2,-22.2,35.4
+1558,Potenza,Basilicata,South,Males,80-89,16,0,-5,3,-2.3,-24.5,25.8
+1559,Potenza,Basilicata,South,Males,90 and older,13,2,-2,5,17.4,-14.9,59.4
+1560,Potenza,Basilicata,South,Females,All ages,38,2,-6,8,4.6,-13.7,26.1
+1561,Potenza,Basilicata,South,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1562,Potenza,Basilicata,South,Females,60-69,3,0,0,1,21.6,-6.7,62.9
+1563,Potenza,Basilicata,South,Females,70-79,2,0,-1,1,14.7,-20.8,63.0
+1564,Potenza,Basilicata,South,Females,80-89,20,1,-5,5,3.1,-20.9,33.8
+1565,Potenza,Basilicata,South,Females,90 and older,13,1,-3,4,8.3,-18.1,41.8
+1566,Matera,Basilicata,South,Total,All ages,49,5,-3,12,11.5,-6.2,32.3
+1567,Matera,Basilicata,South,Total,Less than 60,2,0,-1,0,-0.9,-25.7,31.7
+1568,Matera,Basilicata,South,Total,60-69,3,0,-1,1,-7.0,-30.7,27.3
+1569,Matera,Basilicata,South,Total,70-79,6,0,-2,2,1.3,-26.1,32.9
+1570,Matera,Basilicata,South,Total,80-89,26,6,1,10,31.3,2.4,65.7
+1571,Matera,Basilicata,South,Total,90 and older,10,1,-2,4,17.4,-13.6,61.2
+1572,Matera,Basilicata,South,Males,All ages,21,2,-3,6,11.8,-10.9,36.2
+1573,Matera,Basilicata,South,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+1574,Matera,Basilicata,South,Males,60-69,2,0,-1,1,-3.6,-32.7,44.6
+1575,Matera,Basilicata,South,Males,70-79,4,1,-1,2,14.3,-13.4,53.5
+1576,Matera,Basilicata,South,Males,80-89,11,3,0,5,32.8,-2.7,74.7
+1577,Matera,Basilicata,South,Males,90 and older,2,0,-1,1,15.5,-20.6,75.4
+1578,Matera,Basilicata,South,Females,All ages,28,3,-4,8,11.1,-11.8,39.8
+1579,Matera,Basilicata,South,Females,Less than 60,2,0,0,1,14.9,-16.5,57.6
+1580,Matera,Basilicata,South,Females,60-69,1,0,0,0,7.0,-19.1,44.6
+1581,Matera,Basilicata,South,Females,70-79,2,0,-1,1,-6.0,-36.7,41.7
+1582,Matera,Basilicata,South,Females,80-89,14,3,-1,6,28.6,-5.9,77.7
+1583,Matera,Basilicata,South,Females,90 and older,8,1,-1,3,24.5,-12.2,82.8
+1584,Cosenza,Calabria,South,Total,All ages,152,-3,-22,13,-2.2,-12.5,9.0
+1585,Cosenza,Calabria,South,Total,Less than 60,11,-1,-3,2,-5.4,-23.4,15.4
+1586,Cosenza,Calabria,South,Total,60-69,18,-1,-5,3,-3.7,-20.5,16.4
+1587,Cosenza,Calabria,South,Total,70-79,35,6,-1,11,19.6,-1.5,43.0
+1588,Cosenza,Calabria,South,Total,80-89,64,1,-10,10,1.6,-13.6,17.5
+1589,Cosenza,Calabria,South,Total,90 and older,26,-4,-11,1,-14.9,-30.2,4.7
+1590,Cosenza,Calabria,South,Males,All ages,81,-1,-13,10,-0.9,-13.4,13.6
+1591,Cosenza,Calabria,South,Males,Less than 60,6,0,-2,1,-6.1,-26.2,21.4
+1592,Cosenza,Calabria,South,Males,60-69,11,0,-3,2,0.4,-20.6,27.7
+1593,Cosenza,Calabria,South,Males,70-79,22,3,-1,6,16.8,-5.1,42.6
+1594,Cosenza,Calabria,South,Males,80-89,31,1,-6,7,4.0,-16.0,26.6
+1595,Cosenza,Calabria,South,Males,90 and older,14,-3,-8,1,-15.7,-36.8,11.6
+1596,Cosenza,Calabria,South,Females,All ages,70,-1,-12,9,-1.4,-14.9,14.4
+1597,Cosenza,Calabria,South,Females,Less than 60,5,0,-1,1,5.1,-21.1,38.2
+1598,Cosenza,Calabria,South,Females,60-69,7,0,-2,2,0.0,-22.4,31.0
+1599,Cosenza,Calabria,South,Females,70-79,14,2,-2,5,18.9,-10.6,57.3
+1600,Cosenza,Calabria,South,Females,80-89,33,1,-8,7,1.8,-19.0,25.9
+1601,Cosenza,Calabria,South,Females,90 and older,12,-1,-5,2,-8.7,-28.4,15.2
+1602,Catanzaro,Calabria,South,Total,All ages,65,2,-8,11,2.7,-11.3,19.4
+1603,Catanzaro,Calabria,South,Total,Less than 60,2,0,0,1,4.6,-18.6,33.1
+1604,Catanzaro,Calabria,South,Total,60-69,8,1,-1,2,9.1,-13.9,37.9
+1605,Catanzaro,Calabria,South,Total,70-79,13,0,-4,3,-1.4,-22.9,26.7
+1606,Catanzaro,Calabria,South,Total,80-89,27,2,-4,7,8.4,-12.2,33.7
+1607,Catanzaro,Calabria,South,Total,90 and older,16,-1,-5,3,-4.7,-25.8,23.3
+1608,Catanzaro,Calabria,South,Males,All ages,31,0,-7,5,-1.3,-18.2,19.5
+1609,Catanzaro,Calabria,South,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+1610,Catanzaro,Calabria,South,Males,60-69,2,0,-1,0,-9.5,-32.4,23.0
+1611,Catanzaro,Calabria,South,Males,70-79,9,1,-1,3,11.7,-13.5,45.1
+1612,Catanzaro,Calabria,South,Males,80-89,12,-1,-5,2,-5.9,-28.5,23.5
+1613,Catanzaro,Calabria,South,Males,90 and older,7,1,-1,3,22.7,-12.3,73.9
+1614,Catanzaro,Calabria,South,Females,All ages,33,3,-3,8,10.1,-8.4,33.8
+1615,Catanzaro,Calabria,South,Females,Less than 60,2,0,-1,1,5.2,-21.1,39.1
+1616,Catanzaro,Calabria,South,Females,60-69,6,1,0,3,30.9,2.4,70.6
+1617,Catanzaro,Calabria,South,Females,70-79,4,0,-2,1,-8.4,-35.6,29.7
+1618,Catanzaro,Calabria,South,Females,80-89,14,3,0,6,29.5,-1.6,71.1
+1619,Catanzaro,Calabria,South,Females,90 and older,8,-1,-4,1,-12.2,-34.0,15.8
+1620,Reggio Calabria,Calabria,South,Total,All ages,120,1,-15,15,1.2,-11.2,14.4
+1621,Reggio Calabria,Calabria,South,Total,Less than 60,6,0,-1,1,2.6,-18.6,26.9
+1622,Reggio Calabria,Calabria,South,Total,60-69,11,1,-1,3,14.0,-8.6,42.1
+1623,Reggio Calabria,Calabria,South,Total,70-79,23,2,-4,6,7.5,-13.5,34.5
+1624,Reggio Calabria,Calabria,South,Total,80-89,47,0,-10,7,0.0,-17.3,18.2
+1625,Reggio Calabria,Calabria,South,Total,90 and older,35,-2,-11,5,-4.8,-24.0,17.2
+1626,Reggio Calabria,Calabria,South,Males,All ages,56,4,-6,12,6.8,-9.1,26.8
+1627,Reggio Calabria,Calabria,South,Males,Less than 60,4,1,0,1,18.7,-8.1,55.5
+1628,Reggio Calabria,Calabria,South,Males,60-69,7,1,-1,2,18.5,-9.9,58.1
+1629,Reggio Calabria,Calabria,South,Males,70-79,11,1,-2,3,5.4,-17.2,32.9
+1630,Reggio Calabria,Calabria,South,Males,80-89,19,0,-6,4,-0.6,-23.0,27.2
+1631,Reggio Calabria,Calabria,South,Males,90 and older,16,2,-2,6,16.9,-12.4,60.4
+1632,Reggio Calabria,Calabria,South,Females,All ages,64,-1,-13,8,-1.9,-16.3,15.2
+1633,Reggio Calabria,Calabria,South,Females,Less than 60,2,0,-1,0,-7.5,-32.2,24.2
+1634,Reggio Calabria,Calabria,South,Females,60-69,4,1,-1,1,14.7,-14.4,49.0
+1635,Reggio Calabria,Calabria,South,Females,70-79,12,2,-2,4,17.1,-15.3,58.3
+1636,Reggio Calabria,Calabria,South,Females,80-89,28,1,-6,7,4.5,-18.0,32.9
+1637,Reggio Calabria,Calabria,South,Females,90 and older,20,-2,-9,3,-10.4,-31.1,14.8
+1638,Crotone,Calabria,South,Total,All ages,46,10,2,16,26.7,5.4,50.7
+1639,Crotone,Calabria,South,Total,Less than 60,4,0,-1,1,-1.9,-25.2,29.1
+1640,Crotone,Calabria,South,Total,60-69,4,1,0,2,26.4,-4.9,73.7
+1641,Crotone,Calabria,South,Total,70-79,10,2,-1,4,28.3,-6.0,70.5
+1642,Crotone,Calabria,South,Total,80-89,17,3,-2,6,20.3,-9.1,57.4
+1643,Crotone,Calabria,South,Total,90 and older,9,3,0,5,46.1,4.8,101.6
+1644,Crotone,Calabria,South,Males,All ages,27,5,-1,9,22.6,-3.2,51.3
+1645,Crotone,Calabria,South,Males,Less than 60,4,0,-2,1,-2.3,-29.6,37.5
+1646,Crotone,Calabria,South,Males,60-69,3,1,0,1,29.9,-9.3,91.3
+1647,Crotone,Calabria,South,Males,70-79,6,1,0,3,33.6,-0.7,79.8
+1648,Crotone,Calabria,South,Males,80-89,10,2,-1,4,28.5,-7.9,72.3
+1649,Crotone,Calabria,South,Males,90 and older,3,0,-1,1,16.1,-23.6,77.6
+1650,Crotone,Calabria,South,Females,All ages,20,5,1,8,33.1,4.6,69.0
+1651,Crotone,Calabria,South,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1652,Crotone,Calabria,South,Females,60-69,1,0,0,0,19.0,-10.9,63.3
+1653,Crotone,Calabria,South,Females,70-79,4,1,-1,2,25.1,-14.8,88.6
+1654,Crotone,Calabria,South,Females,80-89,7,1,-2,3,14.8,-18.9,66.9
+1655,Crotone,Calabria,South,Females,90 and older,6,2,1,4,65.3,13.1,143.8
+1656,Vibo Valentia,Calabria,South,Total,All ages,31,0,-7,5,-0.2,-17.3,19.4
+1657,Vibo Valentia,Calabria,South,Total,Less than 60,2,0,-1,0,-4.7,-28.3,26.0
+1658,Vibo Valentia,Calabria,South,Total,60-69,4,1,0,2,21.9,-9.6,67.6
+1659,Vibo Valentia,Calabria,South,Total,70-79,5,0,-2,1,-5.2,-31.6,25.3
+1660,Vibo Valentia,Calabria,South,Total,80-89,8,0,-2,2,4.7,-21.5,38.3
+1661,Vibo Valentia,Calabria,South,Total,90 and older,11,2,-2,4,16.3,-14.8,61.7
+1662,Vibo Valentia,Calabria,South,Males,All ages,15,-1,-4,2,-4.6,-23.6,20.6
+1663,Vibo Valentia,Calabria,South,Males,Less than 60,1,0,0,0,-0.8,-27.6,36.6
+1664,Vibo Valentia,Calabria,South,Males,60-69,1,0,0,0,26.4,-12.4,84.2
+1665,Vibo Valentia,Calabria,South,Males,70-79,5,0,-1,2,10.4,-17.2,47.7
+1666,Vibo Valentia,Calabria,South,Males,80-89,2,0,-1,1,-6.8,-33.6,32.2
+1667,Vibo Valentia,Calabria,South,Males,90 and older,5,1,-2,2,11.8,-26.5,68.8
+1668,Vibo Valentia,Calabria,South,Females,All ages,17,2,-3,5,10.1,-13.8,39.8
+1669,Vibo Valentia,Calabria,South,Females,Less than 60,1,0,0,0,4.2,-24.6,43.7
+1670,Vibo Valentia,Calabria,South,Females,60-69,3,0,0,1,17.4,-13.7,64.2
+1671,Vibo Valentia,Calabria,South,Females,70-79,0,0,0,0,0.0,0.0,0.0
+1672,Vibo Valentia,Calabria,South,Females,80-89,6,1,0,3,29.4,-5.3,80.1
+1673,Vibo Valentia,Calabria,South,Females,90 and older,6,1,-1,3,25.6,-11.6,83.4
+1674,Trapani,Sicilia,Islands,Total,All ages,89,-7,-22,5,-7.4,-19.5,5.7
+1675,Trapani,Sicilia,Islands,Total,Less than 60,3,0,-2,0,-11.5,-31.4,13.3
+1676,Trapani,Sicilia,Islands,Total,60-69,8,-1,-4,1,-15.3,-34.6,10.6
+1677,Trapani,Sicilia,Islands,Total,70-79,14,-2,-6,1,-11.3,-30.0,11.5
+1678,Trapani,Sicilia,Islands,Total,80-89,40,1,-7,8,1.8,-15.8,23.8
+1679,Trapani,Sicilia,Islands,Total,90 and older,25,1,-6,5,2.3,-19.8,27.7
+1680,Trapani,Sicilia,Islands,Males,All ages,37,-5,-13,2,-10.9,-25.2,5.0
+1681,Trapani,Sicilia,Islands,Males,Less than 60,1,0,-1,0,-9.5,-33.5,23.4
+1682,Trapani,Sicilia,Islands,Males,60-69,5,-1,-2,1,-10.5,-33.8,26.0
+1683,Trapani,Sicilia,Islands,Males,70-79,9,0,-2,2,3.1,-19.8,31.9
+1684,Trapani,Sicilia,Islands,Males,80-89,16,-3,-8,2,-14.3,-33.8,10.8
+1685,Trapani,Sicilia,Islands,Males,90 and older,7,1,-2,2,10.0,-20.8,49.5
+1686,Trapani,Sicilia,Islands,Females,All ages,52,0,-10,7,-0.1,-15.5,16.7
+1687,Trapani,Sicilia,Islands,Females,Less than 60,2,0,-1,1,-1.7,-28.0,31.7
+1688,Trapani,Sicilia,Islands,Females,60-69,3,0,-1,1,-4.2,-27.1,29.1
+1689,Trapani,Sicilia,Islands,Females,70-79,5,-1,-3,1,-12.8,-38.8,21.9
+1690,Trapani,Sicilia,Islands,Females,80-89,23,4,-1,8,23.6,-3.2,57.0
+1691,Trapani,Sicilia,Islands,Females,90 and older,18,1,-5,5,5.4,-20.2,37.3
+1692,Palermo,Sicilia,Islands,Total,All ages,235,-22,-50,1,-8.6,-17.7,0.6
+1693,Palermo,Sicilia,Islands,Total,Less than 60,13,-2,-5,1,-12.3,-28.0,7.4
+1694,Palermo,Sicilia,Islands,Total,60-69,33,1,-5,6,3.3,-12.2,21.8
+1695,Palermo,Sicilia,Islands,Total,70-79,47,-4,-14,4,-8.5,-23.0,8.3
+1696,Palermo,Sicilia,Islands,Total,80-89,103,3,-12,16,3.4,-10.3,17.9
+1697,Palermo,Sicilia,Islands,Total,90 and older,44,-9,-19,-1,-17.0,-30.0,-2.7
+1698,Palermo,Sicilia,Islands,Males,All ages,121,-8,-25,8,-6.4,-17.1,6.6
+1699,Palermo,Sicilia,Islands,Males,Less than 60,6,-1,-3,0,-14.7,-31.6,7.8
+1700,Palermo,Sicilia,Islands,Males,60-69,19,1,-3,4,6.6,-13.7,30.9
+1701,Palermo,Sicilia,Islands,Males,70-79,30,-2,-9,3,-7.4,-23.4,12.6
+1702,Palermo,Sicilia,Islands,Males,80-89,49,4,-5,12,9.0,-9.0,32.2
+1703,Palermo,Sicilia,Islands,Males,90 and older,18,-1,-7,3,-7.5,-26.6,19.2
+1704,Palermo,Sicilia,Islands,Females,All ages,114,-10,-26,4,-8.0,-18.4,3.7
+1705,Palermo,Sicilia,Islands,Females,Less than 60,7,1,-1,2,8.4,-17.0,42.1
+1706,Palermo,Sicilia,Islands,Females,60-69,14,1,-2,4,7.2,-13.4,33.4
+1707,Palermo,Sicilia,Islands,Females,70-79,17,-1,-6,3,-3.4,-24.8,20.9
+1708,Palermo,Sicilia,Islands,Females,80-89,54,0,-11,9,0.0,-17.2,19.4
+1709,Palermo,Sicilia,Islands,Females,90 and older,26,-4,-11,1,-14.1,-29.8,4.1
+1710,Messina,Sicilia,Islands,Total,All ages,150,4,-13,20,3.0,-8.2,15.4
+1711,Messina,Sicilia,Islands,Total,Less than 60,10,1,-1,3,17.0,-5.2,43.2
+1712,Messina,Sicilia,Islands,Total,60-69,12,2,0,4,19.6,-1.2,44.0
+1713,Messina,Sicilia,Islands,Total,70-79,36,4,-3,10,12.2,-8.3,36.2
+1714,Messina,Sicilia,Islands,Total,80-89,54,-1,-11,7,-2.0,-16.7,15.2
+1715,Messina,Sicilia,Islands,Total,90 and older,42,2,-7,9,5.6,-13.6,26.7
+1716,Messina,Sicilia,Islands,Males,All ages,72,2,-9,11,3.3,-10.7,18.1
+1717,Messina,Sicilia,Islands,Males,Less than 60,5,1,0,2,26.6,-0.1,62.9
+1718,Messina,Sicilia,Islands,Males,60-69,6,1,0,2,17.3,-7.8,48.3
+1719,Messina,Sicilia,Islands,Males,70-79,18,3,-1,6,16.8,-4.8,44.3
+1720,Messina,Sicilia,Islands,Males,80-89,29,0,-8,6,-1.1,-21.9,23.1
+1721,Messina,Sicilia,Islands,Males,90 and older,15,2,-2,5,12.7,-13.0,48.5
+1722,Messina,Sicilia,Islands,Females,All ages,78,4,-7,15,5.8,-8.2,23.0
+1723,Messina,Sicilia,Islands,Females,Less than 60,4,0,-1,1,1.6,-23.2,34.8
+1724,Messina,Sicilia,Islands,Females,60-69,6,1,0,2,25.8,0.7,58.3
+1725,Messina,Sicilia,Islands,Females,70-79,18,2,-3,6,11.7,-16.1,46.4
+1726,Messina,Sicilia,Islands,Females,80-89,25,1,-5,5,4.3,-16.5,27.7
+1727,Messina,Sicilia,Islands,Females,90 and older,27,2,-4,7,7.8,-13.0,31.7
+1728,Agrigento,Sicilia,Islands,Total,All ages,97,-12,-28,2,-10.9,-22.4,1.9
+1729,Agrigento,Sicilia,Islands,Total,Less than 60,7,1,-1,2,10.4,-11.8,36.7
+1730,Agrigento,Sicilia,Islands,Total,60-69,5,-1,-2,1,-9.8,-28.1,16.0
+1731,Agrigento,Sicilia,Islands,Total,70-79,17,-1,-5,3,-4.3,-24.1,18.5
+1732,Agrigento,Sicilia,Islands,Total,80-89,46,-5,-16,4,-10.4,-25.6,8.8
+1733,Agrigento,Sicilia,Islands,Total,90 and older,23,1,-5,5,2.9,-18.4,28.1
+1734,Agrigento,Sicilia,Islands,Males,All ages,50,-3,-13,4,-6.2,-20.5,9.2
+1735,Agrigento,Sicilia,Islands,Males,Less than 60,3,0,-1,1,11.4,-14.6,47.4
+1736,Agrigento,Sicilia,Islands,Males,60-69,2,0,-1,0,-7.5,-32.0,27.9
+1737,Agrigento,Sicilia,Islands,Males,70-79,11,1,-1,3,13.1,-12.1,45.2
+1738,Agrigento,Sicilia,Islands,Males,80-89,24,-3,-11,3,-11.9,-31.9,13.3
+1739,Agrigento,Sicilia,Islands,Males,90 and older,10,2,0,4,34.2,-1.9,78.0
+1740,Agrigento,Sicilia,Islands,Females,All ages,48,-7,-17,2,-12.3,-26.0,5.5
+1741,Agrigento,Sicilia,Islands,Females,Less than 60,4,0,-1,1,14.0,-14.6,52.5
+1742,Agrigento,Sicilia,Islands,Females,60-69,3,0,-1,1,8.7,-16.0,43.5
+1743,Agrigento,Sicilia,Islands,Females,70-79,6,-1,-4,1,-16.4,-41.3,16.6
+1744,Agrigento,Sicilia,Islands,Females,80-89,22,-1,-7,4,-4.7,-24.4,21.0
+1745,Agrigento,Sicilia,Islands,Females,90 and older,13,-1,-6,2,-8.6,-30.7,19.7
+1746,Caltanissetta,Sicilia,Islands,Total,All ages,51,0,-8,8,0.8,-13.9,19.1
+1747,Caltanissetta,Sicilia,Islands,Total,Less than 60,4,0,-2,1,-6.2,-29.6,23.2
+1748,Caltanissetta,Sicilia,Islands,Total,60-69,12,1,-3,4,6.8,-19.0,43.6
+1749,Caltanissetta,Sicilia,Islands,Total,70-79,12,1,-2,4,12.4,-15.2,44.2
+1750,Caltanissetta,Sicilia,Islands,Total,80-89,18,-1,-6,3,-4.6,-25.1,19.8
+1751,Caltanissetta,Sicilia,Islands,Total,90 and older,5,0,-1,2,10.0,-17.6,47.3
+1752,Caltanissetta,Sicilia,Islands,Males,All ages,25,-1,-7,4,-3.6,-21.0,16.8
+1753,Caltanissetta,Sicilia,Islands,Males,Less than 60,1,0,-1,0,-8.2,-34.1,28.2
+1754,Caltanissetta,Sicilia,Islands,Males,60-69,7,1,-2,3,7.4,-21.9,53.5
+1755,Caltanissetta,Sicilia,Islands,Males,70-79,5,1,-1,2,17.6,-11.9,57.0
+1756,Caltanissetta,Sicilia,Islands,Males,80-89,9,-1,-5,2,-8.6,-32.8,23.7
+1757,Caltanissetta,Sicilia,Islands,Males,90 and older,3,0,-1,1,10.8,-24.7,64.5
+1758,Caltanissetta,Sicilia,Islands,Females,All ages,26,3,-3,7,11.0,-10.2,36.6
+1759,Caltanissetta,Sicilia,Islands,Females,Less than 60,3,0,-1,1,11.8,-19.1,52.7
+1760,Caltanissetta,Sicilia,Islands,Females,60-69,5,1,-1,2,19.0,-11.1,59.9
+1761,Caltanissetta,Sicilia,Islands,Females,70-79,7,1,-2,2,8.6,-25.6,55.3
+1762,Caltanissetta,Sicilia,Islands,Females,80-89,9,1,-2,3,7.7,-18.9,45.1
+1763,Caltanissetta,Sicilia,Islands,Females,90 and older,3,0,-1,1,14.8,-18.6,64.4
+1764,Enna,Sicilia,Islands,Total,All ages,43,5,-4,11,12.5,-7.6,35.1
+1765,Enna,Sicilia,Islands,Total,Less than 60,0,0,0,0,0.0,0.0,0.0
+1766,Enna,Sicilia,Islands,Total,60-69,3,0,-1,1,5.3,-24.7,48.1
+1767,Enna,Sicilia,Islands,Total,70-79,7,2,0,3,31.2,-2.0,75.7
+1768,Enna,Sicilia,Islands,Total,80-89,19,3,-3,7,16.9,-11.7,53.9
+1769,Enna,Sicilia,Islands,Total,90 and older,14,2,-3,5,15.3,-18.1,64.0
+1770,Enna,Sicilia,Islands,Males,All ages,21,3,-2,7,17.9,-9.1,47.7
+1771,Enna,Sicilia,Islands,Males,Less than 60,0,0,0,0,0.0,0.0,0.0
+1772,Enna,Sicilia,Islands,Males,60-69,2,0,-1,1,7.8,-26.7,67.4
+1773,Enna,Sicilia,Islands,Males,70-79,3,1,0,1,27.5,-9.3,77.2
+1774,Enna,Sicilia,Islands,Males,80-89,7,2,-1,3,27.7,-10.0,79.4
+1775,Enna,Sicilia,Islands,Males,90 and older,8,2,0,4,37.6,-5.3,109.1
+1776,Enna,Sicilia,Islands,Females,All ages,22,2,-3,7,11.7,-13.5,44.0
+1777,Enna,Sicilia,Islands,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1778,Enna,Sicilia,Islands,Females,60-69,2,0,0,1,12.1,-18.3,58.4
+1779,Enna,Sicilia,Islands,Females,70-79,3,1,0,2,39.6,-4.8,108.5
+1780,Enna,Sicilia,Islands,Females,80-89,12,2,-3,5,15.4,-18.0,64.0
+1781,Enna,Sicilia,Islands,Females,90 and older,5,0,-2,2,3.2,-31.7,59.3
+1782,Catania,Sicilia,Islands,Total,All ages,227,5,-22,27,2.2,-8.8,13.7
+1783,Catania,Sicilia,Islands,Total,Less than 60,23,-2,-8,2,-9.1,-24.5,9.4
+1784,Catania,Sicilia,Islands,Total,60-69,30,2,-3,7,8.6,-10.0,31.5
+1785,Catania,Sicilia,Islands,Total,70-79,40,-2,-10,5,-3.7,-20.7,15.2
+1786,Catania,Sicilia,Islands,Total,80-89,84,1,-13,12,0.8,-13.4,16.5
+1787,Catania,Sicilia,Islands,Total,90 and older,59,9,0,18,19.0,-0.2,43.1
+1788,Catania,Sicilia,Islands,Males,All ages,104,-1,-17,13,-0.8,-13.9,13.7
+1789,Catania,Sicilia,Islands,Males,Less than 60,12,-3,-7,0,-20.7,-37.7,2.4
+1790,Catania,Sicilia,Islands,Males,60-69,17,1,-2,5,9.1,-12.3,36.9
+1791,Catania,Sicilia,Islands,Males,70-79,22,0,-5,4,1.1,-18.0,24.2
+1792,Catania,Sicilia,Islands,Males,80-89,43,1,-9,8,2.0,-17.7,23.8
+1793,Catania,Sicilia,Islands,Males,90 and older,16,1,-4,5,6.4,-18.2,40.2
+1794,Catania,Sicilia,Islands,Females,All ages,123,7,-10,21,5.7,-7.3,20.4
+1795,Catania,Sicilia,Islands,Females,Less than 60,12,1,-2,4,12.1,-14.5,46.6
+1796,Catania,Sicilia,Islands,Females,60-69,13,1,-1,4,12.2,-9.7,38.6
+1797,Catania,Sicilia,Islands,Females,70-79,18,-1,-6,3,-3.5,-25.8,22.7
+1798,Catania,Sicilia,Islands,Females,80-89,41,1,-8,8,1.5,-15.8,23.1
+1799,Catania,Sicilia,Islands,Females,90 and older,42,9,2,15,26.3,3.8,53.7
+1800,Ragusa,Sicilia,Islands,Total,All ages,57,-5,-16,5,-8.1,-22.1,8.5
+1801,Ragusa,Sicilia,Islands,Total,Less than 60,4,0,-1,1,5.4,-18.2,34.9
+1802,Ragusa,Sicilia,Islands,Total,60-69,6,1,-1,2,15.5,-12.5,54.2
+1803,Ragusa,Sicilia,Islands,Total,70-79,13,1,-3,4,6.0,-17.9,38.3
+1804,Ragusa,Sicilia,Islands,Total,80-89,17,-2,-7,2,-9.3,-27.9,14.2
+1805,Ragusa,Sicilia,Islands,Total,90 and older,14,-3,-9,2,-16.1,-37.4,12.3
+1806,Ragusa,Sicilia,Islands,Males,All ages,33,-3,-11,3,-7.9,-24.5,11.1
+1807,Ragusa,Sicilia,Islands,Males,Less than 60,2,0,-1,0,-7.8,-33.4,28.6
+1808,Ragusa,Sicilia,Islands,Males,60-69,4,0,-1,1,4.2,-25.2,51.6
+1809,Ragusa,Sicilia,Islands,Males,70-79,11,2,-1,4,15.9,-11.1,51.6
+1810,Ragusa,Sicilia,Islands,Males,80-89,9,0,-3,2,-3.0,-27.5,29.3
+1811,Ragusa,Sicilia,Islands,Males,90 and older,6,-1,-4,1,-13.6,-39.3,24.5
+1812,Ragusa,Sicilia,Islands,Females,All ages,24,-1,-7,4,-2.5,-22.3,20.0
+1813,Ragusa,Sicilia,Islands,Females,Less than 60,2,0,0,1,17.3,-14.2,59.1
+1814,Ragusa,Sicilia,Islands,Females,60-69,2,0,0,1,28.0,-4.8,76.6
+1815,Ragusa,Sicilia,Islands,Females,70-79,2,0,-1,1,-1.1,-31.9,46.4
+1816,Ragusa,Sicilia,Islands,Females,80-89,9,-1,-4,2,-7.0,-30.8,28.4
+1817,Ragusa,Sicilia,Islands,Females,90 and older,9,-1,-5,2,-8.4,-34.3,31.0
+1818,Siracusa,Sicilia,Islands,Total,All ages,110,18,5,30,20.3,4.8,37.3
+1819,Siracusa,Sicilia,Islands,Total,Less than 60,4,0,-1,1,1.1,-20.8,28.0
+1820,Siracusa,Sicilia,Islands,Total,60-69,10,1,-1,3,17.0,-7.4,49.1
+1821,Siracusa,Sicilia,Islands,Total,70-79,27,3,-4,8,12.4,-12.1,39.0
+1822,Siracusa,Sicilia,Islands,Total,80-89,47,8,0,15,19.8,-0.7,44.2
+1823,Siracusa,Sicilia,Islands,Total,90 and older,21,5,0,9,31.8,1.3,68.6
+1824,Siracusa,Sicilia,Islands,Males,All ages,52,8,-1,14,17.2,-1.0,37.1
+1825,Siracusa,Sicilia,Islands,Males,Less than 60,2,0,-1,1,0.6,-24.7,36.5
+1826,Siracusa,Sicilia,Islands,Males,60-69,9,1,-2,3,9.6,-19.8,52.2
+1827,Siracusa,Sicilia,Islands,Males,70-79,17,2,-2,5,14.9,-11.1,45.5
+1828,Siracusa,Sicilia,Islands,Males,80-89,18,4,0,7,31.2,1.8,67.6
+1829,Siracusa,Sicilia,Islands,Males,90 and older,6,1,-1,3,23.6,-12.7,76.3
+1830,Siracusa,Sicilia,Islands,Females,All ages,58,11,1,18,22.9,2.6,44.8
+1831,Siracusa,Sicilia,Islands,Females,Less than 60,2,0,-1,1,5.8,-22.7,42.6
+1832,Siracusa,Sicilia,Islands,Females,60-69,1,0,0,0,24.3,-4.3,57.2
+1833,Siracusa,Sicilia,Islands,Females,70-79,10,1,-3,4,10.3,-20.8,51.6
+1834,Siracusa,Sicilia,Islands,Females,80-89,29,3,-5,9,10.6,-15.4,42.6
+1835,Siracusa,Sicilia,Islands,Females,90 and older,15,4,1,7,42.0,5.6,89.2
+1836,Sassari,Sardegna,Islands,Total,All ages,121,15,0,26,13.7,0.3,28.0
+1837,Sassari,Sardegna,Islands,Total,Less than 60,8,0,-2,1,-2.2,-22.2,21.5
+1838,Sassari,Sardegna,Islands,Total,60-69,18,1,-4,4,3.4,-18.3,30.9
+1839,Sassari,Sardegna,Islands,Total,70-79,21,-1,-6,3,-2.8,-22.9,19.5
+1840,Sassari,Sardegna,Islands,Total,80-89,48,10,2,16,24.6,4.4,49.6
+1841,Sassari,Sardegna,Islands,Total,90 and older,28,6,1,10,28.9,4.8,57.2
+1842,Sassari,Sardegna,Islands,Males,All ages,55,1,-9,9,1.6,-13.5,20.3
+1843,Sassari,Sardegna,Islands,Males,Less than 60,2,0,-1,0,0.3,-21.5,30.9
+1844,Sassari,Sardegna,Islands,Males,60-69,10,1,-2,3,8.9,-17.5,44.1
+1845,Sassari,Sardegna,Islands,Males,70-79,13,1,-3,3,4.9,-16.9,30.9
+1846,Sassari,Sardegna,Islands,Males,80-89,21,2,-3,6,12.5,-11.7,42.1
+1847,Sassari,Sardegna,Islands,Males,90 and older,10,1,-2,3,11.2,-18.0,51.3
+1848,Sassari,Sardegna,Islands,Females,All ages,66,15,6,22,28.6,9.8,49.8
+1849,Sassari,Sardegna,Islands,Females,Less than 60,6,1,-1,2,13.6,-15.3,50.8
+1850,Sassari,Sardegna,Islands,Females,60-69,8,1,-2,2,6.9,-18.4,43.7
+1851,Sassari,Sardegna,Islands,Females,70-79,8,0,-3,2,-1.1,-27.9,34.8
+1852,Sassari,Sardegna,Islands,Females,80-89,28,8,2,12,38.3,9.8,72.8
+1853,Sassari,Sardegna,Islands,Females,90 and older,18,5,2,8,42.1,12.6,81.8
+1854,Nuoro,Sardegna,Islands,Total,All ages,58,3,-7,12,5.5,-10.4,25.4
+1855,Nuoro,Sardegna,Islands,Total,Less than 60,2,0,-1,0,-5.0,-27.9,22.7
+1856,Nuoro,Sardegna,Islands,Total,60-69,5,0,-2,1,-3.6,-28.7,31.6
+1857,Nuoro,Sardegna,Islands,Total,70-79,7,1,-1,2,14.0,-16.4,49.9
+1858,Nuoro,Sardegna,Islands,Total,80-89,24,3,-3,7,14.9,-10.5,44.5
+1859,Nuoro,Sardegna,Islands,Total,90 and older,19,3,-3,6,15.1,-13.7,49.9
+1860,Nuoro,Sardegna,Islands,Males,All ages,32,2,-6,7,5.4,-14.6,29.4
+1861,Nuoro,Sardegna,Islands,Males,Less than 60,2,0,-1,0,-6.2,-31.2,28.9
+1862,Nuoro,Sardegna,Islands,Males,60-69,5,0,-2,1,-6.2,-32.8,36.5
+1863,Nuoro,Sardegna,Islands,Males,70-79,5,1,-1,2,16.7,-13.4,58.4
+1864,Nuoro,Sardegna,Islands,Males,80-89,13,2,-2,5,16.3,-13.9,56.2
+1865,Nuoro,Sardegna,Islands,Males,90 and older,8,2,-2,4,23.4,-15.3,81.3
+1866,Nuoro,Sardegna,Islands,Females,All ages,26,2,-4,7,9.2,-12.8,37.0
+1867,Nuoro,Sardegna,Islands,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1868,Nuoro,Sardegna,Islands,Females,60-69,0,0,0,0,0.0,0.0,0.0
+1869,Nuoro,Sardegna,Islands,Females,70-79,2,0,-1,1,22.1,-18.4,78.8
+1870,Nuoro,Sardegna,Islands,Females,80-89,11,2,-2,4,16.4,-12.7,58.3
+1871,Nuoro,Sardegna,Islands,Females,90 and older,11,1,-2,4,14.6,-17.4,60.6
+1872,Cagliari,Sardegna,Islands,Total,All ages,75,-4,-17,7,-5.4,-18.2,9.5
+1873,Cagliari,Sardegna,Islands,Total,Less than 60,3,0,-1,1,4.5,-17.5,30.8
+1874,Cagliari,Sardegna,Islands,Total,60-69,8,-1,-3,1,-9.3,-28.0,16.2
+1875,Cagliari,Sardegna,Islands,Total,70-79,16,2,-2,5,14.0,-11.6,43.2
+1876,Cagliari,Sardegna,Islands,Total,80-89,28,0,-8,5,-1.0,-21.5,22.9
+1877,Cagliari,Sardegna,Islands,Total,90 and older,17,-1,-6,3,-4.1,-26.4,22.7
+1878,Cagliari,Sardegna,Islands,Males,All ages,33,-2,-9,4,-6.8,-22.3,12.6
+1879,Cagliari,Sardegna,Islands,Males,Less than 60,1,0,0,0,-1.6,-24.8,29.8
+1880,Cagliari,Sardegna,Islands,Males,60-69,5,0,-2,1,-5.0,-29.2,29.7
+1881,Cagliari,Sardegna,Islands,Males,70-79,9,2,-1,3,21.9,-6.4,55.7
+1882,Cagliari,Sardegna,Islands,Males,80-89,12,-2,-6,2,-11.8,-34.5,16.6
+1883,Cagliari,Sardegna,Islands,Males,90 and older,6,0,-3,2,0.4,-30.9,46.0
+1884,Cagliari,Sardegna,Islands,Females,All ages,42,1,-8,8,2.2,-16.6,23.3
+1885,Cagliari,Sardegna,Islands,Females,Less than 60,2,0,-1,1,14.0,-18.5,56.0
+1886,Cagliari,Sardegna,Islands,Females,60-69,4,0,-1,1,2.9,-19.8,34.1
+1887,Cagliari,Sardegna,Islands,Females,70-79,7,0,-3,2,4.7,-26.1,45.4
+1888,Cagliari,Sardegna,Islands,Females,80-89,16,3,-1,6,20.6,-6.1,59.5
+1889,Cagliari,Sardegna,Islands,Females,90 and older,11,0,-4,3,-3.0,-28.2,29.5
+1890,Oristano,Sardegna,Islands,Total,All ages,30,-1,-7,4,-4.6,-19.7,13.6
+1891,Oristano,Sardegna,Islands,Total,Less than 60,1,0,0,0,5.1,-22.4,40.9
+1892,Oristano,Sardegna,Islands,Total,60-69,5,0,-2,1,1.3,-24.5,37.3
+1893,Oristano,Sardegna,Islands,Total,70-79,5,0,-2,1,-2.9,-26.5,29.3
+1894,Oristano,Sardegna,Islands,Total,80-89,12,2,-1,4,18.8,-8.9,51.5
+1895,Oristano,Sardegna,Islands,Total,90 and older,8,-1,-5,1,-13.9,-37.3,18.7
+1896,Oristano,Sardegna,Islands,Males,All ages,6,-1,-3,1,-12.2,-30.6,9.4
+1897,Oristano,Sardegna,Islands,Males,Less than 60,1,0,0,0,5.1,-27.3,52.4
+1898,Oristano,Sardegna,Islands,Males,60-69,2,0,-1,1,-6.4,-35.0,40.9
+1899,Oristano,Sardegna,Islands,Males,70-79,2,0,0,1,9.5,-17.0,48.1
+1900,Oristano,Sardegna,Islands,Males,80-89,1,0,0,0,2.9,-25.9,42.7
+1901,Oristano,Sardegna,Islands,Males,90 and older,1,0,-1,0,-4.8,-36.4,42.8
+1902,Oristano,Sardegna,Islands,Females,All ages,24,3,-2,7,14.1,-8.1,41.5
+1903,Oristano,Sardegna,Islands,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1904,Oristano,Sardegna,Islands,Females,60-69,3,0,0,1,18.1,-8.4,56.3
+1905,Oristano,Sardegna,Islands,Females,70-79,3,0,-1,1,4.3,-29.3,57.2
+1906,Oristano,Sardegna,Islands,Females,80-89,11,3,0,5,42.4,3.1,89.2
+1907,Oristano,Sardegna,Islands,Females,90 and older,7,0,-4,2,-5.5,-33.3,38.6
+1908,Sud Sardegna,Sardegna,Islands,Total,All ages,79,4,-7,14,5.9,-8.1,21.2
+1909,Sud Sardegna,Sardegna,Islands,Total,Less than 60,3,0,-1,1,1.1,-20.6,26.5
+1910,Sud Sardegna,Sardegna,Islands,Total,60-69,9,0,-2,2,2.2,-18.8,30.3
+1911,Sud Sardegna,Sardegna,Islands,Total,70-79,12,0,-3,3,2.8,-20.3,29.6
+1912,Sud Sardegna,Sardegna,Islands,Total,80-89,34,4,-2,10,14.9,-6.6,40.2
+1913,Sud Sardegna,Sardegna,Islands,Total,90 and older,19,1,-4,5,4.8,-16.8,33.0
+1914,Sud Sardegna,Sardegna,Islands,Males,All ages,42,0,-8,6,-1.0,-16.7,16.8
+1915,Sud Sardegna,Sardegna,Islands,Males,Less than 60,3,0,0,1,15.0,-12.9,53.4
+1916,Sud Sardegna,Sardegna,Islands,Males,60-69,6,0,-2,1,-0.4,-25.2,35.3
+1917,Sud Sardegna,Sardegna,Islands,Males,70-79,9,0,-2,2,4.6,-19.5,35.5
+1918,Sud Sardegna,Sardegna,Islands,Males,80-89,20,2,-4,6,8.5,-15.9,40.5
+1919,Sud Sardegna,Sardegna,Islands,Males,90 and older,2,0,-1,1,-2.8,-30.4,35.9
+1920,Sud Sardegna,Sardegna,Islands,Females,All ages,37,6,-1,11,18.1,-3.2,41.2
+1921,Sud Sardegna,Sardegna,Islands,Females,Less than 60,0,0,0,0,0.0,0.0,0.0
+1922,Sud Sardegna,Sardegna,Islands,Females,60-69,3,0,-1,1,12.6,-15.9,47.2
+1923,Sud Sardegna,Sardegna,Islands,Females,70-79,3,0,-1,1,12.8,-22.4,60.3
+1924,Sud Sardegna,Sardegna,Islands,Females,80-89,14,3,0,5,26.2,-3.5,66.4
+1925,Sud Sardegna,Sardegna,Islands,Females,90 and older,16,2,-2,5,16.4,-11.4,49.1

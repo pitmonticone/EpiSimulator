@@ -36,6 +36,7 @@
 * ISTAT, [First results of the SARS-CoV-2 seroprevalence study](https://www.istat.it/it/files//2020/08/ReportPrimiRisultatiIndagineSiero.pdf) (2020)
 * Amy E Benefield et al. [SARS-CoV-2 viral load peaks prior to symptom onset: a systematic review and individual-pooled analysis of coronavirus viral load from 66 studies](https://doi.org/10.1101/2020.09.28.20202028). *medRxiv pre-print* (2020).
 * Xinhua Chen et al. [Serological evidence of human infection with SARS-CoV-2: a systematic review and meta-analysis](https://doi.org/10.1101/2020.09.11.20192773). *medRxiv pre-print* (2020)
+* Janko van Beek et al. [From more testing to smart testing: data-guided SARS-CoV-2 testing choices](https://doi.org/10.1101/2020.10.13.20211524). *medRxiv pre-print* (2020) 
 
 ## Epidemiological
 * Our World in Data, [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data).

@@ -20,7 +20,7 @@
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020).
 * Simon Cauchemez, Nathanaël Hoze, Anthony Cousien, Birgit Nikolay, Quirine ten Bosch. [How modelling can enhance the analysis of imperfect epidemic data](https://doi.org/10.1016/j.pt.2019.01.009 ). *Trends in Parasitology*, Elsevier, 2019, 35 (5), pp.369-379. 
 
-## Approach
+## Framework
 
 ### EBM 
 * Pernice S, Castagno P, Marcotulli L, et al. (2020). [Undetected Cases of Covid-19 and Effects of Social Distancing Strategies: a Modeling Study in Piedmont Region](https://repo.epiprev.it/929). *E&P Repository*
@@ -55,7 +55,7 @@
 * Seyed M. Moghadas, Meagan C. Fitzpatrick, Pratha Sah, Abhishek Pandey, Affan Shoukat, Burton H. Singer, and Alison P. Galvani. [The implications of silent transmission for the control of COVID-19 outbreaks](https://doi.org/10.1073/pnas.2008373117). *PNAS* 117 (30) 17513-17515 (2020) 
 * *Coronavirus Fraser Group*. [OpenABM-Covid19: Agent-based model for the COVID-19 epidemic](https://github.com/BDI-pathogens/OpenABM-Covid19). (2020)
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
-* Bryan Wilder et al. [Modeling between-population variation in COVID-19 dynamics in Hubei, Lombardy, and New York City](https://doi.org/10.1073/pnas.2010651117). *PNAS* Sep 2020, 202010651
+* Bryan Wilder et al. [Modeling between-population variation in COVID-19 dynamics in Hubei, Lombardy, and New York City](https://doi.org/10.1073/pnas.2010651117). *PNAS* Sep 2020, 202010651 | [GitHub](https://github.com/bwilder0/covid_abm_release)
 * Kerr CC, Stuart RM, Mistry D, Abeysuriya RG, Hart G, Rosenfeld R, Selvaraj P, Núñez RC, Hagedorn B, George L, Izzo A, Palmer A, Delport D, Bennette C, Wagner B, Chang S, Cohen JA, Panovska-Griffiths J, Jastrzębski M, Oron AP, Wenger E, Famulare M, Klein DJ (2020). [Covasim: an agent-based model of COVID-19 dynamics and interventions](https://doi.org/10.1101/2020.05.10.20097469). *medRxiv* 2020.05.10.20097469
 * Panovska-Griffiths J, Kerr CC, Stuart RM, Mistry D, Klein DJ, Viner R, Bonnell C (2020). [Determining the optimal strategy for reopening schools, the impact of test and trace interventions, and the risk of occurrence of a second COVID-19 epidemic wave in the UK: a modelling study](https://doi.org/10.1016/S2352-4642(20)30250-9). Lancet Child and Adolescent Health S2352-4642(20) 30250-9.
 * Ken Rice et al. [Effect of school closures on mortality from coronavirus disease 2019: old and new predictions](https://doi.org/10.1136/bmj.m3588). *BMJ* 2020;371:m3588
@@ -126,6 +126,10 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Abdulkareem SA, Augustijn E-W, Filatova T, Musial K, Mustafa YT (2020) [Risk perception and behavioral change during epidemics: Comparing models of individual and collective learning](https://doi.org/10.1371/journal.pone.0226483). *PLoS ONE* 15(1): e0226483.
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
 * [RAPID: COVID-19 behavior perception and control across geographic and economic gradients](https://midasnetwork.us/projects/2037885-2/): This project will advance fundamental understanding of the impacts of control efforts via a new risk perception-driven infectious disease model, and predict which drivers of public demand for community-level control efforts might lead to potentially harmful long-term decisions.
+
+### Machine Learning 
+* Chris Rackauckas et al. [A machine learning aided global diagnostic and comparative tool to assess effect of quarantine control in Covid-19 spread](https://doi.org/10.1101/2020.07.23.20160697). *medRxiv pre-print*
+* Aiken EL, McGough SF, Majumder MS, Wachtel G, Nguyen AT, Viboud C, et al. (2020) [Real-time estimation of disease activity in emerging outbreaks using internet search information](https://doi.org/10.1371/journal.pcbi.1008117). *PLoS Comput Biol* 16(8): e1008117.
 
 ## Mortality 
 * WHO, [Estimating mortality from COVID-19](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19), *Scientific Brief* (2020)

@@ -12,6 +12,8 @@
 
 * Ramanan Laxminarayan et al. Epidemiology and transmission dynamics of COVID-19 in two Indian states https://doi.org/10.1126/science.abd7672
 
+* Nisreen A. Alwan at al. [Scientific consensus on the {COVID}-19 pandemic: we need to act now](https://doi.org/10.1016/s0140-6736(20)32153-x). *The Lancet* (2020)
+
 ## Clinical 
 
 * del Rio C, Collins LF, Malani P. [Long-term Health Consequences of COVID-19](https://doi.org/10.1001/jama.2020.19719). *JAMA*. Published online October 05, 2020. 

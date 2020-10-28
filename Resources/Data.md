@@ -58,6 +58,7 @@
 ### Timing 
 * Luca Ferretti et al. [The timing of COVID-19 transmission](https://doi.org/10.1101/2020.09.04.20188516). *medRxiv pre-print* (2020)
 ### R_t
+* Flavia RIccardo et al. [Epidemiological characteristics of COVID-19 cases in Italy and estimates of the reproductive numbers one month into the epidemic](https://doi.org/10.1101/2020.04.08.20056861). *medRxiv pre-print* (2020)
 * [National and Subnational estimates for Italy](https://epiforecasts.io/covid/posts/national/italy/): Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Italy. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.
 ### Severity & Mortality 
 * Robert Verity et al. [Estimates of the severity of coronavirus disease 2019: a model-based analysis](https://doi.org/10.1016/S1473-3099(20)30243-7). *The Lancet Infectious Disease* (2020)

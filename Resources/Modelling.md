@@ -19,6 +19,9 @@
 * Hazelbag CM, Dushoff J, Dominic EM, Mthombothi ZE, Delva W (2020) [Calibration of individual-based models to epidemiological data: A systematic review](https://doi.org/10.1371/journal.pcbi.1007893). *PLoS Comput Biol* 16(5): e1007893
 * Biggerstaff M, Cowling BJ, Cucunubá ZM, Dinh L, Ferguson NM, Gao H, et al., for the *WHO COVID-19 Modelling Parameters Group*. [Early insights from statistical and mathematical modeling of key epidemiologic parameters of COVID-19](https://doi.org/10.3201/eid2611.201074). *Emerg Infect Dis* (2020).
 * Simon Cauchemez, Nathanaël Hoze, Anthony Cousien, Birgit Nikolay, Quirine ten Bosch. [How modelling can enhance the analysis of imperfect epidemic data](https://doi.org/10.1016/j.pt.2019.01.009 ). *Trends in Parasitology*, Elsevier, 2019, 35 (5), pp.369-379. 
+* Sunnåker M, Busetto AG, Numminen E, Corander J, Foll M, Dessimoz C (2013) [Approximate Bayesian Computation](https://doi.org/10.1371/journal.pcbi.1002803). *PLoS Comput Biol* 9(1): e1002803. 
+* Amanda Minter, Renata Retkute. [Approximate Bayesian Computation for infectious disease modelling](https://doi.org/10.1016/j.epidem.2019.100368). *Epidemics*, Volume 29, December 2019, 100368
+
 
 ## Framework
 

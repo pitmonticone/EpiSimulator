@@ -12,3 +12,4 @@
 * [Neil Ferguson on modelling Covid-19](https://www.bbc.co.uk/programmes/m000mt0h)
 ### Video
 * [Chasing the COVID-19 Pandemic through Modeling | Vittoria Colizza](https://www.youtube.com/watch?v=3ePIZ53_yKc) | [Slides](http://helper.ipam.ucla.edu/publications/cov2020/cov2020_16903.pdf)
+* [MultiNet Epidemiology in the Time of COVID | Alessandro Vespignani](https://iu.mediaspace.kaltura.com/media/MultiNet+Webinar+KickoffA+Alessandro+Vespignani/1_h4f1oe92)

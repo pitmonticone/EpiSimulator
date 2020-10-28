@@ -59,6 +59,8 @@
 * Ashcroft Petera et al. [COVID-19 infectivity profile correction](https://doi.org/10.4414/smw.2020.20336), *Swiss Med Wkly*. 2020;150:w20336
 * [Data and Information for COVID-19 Modeling](https://midasnetwork.us/covid-19/): Published estimates of epidemiological characteristics that have been peer-reviewed, encoded by community members and approved by authors.
 *  Lu Qing-Bin et al. [Epidemiological parameters of COVID-19 and its implication for infectivity among patients in China, 1 January to 11 February 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.40.2000250). *Euro Surveill.* 2020;25(40):pii=2000250. 
+### R_t
+* [National and Subnational estimates for Italy](https://epiforecasts.io/covid/posts/national/italy/): Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Italy. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.
 
 ## Policy 
 * ECDC, [Guidelines for the implementation of non-pharmaceutical interventions against COVID-19](https://www.ecdc.europa.eu/en/publications-data/covid-19-guidelines-non-pharmaceutical-interventions), 2020.

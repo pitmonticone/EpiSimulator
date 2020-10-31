@@ -129,6 +129,23 @@ Colman E, Holme P, Sayama H, Gershenson C (2019) [Efficient sentinel surveillanc
 * Abdulkareem SA, Augustijn E-W, Filatova T, Musial K, Mustafa YT (2020) [Risk perception and behavioral change during epidemics: Comparing models of individual and collective learning](https://doi.org/10.1371/journal.pone.0226483). *PLoS ONE* 15(1): e0226483.
 * Hunter E, Mac Namee B, Kelleher J (2018) [An open-data-driven agent-based model to simulate infectious disease outbreaks](https://doi.org/10.1371/journal.pone.0208775). *PLoS ONE* 13(12): e0208775. 
 * [RAPID: COVID-19 behavior perception and control across geographic and economic gradients](https://midasnetwork.us/projects/2037885-2/): This project will advance fundamental understanding of the impacts of control efforts via a new risk perception-driven infectious disease model, and predict which drivers of public demand for community-level control efforts might lead to potentially harmful long-term decisions.
+* Ye, Yang et al. [Effect of heterogeneous risk perception on information diffusion, behavior change, and disease transmission](https://link.aps.org/doi/10.1103/PhysRevE.102.042314). *Phys. Rev. E* (2020)
+
+@article{PhysRevE.102.042314,
+  title = {Effect of heterogeneous risk perception on information diffusion, behavior change, and disease transmission},
+  author = {Ye, Yang and Zhang, Qingpeng and Ruan, Zhongyuan and Cao, Zhidong and Xuan, Qi and Zeng, Daniel Dajun},
+  journal = {Phys. Rev. E},
+  volume = {102},
+  issue = {4},
+  pages = {042314},
+  numpages = {10},
+  year = {2020},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.102.042314},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.102.042314}
+}
+
 
 ### Machine Learning 
 * Chris Rackauckas et al. [A machine learning aided global diagnostic and comparative tool to assess effect of quarantine control in Covid-19 spread](https://doi.org/10.1101/2020.07.23.20160697). *medRxiv pre-print*

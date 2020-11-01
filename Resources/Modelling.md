@@ -78,6 +78,7 @@ Schools are not islands: Balancing COVID-19 risk and educational benefits using 
 * Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread. PLoS Comput Biol 8(9): e1002673. https://doi.org/10.1371/journal.pcbi.1002673
 * Jarvis, C.I., Van Zandvoort, K., Gimma, A. et al. Quantifying the impact of physical distance measures on the transmission of COVID-19 in the UK. BMC Med 18, 124 (2020). https://doi.org/10.1186/s12916-020-01597-8
 * [RAPID: The effect of contact network structure on the spread of COVID-19: balacing disease mitigation and socio-economic wellbeing](https://midasnetwork.us/projects/2030509-2/)
+* Dina Mistry et al. [Inferring high-resolution human mixing patterns for disease modeling](https://arxiv.org/abs/2003.01214). *arXiv* (2020)
 
 ### Contact-Tracing
 * Fumanelli L, Ajelli M, Manfredi P, Vespignani A, Merler S (2012) [Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread](https://doi.org/10.1371/journal.pcbi.1002673). *PLOS Computational Biology* 8(9): e1002673. 

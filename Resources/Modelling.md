@@ -69,7 +69,7 @@
 * The role of masks in reducing the risk of new waves of COVID-19 in low transmission settings: a modeling study. Stuart RM, Abeysuriya RG, Kerr CC, Mistry D, Klein DJ, Gray R, Hellard M, Scott N (under review). medRxiv 2020.09.02.20186742; doi: https://doi.org/10.1101/2020.09.02.20186742.
 Schools are not islands: Balancing COVID-19 risk and educational benefits using structural and temporal countermeasures. Cohen JA, Mistry D, Kerr CC, Klein DJ (under review). medRxiv 2020.09.08.20190942; doi: https://doi.org/10.1101/2020.09.08.20190942.
 * The potential contribution of face coverings to the control of SARS-CoV-2 transmission in schools and broader society in the UK: a modelling study. Panovska-Griffiths J, Kerr CC, Waites W, Stuart RM, Mistry D, Foster D, Klein DJ, Viner R, Bonnell C (under review). medRxiv 2020.09.28.20202937; doi: https://doi.org/10.1101/2020.09.28.20202937.
-
+* Prateek Gupta et al. [COVI-AgentSim: an Agent-based Model for Evaluating Methods of Digital Contact Tracing](https://arxiv.org/abs/2010.16004). *arXiv* (2020)
 
 ## Modules
 

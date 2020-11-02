@@ -17,6 +17,7 @@
 
 ## Transmission 
 * COVID‐19, children and schools: overlooked and at risk https://doi.org/10.5694/mja2.50823
+* Martin Enserink, Kai Kupferschmidt, and Nirja Desai. [The Science of Superspreading](https://vis.sciencemag.org/covid-clusters/). *Science Magazine* (2020)
 
 ## Clinical 
 * del Rio C, Collins LF, Malani P. [Long-term Health Consequences of COVID-19](https://doi.org/10.1001/jama.2020.19719). *JAMA*. Published online October 05, 2020. 

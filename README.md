@@ -9,7 +9,7 @@
 </h2>
 
 <p align="center">
-  <img alt="Multiplex Proximity Graph" src="https://github.com/pitmonticone/EpiSimulator/blob/master/images/Administrative/MultiplexProximityGraph.png"
+  <img alt="Multiplex Proximity Graph" src="https://github.com/pitmonticone/EpiSimulator/blob/master/slides/figures/Administrative2.png"
 </p>
 
 ## Authors 
@@ -128,20 +128,20 @@
 
 ## Data 
 ### Geospatial
-![](https://github.com/InPhyT/EpiSimulator/blob/master/Slides/figures/Geospatial.png)
+![](https://github.com/pitmonticone/EpiSimulator/blob/master/slides/figures/Geospatial.png)
 ### Administrative
-![](https://github.com/InPhyT/EpiSimulator/blob/master/Slides/figures/Administrative1.png)
+![](https://github.com/pitmonticone/EpiSimulator/blob/master/slides/figures/Administrative1.png)
 ### Population
-![](https://github.com/InPhyT/EpiSimulator/blob/master/Slides/figures/Population.png)
+![](https://github.com/pitmonticone/EpiSimulator/blob/master/slides/figures/Population.png)
 ### Contact
-![](https://github.com/InPhyT/EpiSimulator/blob/master/Slides/figures/Contact.png)
+![](https://github.com/pitmonticone/EpiSimulator/blob/master/slides/figures/Contact.png)
 ### Mobility
-![](https://github.com/InPhyT/EpiSimulator/blob/master/Slides/figures/Mobility.png)
+![](https://github.com/pitmonticone/EpiSimulator/blob/master/slides/figures/Mobility.png)
 ## Model
 ### Epidemiological Module
-![](https://github.com/InPhyT/EpiSimulator/blob/master/Images/Epidemiology/EpidemicModelDiagram.png)
+![](https://github.com/pitmonticone/EpiSimulator/blob/master/images/Epidemiology/EpidemicModelDiagram.png)
 ### Surveillance Module
-![](https://github.com/InPhyT/EpiSimulator/blob/master/Images/Surveillance/SurveillanceModelDiagram.png)
+![](https://github.com/pitmonticone/EpiSimulator/blob/master/images/Surveillance/SurveillanceModelDiagram.png)
 
 ## References 
 

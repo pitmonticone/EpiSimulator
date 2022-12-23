@@ -1,0 +1,131 @@
+---
+title: "Digital Epidemiology Project<br>"
+subtitle: '<em>A data-driven stochastic hybrid model for Italy</em> <br><br>'
+author: 'Pietro Monticone | [`r icon::fa("at")`](pietro.monticone@edu.unito.it) [`r icon::fa("github")`](https://github.com/pitmonticone) [`r icon::fa("twitter")`](https://twitter.com/PietroMonticone)<br>&nbsp;Davide Orsenigo &nbsp;| [`r icon::fa("at")`](davide.orsenigo@edu.unito.it) [`r icon::fa("github")`](https://github.com/daorse) [`r icon::fa("twitter")`](https://twitter.com/DavideOrsenigo)<br><br>'
+date: "`r Sys.Date()` | *University of Turin*"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: tomorrow-night-bright
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, include = FALSE, eval = FALSE) 
+library(DT)
+library(knitr)
+library(tidyverse)
+
+# Abstract
+### Super-compact description, explanation
+# Introduction 
+### Narrative stuff
+
+# Research Questions / Goals / Objectives 
+### Geo-spatial scale exploration
+### Diagnostic / Surveillance strategies portfolio exploration
+### Contact-tracing app coverage exploration
+### Minimum treshold for contact-tracing coverage
+### Double dataset: clinical vs. epidemiological
+
+# Data
+## Geo-spatial (Provincial, NUTS3)
+## Administrative (Provincial)
+## Population (Age-stratified)
+## Contact (Main locations)
+## Mobility 
+## Epidemiological
+## Diagnostic
+
+# Graphs 
+## Proximity (Provincial)
+## Contact Graphs
+## Mobility Graphs
+# Agents
+## Structure
+## Dynamics
+
+# Model
+## Epidemiological Module
+### Structure
+### Dynamics
+## Surveillance Module
+### Structure
+### Dynamics
+## Contact-Tracing Module
+### Structure
+### Dynamics
+## Behavioral Module
+### Structure
+### Dynamics
+
+# Results
+### Diagnostic / Surveillance
+### Epidemiological
+### Decision-support system (trade-off analysis, Pareto front,...)
+### Epistemic (Indirect) value vs. Mitigation/Containment/Control/Clinical(Direct) value trade-off
+
+# Limitations & Future Development / Extensions (What's Next?)
+### Full phase space & parameter space exploration 
+### Add Behavioral module
+### Computational framework development, serial & parallelized optimization (see C.R.)
+### Apply SciML to ABMs 
+```
+
+name: introduction
+class: center 
+
+## Introduction 
+
+.left[
+
+]
+---
+name: data
+class: center 
+
+## Data
+.left[
+### Geospatial
+]
+--
+.left[
+### Administrative
+]
+--
+.left[
+### Population
+]
+--
+.left[
+### Contact
+]
+--
+.left[
+### Mobility
+]
+--
+.left[
+### Epidemiological
+]
+--
+.left[
+### Diagnostic
+]
+--
+.left[
+### Policy
+]
+---
+name: geospatial-data
+class: center 
+## Geospatial Data
+.left[
+#### Administrative boundaries
+#### Transport networks
+#### Settlements
+]
+---

@@ -9,7 +9,7 @@
 
 <!-- Subtitle -->
 <h2 align="center">
-   A Data-Driven Stochastic Hybrid Model for Italy
+   A Data-Driven Stochastic Hybrid Model for COVID-19 in Italy
 </h2>
 
 <p align="center">

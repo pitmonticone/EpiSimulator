@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/pitmonticone/EpiSimulator/blob/master/LICENSE)
+[![Docs: Report](https://img.shields.io/badge/Docs-Report-lightblue.svg)](https://inphyt.github.io/Epi/report.html)
+[![DOI: Zenodo](https://zenodo.org/badge/274685774.svg)](https://zenodo.org/badge/latestdoi/274685774)
+
 <!-- Title -->
 <h1 align="center">
   EpiSimulator

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582284890843.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3425547446",
+    "id" : "B6E0EDC8",
+    "lastKnownWriteTime" : 1582298688,
+    "last_content_update" : 1582298688793,
+    "path" : "~/github/liberioltre3/slides.Rmd",
+    "project_path" : "slides.Rmd",
+    "properties" : {
+        "cursorPosition" : "265,48",
+        "scrollLine" : "259"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

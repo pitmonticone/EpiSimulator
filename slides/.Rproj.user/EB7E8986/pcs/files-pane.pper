@@ -1,0 +1,13 @@
+{
+    "path" : "~/github/rcp85-debate",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 4
+        }
+    ]
+}

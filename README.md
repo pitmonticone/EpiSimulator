@@ -1,27 +1,6 @@
-<!-- Meta-Badges -->
-</p>
-
-<p align="center">
-    <img alt="Size" src="https://img.shields.io/github/repo-size/InPhyT/DigitalEpidemiologyProject">
-  </a>
-  <img alt="Forks" src="https://img.shields.io/github/forks/InPhyT/DigitalEpidemiologyProject">
-  </a>
-  <img alt="Stars" src="https://img.shields.io/github/stars/InPhyT/DigitalEpidemiologyProject">
-  </a>
-  <img alt="Languages" src="https://img.shields.io/github/languages/count/InPhyT/DigitalEpidemiologyProject">
-  </a>
-  <a href="https://github.com/InPhyT/DigitalEpidemiologyProject/graphs/contributors">
-    <img alt="Contributors" src="https://img.shields.io/github/contributors/InPhyT/DigitalEpidemiologyProject">
-  </a>
-  <img alt="Licence" src="https://img.shields.io/github/license/InPhyT/DigitalEpidemiologyProject">
-  </a>
-  <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FInPhyT%2FDigitalEpidemiologyProject"
-  </a>
-  
-</p>
 <!-- Title -->
 <h1 align="center">
-  Digital Epidemiology Project
+  EpiSimulator
 </h1>
 
 <!-- Subtitle -->
@@ -78,9 +57,9 @@
 | *σ₂* | 0.5 | Symptomatic fraction on infection  for "middle" age groups| [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) | 
 | *σ₃* | 𝒩(μ=0.1,σ=0.1;[0.5,1]) | Symptomatic fraction on infection for "old" age groups | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |
-| *β_S* | 𝒩(μ=0.5,σ=0.023;[0,+∞]) | Transmissability of symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
-| *β_P* | *0.15 ⨉ β_S* | Transmissability of pre-symptomatic infectious person | [Aleta et al. (2020)](https://doi.org/10.1038/s41562-020-0931-9) |
-| *β_A* | *0.5 ⨉ β_S* | Transmissability of a-symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *β_S* | 𝒩(μ=0.5,σ=0.023;[0,+∞]) | Transmissibility of symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
+| *β_P* | *0.15 ⨉ β_S* | Transmissibility of pre-symptomatic infectious person | [Aleta et al. (2020)](https://doi.org/10.1038/s41562-020-0931-9) |
+| *β_A* | *0.5 ⨉ β_S* | Transmissibility of a-symptomatic infectious person | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 |  |  |  |  |   
 | *d_E* | Γ(μ=3,k=4) | Incubation period | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
 | *d_P* | Γ(μ=1.5,k=4) | Duration of infectiousness in days during the pre-symptomatic phase | [Davies et al. (2020)](https://doi.org/10.1038/s41591-020-0962-9) |
@@ -144,7 +123,7 @@
 |  |  |  | | Yes |
 
 * All the above with behavioral module: endogenous, individual-based physical distancing (local and global)
-* All the above with behavioral module: exogeneous, enforced physical distancing (local and global lockdown)
+* All the above with behavioral module: exogenous, enforced physical distancing (local and global lockdown)
 * **Special one**: Active, provincial, targeted, symptom-based, symptomatic-is-positive, contact-tracing, endogenous & exogenous distancing: assume all symptomatic patients to be **positive** ($I_s$) without testing them (accepting the uncertainty of the symptom-based MD diagnosis) in order to allocate more diagnostic resources to the active surveillance of exposed, asymptomatic, vulnerable patients.
 
 ## Data 

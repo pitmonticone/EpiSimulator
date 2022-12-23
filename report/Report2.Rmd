@@ -29,7 +29,7 @@ library(tidyverse)
 ### Geo-spatial scale exploration
 ### Diagnostic / Surveillance strategies portfolio exploration
 ### Contact-tracing app coverage exploration
-### Minimum treshold for contact-tracing coverage
+### Minimum threshold for contact-tracing coverage
 ### Double dataset: clinical vs. epidemiological
 
 # Data
